@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Infraestructura/19 - Nginx/01 - Módulo 1 - Instalación y Configuración Básica.md",
+                "file": "03 - Control de Versiones y CI-CD/21 - GitHub Actions/04 - Módulo 4 - Runners.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Módulo 1 - Instalación y Configuración Básica"
+              "title": "04 - Módulo 4 - Runners"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "f2daaaa268f9ec6d",
   "lastOpenFiles": [
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/03 - Módulo 3 - Actions.md",
+    "04 - Infraestructura/19 - Nginx/01 - Módulo 1 - Instalación y Configuración Básica.md",
     "03 - Control de Versiones y CI-CD/02 - Git/git.md",
     "03 - Control de Versiones y CI-CD/02 - Git/06 - Módulo 6 - Git Internals, LFS y Merge Strategies.md",
     "03 - Control de Versiones y CI-CD/02 - Git/05 - Módulo 5 - Personalización, Hooks y Git Attributes.md",
@@ -212,8 +214,6 @@
     "07 - IA y Tooling/MOC.md",
     "06 - APIs y Testing/MOC.md",
     "05 - Bases de Datos/MOC.md",
-    "04 - Infraestructura/MOC.md",
-    "03 - Control de Versiones y CI-CD/MOC.md",
     "scripts/validate.ps1",
     "quartz.layout.ts",
     "quartz.config.ts",
