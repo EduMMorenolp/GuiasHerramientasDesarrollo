@@ -128,10 +128,6 @@ Warp permite sincronizar la entrada entre mÃºltiples paneles o terminales.
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-
 **Siguiente**: [[04 - MÃ³dulo 4 - Agent Mode|MÃ³dulo 4: Agent Mode]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

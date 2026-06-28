@@ -123,10 +123,6 @@ editor:
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-
 **Siguiente**: [[03 - MÃ³dulo 3 - Completions y Correcciones|MÃ³dulo 3: Completions y Correcciones]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

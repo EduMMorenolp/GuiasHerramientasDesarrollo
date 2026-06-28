@@ -125,11 +125,8 @@ services:
 6. **Logs a stdout/stderr**
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
+**Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[03 - MÃ³dulo 3 - ProducciÃ³n y OptimizaciÃ³n|MÃ³dulo 3: ProducciÃ³n y OptimizaciÃ³n]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

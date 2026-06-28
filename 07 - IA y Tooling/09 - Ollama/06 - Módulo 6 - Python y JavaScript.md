@@ -213,11 +213,8 @@ list.models.forEach(m => console.log(m.name));
 | Cliente | `ollama.Client(host)` | `new ollama.Ollama({host})` |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[07 - MÃ³dulo 7 - Modelfile y Modelos Custom|MÃ³dulo 7: Modelfile y Modelos Custom]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

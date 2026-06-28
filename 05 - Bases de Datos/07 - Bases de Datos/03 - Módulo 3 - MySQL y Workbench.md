@@ -125,16 +125,10 @@ mysql -u root -p mi_base < backup.sql
 | `GRANT` | Asignar permisos |
 
 ---
-**DocumentaciÃ³n oficial**: https://dev.mysql.com/doc/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[04 - MÃ³dulo 4 - PostgreSQL y pgAdmin|MÃ³dulo 4: PostgreSQL y pgAdmin]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

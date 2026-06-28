@@ -202,16 +202,10 @@ fs.readFile('file.txt', () => {
 | Async iterators | for-await-of, async generators |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[04 - MÃ³dulo 4 - File System y Streams|MÃ³dulo 4: File System y Streams]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

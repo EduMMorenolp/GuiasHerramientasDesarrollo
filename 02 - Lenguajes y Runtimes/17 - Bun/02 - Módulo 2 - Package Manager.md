@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Gestor de Paquetes
+﻿# MÃ³dulo 2: Gestor de Paquetes
+
+**Objetivo**: Aprender y dominar: Gestor de Paquetes.
 
 ## Inicializar proyecto
 
@@ -65,15 +67,6 @@ Bun utiliza un archivo de bloqueo binario (`bun.lock`) en lugar del JSON de `pac
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 3: Bundler]]
+**Siguiente**: [[Módulo 3: Bundler]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

@@ -211,16 +211,10 @@ path.relative('/data/orig', '/data/dest/file.txt'); // '../dest/file.txt'
 | path | join, resolve, parse, relative |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[05 - MÃ³dulo 5 - HTTP y Web Servers|MÃ³dulo 5: HTTP y Web Servers]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

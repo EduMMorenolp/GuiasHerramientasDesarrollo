@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Seguridad
+﻿# MÃ³dulo 6: Seguridad
+
+**Objetivo**: Aprender y dominar: Seguridad.
 
 ## Rate limiting
 
@@ -99,12 +101,8 @@ http {
 | `modsecurity` | WAF (Web Application Firewall) |
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/07 - MÃ³dulo 7 - Avanzado|MÃ³dulo 7: Avanzado]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

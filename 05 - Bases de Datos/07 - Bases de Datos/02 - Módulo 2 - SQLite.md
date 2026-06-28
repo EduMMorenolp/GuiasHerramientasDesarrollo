@@ -156,16 +156,10 @@ Herramienta grÃ¡fica oficial: https://sqlitebrowser.org
 | `PRAGMA` | Configurar motor |
 
 ---
-**DocumentaciÃ³n oficial**: https://www.sqlite.org/docs.html/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[03 - MÃ³dulo 3 - MySQL y Workbench|MÃ³dulo 3: MySQL y Workbench]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

@@ -173,11 +173,8 @@ Get-Module                # MÃ³dulos cargados
 ```
 
 ---
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
+**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[04 - MÃ³dulo 4 - Remoting, MÃ³dulos y PSResourceGet|MÃ³dulo 4: Remoting, MÃ³dulos y PSResourceGet]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

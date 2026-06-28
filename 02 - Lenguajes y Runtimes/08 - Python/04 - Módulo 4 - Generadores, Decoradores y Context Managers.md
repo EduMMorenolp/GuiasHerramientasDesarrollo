@@ -250,16 +250,10 @@ async def usar():
 | Context Managers | __enter__/__exit__, contextlib, ExitStack |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://docs.python.org/3/
 
-**Documentación oficial**: https://docs.python.org/3/
-
 **Siguiente**: [[05 - MÃ³dulo 5 - Testing, Logging y Concurrencia|MÃ³dulo 5: Testing, Logging y Concurrencia]]
-**Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

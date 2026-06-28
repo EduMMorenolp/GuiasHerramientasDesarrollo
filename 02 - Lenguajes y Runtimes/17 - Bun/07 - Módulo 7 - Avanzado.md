@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 7: Avanzado
+﻿# MÃ³dulo 7: Avanzado
+
+**Objetivo**: Aprender y dominar: Avanzado.
 
 ## Bun.build() API programatica
 
@@ -96,10 +98,3 @@ bun run --smol app.ts
 
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-

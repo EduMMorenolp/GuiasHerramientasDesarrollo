@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y ConfiguraciÃ³n BÃ¡sica
+﻿# MÃ³dulo 1: InstalaciÃ³n y ConfiguraciÃ³n BÃ¡sica
+
+**Objetivo**: Aprender y dominar: InstalaciÃ³n y ConfiguraciÃ³n BÃ¡sica.
 
 ## InstalaciÃ³n
 
@@ -109,12 +111,8 @@ server {
 Guardar en `/etc/nginx/sites-available/default`, luego habilitar con un symlink a `sites-enabled` y ejecutar `nginx -t && nginx -s reload`.
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/02 - MÃ³dulo 2 - Servidor EstÃ¡tico y Location|MÃ³dulo 2: Servidor EstÃ¡tico y Location]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

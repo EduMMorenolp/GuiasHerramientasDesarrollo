@@ -1,4 +1,6 @@
-﻿# Módulo 4: Pub/Sub y Transacciones
+﻿# Módulo 4: Pub/Sub y Transacciones
+
+**Objetivo**: Aprender y dominar: Pub/Sub y Transacciones.
 
 ## Pub/Sub
 
@@ -94,15 +96,6 @@ redis-cli SUBSCRIBE cola:pedidos
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-
-**Siguiente**: |Módulo 5]]
+**Siguiente**: [[Módulo 5]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

@@ -195,11 +195,8 @@ Find-PSResource -Name Az.Compute -IncludeDependencies
 | `Publish-PSResource` | Publicar mÃ³dulo |
 
 ---
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
+**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[05 - MÃ³dulo 5 - Clases, Expresiones Regulares y Jobs|MÃ³dulo 5: Clases, Expresiones Regulares y Jobs]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

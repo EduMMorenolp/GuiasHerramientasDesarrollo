@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Workspaces
+﻿# MÃ³dulo 2: Workspaces
+
+**Objetivo**: Aprender y dominar: Workspaces.
 
 ## Configuracion
 
@@ -73,16 +75,8 @@ mi-proyecto/
 ## Navegacion
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Siguiente**: |Módulo 3 - Package Management]]
+**Documentación oficial**: https://pnpm.io/motivation
+**Siguiente**: [[Módulo 3 - Package Management]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

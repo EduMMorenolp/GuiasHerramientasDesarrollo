@@ -167,11 +167,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [ ] Aplicar buenas prÃ¡cticas en la creaciÃ³n de agentes
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[04 - MÃ³dulo 4 - PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada|MÃ³dulo 4: PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -228,12 +228,7 @@ deploy-production:
 
 ---
 
-
 **Documentación oficial**: https://docs.gitlab.com
-
 **Siguiente**: [[05 - MÃ³dulo 5 - Registro y Deploy|MÃ³dulo 5: Registro y Deploy]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

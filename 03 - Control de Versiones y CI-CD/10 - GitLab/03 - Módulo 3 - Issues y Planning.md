@@ -162,12 +162,7 @@ Capacidades asistidas por IA:
 
 ---
 
-
 **Documentación oficial**: https://docs.gitlab.com
-
 **Siguiente**: [[04 - MÃ³dulo 4 - GitLab CI-CD|MÃ³dulo 4: GitLab CI/CD]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

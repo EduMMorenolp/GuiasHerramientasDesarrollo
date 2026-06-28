@@ -197,16 +197,10 @@ Abre http://localhost:4983 con interfaz grÃ¡fica para:
 | Migrar | `drizzle-kit generate` / `push` / `migrate` |
 
 ---
-**DocumentaciÃ³n oficial**: https://orm.drizzle.team/docs/overview
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[10 - MÃ³dulo 10 - ReplicaciÃ³n, Backup y Extensiones|MÃ³dulo 10: ReplicaciÃ³n, Backup y Extensiones]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

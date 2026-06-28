@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 5: Cache
+﻿# MÃ³dulo 5: Cache
+
+**Objetivo**: Aprender y dominar: Cache.
 
 ## Cache de estÃ¡ticos
 
@@ -91,12 +93,8 @@ server {
 | `fastcgi_cache` | `location` | Activa cachÃ© FastCGI |
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/06 - MÃ³dulo 6 - Seguridad|MÃ³dulo 6: Seguridad]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

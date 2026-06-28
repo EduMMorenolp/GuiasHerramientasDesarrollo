@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Conceptos BÃ¡sicos
+﻿# MÃ³dulo 1: InstalaciÃ³n y Conceptos BÃ¡sicos
+
+**Objetivo**: Aprender y dominar: InstalaciÃ³n y Conceptos BÃ¡sicos.
 
 ## InstalaciÃ³n
 
@@ -63,16 +65,8 @@ pnpm import
 ## NavegaciÃ³n
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Siguiente**: |Módulo 2 - Workspaces]]
+**Documentación oficial**: https://pnpm.io/motivation
+**Siguiente**: [[Módulo 2 - Workspaces]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

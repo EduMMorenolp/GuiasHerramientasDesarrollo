@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Enlaces y OrganizaciÃ³n
+﻿# MÃ³dulo 2: Enlaces y OrganizaciÃ³n
+
+**Objetivo**: Aprender y dominar: Enlaces y OrganizaciÃ³n.
 
 ## Wikilinks
 Los wikilinks `[[nombre de nota]]` enlazan directamente a otra nota dentro del vault. Si la nota no existe, Obsidian la crea al hacer clic. Se puede usar `[[nota|alias]]` para mostrar texto personalizado.
@@ -33,10 +35,6 @@ El panel Outline muestra la estructura de encabezados de la nota activa, permiti
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[03 - MÃ³dulo 3 - Canvas y Propiedades|MÃ³dulo 3: Canvas y Propiedades]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 7: Avanzado
+﻿# MÃ³dulo 7: Avanzado
+
+**Objetivo**: Aprender y dominar: Avanzado.
 
 ## Rewrite y redirect
 
@@ -205,7 +207,3 @@ networks:
 
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

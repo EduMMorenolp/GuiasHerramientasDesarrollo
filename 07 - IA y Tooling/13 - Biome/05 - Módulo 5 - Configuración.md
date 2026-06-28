@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 5: ConfiguraciÃ³n
+﻿# MÃ³dulo 5: ConfiguraciÃ³n
+
+**Objetivo**: Aprender y dominar: ConfiguraciÃ³n.
 
 Toda la configuraciÃ³n de Biome se centraliza en `biome.json`.
 
@@ -68,12 +70,9 @@ Toda la configuraciÃ³n de Biome se centraliza en `biome.json`.
   }
 }
 ```
+---
 
 **Documentación oficial**: https://biomejs.dev
-
 **Siguiente**: [[06 - MÃ³dulo 6 - IntegraciÃ³n y MigraciÃ³n|MÃ³dulo 6: IntegraciÃ³n y MigraciÃ³n]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

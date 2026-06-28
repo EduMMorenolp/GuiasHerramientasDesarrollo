@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 7: Deploy y Avanzado
+﻿# MÃ³dulo 7: Deploy y Avanzado
+
+**Objetivo**: Aprender y dominar: Deploy y Avanzado.
 
 ## Deploy multi-ambiente
 
@@ -159,11 +161,3 @@ on:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

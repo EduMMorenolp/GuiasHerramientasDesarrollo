@@ -185,11 +185,8 @@ Ctrl+Shift+P > "Profiles: Import Profile"
 | Profiles | `Ctrl+Shift+P > Profiles` |
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
+**Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[06 - MÃ³dulo 6 - Settings Sync, Enterprise y Accesibilidad|MÃ³dulo 6: Settings Sync, Enterprise y Accesibilidad]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -161,10 +161,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [x] Gestionar submÃ³dulos en proyectos complejos
 
 ---
+
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[06 - MÃ³dulo 6 - Git Internals, LFS y Merge Strategies|MÃ³dulo 6: Git Internals, LFS y Merge Strategies]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

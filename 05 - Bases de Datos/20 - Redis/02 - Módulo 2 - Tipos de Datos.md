@@ -1,4 +1,6 @@
-﻿# Módulo 2: Tipos de Datos
+﻿# Módulo 2: Tipos de Datos
+
+**Objetivo**: Aprender y dominar: Tipos de Datos.
 
 ## Strings
 
@@ -74,15 +76,6 @@ XGROUP CREATE pedidos grupo1 $                -- crear grupo de consumidores
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-
-**Siguiente**: |Módulo 3]]
+**Siguiente**: [[Módulo 3]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

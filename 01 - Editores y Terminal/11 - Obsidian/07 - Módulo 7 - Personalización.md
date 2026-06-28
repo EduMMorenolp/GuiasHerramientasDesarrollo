@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 7: PersonalizaciÃ³n
+﻿# MÃ³dulo 7: PersonalizaciÃ³n
+
+**Objetivo**: Aprender y dominar: PersonalizaciÃ³n.
 
 ## Temas
 Los temas modifican la apariencia completa de Obsidian. Se instalan desde Ajustes > Apariencia > Themes > Explorar. Existen cientos de temas creados por la comunidad.
@@ -45,6 +47,3 @@ Obsidian permite abrir multiples vaults simultaneamente en ventanas separadas. L
 
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

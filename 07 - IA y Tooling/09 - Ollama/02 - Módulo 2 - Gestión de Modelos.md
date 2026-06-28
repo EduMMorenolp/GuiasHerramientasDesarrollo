@@ -143,11 +143,8 @@ ollama list
 | `--seed` | Reproducibilidad |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[03 - MÃ³dulo 3 - Modelos Populares|MÃ³dulo 3: Modelos Populares]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

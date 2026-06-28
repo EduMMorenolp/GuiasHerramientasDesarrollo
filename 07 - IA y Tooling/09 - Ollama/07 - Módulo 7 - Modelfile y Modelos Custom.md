@@ -231,11 +231,8 @@ ollama pull llama3.2:q8_0
 | `ollama create` | Crear modelo desde Modelfile |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[08 - MÃ³dulo 8 - Ollama Cloud|MÃ³dulo 8: Ollama Cloud]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

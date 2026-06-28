@@ -131,16 +131,10 @@ DROP TABLE usuarios;
 | `LIMIT` | Restringir cantidad |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
-
 **Siguiente**: [[02 - MÃ³dulo 2 - SQLite|MÃ³dulo 2: SQLite]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

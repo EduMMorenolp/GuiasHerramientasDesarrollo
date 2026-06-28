@@ -1,4 +1,6 @@
-﻿# Módulo 7: CI/CD y Avanzado
+﻿# Módulo 7: CI/CD y Avanzado
+
+**Objetivo**: Aprender y dominar: CI/CD y Avanzado.
 
 ## GitHub Actions
 
@@ -72,10 +74,3 @@ await context.tracing.stop({ path: 'trace.zip' });
 
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-

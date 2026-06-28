@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Avanzado
+﻿# MÃ³dulo 6: Avanzado
+
+**Objetivo**: Aprender y dominar: Avanzado.
 
 ## Hooks (pnpmfile.js)
 
@@ -87,10 +89,3 @@ Esto copia solo lo necesario (dependencias de produccion, lockfile, etc.) en la 
 
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-

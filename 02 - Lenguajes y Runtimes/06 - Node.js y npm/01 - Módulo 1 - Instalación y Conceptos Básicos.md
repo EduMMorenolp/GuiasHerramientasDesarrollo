@@ -127,16 +127,10 @@ npm start       # Atajo para npm run start
 ```
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[02 - MÃ³dulo 2 - npm Scripts y PublicaciÃ³n|MÃ³dulo 2: npm Scripts y PublicaciÃ³n]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

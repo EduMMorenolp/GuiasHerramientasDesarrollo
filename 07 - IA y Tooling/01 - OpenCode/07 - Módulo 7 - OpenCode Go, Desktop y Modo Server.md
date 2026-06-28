@@ -135,11 +135,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [x] Integrar OpenCode con IDEs vÃ­a ACP
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[08 - MÃ³dulo 8 - Custom Tools, Formateadores y Enterprise|MÃ³dulo 8: Custom Tools, Formateadores y Enterprise]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

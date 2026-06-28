@@ -1,4 +1,6 @@
-﻿# Módulo 3: Intercepciones y Mocks
+﻿# Módulo 3: Intercepciones y Mocks
+
+**Objetivo**: Aprender y dominar: Intercepciones y Mocks.
 
 ## Interceptar requests
 
@@ -43,16 +45,8 @@ const response = await page.waitForResponse('**/api/data');
 ```
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 4: Testing y Fixtures]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 4: Testing y Fixtures]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

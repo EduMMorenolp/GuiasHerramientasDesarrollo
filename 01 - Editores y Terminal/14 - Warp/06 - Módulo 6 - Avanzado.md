@@ -225,6 +225,3 @@ cloud:
 
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

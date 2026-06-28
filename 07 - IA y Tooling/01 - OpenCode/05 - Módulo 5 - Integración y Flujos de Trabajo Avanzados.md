@@ -212,11 +212,8 @@ Has completado los 5 mÃ³dulos de la guÃ­a de OpenCode. Ahora puedes:
 5. **Mantenerte actualizado** con los changelogs y releases
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[06 - MÃ³dulo 6 - MCP Servers, Skills y Plugins|MÃ³dulo 6: MCP Servers, Skills y Plugins]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

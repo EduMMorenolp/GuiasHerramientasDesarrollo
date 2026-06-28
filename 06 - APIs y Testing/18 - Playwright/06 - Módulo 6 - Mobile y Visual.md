@@ -1,4 +1,6 @@
-﻿# Módulo 6: Mobile y Visual
+﻿# Módulo 6: Mobile y Visual
+
+**Objetivo**: Aprender y dominar: Mobile y Visual.
 
 ## Emulacion mobile
 
@@ -50,16 +52,8 @@ const context = await browser.newContext({
 | `Galaxy S8` | 360x740 | Chrome Android |
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 7: CI/CD y Avanzado]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 7: CI/CD y Avanzado]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

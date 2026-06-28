@@ -133,16 +133,10 @@ const pool = mysql.createPool({ host: 'localhost', user: 'root', database: 'test
 | **Evitar funciones en WHERE** | `WHERE YEAR(fecha) = 2024` â†’ ineficiente (usar rango) |
 
 ---
-**DocumentaciÃ³n oficial**: https://www.postgresql.org/docs/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[06 - MÃ³dulo 6 - Subconsultas, CTEs y Vistas|MÃ³dulo 6: Subconsultas, CTEs y Vistas]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

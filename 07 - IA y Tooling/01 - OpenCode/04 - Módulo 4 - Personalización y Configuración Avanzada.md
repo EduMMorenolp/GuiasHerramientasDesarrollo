@@ -267,11 +267,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [ ] Crear una configuraciÃ³n completa de proyecto
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[05 - MÃ³dulo 5 - IntegraciÃ³n y Flujos de Trabajo Avanzados|MÃ³dulo 5: IntegraciÃ³n y Flujos de Trabajo Avanzados]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

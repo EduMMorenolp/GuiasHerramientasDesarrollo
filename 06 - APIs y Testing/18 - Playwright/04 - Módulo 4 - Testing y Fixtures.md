@@ -1,4 +1,6 @@
-﻿# Módulo 4: Testing y Fixtures
+﻿# Módulo 4: Testing y Fixtures
+
+**Objetivo**: Aprender y dominar: Testing y Fixtures.
 
 ## Fixtures con test.extend
 
@@ -67,16 +69,8 @@ test('regression', { tag: ['@regression', '@critical'] }, async ({ page }) => { 
 | `tag` | Categorizar tests |
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 5: Reportes y Trazas]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 5: Reportes y Trazas]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

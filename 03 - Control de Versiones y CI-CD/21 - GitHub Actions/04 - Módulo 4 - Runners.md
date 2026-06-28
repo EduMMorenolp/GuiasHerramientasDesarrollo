@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 4: Runners
+﻿# MÃ³dulo 4: Runners
+
+**Objetivo**: Aprender y dominar: Runners.
 
 ## Runners alojados (GitHub-hosted)
 
@@ -76,6 +78,3 @@ gh actions-runner set create \
 **Siguiente**: [[05 - MÃ³dulo 5 - Artefactos y CachÃ©|MÃ³dulo 5 - Artefactos y CachÃ©]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Seguridad
+﻿# MÃ³dulo 6: Seguridad
+
+**Objetivo**: Aprender y dominar: Seguridad.
 
 ## Secretos
 
@@ -90,6 +92,3 @@ jobs:
 **Siguiente**: [[07 - MÃ³dulo 7 - Deploy y Avanzado|MÃ³dulo 7 - Deploy y Avanzado]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

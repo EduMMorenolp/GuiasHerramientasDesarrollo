@@ -1,4 +1,6 @@
-﻿# Módulo 5: Caching
+﻿# Módulo 5: Caching
+
+**Objetivo**: Aprender y dominar: Caching.
 
 ## Estrategia cache-aside
 
@@ -107,15 +109,6 @@ async function getUser(id) {
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-
-**Siguiente**: |Módulo 6]]
+**Siguiente**: [[Módulo 6]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

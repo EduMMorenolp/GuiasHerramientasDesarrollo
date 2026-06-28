@@ -219,11 +219,8 @@ volumes:
 | Docker | Contenedor aislado |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[06 - MÃ³dulo 6 - Python y JavaScript|MÃ³dulo 6: Python y JavaScript]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

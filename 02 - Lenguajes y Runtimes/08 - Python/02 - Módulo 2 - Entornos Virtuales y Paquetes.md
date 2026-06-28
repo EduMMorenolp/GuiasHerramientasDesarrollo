@@ -217,16 +217,10 @@ pytest --coverage
 8. **Pre-commit hooks** para automatizar calidad
 
 ---
+
 **DocumentaciÃ³n oficial**: https://docs.python.org/3/
 
-**Documentación oficial**: https://docs.python.org/3/
-
 **Siguiente**: [[03 - MÃ³dulo 3 - POO, Tipado y LibrerÃ­a EstÃ¡ndar|MÃ³dulo 3: POO, Tipado y LibrerÃ­a EstÃ¡ndar]]
-**Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

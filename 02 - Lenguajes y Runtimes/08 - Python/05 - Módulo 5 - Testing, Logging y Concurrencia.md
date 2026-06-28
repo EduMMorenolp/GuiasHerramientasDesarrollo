@@ -287,16 +287,10 @@ async def fetch_limitada(url: str):
 | asyncio | async/await, gather, Semaphore |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://docs.python.org/3/
 
-**Documentación oficial**: https://docs.python.org/3/
-
 **Siguiente**: [[06 - MÃ³dulo 6 - Web, Data Science y Herramientas CLI|MÃ³dulo 6: Web, Data Science y Herramientas CLI]]
-**Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

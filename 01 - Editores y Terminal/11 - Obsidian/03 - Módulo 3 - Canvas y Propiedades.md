@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: Canvas y Propiedades
+﻿# MÃ³dulo 3: Canvas y Propiedades
+
+**Objetivo**: Aprender y dominar: Canvas y Propiedades.
 
 ## Canvas
 Canvas es un editor visual basado en tarjetas interconectadas. Permite organizar ideas, diagramas y mapas conceptuales de forma libre.
@@ -39,10 +41,6 @@ La paleta de comandos (Ctrl+P) permite ejecutar acciones sin navegar menÃºs, i
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[04 - MÃ³dulo 4 - Plugins|MÃ³dulo 4: Plugins]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

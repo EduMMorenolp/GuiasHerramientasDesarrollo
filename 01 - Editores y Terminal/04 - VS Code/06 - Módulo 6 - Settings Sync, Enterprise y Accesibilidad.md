@@ -169,6 +169,3 @@ Alt+Shift+F         # Formatear tabla
 
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

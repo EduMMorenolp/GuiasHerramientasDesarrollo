@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Runtime
+﻿# MÃ³dulo 1: InstalaciÃ³n y Runtime
+
+**Objetivo**: Aprender y dominar: InstalaciÃ³n y Runtime.
 
 ## InstalaciÃ³n
 
@@ -57,15 +59,6 @@ bun run --watch archivo.ts
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 2: Gestor de Paquetes]]
+**Siguiente**: [[Módulo 2: Gestor de Paquetes]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

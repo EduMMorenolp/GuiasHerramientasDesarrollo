@@ -256,16 +256,10 @@ def log(func):
 | Stdlib | collections, itertools, datetime, functools |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://docs.python.org/3/
 
-**Documentación oficial**: https://docs.python.org/3/
-
 **Siguiente**: [[04 - MÃ³dulo 4 - Generadores, Decoradores y Context Managers|MÃ³dulo 4: Generadores, Decoradores y Context Managers]]
-**Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

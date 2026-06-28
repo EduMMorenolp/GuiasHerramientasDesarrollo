@@ -228,11 +228,8 @@ docker app deploy mi-app.dockerapp
 | Docker App | `docker app deploy` |
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
+**Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[06 - MÃ³dulo 6 - Docker Swarm y OrquestaciÃ³n|MÃ³dulo 6: Docker Swarm y OrquestaciÃ³n]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

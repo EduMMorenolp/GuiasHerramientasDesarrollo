@@ -149,15 +149,6 @@ pm2 list
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-
-**Siguiente**: |Módulo 3]]
+**Siguiente**: [[Módulo 3]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

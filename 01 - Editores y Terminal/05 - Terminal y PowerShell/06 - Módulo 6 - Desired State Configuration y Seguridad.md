@@ -213,6 +213,3 @@ $cred = New-Object System.Management.Automation.PSCredential("user", $password)
 
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

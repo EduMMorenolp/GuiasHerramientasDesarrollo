@@ -150,16 +150,10 @@ SELECT crypt('password', gen_salt('bf'));
 | `CREATE EXTENSION` | Activar extensiÃ³n |
 
 ---
-**DocumentaciÃ³n oficial**: https://www.postgresql.org/docs/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[05 - MÃ³dulo 5 - Modelado y OptimizaciÃ³n|MÃ³dulo 5: Modelado y OptimizaciÃ³n]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

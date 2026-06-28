@@ -1,4 +1,6 @@
-﻿# Módulo 5: Reportes y Trazas
+﻿# Módulo 5: Reportes y Trazas
+
+**Objetivo**: Aprender y dominar: Reportes y Trazas.
 
 ## Reporte HTML
 
@@ -53,16 +55,8 @@ export default defineConfig({
 | List (default) | Salida en consola |
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 6: Mobile y Visual]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 6: Mobile y Visual]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

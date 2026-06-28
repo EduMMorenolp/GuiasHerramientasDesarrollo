@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Collections
+﻿# MÃ³dulo 2: Collections
+
+**Objetivo**: Aprender y dominar: Collections.
 
 ## Que es una Collection
 
@@ -172,14 +174,7 @@ DELETE {{base_url}}/users/{{user_id}}
 
 **DocumentaciÃ³n oficial**: https://learning.postman.com
 
-**Documentación oficial**: https://learning.postman.com
-
 **Siguiente**: [[03 - MÃ³dulo 3 - Entornos y Variables|MÃ³dulo 3: Entornos y Variables]]
-**Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 4: Plugins
+﻿# MÃ³dulo 4: Plugins
+
+**Objetivo**: Aprender y dominar: Plugins.
 
 ## Core vs Community Plugins
 - **Core plugins**: Vienen incluidos con Obsidian. No requieren instalaciÃ³n adicional. Ejemplos: Backlinks, Graph View, Outline, Templates.
@@ -35,10 +37,6 @@ Obsidian expone una API en TypeScript/JavaScript para desarrollar plugins. Los p
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[05 - MÃ³dulo 5 - Plugins Esenciales|MÃ³dulo 5: Plugins Esenciales]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

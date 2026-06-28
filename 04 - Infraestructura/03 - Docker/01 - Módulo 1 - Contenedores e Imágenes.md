@@ -136,11 +136,8 @@ docker volume inspect datos
 | `docker rm/rmi` | Eliminar contenedor/imagen |
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
+**Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[02 - MÃ³dulo 2 - Docker Compose y Redes|MÃ³dulo 2: Docker Compose y Redes]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

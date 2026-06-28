@@ -201,6 +201,3 @@ CREATE TABLE ventas_2025 PARTITION OF ventas
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

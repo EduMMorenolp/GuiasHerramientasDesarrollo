@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 5: Catalogo y Seguridad
+﻿# MÃ³dulo 5: Catalogo y Seguridad
+
+**Objetivo**: Aprender y dominar: Catalogo y Seguridad.
 
 ## Catalogo de versiones
 
@@ -81,16 +83,8 @@ Diferencias con `package-lock.json`:
 ## Navegacion
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Siguiente**: |Módulo 6 - Avanzado]]
+**Documentación oficial**: https://pnpm.io/motivation
+**Siguiente**: [[Módulo 6 - Avanzado]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

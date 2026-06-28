@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: Actions
+﻿# MÃ³dulo 3: Actions
+
+**Objetivo**: Aprender y dominar: Actions.
 
 Las acciones son bloques reutilizables que se publican en el [Marketplace](https://github.com/marketplace?type=actions) o se definen localmente.
 
@@ -105,6 +107,3 @@ runs:
 **Siguiente**: [[04 - MÃ³dulo 4 - Runners|MÃ³dulo 4 - Runners]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

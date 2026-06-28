@@ -105,10 +105,8 @@ dist/
 | `git diff` | Compara cambios |
 
 ---
+
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[02 - MÃ³dulo 2 - Branching y ColaboraciÃ³n|MÃ³dulo 2: Branching y ColaboraciÃ³n]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

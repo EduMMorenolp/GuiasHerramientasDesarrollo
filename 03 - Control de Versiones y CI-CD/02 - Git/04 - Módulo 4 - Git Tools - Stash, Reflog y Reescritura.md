@@ -152,10 +152,8 @@ git archive --format=tar.gz --prefix=proyecto/ v1.0 > proyecto.tar.gz
 | `git bundle` | Empaquetar repo sin servidor |
 
 ---
+
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[05 - MÃ³dulo 5 - PersonalizaciÃ³n, Hooks y Git Attributes|MÃ³dulo 5: PersonalizaciÃ³n, Hooks y Git Attributes]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

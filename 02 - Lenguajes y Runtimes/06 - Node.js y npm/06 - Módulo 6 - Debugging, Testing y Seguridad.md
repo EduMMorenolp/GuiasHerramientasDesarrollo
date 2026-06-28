@@ -290,16 +290,10 @@ child.on('message', msg => console.log(msg.result)); // 10
 | Child Process | spawn, exec, fork |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[07 - MÃ³dulo 7 - TypeScript, Cluster y Temas Avanzados|MÃ³dulo 7: TypeScript, Cluster y Temas Avanzados]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

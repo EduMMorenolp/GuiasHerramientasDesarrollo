@@ -131,11 +131,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [ ] Navegar la interfaz de terminal bÃ¡sica
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[02 - MÃ³dulo 2 - Flujo de Trabajo BÃ¡sico y Modos de OperaciÃ³n|MÃ³dulo 2: Flujo de Trabajo BÃ¡sico y Modos de OperaciÃ³n]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

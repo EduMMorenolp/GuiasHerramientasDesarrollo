@@ -221,6 +221,3 @@ sudo gitlab-rake gitlab:env:info
 **Documentación oficial**: https://docs.gitlab.com
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

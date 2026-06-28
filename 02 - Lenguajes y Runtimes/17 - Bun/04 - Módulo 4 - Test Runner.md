@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 4: Test Runner
+﻿# MÃ³dulo 4: Test Runner
+
+**Objetivo**: Aprender y dominar: Test Runner.
 
 ## Ejecutar tests
 
@@ -68,15 +70,6 @@ test("snapshot de objeto", () => {
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 5: APIs del Runtime]]
+**Siguiente**: [[Módulo 5: APIs del Runtime]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

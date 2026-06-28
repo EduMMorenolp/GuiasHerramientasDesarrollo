@@ -131,16 +131,10 @@ GROUP BY EXTRACT(YEAR FROM fecha);
 | Agregados + OVER | Running total, media mÃ³vil |
 
 ---
-**DocumentaciÃ³n oficial**: https://www.postgresql.org/docs/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[08 - MÃ³dulo 8 - PL_pgSQL, Transacciones y MVCC|MÃ³dulo 8: PL/pgSQL, Transacciones y MVCC]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

@@ -185,6 +185,3 @@ git bisect visualize
 
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

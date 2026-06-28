@@ -151,6 +151,3 @@ Has completado los **9 mÃ³dulos** de la guÃ­a de OpenCode:
 
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

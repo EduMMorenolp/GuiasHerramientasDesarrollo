@@ -117,11 +117,8 @@ C:\Users\TuUsuario\.ollama\models\
 | **Modelos** | Almacenados en `~/.ollama/models/` |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[02 - MÃ³dulo 2 - GestiÃ³n de Modelos|MÃ³dulo 2: GestiÃ³n de Modelos]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

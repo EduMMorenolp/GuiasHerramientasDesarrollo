@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 4: SSL/TLS y HTTPS
+﻿# MÃ³dulo 4: SSL/TLS y HTTPS
+
+**Objetivo**: Aprender y dominar: SSL/TLS y HTTPS.
 
 ## Certificados con Let's Encrypt / Certbot
 
@@ -89,12 +91,8 @@ ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDS
 ```
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/05 - MÃ³dulo 5 - Cache|MÃ³dulo 5: Cache]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

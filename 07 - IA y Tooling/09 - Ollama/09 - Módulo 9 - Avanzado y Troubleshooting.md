@@ -261,6 +261,3 @@ ollama pull llama3.2  # Usar nombre exacto
 
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Workflows
+﻿# MÃ³dulo 2: Workflows
+
+**Objetivo**: Aprender y dominar: Workflows.
 
 ## Matrices (`strategy.matrix`)
 
@@ -120,6 +122,3 @@ jobs:
 **Siguiente**: [[03 - MÃ³dulo 3 - Actions|MÃ³dulo 3 - Actions]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: Entornos y Variables
+﻿# MÃ³dulo 3: Entornos y Variables
+
+**Objetivo**: Aprender y dominar: Entornos y Variables.
 
 ## Environments (Entornos)
 
@@ -170,14 +172,7 @@ Postman provee variables pre-definidas que generan valores aleatorios en cada ej
 
 **DocumentaciÃ³n oficial**: https://learning.postman.com
 
-**Documentación oficial**: https://learning.postman.com
-
 **Siguiente**: [[04 - MÃ³dulo 4 - Tests y Scripts|MÃ³dulo 4: Tests y Scripts]]
-**Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

@@ -218,11 +218,8 @@ function Watch-Process {
 ```
 
 ---
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
+**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[03 - MÃ³dulo 3 - Perfiles y PersonalizaciÃ³n|MÃ³dulo 3: Perfiles y PersonalizaciÃ³n]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

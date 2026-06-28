@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n
+﻿# MÃ³dulo 1: InstalaciÃ³n
+
+**Objetivo**: Aprender y dominar: InstalaciÃ³n.
 
 Biome es un toolchain unificado para formateo, linting y mÃ¡s en JavaScript/TypeScript.
 
@@ -26,12 +28,9 @@ npx @biomejs/biome check src/
 
 - Node.js 14 o superior
 - Soporta: JS, TS, JSX, TSX, JSON, CSS, GraphQL
+---
 
 **Documentación oficial**: https://biomejs.dev
-
 **Siguiente**: [[02 - MÃ³dulo 2 - Formateo|MÃ³dulo 2: Formateo]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -172,10 +172,6 @@ cloud:
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-
 **Siguiente**: [[06 - MÃ³dulo 6 - Avanzado|MÃ³dulo 6: Avanzado]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

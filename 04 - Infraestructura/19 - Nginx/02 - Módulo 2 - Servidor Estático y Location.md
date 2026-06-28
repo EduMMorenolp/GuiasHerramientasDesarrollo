@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 2: Servidor EstÃ¡tico y Location
+﻿# MÃ³dulo 2: Servidor EstÃ¡tico y Location
+
+**Objetivo**: Aprender y dominar: Servidor EstÃ¡tico y Location.
 
 ## root vs alias
 
@@ -93,12 +95,8 @@ server {
 Esto redirige todas las rutas no encontradas a `index.html`, permitiendo que el router del frontend maneje la navegaciÃ³n.
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/03 - MÃ³dulo 3 - Proxy Inverso|MÃ³dulo 3: Proxy Inverso]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

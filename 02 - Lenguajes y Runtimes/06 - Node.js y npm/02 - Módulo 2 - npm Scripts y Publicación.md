@@ -159,16 +159,10 @@ npm config set @mi-empresa:registry "https://npm.mi-empresa.com"
 7. **precommit hooks** para lint y tests
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[03 - MÃ³dulo 3 - AsincronÃ­a y Event Loop|MÃ³dulo 3: AsincronÃ­a y Event Loop]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: Fundamentos e InstalaciÃ³n
+﻿# MÃ³dulo 1: Fundamentos e InstalaciÃ³n
+
+**Objetivo**: Aprender y dominar: Fundamentos e InstalaciÃ³n.
 
 ## Â¿QuÃ© es Obsidian?
 Obsidian es una aplicaciÃ³n de toma de notas basada en archivos Markdown locales. Permite crear una base de conocimiento personal interconectada mediante enlaces entre notas.
@@ -34,10 +36,6 @@ Disponible en Google Play Store y Apple App Store. La sincronizaciÃ³n entre di
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[02 - MÃ³dulo 2 - Enlaces y OrganizaciÃ³n|MÃ³dulo 2: Enlaces y OrganizaciÃ³n]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# Módulo 2: Locators y Acciones
+﻿# Módulo 2: Locators y Acciones
+
+**Objetivo**: Aprender y dominar: Locators y Acciones.
 
 ## Locators
 
@@ -33,16 +35,8 @@ await page.reload();
 Playwright espera automaticamente a que los elementos sean visibles, estables y habilitados antes de interactuar. No es necesario `waitFor` explicito en la mayoria de los casos.
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 3: Intercepciones y Mocks]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 3: Intercepciones y Mocks]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

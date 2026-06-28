@@ -173,11 +173,8 @@ Trabaja con mÃºltiples proyectos simultÃ¡neamente:
 ```
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
+**Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[04 - MÃ³dulo 4 - Remote Development y Dev Containers|MÃ³dulo 4: Remote Development y Dev Containers]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

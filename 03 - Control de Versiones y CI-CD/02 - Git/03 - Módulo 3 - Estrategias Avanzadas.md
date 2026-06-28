@@ -114,10 +114,8 @@ git rebase -i HEAD~5
 6. **DocumentaciÃ³n**: README, CONTRIBUTING, CHANGELOG
 
 ---
+
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[04 - MÃ³dulo 4 - Git Tools - Stash, Reflog y Reescritura|MÃ³dulo 4: Git Tools - Stash, Reflog y Reescritura]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

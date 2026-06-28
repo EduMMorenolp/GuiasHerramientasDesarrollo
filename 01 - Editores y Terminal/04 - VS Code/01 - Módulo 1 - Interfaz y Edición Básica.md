@@ -100,11 +100,8 @@ Ctrl+U           # Deshacer Ãºltimo cursor
 ```
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
+**Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[02 - MÃ³dulo 2 - Extensiones y PersonalizaciÃ³n|MÃ³dulo 2: Extensiones y PersonalizaciÃ³n]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

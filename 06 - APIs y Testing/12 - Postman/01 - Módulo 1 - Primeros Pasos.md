@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: Primeros Pasos
+﻿# MÃ³dulo 1: Primeros Pasos
+
+**Objetivo**: Aprender y dominar: Primeros Pasos.
 
 ## Que es Postman
 
@@ -144,14 +146,7 @@ X-Response-Time: 45ms
 
 **DocumentaciÃ³n oficial**: https://learning.postman.com
 
-**Documentación oficial**: https://learning.postman.com
-
 **Siguiente**: [[02 - MÃ³dulo 2 - Collections|MÃ³dulo 2: Collections]]
-**Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

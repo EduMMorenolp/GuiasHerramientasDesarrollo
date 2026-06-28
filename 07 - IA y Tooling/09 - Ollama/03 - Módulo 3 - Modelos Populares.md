@@ -130,11 +130,8 @@ Modelo de embeddings para bÃºsqueda semÃ¡ntica y RAG.
 | **Embeddings** | Nomic Embed Text |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[04 - MÃ³dulo 4 - API REST|MÃ³dulo 4: API REST]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

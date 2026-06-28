@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 5: Plugins Esenciales
+﻿# MÃ³dulo 5: Plugins Esenciales
+
+**Objetivo**: Aprender y dominar: Plugins Esenciales.
 
 ## Dataview
 Dataview convierte el vault en una base de datos consultable. Usa propiedades YAML y contenido Markdown para generar tablas y listas.
@@ -52,10 +54,6 @@ Plugin para visualizar datos numericos de propiedades en graficos (barras, linea
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[06 - MÃ³dulo 6 - Sync y Publish|MÃ³dulo 6: Sync y Publish]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

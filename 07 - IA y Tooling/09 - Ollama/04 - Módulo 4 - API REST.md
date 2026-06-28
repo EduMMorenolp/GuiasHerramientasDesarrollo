@@ -158,11 +158,8 @@ curl http://localhost:11434
 | `/api/ps` | Modelos en memoria |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[05 - MÃ³dulo 5 - Integraciones|MÃ³dulo 5: Integraciones]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

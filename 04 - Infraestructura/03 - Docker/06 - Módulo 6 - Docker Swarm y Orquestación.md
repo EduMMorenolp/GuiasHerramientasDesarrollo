@@ -244,6 +244,3 @@ docker node ps $(docker node ls -q)
 
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

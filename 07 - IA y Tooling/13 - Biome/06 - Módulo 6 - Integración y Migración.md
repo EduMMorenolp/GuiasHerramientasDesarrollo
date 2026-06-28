@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: IntegraciÃ³n y MigraciÃ³n
+﻿# MÃ³dulo 6: IntegraciÃ³n y MigraciÃ³n
+
+**Objetivo**: Aprender y dominar: IntegraciÃ³n y MigraciÃ³n.
 
 ## VS Code Extension
 
@@ -39,11 +41,9 @@ npx @biomejs/biome migrate eslint
 ```powershell
 npx @biomejs/biome migrate prettier
 ```
+---
 
 **Documentación oficial**: https://biomejs.dev
 
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

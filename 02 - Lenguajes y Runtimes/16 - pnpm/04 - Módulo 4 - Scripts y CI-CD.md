@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 4: Scripts y CI/CD
+﻿# MÃ³dulo 4: Scripts y CI/CD
+
+**Objetivo**: Aprender y dominar: Scripts y CI/CD.
 
 ## Ejecucion de scripts
 
@@ -85,16 +87,8 @@ jobs:
 ## Navegacion
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Siguiente**: |Módulo 5 - Catalogo y Seguridad]]
+**Documentación oficial**: https://pnpm.io/motivation
+**Siguiente**: [[Módulo 5 - Catalogo y Seguridad]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

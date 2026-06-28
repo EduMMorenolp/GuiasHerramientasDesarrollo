@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Fundamentos
+﻿# MÃ³dulo 1: InstalaciÃ³n y Fundamentos
+
+**Objetivo**: Aprender y dominar: InstalaciÃ³n y Fundamentos.
 
 ## InstalaciÃ³n
 
@@ -63,15 +65,6 @@ EXPIRE saludo 60      -- expira en 60 segundos
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-
-**Siguiente**: |Módulo 2]]
+**Siguiente**: [[Módulo 2]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

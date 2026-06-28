@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: Proxy Inverso
+﻿# MÃ³dulo 3: Proxy Inverso
+
+**Objetivo**: Aprender y dominar: Proxy Inverso.
 
 ## proxy_pass
 
@@ -113,12 +115,8 @@ server {
 | `proxy_cache` | Activa la cachÃ© del proxy |
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
+**Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/04 - MÃ³dulo 4 - SSL-TLS y HTTPS|MÃ³dulo 4: SSL/TLS y HTTPS]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

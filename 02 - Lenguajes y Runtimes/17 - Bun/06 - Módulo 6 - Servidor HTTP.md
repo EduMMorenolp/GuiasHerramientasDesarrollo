@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Servidor HTTP
+﻿# MÃ³dulo 6: Servidor HTTP
+
+**Objetivo**: Aprender y dominar: Servidor HTTP.
 
 ## Servidor basico
 
@@ -110,15 +112,6 @@ Bun.serve({
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 7: Avanzado]]
+**Siguiente**: [[Módulo 7: Avanzado]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

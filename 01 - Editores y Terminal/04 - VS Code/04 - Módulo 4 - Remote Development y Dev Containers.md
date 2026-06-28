@@ -181,11 +181,8 @@ code tunnel
 | Tunnel | `code tunnel` |
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
+**Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[05 - MÃ³dulo 5 - Agents Window y GitHub Copilot|MÃ³dulo 5: Agents Window y GitHub Copilot]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

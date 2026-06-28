@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Documentacion
+﻿# MÃ³dulo 6: Documentacion
+
+**Objetivo**: Aprender y dominar: Documentacion.
 
 ## Auto-generar Docs desde Collection
 
@@ -214,14 +216,7 @@ Este es el formato recomendado para compartir collections y usar con Newman.
 
 **DocumentaciÃ³n oficial**: https://learning.postman.com
 
-**Documentación oficial**: https://learning.postman.com
-
 **Siguiente**: [[07 - MÃ³dulo 7 - Avanzado|MÃ³dulo 7: Avanzado]]
-**Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

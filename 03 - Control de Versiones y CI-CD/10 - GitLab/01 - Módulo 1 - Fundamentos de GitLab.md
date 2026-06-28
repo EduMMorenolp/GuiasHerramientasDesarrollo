@@ -119,12 +119,7 @@ git clone https://oauth2:<token>@gitlab.com/usuario/repo.git
 
 ---
 
-
 **Documentación oficial**: https://docs.gitlab.com
-
 **Siguiente**: [[02 - MÃ³dulo 2 - Repositorios y Merge Requests|MÃ³dulo 2: Repositorios y Merge Requests]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# Módulo 7: Clustering y Alta Disponibilidad
+﻿# Módulo 7: Clustering y Alta Disponibilidad
+
+**Objetivo**: Aprender y dominar: Clustering y Alta Disponibilidad.
 
 ## Replicacion (Master-Replica)
 
@@ -122,10 +124,3 @@ services:
 
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-

@@ -133,16 +133,10 @@ CREATE INDEX ON resumen_ventas(cliente_id);
 | Vista materializada | Al refrescar | SÃ­ | Solo vÃ­a REFRESH |
 
 ---
-**DocumentaciÃ³n oficial**: https://www.postgresql.org/docs/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[07 - MÃ³dulo 7 - Window Functions y AnÃ¡lisis|MÃ³dulo 7: Window Functions y AnÃ¡lisis]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

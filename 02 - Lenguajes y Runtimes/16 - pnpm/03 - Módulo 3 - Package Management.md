@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: GestiÃ³n de Paquetes
+﻿# MÃ³dulo 3: GestiÃ³n de Paquetes
+
+**Objetivo**: Aprender y dominar: GestiÃ³n de Paquetes.
 
 ## Store virtual
 
@@ -79,16 +81,8 @@ pnpm why lodash
 ## Navegacion
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Siguiente**: |Módulo 4 - Scripts y CI-CD]]
+**Documentación oficial**: https://pnpm.io/motivation
+**Siguiente**: [[Módulo 4 - Scripts y CI-CD]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

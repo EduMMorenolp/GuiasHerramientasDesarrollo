@@ -1,4 +1,6 @@
-﻿# Módulo 1: Instalacion y Fundamentos
+﻿# Módulo 1: Instalacion y Fundamentos
+
+**Objetivo**: Aprender y dominar: Instalacion y Fundamentos.
 
 ## Instalacion
 
@@ -44,16 +46,8 @@ proyecto/
 ```
 
 ---
-**Documentación oficial**: https://playwright.dev/docs/intro
 
-**Siguiente**: |Módulo 2: Locators y Acciones]]
+**Documentación oficial**: https://playwright.dev/docs/intro
+**Siguiente**: [[Módulo 2: Locators y Acciones]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

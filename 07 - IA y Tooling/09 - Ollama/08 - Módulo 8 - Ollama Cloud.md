@@ -147,11 +147,8 @@ response = client_cloud.chat(
 | **API** | Compatible con la API local |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
+**Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[09 - MÃ³dulo 9 - Avanzado y Troubleshooting|MÃ³dulo 9: Avanzado y Troubleshooting]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

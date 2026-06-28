@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 5: APIs del Runtime
+﻿# MÃ³dulo 5: APIs del Runtime
+
+**Objetivo**: Aprender y dominar: APIs del Runtime.
 
 ## Archivos
 
@@ -70,15 +72,6 @@ setTimeout(() => console.log("paso 1s"), 1000);
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 6: Servidor HTTP]]
+**Siguiente**: [[Módulo 6: Servidor HTTP]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

@@ -131,11 +131,8 @@ docker diff mi-app
 6. **Secrets** - Usar Docker secrets, no variables de entorno para credenciales
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
+**Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[04 - MÃ³dulo 4 - Docker Buildx y Seguridad|MÃ³dulo 4: Docker Buildx y Seguridad]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

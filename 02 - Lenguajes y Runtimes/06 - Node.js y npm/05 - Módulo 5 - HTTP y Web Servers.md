@@ -225,16 +225,10 @@ https.createServer(options, (req, res) => {
 | fetch / axios | Peticiones HTTP |
 
 ---
+
 **DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
-
 **Siguiente**: [[06 - MÃ³dulo 6 - Debugging, Testing y Seguridad|MÃ³dulo 6: Debugging, Testing y Seguridad]]
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

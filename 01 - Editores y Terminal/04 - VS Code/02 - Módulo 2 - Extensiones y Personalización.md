@@ -140,11 +140,8 @@ Alt+Up/Down     # Navegar entre terminales
 ```
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
+**Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[03 - MÃ³dulo 3 - DepuraciÃ³n y Flujos Avanzados|MÃ³dulo 3: DepuraciÃ³n y Flujos Avanzados]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -119,11 +119,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [ ] Seguir un flujo de trabajo estructurado
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[03 - MÃ³dulo 3 - Agentes - EspecializaciÃ³n y AutomatizaciÃ³n|MÃ³dulo 3: Agentes - EspecializaciÃ³n y AutomatizaciÃ³n]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

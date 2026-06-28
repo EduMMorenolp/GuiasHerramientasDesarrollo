@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 3: Bundler
+﻿# MÃ³dulo 3: Bundler
+
+**Objetivo**: Aprender y dominar: Bundler.
 
 ## Build basico
 
@@ -60,15 +62,6 @@ bun build ./src/app.tsx --outdir ./dist --target=browser --minify
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-
-**Siguiente**: |Módulo 4: Test Runner]]
+**Siguiente**: [[Módulo 4: Test Runner]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
-
-
-
-

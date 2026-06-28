@@ -161,16 +161,10 @@ CALL ObtenerClientes('Madrid');
 ```
 
 ---
-**DocumentaciÃ³n oficial**: https://www.postgresql.org/docs/
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
 
 **Siguiente**: [[09 - MÃ³dulo 9 - Drizzle ORM|MÃ³dulo 9: Drizzle ORM]]
-**Documentación oficial**: https://www.w3schools.com/sql/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-

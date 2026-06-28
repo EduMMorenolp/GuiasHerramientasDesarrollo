@@ -226,11 +226,8 @@ Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
 | CIM | Get-CimInstance, WQL queries |
 
 ---
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
+**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[06 - MÃ³dulo 6 - Desired State Configuration y Seguridad|MÃ³dulo 6: Desired State Configuration y Seguridad]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

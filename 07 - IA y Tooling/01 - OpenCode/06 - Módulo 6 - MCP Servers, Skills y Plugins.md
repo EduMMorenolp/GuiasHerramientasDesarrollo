@@ -152,11 +152,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [x] Usar el SDK de OpenCode en proyectos JS/TS
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[07 - MÃ³dulo 7 - OpenCode Go, Desktop y Modo Server|MÃ³dulo 7: OpenCode Go, Desktop y Modo Server]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -146,11 +146,8 @@ dist/
 | `docker buildx create` | Crear builder multi-arquitectura |
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
+**Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[05 - MÃ³dulo 5 - Docker Compose Avanzado y CI-CD|MÃ³dulo 5: Docker Compose Avanzado y CI-CD]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

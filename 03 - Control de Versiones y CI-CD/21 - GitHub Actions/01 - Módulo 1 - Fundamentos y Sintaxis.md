@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 1: Fundamentos y Sintaxis
+﻿# MÃ³dulo 1: Fundamentos y Sintaxis
+
+**Objetivo**: Aprender y dominar: Fundamentos y Sintaxis.
 
 Los workflows de GitHub Actions se definen en archivos YAML dentro de la carpeta `.github/workflows/`. Cada archivo describe un proceso automatizado que se activa ante eventos del repositorio.
 
@@ -73,6 +75,3 @@ jobs:
 **Siguiente**: [[02 - MÃ³dulo 2 - Workflows|MÃ³dulo 2 - Workflows]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

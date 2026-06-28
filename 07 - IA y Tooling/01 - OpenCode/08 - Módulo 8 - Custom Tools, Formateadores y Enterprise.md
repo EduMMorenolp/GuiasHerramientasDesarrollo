@@ -202,11 +202,8 @@ Al completar este mÃ³dulo deberÃ­as poder:
 - [x] Integrar servidores LSP
 
 ---
-**Documentación oficial**: https://opencode.ai
 
+**Documentación oficial**: https://opencode.ai
 **Siguiente**: [[09 - MÃ³dulo 9 - Novedades, Troubleshooting y PrÃ³ximos Pasos|MÃ³dulo 9: Novedades, Troubleshooting y PrÃ³ximos Pasos]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

@@ -1,4 +1,6 @@
-﻿# MÃ³dulo 6: Sync y Publish
+﻿# MÃ³dulo 6: Sync y Publish
+
+**Objetivo**: Aprender y dominar: Sync y Publish.
 
 ## Obsidian Sync
 Servicio oficial de sincronizacion con cifrado de extremo a extremo (E2EE). Los datos se cifran localmente antes de subirse.
@@ -36,10 +38,6 @@ Quartz es un generador de sitio estatico disenado especificamente para vaults de
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-
 **Siguiente**: [[07 - MÃ³dulo 7 - PersonalizaciÃ³n|MÃ³dulo 7: PersonalizaciÃ³n]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-

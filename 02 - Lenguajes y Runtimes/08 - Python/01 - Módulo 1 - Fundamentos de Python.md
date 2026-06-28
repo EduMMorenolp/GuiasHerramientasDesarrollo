@@ -196,16 +196,10 @@ with open("log.txt", "a") as f:
 ```
 
 ---
+
 **DocumentaciÃ³n oficial**: https://docs.python.org/3/
 
-**Documentación oficial**: https://docs.python.org/3/
-
 **Siguiente**: [[02 - MÃ³dulo 2 - Entornos Virtuales y Paquetes|MÃ³dulo 2: Entornos Virtuales y Paquetes]]
-**Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
-
-
-
-
