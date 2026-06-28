@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "ae7de31bd52fa003",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb694a3f247933b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2daaaa268f9ec6d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80fed31c6bce6d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f70835acc0ae53c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ebf143ed57e03fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "c9950ad8bf8eb295",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b98dd60f754c228c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a0dd4114a72efce0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d47b086f050260a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d904a906cf0b5997",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "65b937dffb304b1c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "d90b166d34d0699b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "ad492637fb5cdb4e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "50a651e2fa0eb973",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "1ebf143ed57e03fb",
+  "lastOpenFiles": [
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/github-actions.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/07 - Módulo 7 - Deploy y Avanzado.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/06 - Módulo 6 - Seguridad.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/05 - Módulo 5 - Artefactos y Caché.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/04 - Módulo 4 - Runners.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/03 - Módulo 3 - Actions.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/02 - Módulo 2 - Workflows.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/01 - Módulo 1 - Fundamentos y Sintaxis.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions",
+    "05 - Bases de Datos/20 - Redis/redis.md",
+    "05 - Bases de Datos/20 - Redis/07 - Módulo 7 - Clustering y Alta Disponibilidad.md",
+    "05 - Bases de Datos/20 - Redis/05 - Módulo 5 - Caching.md",
+    "05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack.md",
+    "05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones.md",
+    "05 - Bases de Datos/20 - Redis/03 - Módulo 3 - Persistencia y Configuración.md",
+    "05 - Bases de Datos/20 - Redis/02 - Módulo 2 - Tipos de Datos.md",
+    "05 - Bases de Datos/20 - Redis/01 - Módulo 1 - Instalación y Fundamentos.md",
+    "05 - Bases de Datos/20 - Redis",
+    "04 - Infraestructura/19 - Nginx/nginx.md",
+    "04 - Infraestructura/19 - Nginx/07 - Módulo 7 - Avanzado.md",
+    "04 - Infraestructura/19 - Nginx/06 - Módulo 6 - Seguridad.md",
+    "04 - Infraestructura/19 - Nginx/05 - Módulo 5 - Cache.md",
+    "04 - Infraestructura/19 - Nginx/04 - Módulo 4 - SSL-TLS y HTTPS.md",
+    "04 - Infraestructura/19 - Nginx/03 - Módulo 3 - Proxy Inverso.md",
+    "04 - Infraestructura/19 - Nginx/02 - Módulo 2 - Servidor Estático y Location.md",
+    "04 - Infraestructura/19 - Nginx/01 - Módulo 1 - Instalación y Configuración Básica.md",
+    "04 - Infraestructura/19 - Nginx",
+    "06 - APIs y Testing/18 - Playwright/playwright.md",
+    "06 - APIs y Testing/18 - Playwright/07 - Módulo 7 - CI-CD y Avanzado.md",
+    "06 - APIs y Testing/18 - Playwright",
+    "02 - Lenguajes y Runtimes/17 - Bun",
+    "02 - Lenguajes y Runtimes/16 - pnpm",
+    "02 - Lenguajes y Runtimes/15 - PM2",
+    "01 - Editores y Terminal/14 - Warp",
+    "07 - IA y Tooling/13 - Biome",
+    "06 - APIs y Testing/12 - Postman"
+  ]
+}
