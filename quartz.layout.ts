@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-const sharedLayout: SharedLayout = {
+export const sharedLayout: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
@@ -59,4 +59,3 @@ export const pageLayout: PageLayout = {
   right,
 }
 
-export const sharedLayout: SharedLayout = sharedLayout
