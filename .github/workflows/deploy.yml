@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Clone Quartz
         run: |
@@ -50,7 +50,7 @@ jobs:
           cp quartz.layout.ts _quartz/
 
       - name: Install dependencies
-        run: cd _quartz && npm ci
+        run: cd _quartz && npm install
 
       - name: Build Quartz
         run: cd _quartz && npx quartz build
