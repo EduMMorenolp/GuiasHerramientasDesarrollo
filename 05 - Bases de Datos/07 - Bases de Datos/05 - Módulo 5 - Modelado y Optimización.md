@@ -1,22 +1,22 @@
-﻿# MÃ³dulo 5: Modelado y OptimizaciÃ³n
+# Módulo 5: Modelado y Optimización
 
-**Objetivo**: DiseÃ±ar esquemas normalizados y optimizar consultas.
+**Objetivo**: Diseñar esquemas normalizados y optimizar consultas.
 
 ---
 
-## NormalizaciÃ³n
+## Normalización
 
 ### 1NF (Primera Forma Normal)
-- Cada celda contiene un solo valor atÃ³mico
-- Cada fila es Ãºnica (PK)
+- Cada celda contiene un solo valor atómico
+- Cada fila es única (PK)
 - No grupos repetitivos
 
 ### 2NF (Segunda Forma Normal)
-- EstÃ¡ en 1NF
+- Está en 1NF
 - Cada atributo no clave depende de la clave completa (no parcial)
 
 ### 3NF (Tercera Forma Normal)
-- EstÃ¡ en 2NF
+- Está en 2NF
 - Cada atributo no clave depende solo de la clave primaria (no transitivamente)
 
 ```sql
@@ -29,7 +29,7 @@ CREATE TABLE pedidos (
     producto2 TEXT, producto_precio2 DECIMAL
 );
 
--- DespuÃ©s (3NF)
+-- Después (3NF)
 CREATE TABLE clientes (id SERIAL PRIMARY KEY, nombre TEXT, email TEXT UNIQUE);
 CREATE TABLE productos (id SERIAL PRIMARY KEY, nombre TEXT, precio DECIMAL);
 CREATE TABLE pedidos (id SERIAL PRIMARY KEY, cliente_id INT REFERENCES clientes(id));
@@ -38,40 +38,40 @@ CREATE TABLE pedidos_items (pedido_id INT REFERENCES pedidos(id), producto_id IN
 
 ---
 
-## Ãndices
+## Índices
 
 ```sql
--- Ãndice simple
+-- Índice simple
 CREATE INDEX idx_usuarios_email ON usuarios(email);
 
--- Ãndice compuesto (orden importa)
+-- Índice compuesto (orden importa)
 CREATE INDEX idx_ordenes_fecha_estado ON ordenes(fecha, estado);
 
--- Ãndice parcial (solo filas que cumplen condiciÃ³n)
+-- Índice parcial (solo filas que cumplen condición)
 CREATE INDEX idx_pedidos_activos ON pedidos(estado) WHERE estado = 'pendiente';
 
--- Ãndice Ãºnico
+-- Índice único
 CREATE UNIQUE INDEX idx_email_unico ON usuarios(email);
 
--- Ver Ã­ndices
+-- Ver índices
 SELECT indexname, indexdef FROM pg_indexes WHERE tablename = 'usuarios';
 ```
 
-### CuÃ¡ndo indexar
+### Cuándo indexar
 - Columnas usadas en `WHERE`, `JOIN`, `ORDER BY`
 - Columnas con alta cardinalidad (muchos valores distintos)
 - No indexar columnas con pocos valores (ej: booleano)
-- Los Ã­ndices ralentizan `INSERT`/`UPDATE`/`DELETE`
+- Los índices ralentizan `INSERT`/`UPDATE`/`DELETE`
 
 ---
 
 ## EXPLAIN ANALYZE
 
 ```sql
--- Ver plan de ejecuciÃ³n
+-- Ver plan de ejecución
 EXPLAIN SELECT * FROM usuarios WHERE email = 'test@mail.com';
 
--- Con ejecuciÃ³n real
+-- Con ejecución real
 EXPLAIN ANALYZE SELECT * FROM usuarios WHERE email = 'test@mail.com';
 
 -- En MySQL
@@ -120,23 +120,23 @@ const pool = mysql.createPool({ host: 'localhost', user: 'root', database: 'test
 
 ---
 
-## Buenas PrÃ¡cticas
+## Buenas Prácticas
 
-| PrÃ¡ctica | Detalle |
+| Práctica | Detalle |
 |----------|---------|
-| **Siempre WHERE con Ã­ndice** | Evitar full scans en tablas grandes |
+| **Siempre WHERE con índice** | Evitar full scans en tablas grandes |
 | **No SELECT *** | Seleccionar solo columnas necesarias |
-| **Usar JOINs explÃ­citos** | Evitar joins implÃ­citos con WHERE |
-| **Prefijo de Ã­ndices** | En MySQL, indexar solo N caracteres en TEXT |
-| **VACUUM periÃ³dico** | PostgreSQL: recuperar espacio |
-| **Analizar tablas** | `ANALYZE` para estadÃ­sticas actualizadas |
+| **Usar JOINs explícitos** | Evitar joins implícitos con WHERE |
+| **Prefijo de índices** | En MySQL, indexar solo N caracteres en TEXT |
+| **VACUUM periódico** | PostgreSQL: recuperar espacio |
+| **Analizar tablas** | `ANALYZE` para estadísticas actualizadas |
 | **Evitar funciones en WHERE** | `WHERE YEAR(fecha) = 2024` â†’ ineficiente (usar rango) |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[06 - MÃ³dulo 6 - Subconsultas, CTEs y Vistas|MÃ³dulo 6: Subconsultas, CTEs y Vistas]]
+**Siguiente**: [[06 - Módulo 6 - Subconsultas, CTEs y Vistas|Módulo 6: Subconsultas, CTEs y Vistas]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

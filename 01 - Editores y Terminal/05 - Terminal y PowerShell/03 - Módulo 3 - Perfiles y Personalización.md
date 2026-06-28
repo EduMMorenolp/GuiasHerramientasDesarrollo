@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 3: Perfiles y PersonalizaciÃ³n
+# Módulo 3: Perfiles y Personalización
 
 **Objetivo**: Crear un entorno de terminal productivo y personalizado.
 
@@ -6,7 +6,7 @@
 
 ## Oh My Posh
 
-### InstalaciÃ³n
+### Instalación
 ```powershell
 # Instalar Oh My Posh
 winget install JanDeDobbeleer.OhMyPosh
@@ -18,9 +18,9 @@ scoop install oh-my-posh
 oh-my-posh font install
 ```
 
-### ConfiguraciÃ³n en $PROFILE
+### Configuración en $PROFILE
 ```powershell
-# AÃ±adir a $PROFILE
+# Añadir a $PROFILE
 oh-my-posh init pwsh --config ~/.config/posh/theme.omp.json | Invoke-Expression
 
 # Temas populares
@@ -50,7 +50,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/atomic.omp.json"
 
 ## PSReadLine
 
-### Mejora la experiencia de lÃ­nea de comandos
+### Mejora la experiencia de línea de comandos
 ```powershell
 # En $PROFILE
 Set-PSReadLineOption -PredictionSource History
@@ -69,7 +69,7 @@ Set-PSReadLineKeyHandler -Key Ctrl+Backspace -Function KillWord
 ## Terminal Multiplexer
 
 ### Windows Terminal
-- PestaÃ±as y paneles
+- Pestañas y paneles
 - Perfiles personalizados (PowerShell, CMD, WSL, Git Bash)
 - Temas y transparencia
 
@@ -96,7 +96,7 @@ Set-PSReadLineKeyHandler -Key Ctrl+Backspace -Function KillWord
 
 ### En $PROFILE
 ```powershell
-# Alias Ãºtiles
+# Alias útiles
 Set-Alias g git
 Set-Alias np npm
 Set-Alias npx npx
@@ -108,7 +108,7 @@ function find { Get-ChildItem -Recurse -Filter $args[0] }
 function grep { Select-String $args[0] }
 function touch { New-Item -ItemType File -Path $args[0] }
 
-# NavegaciÃ³n rÃ¡pida
+# Navegación rápida
 function ~ { Set-Location $HOME }
 function .. { Set-Location .. }
 function ... { Set-Location ..\.. }
@@ -123,7 +123,7 @@ function code { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" $args }
 
 ---
 
-## ConfiguraciÃ³n Completa del Perfil
+## Configuración Completa del Perfil
 
 ```powershell
 # ==== $PROFILE ====
@@ -162,11 +162,11 @@ function prompt {
 ## Debugging y Diagnosis
 
 ```powershell
-# Mostrar informaciÃ³n del sistema
-$PSVersionTable           # VersiÃ³n de PowerShell
-Get-ExecutionPolicy       # PolÃ­tica de ejecuciÃ³n
+# Mostrar información del sistema
+$PSVersionTable           # Versión de PowerShell
+Get-ExecutionPolicy       # Política de ejecución
 $PROFILE                  # Ruta del perfil actual
-Get-Module                # MÃ³dulos cargados
+Get-Module                # Módulos cargados
 
 # Probar perfil
 . $PROFILE  # Recargar perfil
@@ -175,6 +175,6 @@ Get-Module                # MÃ³dulos cargados
 ---
 
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[04 - MÃ³dulo 4 - Remoting, MÃ³dulos y PSResourceGet|MÃ³dulo 4: Remoting, MÃ³dulos y PSResourceGet]]
+**Siguiente**: [[04 - Módulo 4 - Remoting, Módulos y PSResourceGet|Módulo 4: Remoting, Módulos y PSResourceGet]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

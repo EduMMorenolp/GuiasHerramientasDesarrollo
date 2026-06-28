@@ -1,21 +1,21 @@
-﻿# MÃ³dulo 2: SQLite
+# Módulo 2: SQLite
 
 **Objetivo**: Conocer SQLite como base de datos embebida, serverless y zero-config.
 
 ---
 
-## Â¿QuÃ© es SQLite?
+## ¿Qué es SQLite?
 
-- **Base de datos embebida**: No es cliente-servidor, se integra en la aplicaciÃ³n
+- **Base de datos embebida**: No es cliente-servidor, se integra en la aplicación
 - **Serverless**: No requiere proceso separado
-- **Zero-configuration**: Sin configuraciÃ³n inicial
-- **Dominio pÃºblico**: CÃ³digo fuente libre
+- **Zero-configuration**: Sin configuración inicial
+- **Dominio público**: Código fuente libre
 - **Almacenamiento**: Un solo archivo `.db` o `.sqlite`
-- **Portable**: Ideal para apps mÃ³viles, prototipos, pruebas
+- **Portable**: Ideal para apps móviles, prototipos, pruebas
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ```powershell
 # Windows (Scoop)
@@ -29,7 +29,7 @@ sqlite3 --version
 
 ## CLI de SQLite
 
-### Comandos bÃ¡sicos (puntos)
+### Comandos básicos (puntos)
 ```sql
 -- Listar tablas
 .tables
@@ -77,7 +77,7 @@ PRAGMA journal_mode=WAL;
 -- Habilitar foreign keys
 PRAGMA foreign_keys=ON;
 
--- Ver configuraciÃ³n
+-- Ver configuración
 PRAGMA journal_mode;
 PRAGMA synchronous;
 PRAGMA cache_size;
@@ -110,7 +110,7 @@ SELECT date('now');             -- 2026-06-27
 SELECT time('now');             -- 14:30:00
 SELECT datetime('now');         -- 2026-06-27 14:30:00
 SELECT strftime('%Y-%m', 'now'); -- 2026-06
-SELECT julianday('now');        -- dÃ­as julianos
+SELECT julianday('now');        -- días julianos
 
 -- Modificadores
 SELECT date('now', '+7 days');
@@ -121,7 +121,7 @@ SELECT date('now', '-1 month', 'start of month');
 
 ## DB Browser for SQLite
 
-Herramienta grÃ¡fica oficial: https://sqlitebrowser.org
+Herramienta gráfica oficial: https://sqlitebrowser.org
 
 - **Hoja de datos**: Navegar y editar registros
 - **SQL Editor**: Ejecutar consultas
@@ -131,21 +131,21 @@ Herramienta grÃ¡fica oficial: https://sqlitebrowser.org
 
 ---
 
-## Buenas PrÃ¡cticas
+## Buenas Prácticas
 
-| PrÃ¡ctica | RecomendaciÃ³n |
+| Práctica | Recomendación |
 |----------|---------------|
 | Concurrencia | Usar `PRAGMA journal_mode=WAL` |
 | Integridad | Habilitar `foreign_keys=ON` |
-| Rendimiento | Crear Ã­ndices en columnas de bÃºsqueda |
+| Rendimiento | Crear índices en columnas de búsqueda |
 | Backup | Copiar archivo `.db` (seguro con WAL) |
-| TamaÃ±o | Ejecutar `VACUUM` periÃ³dicamente |
+| Tamaño | Ejecutar `VACUUM` periódicamente |
 
 ---
 
 ## Resumen
 
-| Comando | PropÃ³sito |
+| Comando | Propósito |
 |---------|-----------|
 | `sqlite3 db.sqlite` | Abrir base de datos |
 | `.tables` | Listar tablas |
@@ -157,9 +157,9 @@ Herramienta grÃ¡fica oficial: https://sqlitebrowser.org
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[03 - MÃ³dulo 3 - MySQL y Workbench|MÃ³dulo 3: MySQL y Workbench]]
+**Siguiente**: [[03 - Módulo 3 - MySQL y Workbench|Módulo 3: MySQL y Workbench]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

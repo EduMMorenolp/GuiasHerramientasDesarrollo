@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 4: Git Tools - Stash, Reflog y Reescritura
+# Módulo 4: Git Tools - Stash, Reflog y Reescritura
 
-**Objetivo**: Dominar herramientas avanzadas de Git para gestiÃ³n del historial.
+**Objetivo**: Dominar herramientas avanzadas de Git para gestión del historial.
 
 ---
 
@@ -34,7 +34,7 @@ git stash clear        # Eliminar todos
 ## Interactive Staging
 
 ### git add -p (patch mode)
-Selecciona partes especÃ­ficas de un archivo para stage:
+Selecciona partes específicas de un archivo para stage:
 
 ```powershell
 git add -p archivo.js
@@ -44,7 +44,7 @@ git add -p archivo.js
 ### git add -i (interactive mode)
 ```powershell
 git add -i
-# MenÃº interactivo: stage, unstage, diff, etc.
+# Menú interactivo: stage, unstage, diff, etc.
 ```
 
 ---
@@ -64,7 +64,7 @@ git reflog
 # Encontrar el hash del commit perdido
 git checkout abc123
 
-# Recuperar despuÃ©s de un reset --hard
+# Recuperar después de un reset --hard
 git reflog
 git reset --hard HEAD@{2}  # Volver a donde estabas
 ```
@@ -75,10 +75,10 @@ git reset --hard HEAD@{2}  # Volver a donde estabas
 
 ### git commit --amend
 ```powershell
-# Modificar Ãºltimo commit (mensaje o archivos)
+# Modificar último commit (mensaje o archivos)
 git commit --amend -m "Mensaje corregido"
 
-# AÃ±adir archivo olvidado al Ãºltimo commit
+# Añadir archivo olvidado al último commit
 git add archivo-olvidado.js
 git commit --amend --no-edit
 ```
@@ -111,7 +111,7 @@ git filter-repo --path archivo-secreto.txt --invert-paths
 ## Cherry-pick y Revert
 
 ```powershell
-# Aplicar commit especÃ­fico a la rama actual
+# Aplicar commit específico a la rama actual
 git cherry-pick abc123
 git cherry-pick abc123..def456  # Rango de commits
 
@@ -139,21 +139,21 @@ git archive --format=tar.gz --prefix=proyecto/ v1.0 > proyecto.tar.gz
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `git stash` | Guardar cambios temporales |
 | `git add -p` | Stage parcial interactivo |
 | `git reflog` | Historial de movimientos de HEAD |
 | `git rebase -i` | Reescritura interactiva |
-| `git cherry-pick` | Aplicar commit especÃ­fico |
+| `git cherry-pick` | Aplicar commit específico |
 | `git revert` | Revertir commit (seguro) |
 | `git bundle` | Empaquetar repo sin servidor |
 
 ---
 
 **Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[05 - MÃ³dulo 5 - PersonalizaciÃ³n, Hooks y Git Attributes|MÃ³dulo 5: PersonalizaciÃ³n, Hooks y Git Attributes]]
+**Siguiente**: [[05 - Módulo 5 - Personalización, Hooks y Git Attributes|Módulo 5: Personalización, Hooks y Git Attributes]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

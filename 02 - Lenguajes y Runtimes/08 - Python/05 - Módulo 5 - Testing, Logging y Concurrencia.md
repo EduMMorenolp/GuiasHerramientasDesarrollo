@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: Testing, Logging y Concurrencia
+# Módulo 5: Testing, Logging y Concurrencia
 
 **Objetivo**: Testing con pytest, logging profesional y concurrencia con threading, multiprocessing y asyncio.
 
@@ -6,7 +6,7 @@
 
 ## Testing con pytest
 
-### BÃ¡sico
+### Básico
 ```python
 # test_math.py
 import pytest
@@ -35,7 +35,7 @@ def db_conexion():
     conn.close()
 ```
 
-### ParametrizaciÃ³n
+### Parametrización
 ```python
 @pytest.mark.parametrize("a,b,esperado", [
     (1, 2, 3),
@@ -46,7 +46,7 @@ def db_conexion():
 def test_suma_parametrizada(a, b, esperado):
     assert a + b == esperado
 
-# MÃºltiples parÃ¡metros
+# Múltiples parámetros
 @pytest.mark.parametrize("input_str", ["hola", "mundo", "test"])
 @pytest.mark.parametrize("repetitions", [1, 2, 3])
 def test_repetir(input_str, repetitions):
@@ -86,7 +86,7 @@ def test_archivo():
 # python_files = test_*.py
 # markers =
 #     slow: tests lentos
-#     integration: tests de integraciÃ³n
+#     integration: tests de integración
 
 @pytest.mark.slow
 def test_proceso_pesado():
@@ -109,7 +109,7 @@ def test_conocido_fallido():
 ```python
 import logging
 
-# ConfiguraciÃ³n bÃ¡sica
+# Configuración básica
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
@@ -117,10 +117,10 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-logger.debug("Solo para depuraciÃ³n")
+logger.debug("Solo para depuración")
 logger.info("Iniciando proceso")
 logger.warning("Recurso bajo")
-logger.error("Error crÃ­tico")
+logger.error("Error crítico")
 logger.critical("Sistema detenido")
 
 # Logging a archivo
@@ -132,7 +132,7 @@ formatter = logging.Formatter(
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# RotaciÃ³n de logs
+# Rotación de logs
 from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
 
 handler = RotatingFileHandler(
@@ -188,7 +188,7 @@ def incrementar_seguro():
     with lock:
         contador += 1
 
-# Event (sincronizaciÃ³n)
+# Event (sincronización)
 event = threading.Event()
 
 def esperar_evento():
@@ -207,7 +207,7 @@ event.set()  # libera el wait
 from multiprocessing import Pool, Process, Queue
 import os
 
-# Pool (fÃ¡cil)
+# Pool (fácil)
 def trabajo_cpu(x: int) -> int:
     return sum(i * i for i in range(x))
 
@@ -218,7 +218,7 @@ with Pool(processes=os.cpu_count()) as pool:
 def productor(queue):
     for i in range(5):
         queue.put(i)
-    queue.put(None)  # seÃ±al de fin
+    queue.put(None)  # señal de fin
 
 def consumidor(queue):
     while True:
@@ -266,7 +266,7 @@ async def main():
 
 asyncio.run(main())
 
-# SemÃ¡foro asÃ­ncrono (limitar concurrencia)
+# Semáforo asíncrono (limitar concurrencia)
 sem = asyncio.Semaphore(10)
 
 async def fetch_limitada(url: str):
@@ -276,7 +276,7 @@ async def fetch_limitada(url: str):
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Tema | Herramienta |
 |------|-------------|
@@ -288,9 +288,9 @@ async def fetch_limitada(url: str):
 
 ---
 
-**DocumentaciÃ³n oficial**: https://docs.python.org/3/
+**Documentación oficial**: https://docs.python.org/3/
 
-**Siguiente**: [[06 - MÃ³dulo 6 - Web, Data Science y Herramientas CLI|MÃ³dulo 6: Web, Data Science y Herramientas CLI]]
+**Siguiente**: [[06 - Módulo 6 - Web, Data Science y Herramientas CLI|Módulo 6: Web, Data Science y Herramientas CLI]]
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

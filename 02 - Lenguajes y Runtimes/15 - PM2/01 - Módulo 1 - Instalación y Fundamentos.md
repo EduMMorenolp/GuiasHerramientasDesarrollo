@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Fundamentos
+# Módulo 1: Instalación y Fundamentos
 
 **Objetivo**: Instalar PM2, iniciar/detener procesos y gestionar el estado de las aplicaciones.
 

@@ -1,4 +1,4 @@
-﻿# Módulo 1: Instalacion y Fundamentos
+# Módulo 1: Instalacion y Fundamentos
 
 **Objetivo**: Aprender y dominar: Instalacion y Fundamentos.
 

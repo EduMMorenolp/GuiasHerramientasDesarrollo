@@ -1,55 +1,55 @@
-﻿# MÃ³dulo 1: Contenedores e ImÃ¡genes
+# Módulo 1: Contenedores e Imágenes
 
-**Objetivo**: Comprender Docker, instalar y dominar contenedores e imÃ¡genes.
+**Objetivo**: Comprender Docker, instalar y dominar contenedores e imágenes.
 
 ---
 
-## Â¿QuÃ© es Docker?
+## ¿Qué es Docker?
 
-### DefiniciÃ³n
-Docker es una plataforma de contenedores que empaqueta aplicaciones y sus dependencias en unidades ligeras y portÃ¡tiles.
+### Definición
+Docker es una plataforma de contenedores que empaqueta aplicaciones y sus dependencias en unidades ligeras y portátiles.
 
-### Contenedor vs MÃ¡quina Virtual
-| CaracterÃ­stica | Contenedor | VM |
+### Contenedor vs Máquina Virtual
+| Característica | Contenedor | VM |
 |---------------|------------|-----|
 | Inicio | Segundos | Minutos |
-| TamaÃ±o | MB | GB |
+| Tamaño | MB | GB |
 | Kernel | Compartido | Propio |
 | Aislamiento | Procesos | Completo |
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ```powershell
-# Verificar instalaciÃ³n
+# Verificar instalación
 docker --version
 docker info
 
-# Comandos bÃ¡sicos post-instalaciÃ³n
+# Comandos básicos post-instalación
 docker run hello-world
 ```
 
 ---
 
-## ImÃ¡genes
+## Imágenes
 
-### Gestionar imÃ¡genes
+### Gestionar imágenes
 ```powershell
-# Listar imÃ¡genes
+# Listar imágenes
 docker images
 
 # Descargar imagen
 docker pull node:22-alpine
 
-# Buscar imÃ¡genes
+# Buscar imágenes
 docker search node
 
 # Eliminar imagen
 docker rmi node:22-alpine
 ```
 
-### Dockerfile bÃ¡sico
+### Dockerfile básico
 ```dockerfile
 FROM node:22-alpine
 WORKDIR /app
@@ -60,7 +60,7 @@ EXPOSE 3000
 CMD ["node", "index.js"]
 ```
 
-### Construir imÃ¡genes
+### Construir imágenes
 ```powershell
 docker build -t mi-app:v1 .
 docker build -t mi-app:v1 --no-cache .
@@ -89,7 +89,7 @@ docker start mi-app
 docker rm mi-app
 ```
 
-### Logs y ejecuciÃ³n
+### Logs y ejecución
 ```powershell
 # Ver logs
 docker logs mi-app
@@ -102,7 +102,7 @@ docker exec -it mi-app node -e "console.log('hola')"
 
 ---
 
-## VolÃºmenes y Persistencia
+## Volúmenes y Persistencia
 
 ### Tipos de montaje
 ```powershell
@@ -113,7 +113,7 @@ docker run -v datos:/data mi-app
 docker run -v D:\data:/data mi-app
 ```
 
-### Gestionar volÃºmenes
+### Gestionar volúmenes
 ```powershell
 docker volume ls
 docker volume create datos
@@ -124,10 +124,10 @@ docker volume inspect datos
 
 ## Comandos Esenciales
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `docker ps` | Contenedores activos |
-| `docker images` | ImÃ¡genes locales |
+| `docker images` | Imágenes locales |
 | `docker build` | Construir imagen |
 | `docker run` | Ejecutar contenedor |
 | `docker exec` | Ejecutar comando |
@@ -138,6 +138,6 @@ docker volume inspect datos
 ---
 
 **Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[02 - MÃ³dulo 2 - Docker Compose y Redes|MÃ³dulo 2: Docker Compose y Redes]]
+**Siguiente**: [[02 - Módulo 2 - Docker Compose y Redes|Módulo 2: Docker Compose y Redes]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

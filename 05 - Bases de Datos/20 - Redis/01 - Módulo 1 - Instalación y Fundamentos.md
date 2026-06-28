@@ -1,8 +1,8 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Fundamentos
+# Módulo 1: Instalación y Fundamentos
 
-**Objetivo**: Aprender y dominar: InstalaciÃ³n y Fundamentos.
+**Objetivo**: Aprender y dominar: Instalación y Fundamentos.
 
-## InstalaciÃ³n
+## Instalación
 
 **apt (Debian/Ubuntu)**
 ```bash

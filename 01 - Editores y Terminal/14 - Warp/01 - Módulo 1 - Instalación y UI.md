@@ -1,22 +1,22 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y UI
+# Módulo 1: Instalación y UI
 
 **Objetivo**: Instalar Warp y comprender su interfaz de usuario basada en bloques.
 
 ---
 
-## Â¿QuÃ© es Warp?
+## ¿Qué es Warp?
 
-Warp es una terminal moderna construida en Rust con inteligencia artificial integrada. Es de cÃ³digo abierto bajo licencia AGPLv3. Combina una terminal tradicional con un asistente AI (Oz) para mejorar la productividad en la lÃ­nea de comandos.
+Warp es una terminal moderna construida en Rust con inteligencia artificial integrada. Es de código abierto bajo licencia AGPLv3. Combina una terminal tradicional con un asistente AI (Oz) para mejorar la productividad en la línea de comandos.
 
-### CaracterÃ­sticas principales
+### Características principales
 - **Blocks**: cada comando y su salida se agrupan en un bloque
 - **AI Agent**: asistente integrado que ayuda a escribir y depurar comandos
-- **Input Editor**: editor multilÃ­nea con resaltado de sintaxis
-- **Rendimiento**: escrito en Rust, rÃ¡pido y eficiente
+- **Input Editor**: editor multilínea con resaltado de sintaxis
+- **Rendimiento**: escrito en Rust, rápido y eficiente
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ### Windows (winget)
 ```powershell
@@ -28,7 +28,7 @@ winget install Warp.Warp
 brew install --cask warp
 ```
 
-### Verificar instalaciÃ³n
+### Verificar instalación
 ```powershell
 warp --version
 ```
@@ -38,19 +38,19 @@ warp --version
 ## Interfaz de Usuario (UI)
 
 ### Blocks
-A diferencia de una terminal tradicional donde el texto es continuo, Warp organiza cada comando y su salida en un **bloque** visualmente separado. Esto facilita la lectura, navegaciÃ³n y reutilizaciÃ³n.
+A diferencia de una terminal tradicional donde el texto es continuo, Warp organiza cada comando y su salida en un **bloque** visualmente separado. Esto facilita la lectura, navegación y reutilización.
 
-| CaracterÃ­stica | Terminal tradicional | Warp |
+| Característica | Terminal tradicional | Warp |
 |---------------|---------------------|------|
 | Estructura | Flujo de texto continuo | Bloques agrupados |
-| NavegaciÃ³n | Scroll manual | Ctrl+Up / Ctrl+Down entre bloques |
-| ReutilizaciÃ³n | Copiar manual | Click en bloque para reusar |
-| EdiciÃ³n | LÃ­nea simple | Editor multilÃ­nea integrado |
+| Navegación | Scroll manual | Ctrl+Up / Ctrl+Down entre bloques |
+| Reutilización | Copiar manual | Click en bloque para reusar |
+| Edición | Línea simple | Editor multilínea integrado |
 
-### NavegaciÃ³n entre bloques
+### Navegación entre bloques
 - **Ctrl+Up**: ir al bloque anterior
 - **Ctrl+Down**: ir al bloque siguiente
-- **Ctrl+Shift+Up/Down**: seleccionar mÃºltiples bloques
+- **Ctrl+Shift+Up/Down**: seleccionar múltiples bloques
 - **Click**: posicionar cursor en cualquier parte del bloque
 
 ### Panel lateral
@@ -64,34 +64,34 @@ A diferencia de una terminal tradicional donde el texto es continuo, Warp organi
 
 | Aspecto | Terminal tradicional | Warp |
 |---------|---------------------|------|
-| EdiciÃ³n | LÃ­nea Ãºnica | Editor multilÃ­nea |
+| Edición | Línea única | Editor multilínea |
 | Historial | Texto plano | Bloques con formato |
 | AI | No incluido | Oz integrado |
-| Resaltado | BÃ¡sico | Syntax + error highlighting |
-| Multiplataforma | VarÃ­a | Windows, macOS, Linux |
-| Licencia | VarÃ­a | AGPLv3 (open source) |
+| Resaltado | Básico | Syntax + error highlighting |
+| Multiplataforma | Varía | Windows, macOS, Linux |
+| Licencia | Varía | AGPLv3 (open source) |
 
 ### Ventajas clave
-- **Productividad**: comandos complejos se editan en mÃºltiples lÃ­neas
+- **Productividad**: comandos complejos se editan en múltiples líneas
 - **Legibilidad**: bloques claramente separados
 - **AI asistido**: Oz sugiere, corrige y explica comandos
-- **PersonalizaciÃ³n**: temas, keybindings y configuraciones avanzadas
+- **Personalización**: temas, keybindings y configuraciones avanzadas
 
 ---
 
 ## Resumen
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
 | Warp | Terminal moderna con AI, open source, escrita en Rust |
 | Blocks | Comando + salida agrupados visualmente |
-| Ctrl+Up/Down | NavegaciÃ³n entre bloques |
+| Ctrl+Up/Down | Navegación entre bloques |
 | Oz | Asistente AI integrado |
-| InstalaciÃ³n | `winget install Warp.Warp` |
+| Instalación | `winget install Warp.Warp` |
 
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[02 - MÃ³dulo 2 - Input Editor|MÃ³dulo 2: Input Editor]]
+**Siguiente**: [[02 - Módulo 2 - Input Editor|Módulo 2: Input Editor]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

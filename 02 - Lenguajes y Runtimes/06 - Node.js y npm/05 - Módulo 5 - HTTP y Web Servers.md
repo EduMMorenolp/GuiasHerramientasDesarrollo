@@ -1,15 +1,15 @@
-﻿# MÃ³dulo 5: HTTP y Web Servers
+# Módulo 5: HTTP y Web Servers
 
 **Objetivo**: Crear servidores HTTP, APIs REST, WebSockets y consumir servicios web.
 
 ---
 
-## MÃ³dulo http/https
+## Módulo http/https
 
 ```javascript
 const http = require('http');
 
-// Servidor bÃ¡sico
+// Servidor básico
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
@@ -112,7 +112,7 @@ app.listen(3000);
 
 ### API REST completa (patrones)
 ```javascript
-// CRUD con validaciÃ³n
+// CRUD con validación
 const Joi = require('joi');
 const userSchema = Joi.object({
     name: Joi.string().min(2).required(),
@@ -215,20 +215,20 @@ https.createServer(options, (req, res) => {
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Herramienta | Uso |
 |---|---|
 | http.createServer | Servidor HTTP nativo |
 | Express | Framework web con middleware |
-| WebSocket | ComunicaciÃ³n bidireccional |
+| WebSocket | Comunicación bidireccional |
 | fetch / axios | Peticiones HTTP |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[06 - MÃ³dulo 6 - Debugging, Testing y Seguridad|MÃ³dulo 6: Debugging, Testing y Seguridad]]
+**Siguiente**: [[06 - Módulo 6 - Debugging, Testing y Seguridad|Módulo 6: Debugging, Testing y Seguridad]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

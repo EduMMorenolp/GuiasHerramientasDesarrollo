@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Documentacion
+# Módulo 6: Documentacion
 
 **Objetivo**: Aprender y dominar: Documentacion.
 
@@ -9,7 +9,7 @@ Postman genera documentacion automaticamente a partir de las collections.
 ### Pasos
 
 1. Seleccionar collection en el sidebar
-2. Click en `View Documentation` (icono de libro o pestaÃ±a `Docs`)
+2. Click en `View Documentation` (icono de libro o pestaña `Docs`)
 3. Postman genera documentacion con:
    - Metodo HTTP y URL
    - Headers configurados
@@ -214,9 +214,9 @@ Este es el formato recomendado para compartir collections y usar con Newman.
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
-**Siguiente**: [[07 - MÃ³dulo 7 - Avanzado|MÃ³dulo 7: Avanzado]]
+**Siguiente**: [[07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Tests y Scripts
+# Módulo 4: Tests y Scripts
 
 **Objetivo**: Aprender y dominar: Tests y Scripts.
 
@@ -233,9 +233,9 @@ pm.test("Response time aceptable", function () {
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
-**Siguiente**: [[05 - MÃ³dulo 5 - AutomatizaciÃ³n con Newman|MÃ³dulo 5: Automatizacion con Newman]]
+**Siguiente**: [[05 - Módulo 5 - Automatización con Newman|Módulo 5: Automatizacion con Newman]]
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

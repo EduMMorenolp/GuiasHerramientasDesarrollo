@@ -1,14 +1,14 @@
-﻿# MÃ³dulo 5: Clases, Expresiones Regulares y Jobs
+# Módulo 5: Clases, Expresiones Regulares y Jobs
 
-**Objetivo**: ProgramaciÃ³n orientada a objetos en PowerShell, regex y ejecuciÃ³n asÃ­ncrona.
+**Objetivo**: Programación orientada a objetos en PowerShell, regex y ejecución asíncrona.
 
 ---
 
 ## Clases en PowerShell
 
-PowerShell 5.0+ soporta definiciÃ³n de clases como en C# o Python.
+PowerShell 5.0+ soporta definición de clases como en C# o Python.
 
-### DefiniciÃ³n bÃ¡sica
+### Definición básica
 ```powershell
 class Usuario {
     # Propiedades
@@ -22,7 +22,7 @@ class Usuario {
         $this.Edad = $edad
     }
     
-    # MÃ©todo
+    # Método
     [string]Saludar() {
         return "Hola, soy $($this.Nombre)"
     }
@@ -118,7 +118,7 @@ $ipPattern = '^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
 # URL
 $urlPattern = '^https?://[\w\-]+(\.[\w\-]+)+[/#?]?.*$'
 
-# NÃºmero de telÃ©fono
+# Número de teléfono
 $phonePattern = '^\+?\d{1,3}[\s-]?\d{3}[\s-]?\d{3}[\s-]?\d{4}$'
 
 # Fecha ISO
@@ -167,7 +167,7 @@ Remove-Job $job
 
 ### Thread Jobs
 ```powershell
-# MÃ¡s rÃ¡pido que background jobs
+# Más rápido que background jobs
 $jobs = 1..5 | ForEach-Object -Parallel {
     # Cada bloque se ejecuta en su propio thread
     "Procesando item $_"
@@ -216,7 +216,7 @@ Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Concepto | Uso |
 |----------|-----|
@@ -228,6 +228,6 @@ Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
 ---
 
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[06 - MÃ³dulo 6 - Desired State Configuration y Seguridad|MÃ³dulo 6: Desired State Configuration y Seguridad]]
+**Siguiente**: [[06 - Módulo 6 - Desired State Configuration y Seguridad|Módulo 6: Desired State Configuration y Seguridad]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

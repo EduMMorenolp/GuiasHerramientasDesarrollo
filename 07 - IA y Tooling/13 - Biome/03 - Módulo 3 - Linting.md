@@ -1,16 +1,16 @@
-﻿# MÃ³dulo 3: Linting
+# Módulo 3: Linting
 
 **Objetivo**: Aprender y dominar: Linting.
 
-Biome incluye mÃ¡s de 500 reglas de linting organizadas en categorÃ­as.
+Biome incluye más de 500 reglas de linting organizadas en categorías.
 
-## Comando bÃ¡sico
+## Comando básico
 
 ```powershell
 npx @biomejs/biome lint --write
 ```
 
-## CategorÃ­as de reglas
+## Categorías de reglas
 
 - `correctness`
 - `complexity`
@@ -19,7 +19,7 @@ npx @biomejs/biome lint --write
 - `style`
 - `suspicious`
 
-## ConfiguraciÃ³n
+## Configuración
 
 ```json
 {
@@ -40,6 +40,6 @@ if (x == null) { }
 ---
 
 **Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[04 - MÃ³dulo 4 - Check Unificado|MÃ³dulo 4: Check Unificado]]
+**Siguiente**: [[04 - Módulo 4 - Check Unificado|Módulo 4: Check Unificado]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

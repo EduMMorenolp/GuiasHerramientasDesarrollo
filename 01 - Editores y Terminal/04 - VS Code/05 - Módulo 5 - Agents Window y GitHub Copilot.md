@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 5: Agents Window y GitHub Copilot
+# Módulo 5: Agents Window y GitHub Copilot
 
-**Objetivo**: Dominar la ventana de agentes y la integraciÃ³n con GitHub Copilot.
+**Objetivo**: Dominar la ventana de agentes y la integración con GitHub Copilot.
 
 ---
 
 ## Agents Window
 
-### Â¿QuÃ© es?
+### ¿Qué es?
 Nueva funcionalidad 2026 que permite ejecutar agentes de IA dentro de VS Code.
 
 ### Abrir Agents Window
@@ -15,8 +15,8 @@ Ctrl+Shift+P > "Agents: Open Agents Window"
 # O hacer clic en el icono de agentes en la activity bar
 ```
 
-### CaracterÃ­sticas
-| Feature | DescripciÃ³n |
+### Características
+| Feature | Descripción |
 |---------|-------------|
 | **Multi-agente** | Varios agentes trabajando en paralelo |
 | **Aislamiento** | Cada agente en su propio contexto |
@@ -24,14 +24,14 @@ Ctrl+Shift+P > "Agents: Open Agents Window"
 | **Changes panel** | Diffs de cambios realizados |
 | **Persistencia** | Preferencias guardadas entre sesiones |
 
-### Uso bÃ¡sico
+### Uso básico
 1. Abre Agents Window
 2. Describe la tarea
 3. El agente analiza, edita y muestra resultados
 4. Revisa cambios en Changes panel
 5. Acepta o descarta modificaciones
 
-### ConfiguraciÃ³n de agentes
+### Configuración de agentes
 ```json
 {
   "agent.harness": "default",
@@ -42,7 +42,7 @@ Ctrl+Shift+P > "Agents: Open Agents Window"
 
 ### Atajos
 ```powershell
-Ctrl+Shift+I    # Nueva sesiÃ³n de agente
+Ctrl+Shift+I    # Nueva sesión de agente
 Ctrl+Enter      # Ejecutar agente con prompt seleccionado
 ```
 
@@ -50,13 +50,13 @@ Ctrl+Enter      # Ejecutar agente con prompt seleccionado
 
 ## GitHub Copilot
 
-### InstalaciÃ³n
+### Instalación
 ```powershell
 # Extensiones necesarias
 # - GitHub Copilot
 # - GitHub Copilot Chat
 
-# AutenticaciÃ³n
+# Autenticación
 Ctrl+Shift+P > "GitHub Copilot: Sign In"
 ```
 
@@ -64,7 +64,7 @@ Ctrl+Shift+P > "GitHub Copilot: Sign In"
 ```powershell
 Tab           # Aceptar sugerencia
 Esc           # Rechazar sugerencia
-Ctrl+Enter    # Ver mÃ¡s sugerencias
+Ctrl+Enter    # Ver más sugerencias
 Alt+]         # Siguiente sugerencia
 Alt+[         # Anterior sugerencia
 ```
@@ -75,18 +75,18 @@ Ctrl+Shift+I     # Abrir chat
 Ctrl+Shift+P > "Copilot: Ask a Question"
 
 # Comandos de chat
-/explain         # Explicar cÃ³digo seleccionado
+/explain         # Explicar código seleccionado
 /fix             # Corregir errores
 /tests           # Generar tests
-/doc             # Generar documentaciÃ³n
-/optimize        # Optimizar cÃ³digo
+/doc             # Generar documentación
+/optimize        # Optimizar código
 /clear           # Limpiar chat
 ```
 
 ### Inline Chat
 ```powershell
 Ctrl+I           # Abrir inline chat
-# Ej: Seleccionar cÃ³digo, Ctrl+I, escribir "refactor this to use async"
+# Ej: Seleccionar código, Ctrl+I, escribir "refactor this to use async"
 ```
 
 ### Custom Instructions
@@ -116,7 +116,7 @@ Ctrl+Shift+I     # Abrir Copilot Edits
 Ctrl+Shift+P > "Testing: Focus on Test Explorer"
 ```
 
-### ConfiguraciÃ³n de testing
+### Configuración de testing
 ```json
 {
   "testExplorer.useNativeTesting": true,
@@ -172,7 +172,7 @@ Ctrl+Shift+P > "Profiles: Import Profile"
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Feature | Comando |
 |---------|---------|
@@ -187,6 +187,6 @@ Ctrl+Shift+P > "Profiles: Import Profile"
 ---
 
 **Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[06 - MÃ³dulo 6 - Settings Sync, Enterprise y Accesibilidad|MÃ³dulo 6: Settings Sync, Enterprise y Accesibilidad]]
+**Siguiente**: [[06 - Módulo 6 - Settings Sync, Enterprise y Accesibilidad|Módulo 6: Settings Sync, Enterprise y Accesibilidad]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

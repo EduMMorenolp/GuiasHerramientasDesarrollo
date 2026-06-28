@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 7: AdministraciÃ³n
+# Módulo 7: Administración
 
 **Objetivo**: Instalar, configurar y mantener una instancia GitLab Self-Hosted.
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ### Docker (Recomendado para pruebas)
 
@@ -46,9 +46,9 @@ helm install gitlab gitlab/gitlab \
 
 ---
 
-## ConfiguraciÃ³n con gitlab.rb
+## Configuración con gitlab.rb
 
-Archivo principal de configuraciÃ³n: `/etc/gitlab/gitlab.rb`
+Archivo principal de configuración: `/etc/gitlab/gitlab.rb`
 
 ```ruby
 # URL externa
@@ -57,7 +57,7 @@ external_url 'https://gitlab.ejemplo.com'
 # Certificados SSL
 letsencrypt['enable'] = true
 
-# LÃ­mites de recursos
+# Límites de recursos
 puma['worker_processes'] = 4
 sidekiq['max_concurrency'] = 25
 
@@ -106,7 +106,7 @@ sudo gitlab-ctl backup-etc
 # Backup con variables de entorno
 # /etc/gitlab/gitlab.rb
 gitlab_rails['backup_path'] = '/mnt/backups/gitlab'
-gitlab_rails['backup_keep_time'] = 604800  # 7 dÃ­as
+gitlab_rails['backup_keep_time'] = 604800  # 7 días
 ```
 
 ### Restore
@@ -127,7 +127,7 @@ sudo gitlab-ctl reconfigure
 sudo gitlab-ctl restart
 ```
 
-### AutomatizaciÃ³n con cron
+### Automatización con cron
 
 ```bash
 # Backup diario a las 2 AM
@@ -138,20 +138,20 @@ sudo gitlab-ctl restart
 
 ## Escalado
 
-### Arquitectura por TamaÃ±o
+### Arquitectura por Tamaño
 
-| Usuarios | Servidores | RAM mÃ­nima | CPU |
+| Usuarios | Servidores | RAM mínima | CPU |
 |----------|------------|------------|-----|
 | 1.000 | 1 (todo en uno) | 8 GB | 4 vCPU |
 | 5.000 | 2 (app + DB) | 16 GB | 8 vCPU |
 | 10.000 | 3 (app, sidekiq, DB) | 32 GB | 16 vCPU |
-| 25.000 | 5+ (mÃºltiples roles) | 64 GB | 32 vCPU |
+| 25.000 | 5+ (múltiples roles) | 64 GB | 32 vCPU |
 | 50.000 | 8+ (HA completo) | 128 GB+ | 64 vCPU |
 
 ### Roles separados (por servidor)
 
 ```ruby
-# Servidor 1: AplicaciÃ³n
+# Servidor 1: Aplicación
 roles ['application_role']
 
 # Servidor 2: Sidekiq (background jobs)
@@ -189,7 +189,7 @@ sudo gitlab-ctl status
 # Ver logs
 sudo gitlab-ctl tail
 
-# Verificar configuraciÃ³n
+# Verificar configuración
 sudo gitlab-rake gitlab:check
 
 # Consola Rails
@@ -198,20 +198,20 @@ sudo gitlab-rails console
 # Actualizar GitLab
 sudo apt update && sudo apt install gitlab-ee
 
-# Verificar versiÃ³n
+# Verificar versión
 sudo gitlab-rake gitlab:env:info
 ```
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
-| **InstalaciÃ³n Docker** | RÃ¡pida para pruebas |
+| **Instalación Docker** | Rápida para pruebas |
 | **Omnibus** | Package todo-en-uno |
 | **Helm** | Despliegue en Kubernetes |
-| **gitlab.rb** | ConfiguraciÃ³n central |
+| **gitlab.rb** | Configuración central |
 | **Backup/Restore** | Copias de seguridad |
 | **Escalado** | De 1k a 50k usuarios |
 | **HA** | Alta disponibilidad |

@@ -1,4 +1,4 @@
-﻿# Módulo 3: Persistencia y Configuracion
+# Módulo 3: Persistencia y Configuracion
 
 **Objetivo**: Aprender y dominar: Persistencia y Configuracion.
 
@@ -70,7 +70,7 @@ aof-use-rdb-preamble yes    # AOF con prefijo RDB (Redis 7+)
 ```conf
 maxmemory 512mb                         # limite de memoria
 maxmemory-policy allkeys-lru            # politica de expulsion
-requirepass mysecretpassword            # contraseÃ±a
+requirepass mysecretpassword            # contraseña
 port 6379                               # puerto
 bind 127.0.0.1                          # interfaz
 daemonize yes                           # modo demonio

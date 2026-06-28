@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 4: Generadores, Decoradores y Context Managers
+# Módulo 4: Generadores, Decoradores y Context Managers
 
-**Objetivo**: Patrones avanzados de Python: generadores, decoradores para metaprogramaciÃ³n y administradores de contexto.
+**Objetivo**: Patrones avanzados de Python: generadores, decoradores para metaprogramación y administradores de contexto.
 
 ---
 
 ## Generadores
 
-### BÃ¡sico
+### Básico
 ```python
 def contador(max: int):
     n = 0
@@ -17,7 +17,7 @@ def contador(max: int):
 for num in contador(5):
     print(num)  # 0, 1, 2, 3, 4
 
-# Generador como expresiÃ³n
+# Generador como expresión
 cuadrados = (x ** 2 for x in range(10))
 ```
 
@@ -61,7 +61,7 @@ def extract_timestamps(lines):
             yield match.group(1)
 ```
 
-### EnvÃ­o de valores con send
+### Envío de valores con send
 ```python
 def accumulador():
     total = 0
@@ -81,7 +81,7 @@ print(acc.send(3))   # 18
 
 ## Decoradores
 
-### Decorador bÃ¡sico
+### Decorador básico
 ```python
 from functools import wraps
 import time
@@ -92,7 +92,7 @@ def timer(func):
         start = time.perf_counter()
         result = func(*args, **kwargs)
         elapsed = time.perf_counter() - start
-        print(f"{func.__name__} tomÃ³ {elapsed:.4f}s")
+        print(f"{func.__name__} tomó {elapsed:.4f}s")
         return result
     return wrapper
 
@@ -122,7 +122,7 @@ def retry(max_attempts: int = 3, delay: float = 1.0):
 
 @retry(max_attempts=5, delay=0.5)
 def llamar_api():
-    # cÃ³digo que puede fallar
+    # código que puede fallar
     pass
 ```
 
@@ -161,7 +161,7 @@ class CountCalls:
 
 ### with statement
 ```python
-# Context manager bÃ¡sico
+# Context manager básico
 class ManagedFile:
     def __init__(self, path: str, mode: str = "r"):
         self.path = path
@@ -206,7 +206,7 @@ def cambiar_directorio(path: str):
     finally:
         os.chdir(cwd)
 
-# ExitStack: mÃºltiples context managers dinÃ¡micos
+# ExitStack: múltiples context managers dinámicos
 from contextlib import ExitStack
 
 def administrar_multiple(archivos):
@@ -241,9 +241,9 @@ async def usar():
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| PatrÃ³n | Uso |
+| Patrón | Uso |
 |--------|-----|
 | Generadores | yield, yield from, send, pipeline |
 | Decoradores | @wraps, argumentos, clases como decoradores |
@@ -251,9 +251,9 @@ async def usar():
 
 ---
 
-**DocumentaciÃ³n oficial**: https://docs.python.org/3/
+**Documentación oficial**: https://docs.python.org/3/
 
-**Siguiente**: [[05 - MÃ³dulo 5 - Testing, Logging y Concurrencia|MÃ³dulo 5: Testing, Logging y Concurrencia]]
+**Siguiente**: [[05 - Módulo 5 - Testing, Logging y Concurrencia|Módulo 5: Testing, Logging y Concurrencia]]
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

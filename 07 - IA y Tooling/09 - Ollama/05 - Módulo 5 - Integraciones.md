@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: Integraciones
+# Módulo 5: Integraciones
 
 **Objetivo**: Integrar Ollama con herramientas de desarrollo y entornos populares.
 
@@ -8,7 +8,7 @@
 
 OpenCode permite usar Ollama como proveedor de modelos local.
 
-### ConfiguraciÃ³n en `opencode.json`
+### Configuración en `opencode.json`
 ```json
 {
   "provider": "ollama",
@@ -20,7 +20,7 @@ OpenCode permite usar Ollama como proveedor de modelos local.
 }
 ```
 
-### ConfiguraciÃ³n con parÃ¡metros
+### Configuración con parámetros
 ```json
 {
   "provider": "ollama",
@@ -28,7 +28,7 @@ OpenCode permite usar Ollama como proveedor de modelos local.
   "customCommands": [
     {
       "name": "chat",
-      "prompt": "Eres un asistente Ãºtil y respondes en espaÃ±ol.",
+      "prompt": "Eres un asistente útil y respondes en español.",
       "model": "llama3.2"
     }
   ],
@@ -57,7 +57,7 @@ $env:OLLAMA_HOST = "http://localhost:11434"
 
 Interfaz web similar a ChatGPT, auto-gestionada con Ollama.
 
-### InstalaciÃ³n con Docker
+### Instalación con Docker
 ```powershell
 docker run -d -p 3000:8080 `
   --add-host=host.docker.internal:host-gateway `
@@ -67,9 +67,9 @@ docker run -d -p 3000:8080 `
   ghcr.io/open-webui/open-webui:main
 ```
 
-Acceder en `http://localhost:3000`. Detecta automÃ¡ticamente Ollama en el host.
+Acceder en `http://localhost:3000`. Detecta automáticamente Ollama en el host.
 
-### InstalaciÃ³n directa (Python)
+### Instalación directa (Python)
 ```powershell
 # Clonar repositorio
 git clone https://github.com/open-webui/open-webui.git
@@ -84,9 +84,9 @@ python app.py
 
 ## Continue.dev
 
-ExtensiÃ³n para VS Code y JetBrains que usa Ollama como backend.
+Extensión para VS Code y JetBrains que usa Ollama como backend.
 
-### ConfiguraciÃ³n en VS Code (`config.json`)
+### Configuración en VS Code (`config.json`)
 ```json
 {
   "models": [
@@ -109,17 +109,17 @@ ExtensiÃ³n para VS Code y JetBrains que usa Ollama como backend.
 }
 ```
 
-### CaracterÃ­sticas
-- Chat contextual sobre el cÃ³digo
-- Autocompletado de cÃ³digo
-- EdiciÃ³n inline
+### Características
+- Chat contextual sobre el código
+- Autocompletado de código
+- Edición inline
 - Soporte multi-modelo
 
 ---
 
 ## LangChain
 
-Framework para aplicaciones con LLMs. IntegraciÃ³n nativa con Ollama.
+Framework para aplicaciones con LLMs. Integración nativa con Ollama.
 
 ```python
 from langchain_community.llms import Ollama
@@ -132,7 +132,7 @@ llm = Ollama(
 )
 
 # Generar texto
-response = llm.invoke("Â¿QuÃ© es LangChain?")
+response = llm.invoke("¿Qué es LangChain?")
 print(response)
 ```
 
@@ -212,15 +212,15 @@ volumes:
 
 | Herramienta | Uso |
 |-------------|-----|
-| OpenCode | Asistente de cÃ³digo local |
+| OpenCode | Asistente de código local |
 | Open WebUI | Interfaz web tipo ChatGPT |
-| Continue.dev | ExtensiÃ³n VS Code |
+| Continue.dev | Extensión VS Code |
 | LangChain | Framework para LLMs |
 | Docker | Contenedor aislado |
 
 ---
 
 **Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[06 - MÃ³dulo 6 - Python y JavaScript|MÃ³dulo 6: Python y JavaScript]]
+**Siguiente**: [[06 - Módulo 6 - Python y JavaScript|Módulo 6: Python y JavaScript]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 3: GestiÃ³n de Paquetes
+# Módulo 3: Gestión de Paquetes
 
-**Objetivo**: Aprender y dominar: GestiÃ³n de Paquetes.
+**Objetivo**: Aprender y dominar: Gestión de Paquetes.
 
 ## Store virtual
 

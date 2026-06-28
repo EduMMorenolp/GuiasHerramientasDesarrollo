@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 2: Docker Compose y Redes
+# Módulo 2: Docker Compose y Redes
 
-**Objetivo**: Orquestar mÃºltiples contenedores y gestionar redes.
+**Objetivo**: Orquestar múltiples contenedores y gestionar redes.
 
 ---
 
 ## Docker Compose
 
-### DefiniciÃ³n
+### Definición
 Herramienta para definir y ejecutar aplicaciones multi-contenedor con un archivo YAML.
 
 ### docker-compose.yml
@@ -71,7 +71,7 @@ docker network connect mi-red mi-app
 # Usar red en docker-compose
 ```
 
-### ComunicaciÃ³n entre contenedores
+### Comunicación entre contenedores
 Los contenedores en la misma red se comunican por nombre del servicio:
 - `http://web:3000`
 - `postgres://db:5432`
@@ -115,10 +115,10 @@ services:
 
 ---
 
-## Mejores PrÃ¡cticas
+## Mejores Prácticas
 
 1. **Un servicio por contenedor**
-2. **ImÃ¡genes ligeras** (alpine, slim)
+2. **Imágenes ligeras** (alpine, slim)
 3. **Usar .dockerignore**
 4. **No ejecutar como root**
 5. **Healthchecks** para dependencias
@@ -127,6 +127,6 @@ services:
 ---
 
 **Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[03 - MÃ³dulo 3 - ProducciÃ³n y OptimizaciÃ³n|MÃ³dulo 3: ProducciÃ³n y OptimizaciÃ³n]]
+**Siguiente**: [[03 - Módulo 3 - Producción y Optimización|Módulo 3: Producción y Optimización]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

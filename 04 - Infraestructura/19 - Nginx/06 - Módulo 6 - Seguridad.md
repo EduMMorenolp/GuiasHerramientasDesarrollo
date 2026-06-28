@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Seguridad
+# Módulo 6: Seguridad
 
 **Objetivo**: Aprender y dominar: Seguridad.
 
@@ -20,7 +20,7 @@ server {
 ```
 
 - `zone=login:10m` â€” zona compartida de 10 MB.
-- `rate=5r/s` â€” mÃ¡ximo 5 requests por segundo.
+- `rate=5r/s` â€” máximo 5 requests por segundo.
 - `burst=10` â€” cola de hasta 10 requests extras.
 - `nodelay` â€” sirve el burst inmediatamente.
 
@@ -53,7 +53,7 @@ server {
 }
 ```
 
-## Ocultar versiÃ³n de Nginx
+## Ocultar versión de Nginx
 
 ```nginx
 server_tokens off;
@@ -88,11 +88,11 @@ http {
 
 ## Tabla de seguridad
 
-| Directiva | PropÃ³sito |
+| Directiva | Propósito |
 |---|---|
 | `limit_req_zone` / `limit_req` | Rate limiting por IP |
 | `allow / deny` | Control de acceso por IP |
-| `server_tokens off` | Oculta versiÃ³n de Nginx |
+| `server_tokens off` | Oculta versión de Nginx |
 | `add_header X-Frame-Options` | Previene clickjacking |
 | `add_header X-Content-Type-Options` | Evita MIME sniffing |
 | `add_header X-XSS-Protection` | XSS filter legacy |
@@ -103,6 +103,6 @@ http {
 ---
 
 **Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/07 - MÃ³dulo 7 - Avanzado|MÃ³dulo 7: Avanzado]]
+**Siguiente**: [[../../19 - Nginx/07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

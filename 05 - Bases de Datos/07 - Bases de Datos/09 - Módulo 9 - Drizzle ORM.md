@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 9: Drizzle ORM
+# Módulo 9: Drizzle ORM
 
 **Objetivo**: Usar Drizzle ORM para TypeScript con tipado fuerte y migraciones.
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ```powershell
 # Para PostgreSQL
@@ -75,7 +75,7 @@ const activos = await db.select()
     .from(usuarios)
     .where(eq(usuarios.activo, true));
 
-// Columnas especÃ­ficas
+// Columnas específicas
 const emails = await db.select({ email: usuarios.email })
     .from(usuarios);
 ```
@@ -104,7 +104,7 @@ await db.delete(usuarios)
 ```typescript
 import { eq, ne, gt, lt, gte, lte, inArray, like, isNull, and, or, not } from 'drizzle-orm';
 
-// ComparaciÃ³n
+// Comparación
 where(eq(usuarios.id, 1))
 where(ne(usuarios.estado, 'inactivo'))
 where(gt(usuarios.edad, 18))
@@ -116,7 +116,7 @@ where(like(usuarios.nombre, '%ana%'))
 // Nulos
 where(isNull(usuarios.telefono))
 
-// CombinaciÃ³n
+// Combinación
 where(and(eq(usuarios.activo, true), gt(usuarios.edad, 18)))
 where(or(eq(usuarios.rol, 'admin'), eq(usuarios.rol, 'mod')))
 ```
@@ -158,10 +158,10 @@ export default {
 ```
 
 ```powershell
-# Generar migraciÃ³n
+# Generar migración
 npx drizzle-kit generate
 
-# Aplicar migraciÃ³n
+# Aplicar migración
 npx drizzle-kit migrate
 
 # Push (sincronizar schema directo, sin archivos)
@@ -176,7 +176,7 @@ npx drizzle-kit push
 npx drizzle-kit studio
 ```
 
-Abre http://localhost:4983 con interfaz grÃ¡fica para:
+Abre http://localhost:4983 con interfaz gráfica para:
 - Navegar tablas y datos
 - Ejecutar queries
 - Editar registros
@@ -186,7 +186,7 @@ Abre http://localhost:4983 con interfaz grÃ¡fica para:
 
 ## Resumen
 
-| OperaciÃ³n | CÃ³digo |
+| Operación | Código |
 |-----------|--------|
 | Schema | `pgTable`, `mysqlTable`, `sqliteTable` |
 | Select | `db.select().from(tabla).where(...)` |
@@ -198,9 +198,9 @@ Abre http://localhost:4983 con interfaz grÃ¡fica para:
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[10 - MÃ³dulo 10 - ReplicaciÃ³n, Backup y Extensiones|MÃ³dulo 10: ReplicaciÃ³n, Backup y Extensiones]]
+**Siguiente**: [[10 - Módulo 10 - Replicación, Backup y Extensiones|Módulo 10: Replicación, Backup y Extensiones]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

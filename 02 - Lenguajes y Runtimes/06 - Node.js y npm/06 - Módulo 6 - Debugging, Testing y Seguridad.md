@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Debugging, Testing y Seguridad
+# Módulo 6: Debugging, Testing y Seguridad
 
 **Objetivo**: Depurar aplicaciones, escribir tests y aplicar seguridad en Node.js.
 
@@ -11,14 +11,14 @@
 // node --inspect app.js
 // node --inspect-brk app.js (pausa al inicio)
 
-// En cÃ³digo:
+// En código:
 debugger;
-console.log('Punto de depuraciÃ³n');
+console.log('Punto de depuración');
 
 // Abrir en Chrome: chrome://inspect
 ```
 
-### DepuraciÃ³n en VS Code
+### Depuración en VS Code
 ```json
 // .vscode/launch.json
 {
@@ -44,7 +44,7 @@ console.log('Punto de depuraciÃ³n');
 }
 ```
 
-### DepuraciÃ³n en terminal
+### Depuración en terminal
 ```bash
 # node --inspect app.js
 # Luego abrir en Chrome DevTools
@@ -62,7 +62,7 @@ node --heapsnapshot-signal=SIGUSR2 app.js
 const { performance } = require('perf_hooks');
 
 const start = performance.now();
-// cÃ³digo a medir
+// código a medir
 const duration = performance.now() - start;
 console.log(`Took ${duration}ms`);
 
@@ -201,14 +201,14 @@ const rateLimit = require('express-rate-limit');
 
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutos
-    max: 100,                  // lÃ­mite por IP
+    max: 100,                  // límite por IP
     message: 'Too many requests'
 });
 
 app.use('/api/', limiter);
 ```
 
-### ValidaciÃ³n y sanitizaciÃ³n
+### Validación y sanitización
 ```javascript
 const { body, validationResult } = require('express-validator');
 
@@ -225,9 +225,9 @@ app.post('/api/users',
 );
 ```
 
-### ProtecciÃ³n contra SQL Injection
+### Protección contra SQL Injection
 ```javascript
-// Usar parametrizaciÃ³n (NUNCA concatenar)
+// Usar parametrización (NUNCA concatenar)
 // Mal:
 db.query(`SELECT * FROM users WHERE id = ${req.params.id}`);
 
@@ -243,7 +243,7 @@ require('dotenv').config();
 const config = {
     port: process.env.PORT || 3000,
     dbUrl: process.env.DATABASE_URL,
-    jwtSecret: process.env.JWT_SECRET // Â¡Nunca hardcodear!
+    jwtSecret: process.env.JWT_SECRET // ¡Nunca hardcodear!
 };
 ```
 
@@ -280,7 +280,7 @@ child.on('message', msg => console.log(msg.result)); // 10
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Tema | Herramienta |
 |------|-------------|
@@ -291,9 +291,9 @@ child.on('message', msg => console.log(msg.result)); // 10
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[07 - MÃ³dulo 7 - TypeScript, Cluster y Temas Avanzados|MÃ³dulo 7: TypeScript, Cluster y Temas Avanzados]]
+**Siguiente**: [[07 - Módulo 7 - TypeScript, Cluster y Temas Avanzados|Módulo 7: TypeScript, Cluster y Temas Avanzados]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

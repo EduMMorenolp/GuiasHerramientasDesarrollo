@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 3: Issues y Planning
+# Módulo 3: Issues y Planning
 
-**Objetivo**: Gestionar el trabajo del equipo con Issues, Boards y planificaciÃ³n Ã¡gil.
+**Objetivo**: Gestionar el trabajo del equipo con Issues, Boards y planificación ágil.
 
 ---
 
@@ -11,12 +11,12 @@
 Desde el proyecto: Issues > New Issue
 
 Campos clave:
-- **Title**: TÃ­tulo descriptivo
-- **Description**: Plantilla con checklist, contexto, criterios de aceptaciÃ³n
+- **Title**: Título descriptivo
+- **Description**: Plantilla con checklist, contexto, criterios de aceptación
 - **Type**: Issue, Task, Incident
 - **Labels**: Etiquetas para categorizar
 - **Milestone**: Asignar a un hito
-- **Due date**: Fecha lÃ­mite
+- **Due date**: Fecha límite
 - **Weight**: Puntos de esfuerzo estimados
 - **Assignee**: Responsable
 - **Confidential**: Issue privado (solo miembros)
@@ -30,19 +30,19 @@ Etiquetas predefinidas y personalizadas:
 bug:        Error reportado
 feature:    Nueva funcionalidad
 enhancement: Mejora existente
-documentation: DocumentaciÃ³n
+documentation: Documentación
 priority::high, priority::low
 status::in-progress, status::done
 ```
 
-### DescripciÃ³n con Checklist
+### Descripción con Checklist
 
 ```
 ## Tareas
-- [ ] Investigar soluciÃ³n
+- [ ] Investigar solución
 - [ ] Implementar cambios
 - [ ] Escribir tests
-- [ ] Actualizar documentaciÃ³n
+- [ ] Actualizar documentación
 ```
 
 ---
@@ -51,7 +51,7 @@ status::in-progress, status::done
 
 Tableros estilo Kanban para visualizar el flujo de trabajo:
 
-| Columna | PropÃ³sito |
+| Columna | Propósito |
 |---------|-----------|
 | **Open** | Issues nuevos sin asignar |
 | **In Progress** | Trabajo en curso |
@@ -61,7 +61,7 @@ Tableros estilo Kanban para visualizar el flujo de trabajo:
 ### Board Avanzado
 
 ```yaml
-# ConfiguraciÃ³n de Board
+# Configuración de Board
 lists:
   - label: "status::backlog"
   - label: "status::ready"
@@ -77,22 +77,22 @@ scope: project  # o group
 
 Hitos que agrupan issues con fecha objetivo:
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
 | **Title** | Nombre del hito (ej: v2.0) |
 | **Start date** | Fecha de inicio |
 | **Due date** | Fecha de entrega |
-| **Progress** | % completado automÃ¡tico |
-| **Burndown Chart** | GrÃ¡fico de progreso |
+| **Progress** | % completado automático |
+| **Burndown Chart** | Gráfico de progreso |
 
 ---
 
 ## Epics
 
-Agrupan mÃºltiples issues y milestones (disponible en Premium+):
+Agrupan múltiples issues y milestones (disponible en Premium+):
 
 ```yaml
-Epic: MigraciÃ³n a microservicios
+Epic: Migración a microservicios
   â”œâ”€â”€ Milestone: MVP APIs
   â”‚   â”œâ”€â”€ Issue: Auth service
   â”‚   â””â”€â”€ Issue: User service
@@ -106,7 +106,7 @@ Epic: MigraciÃ³n a microservicios
 ## Time Tracking
 
 ```yaml
-# En descripciÃ³n del issue
+# En descripción del issue
 /time estimate: 8h
 /time spent: 6h
 ```
@@ -117,18 +117,18 @@ Epic: MigraciÃ³n a microservicios
 # Remaining: 2h
 ```
 
-### Comandos rÃ¡pidos
+### Comandos rápidos
 
-| Comando | AcciÃ³n |
+| Comando | Acción |
 |---------|--------|
 | `/spend 3h` | Registrar tiempo |
-| `/estimate 5h` | Estimar duraciÃ³n |
+| `/estimate 5h` | Estimar duración |
 | `/weight 3` | Asignar peso |
-| `/due 2026-07-15` | Fecha lÃ­mite |
+| `/due 2026-07-15` | Fecha límite |
 | `/assign @usuario` | Asignar usuario |
-| `/label ~bug` | AÃ±adir etiqueta |
+| `/label ~bug` | Añadir etiqueta |
 | `/close` | Cerrar issue |
-| `/epic epic-name` | Vincular Ã©pica |
+| `/epic epic-name` | Vincular épica |
 
 ---
 
@@ -136,26 +136,26 @@ Epic: MigraciÃ³n a microservicios
 
 Capacidades asistidas por IA:
 
-| CaracterÃ­stica | DescripciÃ³n |
+| Característica | Descripción |
 |----------------|-------------|
-| **Code Suggestions** | Autocompletado de cÃ³digo |
-| **Issue description** | Generar descripciÃ³n automÃ¡tica |
+| **Code Suggestions** | Autocompletado de código |
+| **Issue description** | Generar descripción automática |
 | **MR summary** | Resumir cambios en MR |
 | **Code Review** | Sugerencias en revisiones |
 | **Chat** | Asistente conversacional |
-| **Test Generation** | Generar tests automÃ¡ticos |
+| **Test Generation** | Generar tests automáticos |
 | **Root Cause Analysis** | Analizar fallos en CI/CD |
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
 | **Issue** | Tarea, bug o incidencia |
 | **Board** | Tablero Kanban visual |
 | **Milestone** | Hito con fecha objetivo |
-| **Epic** | AgrupaciÃ³n de alto nivel |
+| **Epic** | Agrupación de alto nivel |
 | **Time Tracking** | Registro de tiempo |
 | **Weight** | Puntos de esfuerzo |
 | **GitLab Duo** | Asistente IA integrado |
@@ -163,6 +163,6 @@ Capacidades asistidas por IA:
 ---
 
 **Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[04 - MÃ³dulo 4 - GitLab CI-CD|MÃ³dulo 4: GitLab CI/CD]]
+**Siguiente**: [[04 - Módulo 4 - GitLab CI-CD|Módulo 4: GitLab CI/CD]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

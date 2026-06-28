@@ -1,4 +1,4 @@
-﻿# Módulo 2: Ecosystem File
+# Módulo 2: Ecosystem File
 
 **Objetivo**: Configuracion declarativa multi-app mediante el archivo ecosystem.
 
@@ -87,7 +87,7 @@ apps: [
 
 ## Logs
 
-Configuracion avanzada de logs:
+Configuración avanzada de logs:
 
 ```javascript
 apps: [

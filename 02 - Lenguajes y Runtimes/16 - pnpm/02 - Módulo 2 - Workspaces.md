@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Workspaces
+# Módulo 2: Workspaces
 
 **Objetivo**: Aprender y dominar: Workspaces.
 

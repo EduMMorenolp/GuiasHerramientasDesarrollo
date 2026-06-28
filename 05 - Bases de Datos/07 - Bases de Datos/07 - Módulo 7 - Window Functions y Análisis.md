@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 7: Window Functions y AnÃ¡lisis
+# Módulo 7: Window Functions y Análisis
 
-**Objetivo**: Realizar anÃ¡lisis avanzados con funciones de ventana.
+**Objetivo**: Realizar análisis avanzados con funciones de ventana.
 
 ---
 
-## OVER: La ClÃ¡usula Fundamental
+## OVER: La Cláusula Fundamental
 
 ```sql
 SELECT nombre,
@@ -25,7 +25,7 @@ OVER (
 
 ---
 
-## Funciones de NumeraciÃ³n
+## Funciones de Numeración
 
 ```sql
 SELECT nombre, salario,
@@ -36,11 +36,11 @@ SELECT nombre, salario,
 FROM empleados;
 ```
 
-| FunciÃ³n | Empates | Huecos |
+| Función | Empates | Huecos |
 |---------|---------|--------|
 | `ROW_NUMBER` | No (desempata arbitrariamente) | No |
-| `RANK` | SÃ­ (mismo valor, mismo rango) | SÃ­ |
-| `DENSE_RANK` | SÃ­ (mismo valor, mismo rango) | No |
+| `RANK` | Sí (mismo valor, mismo rango) | Sí |
+| `DENSE_RANK` | Sí (mismo valor, mismo rango) | No |
 | `NTILE(n)` | Divide en n grupos | No |
 
 ---
@@ -55,7 +55,7 @@ SELECT fecha, monto,
 FROM ventas;
 
 -- Con offset por defecto
-LAG(monto, 2)            -- Dos filas atrÃ¡s
+LAG(monto, 2)            -- Dos filas atrás
 LEAD(monto, 1, 0)        -- Una adelante, default 0 si no hay
 ```
 
@@ -70,7 +70,7 @@ FROM ventas;
 
 ---
 
-## Funciones de AgregaciÃ³n como Ventana
+## Funciones de Agregación como Ventana
 
 ```sql
 SELECT fecha, monto,
@@ -107,11 +107,11 @@ FROM usuarios;
 -- rn > 1 son duplicados
 ```
 
-### ComparaciÃ³n aÃ±o contra aÃ±o (YoY)
+### Comparación año contra año (YoY)
 ```sql
-SELECT EXTRACT(YEAR FROM fecha) as aÃ±o,
+SELECT EXTRACT(YEAR FROM fecha) as año,
        SUM(monto) as total,
-       LAG(SUM(monto)) OVER (ORDER BY EXTRACT(YEAR FROM fecha)) as aÃ±o_anterior,
+       LAG(SUM(monto)) OVER (ORDER BY EXTRACT(YEAR FROM fecha)) as año_anterior,
        (SUM(monto) - LAG(SUM(monto)) OVER (ORDER BY EXTRACT(YEAR FROM fecha))) / LAG(SUM(monto)) OVER (ORDER BY EXTRACT(YEAR FROM fecha)) * 100 as crecimiento
 FROM ventas
 GROUP BY EXTRACT(YEAR FROM fecha);
@@ -121,20 +121,20 @@ GROUP BY EXTRACT(YEAR FROM fecha);
 
 ## Resumen
 
-| FunciÃ³n | PropÃ³sito |
+| Función | Propósito |
 |---------|-----------|
 | `ROW_NUMBER` | Numerar filas |
 | `RANK` / `DENSE_RANK` | Ranking con/sin huecos |
 | `NTILE` | Dividir en percentiles |
 | `LAG` / `LEAD` | Acceder a filas anterior/siguiente |
-| `FIRST_VALUE` / `LAST_VALUE` | Primero/Ãºltimo del grupo |
-| Agregados + OVER | Running total, media mÃ³vil |
+| `FIRST_VALUE` / `LAST_VALUE` | Primero/último del grupo |
+| Agregados + OVER | Running total, media móvil |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[08 - MÃ³dulo 8 - PL_pgSQL, Transacciones y MVCC|MÃ³dulo 8: PL/pgSQL, Transacciones y MVCC]]
+**Siguiente**: [[08 - Módulo 8 - PL_pgSQL, Transacciones y MVCC|Módulo 8: PL/pgSQL, Transacciones y MVCC]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

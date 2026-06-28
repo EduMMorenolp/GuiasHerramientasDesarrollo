@@ -1,24 +1,24 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n
+# Módulo 1: Instalación
 
-**Objetivo**: Aprender y dominar: InstalaciÃ³n.
+**Objetivo**: Aprender y dominar: Instalación.
 
-Biome es un toolchain unificado para formateo, linting y mÃ¡s en JavaScript/TypeScript.
+Biome es un toolchain unificado para formateo, linting y más en JavaScript/TypeScript.
 
-## InstalaciÃ³n
+## Instalación
 
 ```powershell
 npm i -D --save-exact @biomejs/biome
 ```
 
-## Inicializar configuraciÃ³n
+## Inicializar configuración
 
 ```powershell
 npx @biomejs/biome init
 ```
 
-Esto crea un archivo `biome.json` en la raÃ­z del proyecto.
+Esto crea un archivo `biome.json` en la raíz del proyecto.
 
-## Verificar instalaciÃ³n
+## Verificar instalación
 
 ```powershell
 npx @biomejs/biome check src/
@@ -31,6 +31,6 @@ npx @biomejs/biome check src/
 ---
 
 **Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[02 - MÃ³dulo 2 - Formateo|MÃ³dulo 2: Formateo]]
+**Siguiente**: [[02 - Módulo 2 - Formateo|Módulo 2: Formateo]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

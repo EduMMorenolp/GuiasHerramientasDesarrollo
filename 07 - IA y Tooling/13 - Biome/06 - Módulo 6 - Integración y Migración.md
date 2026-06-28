@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 6: IntegraciÃ³n y MigraciÃ³n
+# Módulo 6: Integración y Migración
 
-**Objetivo**: Aprender y dominar: IntegraciÃ³n y MigraciÃ³n.
+**Objetivo**: Aprender y dominar: Integración y Migración.
 
 ## VS Code Extension
 
-Instalar la extensiÃ³n oficial `biomejs.biome` y configurar como formateador por defecto:
+Instalar la extensión oficial `biomejs.biome` y configurar como formateador por defecto:
 
 ```json
 {

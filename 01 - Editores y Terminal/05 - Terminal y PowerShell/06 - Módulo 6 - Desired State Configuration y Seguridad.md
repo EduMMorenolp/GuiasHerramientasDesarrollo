@@ -1,22 +1,22 @@
-﻿# MÃ³dulo 6: Desired State Configuration y Seguridad
+# Módulo 6: Desired State Configuration y Seguridad
 
-**Objetivo**: Automatizar configuraciÃ³n de sistemas con DSC y hardening de PowerShell.
+**Objetivo**: Automatizar configuración de sistemas con DSC y hardening de PowerShell.
 
 ---
 
 ## Desired State Configuration (DSC)
 
-### Â¿QuÃ© es?
-Plataforma de gestiÃ³n de configuraciÃ³n que asegura que los sistemas estÃ©n en el estado deseado (declarativo).
+### ¿Qué es?
+Plataforma de gestión de configuración que asegura que los sistemas estén en el estado deseado (declarativo).
 
 ### DSC v3 (PowerShell 7+)
 ```powershell
-# DSC v3 usa recursos independientes (no mÃ³dulos PS)
+# DSC v3 usa recursos independientes (no módulos PS)
 # Instalar recursos DSC
 Install-PSResource -Name Microsoft.Windows.DSC
 ```
 
-### ConfiguraciÃ³n bÃ¡sica (DSC v2)
+### Configuración básica (DSC v2)
 ```powershell
 Configuration WebServerConfig {
     Node "localhost" {
@@ -100,12 +100,12 @@ resources:
 
 ### Execution Policy
 ```powershell
-# PolÃ­ticas de ejecuciÃ³n
+# Políticas de ejecución
 Get-ExecutionPolicy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Scopes: MachinePolicy, UserPolicy, Process, CurrentUser, LocalMachine
-# PolÃ­ticas: Restricted, RemoteSigned, AllSigned, Unrestricted, Bypass
+# Políticas: Restricted, RemoteSigned, AllSigned, Unrestricted, Bypass
 ```
 
 ### PowerShell Constrained Language Mode
@@ -143,7 +143,7 @@ New-PSSessionConfigurationFile -Path .\WebAdmin.pssc
 Register-PSSessionConfiguration -Name WebAdmin -Path .\WebAdmin.pssc
 ```
 
-### Logging y AuditorÃ­a
+### Logging y Auditoría
 ```powershell
 # Script Block Logging
 # GPO: Computer Configuration > Admin Templates > Windows Components > Windows PowerShell
@@ -189,7 +189,7 @@ $cred = New-Object System.Management.Automation.PSCredential("user", $password)
 # - Tab completion mejorado
 # - Nuevo PSResourceGet v1.2
 
-# PowerShell 7.7 (prÃ³ximo)
+# PowerShell 7.7 (próximo)
 # - MCP Server (Model Context Protocol)
 # - Bash-style aliases
 # - Non-profile module loading
@@ -197,7 +197,7 @@ $cred = New-Object System.Management.Automation.PSCredential("user", $password)
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Tema | Herramienta |
 |------|-------------|

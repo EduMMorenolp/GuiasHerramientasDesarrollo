@@ -1,23 +1,23 @@
-﻿# MÃ³dulo 9: Avanzado y Troubleshooting
+# Módulo 9: Avanzado y Troubleshooting
 
-**Objetivo**: ConfiguraciÃ³n avanzada, aceleraciÃ³n GPU y resoluciÃ³n de problemas comunes.
+**Objetivo**: Configuración avanzada, aceleración GPU y resolución de problemas comunes.
 
 ---
 
-## AceleraciÃ³n por GPU
+## Aceleración por GPU
 
 ### NVIDIA CUDA
-Ollama usa CUDA automÃ¡ticamente si detecta una GPU NVIDIA compatible.
+Ollama usa CUDA automáticamente si detecta una GPU NVIDIA compatible.
 
 ```powershell
 # Verificar GPU NVIDIA
 nvidia-smi
 
 # Variables para GPU
-$env:CUDA_VISIBLE_DEVICES = "0"  # Usar GPU especÃ­fica
+$env:CUDA_VISIBLE_DEVICES = "0"  # Usar GPU específica
 $env:OLLAMA_CUDA = "1"           # Forzar CUDA
 
-# Ejecutar con GPU explÃ­cita
+# Ejecutar con GPU explícita
 ollama serve
 ```
 
@@ -32,7 +32,7 @@ Requisitos:
 rocm-smi
 
 # Variables para ROCm
-$env:HSA_OVERRIDE_GFX_VERSION = "10.3.0"  # SegÃºn GPU
+$env:HSA_OVERRIDE_GFX_VERSION = "10.3.0"  # Según GPU
 $env:OLLAMA_ROCM = "1"                    # Forzar ROCm
 ```
 
@@ -43,7 +43,7 @@ Requisitos:
 
 ### Apple Metal (macOS)
 ```bash
-# Ollama usa Metal automÃ¡ticamente en Mac
+# Ollama usa Metal automáticamente en Mac
 # Verificar Metal
 system_profiler SPDisplaysDataType | grep Metal
 
@@ -53,7 +53,7 @@ OLLAMA_METAL=0 ollama serve
 
 ---
 
-## Docker en ProducciÃ³n
+## Docker en Producción
 
 ### Con GPU NVIDIA
 ```powershell
@@ -69,7 +69,7 @@ docker run -d --gpus all `
   ollama/ollama
 ```
 
-### Docker Compose producciÃ³n
+### Docker Compose producción
 ```yaml
 services:
   ollama:
@@ -103,18 +103,18 @@ volumes:
 
 ## Variables de Entorno Avanzadas
 
-| Variable | DescripciÃ³n | Valor recomendado |
+| Variable | Descripción | Valor recomendado |
 |----------|-------------|-------------------|
-| `OLLAMA_NUM_PARALLEL` | Solicitudes paralelas simultÃ¡neas | `2-4` |
-| `OLLAMA_MAX_LOADED_MODELS` | Modelos mÃ¡ximos en memoria | `1-3` |
+| `OLLAMA_NUM_PARALLEL` | Solicitudes paralelas simultáneas | `2-4` |
+| `OLLAMA_MAX_LOADED_MODELS` | Modelos máximos en memoria | `1-3` |
 | `OLLAMA_KEEP_ALIVE` | Tiempo que el modelo permanece cargado | `5m` o `-1` (siempre) |
 | `OLLAMA_FLASH_ATTENTION` | Flash Attention (modelos compatibles) | `1` |
 | `OLLAMA_LLM_LIBRARY` | Backend de inferencia | `auto`, `cuda`, `rocm` |
-| `OLLAMA_DEBUG` | Modo depuraciÃ³n | `1` |
+| `OLLAMA_DEBUG` | Modo depuración | `1` |
 | `OLLAMA_VERBOSE` | Logs detallados | `1` |
 
 ```powershell
-# Ejemplo configuraciÃ³n para servidor
+# Ejemplo configuración para servidor
 $env:OLLAMA_NUM_PARALLEL = "4"
 $env:OLLAMA_MAX_LOADED_MODELS = "2"
 $env:OLLAMA_KEEP_ALIVE = "10m"
@@ -152,24 +152,24 @@ docker logs -f ollama
 
 ---
 
-## Troubleshooting ComÃºn
+## Troubleshooting Común
 
 ### Error: "model requires more system memory"
 ```powershell
 # Causa: No hay suficiente RAM
-# SoluciÃ³n: Usar modelo mÃ¡s pequeÃ±o o cuantizaciÃ³n
+# Solución: Usar modelo más pequeño o cuantización
 
 # Verificar memoria disponible
 systeminfo | findstr "Memoria"
 
-# Probar con cuantizaciÃ³n
+# Probar con cuantización
 ollama pull llama3.2:1b  # En lugar de 3B
 ```
 
 ### Error: "CUDA error: out of memory"
 ```powershell
 # Causa: VRAM insuficiente
-# SoluciÃ³n: Usar cuantizaciÃ³n mÃ¡s agresiva
+# Solución: Usar cuantización más agresiva
 
 ollama pull llama3.2:q4_K_M  # En lugar de f16
 ollama run llama3.2:q4_K_M
@@ -178,19 +178,19 @@ ollama run llama3.2:q4_K_M
 ### Error: "connection refused"
 ```powershell
 # Causa: Servidor no iniciado
-# SoluciÃ³n: Iniciar servidor
+# Solución: Iniciar servidor
 
-# Iniciar servidor explÃ­citamente
+# Iniciar servidor explícitamente
 ollama serve
 
-# Verificar que estÃ¡ corriendo
+# Verificar que está corriendo
 curl http://localhost:11434
 ```
 
 ### Error: "context deadline exceeded"
 ```powershell
 # Causa: Timeout en inferencia
-# SoluciÃ³n: Aumentar timeout
+# Solución: Aumentar timeout
 
 curl -X POST http://localhost:11434/api/generate `
   -H "Content-Type: application/json" `
@@ -206,7 +206,7 @@ curl -X POST http://localhost:11434/api/generate `
 # 3. Muchos modelos cargados
 
 # Soluciones:
-# - Usar modelo mÃ¡s pequeÃ±o
+# - Usar modelo más pequeño
 # - Cerrar otros modelos
 # - Verificar uso de GPU
 nvidia-smi -l 1
@@ -218,7 +218,7 @@ ollama run llama3.2 --num-predict 512
 ### Error: "invalid model name"
 ```powershell
 # Causa: Modelo no existe
-# SoluciÃ³n: Verificar nombre exacto
+# Solución: Verificar nombre exacto
 
 # Listar modelos disponibles
 ollama list
@@ -229,29 +229,29 @@ ollama pull llama3.2  # Usar nombre exacto
 
 ---
 
-## Mejores PrÃ¡cticas
+## Mejores Prácticas
 
-### ProducciÃ³n
+### Producción
 - Usar Docker con restart always
-- Configurar OLLAMA_NUM_PARALLEL segÃºn hardware
+- Configurar OLLAMA_NUM_PARALLEL según hardware
 - Monitorear uso de RAM/VRAM
-- Usar volÃºmenes persistentes
+- Usar volúmenes persistentes
 - Configurar health checks
 
 ### Rendimiento
 - Preferir q4_K_M sobre q4_0
 - Mantener un solo modelo cargado a la vez
 - Usar GPU dedicada cuando sea posible
-- Ajustar keep_alive segÃºn patrÃ³n de uso
+- Ajustar keep_alive según patrón de uso
 
 ---
 
 ## Resumen
 
-| Problema | SoluciÃ³n |
+| Problema | Solución |
 |----------|----------|
-| **Sin GPU** | Usar modelos pequeÃ±os o cloud |
-| **Out of memory** | CuantizaciÃ³n q4_K_M |
+| **Sin GPU** | Usar modelos pequeños o cloud |
+| **Out of memory** | Cuantización q4_K_M |
 | **Slow** | Reducir num_predict, cerrar modelos |
 | **Connection refused** | Iniciar `ollama serve` |
 | **Timeout** | Aumentar --timeout en curl |

@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 5: PersonalizaciÃ³n, Hooks y Git Attributes
+# Módulo 5: Personalización, Hooks y Git Attributes
 
-**Objetivo**: Personalizar Git con hooks, attributes y configuraciÃ³n avanzada.
+**Objetivo**: Personalizar Git con hooks, attributes y configuración avanzada.
 
 ---
 
 ## Git Hooks
 
-Scripts que se ejecutan automÃ¡ticamente en eventos de Git:
+Scripts que se ejecutan automáticamente en eventos de Git:
 
 ### Hooks del lado cliente
 ```powershell
@@ -34,7 +34,7 @@ fi
 |------|-----------|
 | `pre-receive` | Antes de aceptar push |
 | `update` | Por cada rama actualizada |
-| `post-receive` | DespuÃ©s de aceptar push |
+| `post-receive` | Después de aceptar push |
 
 ### Gestionar hooks con Husky
 ```powershell
@@ -108,7 +108,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ## Git Worktrees
 
-Trabajar con mÃºltiples ramas simultÃ¡neamente:
+Trabajar con múltiples ramas simultáneamente:
 
 ```powershell
 # Crear worktree
@@ -122,47 +122,47 @@ git worktree add -b hotfix/login ../hotfix-login main
 
 # Eliminar worktree
 git worktree remove ../hotfix-login
-# O limpiar worktrees huÃ©rfanos
+# O limpiar worktrees huérfanos
 git worktree prune
 ```
 
 ---
 
-## SubmÃ³dulos Avanzados
+## Submódulos Avanzados
 
 ```powershell
-# Actualizar submÃ³dulos recursivamente
+# Actualizar submódulos recursivamente
 git submodule update --init --recursive
 
-# Sincronizar URLs de submÃ³dulos
+# Sincronizar URLs de submódulos
 git submodule sync --recursive
 
-# Registrar submÃ³dulo
+# Registrar submódulo
 git submodule add -b main https://github.com/user/lib.git src/lib
 
-# Commits en submÃ³dulos
+# Commits en submódulos
 cd src/lib
 git checkout main
 git pull
 cd ..
 git add src/lib
-git commit -m "chore: actualizar submÃ³dulo lib"
+git commit -m "chore: actualizar submódulo lib"
 ```
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-Al completar este mÃ³dulo deberÃ­as poder:
+Al completar este módulo deberías poder:
 - [x] Crear hooks pre-commit, commit-msg, pre-push
-- [x] Configurar .gitattributes para normalizaciÃ³n y diffs
+- [x] Configurar .gitattributes para normalización y diffs
 - [x] Crear aliases y config condicional
-- [x] Usar worktrees para mÃºltiples ramas activas
-- [x] Gestionar submÃ³dulos en proyectos complejos
+- [x] Usar worktrees para múltiples ramas activas
+- [x] Gestionar submódulos en proyectos complejos
 
 ---
 
 **Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[06 - MÃ³dulo 6 - Git Internals, LFS y Merge Strategies|MÃ³dulo 6: Git Internals, LFS y Merge Strategies]]
+**Siguiente**: [[06 - Módulo 6 - Git Internals, LFS y Merge Strategies|Módulo 6: Git Internals, LFS y Merge Strategies]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

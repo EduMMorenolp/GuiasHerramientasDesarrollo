@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 1: Primeros Pasos
+# Módulo 1: Primeros Pasos
 
 **Objetivo**: Aprender y dominar: Primeros Pasos.
 
 ## Que es Postman
 
-Postman es una plataforma de API (Interfaz de Programacion de Aplicaciones) que permite diseÃ±ar, construir, probar, documentar y monitorear APIs de manera visual e interactiva.
+Postman es una plataforma de API (Interfaz de Programacion de Aplicaciones) que permite diseñar, construir, probar, documentar y monitorear APIs de manera visual e interactiva.
 
 ### Caracteristicas principales
 
@@ -30,7 +30,7 @@ O descargar desde [postman.com/downloads](https://postman.com/downloads).
 Al abrir Postman por primera vez:
 
 - **Sidebar** (izquierda): Colecciones, entornos, historial
-- **Workspace** (centro): PestaÃ±a de request con metodo, URL, headers, body
+- **Workspace** (centro): Pestaña de request con metodo, URL, headers, body
 - **Response** (abajo): Body, cookies, headers, status code, test results
 - **Barra superior**: Busqueda, workspaces, importar, configuracion
 
@@ -144,9 +144,9 @@ X-Response-Time: 45ms
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
-**Siguiente**: [[02 - MÃ³dulo 2 - Collections|MÃ³dulo 2: Collections]]
+**Siguiente**: [[02 - Módulo 2 - Collections|Módulo 2: Collections]]
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

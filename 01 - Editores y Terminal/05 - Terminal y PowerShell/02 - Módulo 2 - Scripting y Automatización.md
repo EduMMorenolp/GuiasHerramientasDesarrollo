@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Scripting y AutomatizaciÃ³n
+# Módulo 2: Scripting y Automatización
 
 **Objetivo**: Escribir scripts para automatizar tareas repetitivas.
 
@@ -7,7 +7,7 @@
 ## Variables
 
 ```powershell
-# DeclaraciÃ³n
+# Declaración
 $nombre = "Mundo"
 $numero = 42
 $lista = @(1, 2, 3, 4, 5)
@@ -17,8 +17,8 @@ $hash = @{ clave = "valor"; nombre = "Juan" }
 [int]$edad = 25
 [string]$mensaje = "Hola"
 
-# InterpolaciÃ³n
-Write-Host "Hola $nombre, tienes $edad aÃ±os"
+# Interpolación
+Write-Host "Hola $nombre, tienes $edad años"
 
 # Variables de entorno
 $env:PATH
@@ -36,14 +36,14 @@ if ($edad -ge 18) {
 } elseif ($edad -ge 13) {
     Write-Host "Adolescente"
 } else {
-    Write-Host "NiÃ±o"
+    Write-Host "Niño"
 }
 
 # Switch
 switch ($dia) {
     "lunes" { Write-Host "Inicio de semana" }
     "viernes" { Write-Host "Finde cerca" }
-    default { Write-Host "DÃ­a normal" }
+    default { Write-Host "Día normal" }
 }
 ```
 
@@ -69,7 +69,7 @@ while ($count -lt 5) {
 
 # Do-While
 do {
-    $input = Read-Host "Â¿Continuar? (s/n)"
+    $input = Read-Host "¿Continuar? (s/n)"
 } while ($input -ne "n")
 ```
 
@@ -78,13 +78,13 @@ do {
 ## Funciones
 
 ```powershell
-# FunciÃ³n bÃ¡sica
+# Función básica
 function Saludar {
     param([string]$nombre)
     Write-Host "Hola, $nombre!"
 }
 
-# FunciÃ³n con pipeline
+# Función con pipeline
 function Get-CalculatedSize {
     param(
         [Parameter(ValueFromPipeline)]
@@ -99,7 +99,7 @@ function Get-CalculatedSize {
     }
 }
 
-# Ejemplo: backup automÃ¡tico
+# Ejemplo: backup automático
 function Backup-Project {
     param(
         [string]$Source = ".",
@@ -117,19 +117,19 @@ function Backup-Project {
 
 ---
 
-## MÃ³dulos
+## Módulos
 
 ```powershell
-# Listar mÃ³dulos instalados
+# Listar módulos instalados
 Get-Module -ListAvailable
 
-# Instalar mÃ³dulo
+# Instalar módulo
 Install-Module -Name PSScriptAnalyzer
 
-# Importar mÃ³dulo
+# Importar módulo
 Import-Module PSScriptAnalyzer
 
-# Crear mÃ³dulo simple
+# Crear módulo simple
 # modulo.psm1
 function Get-Hello { "Hello from module" }
 Export-ModuleMember -Function Get-Hello
@@ -153,7 +153,7 @@ $config = Get-Content "config.json" | ConvertFrom-Json
 # Escribir JSON
 $data | ConvertTo-Json -Depth 3 | Set-Content "output.json"
 
-# Leer archivo lÃ­nea por lÃ­nea
+# Leer archivo línea por línea
 Get-Content "log.txt" | ForEach-Object {
     if ($_ -match "ERROR") {
         Write-Host $_ -ForegroundColor Red
@@ -184,7 +184,7 @@ Get-ChildItem "no_existe" -ErrorAction Stop
 
 ---
 
-## AutomatizaciÃ³n de Tareas
+## Automatización de Tareas
 
 ### Ejemplo: Limpiar archivos temporales
 ```powershell
@@ -198,7 +198,7 @@ function Clear-TempFiles {
         Where-Object { $_.LastWriteTime -lt $cutoffDate } |
         Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
     
-    Write-Host "Archivos temporales anteriores a $DaysOld dÃ­as eliminados"
+    Write-Host "Archivos temporales anteriores a $DaysOld días eliminados"
 }
 ```
 
@@ -220,6 +220,6 @@ function Watch-Process {
 ---
 
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[03 - MÃ³dulo 3 - Perfiles y PersonalizaciÃ³n|MÃ³dulo 3: Perfiles y PersonalizaciÃ³n]]
+**Siguiente**: [[03 - Módulo 3 - Perfiles y Personalización|Módulo 3: Perfiles y Personalización]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,4 +1,4 @@
-﻿# Módulo 3: Intercepciones y Mocks
+# Módulo 3: Intercepciones y Mocks
 
 **Objetivo**: Aprender y dominar: Intercepciones y Mocks.
 

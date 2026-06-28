@@ -1,20 +1,20 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Runtime
+# Módulo 1: Instalación y Runtime
 
-**Objetivo**: Aprender y dominar: InstalaciÃ³n y Runtime.
+**Objetivo**: Aprender y dominar: Instalación y Runtime.
 
-## InstalaciÃ³n
+## Instalación
 
 ```bash
-# InstalaciÃ³n global con curl (Linux/macOS)
+# Instalación global con curl (Linux/macOS)
 curl -fsSL https://bun.sh/install | bash
 
-# InstalaciÃ³n con npm
+# Instalación con npm
 npm install -g bun
 
 # Windows con winget
 winget install Bun
 
-# Verificar versiÃ³n
+# Verificar versión
 bun --version
 
 # Ayuda

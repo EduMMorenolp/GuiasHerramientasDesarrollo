@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Avanzado
+# Módulo 6: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 

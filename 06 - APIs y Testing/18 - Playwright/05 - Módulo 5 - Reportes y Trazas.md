@@ -1,4 +1,4 @@
-﻿# Módulo 5: Reportes y Trazas
+# Módulo 5: Reportes y Trazas
 
 **Objetivo**: Aprender y dominar: Reportes y Trazas.
 

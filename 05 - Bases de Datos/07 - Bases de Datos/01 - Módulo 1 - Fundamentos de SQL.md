@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 1: Fundamentos de SQL
+# Módulo 1: Fundamentos de SQL
 
 **Objetivo**: Dominar las operaciones fundamentales de SQL y conocer los tipos de datos de los principales motores.
 
 ---
 
-## Consultas BÃ¡sicas
+## Consultas Básicas
 
 ### SELECT y WHERE
 ```sql
@@ -18,7 +18,7 @@ WHERE col IN ('a', 'b', 'c')
 WHERE col IS NULL
 ```
 
-### Ordenamiento y LÃ­mite
+### Ordenamiento y Límite
 ```sql
 SELECT * FROM productos ORDER BY precio DESC LIMIT 10;
 SELECT * FROM clientes ORDER BY apellido ASC, nombre ASC;
@@ -28,7 +28,7 @@ SELECT * FROM clientes ORDER BY apellido ASC, nombre ASC;
 
 ## Joins
 
-| Join | DescripciÃ³n |
+| Join | Descripción |
 |------|-------------|
 | `INNER JOIN` | Solo registros coincidentes en ambas tablas |
 | `LEFT JOIN` | Todos los de izquierda + coincidentes de derecha |
@@ -47,7 +47,7 @@ LEFT JOIN departamentos d ON e.depto_id = d.id;
 
 ---
 
-## AgregaciÃ³n
+## Agregación
 
 ```sql
 SELECT COUNT(*) as total,
@@ -71,7 +71,7 @@ HAVING AVG(precio) > 50;
 
 ---
 
-## ModificaciÃ³n de Datos
+## Modificación de Datos
 
 ```sql
 -- Insertar
@@ -113,28 +113,28 @@ DROP TABLE usuarios;
 | Binario | BLOB | BLOB | BYTEA |
 | JSON | TEXT (funciones) | JSON, JSONB | JSON, JSONB |
 | UUID | TEXT | BINARY(16) | UUID |
-| Array | No | No | SÃ­ |
+| Array | No | No | Sí |
 | Booleano | INTEGER 0/1 | BOOLEAN, TINYINT | BOOLEAN |
 
 ---
 
 ## Resumen
 
-| ClÃ¡usula | PropÃ³sito |
+| Cláusula | Propósito |
 |----------|-----------|
 | `SELECT` | Proyectar columnas |
 | `WHERE` | Filtrar filas |
 | `JOIN` | Combinar tablas |
-| `GROUP BY` | Agrupar para agregaciÃ³n |
+| `GROUP BY` | Agrupar para agregación |
 | `HAVING` | Filtrar grupos |
 | `ORDER BY` | Ordenar resultados |
 | `LIMIT` | Restringir cantidad |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[02 - MÃ³dulo 2 - SQLite|MÃ³dulo 2: SQLite]]
+**Siguiente**: [[02 - Módulo 2 - SQLite|Módulo 2: SQLite]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

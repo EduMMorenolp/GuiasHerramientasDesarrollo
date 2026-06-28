@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 2: npm Scripts y PublicaciÃ³n
+# Módulo 2: npm Scripts y Publicación
 
-**Objetivo**: Scripts avanzados, seguridad y publicaciÃ³n de paquetes.
+**Objetivo**: Scripts avanzados, seguridad y publicación de paquetes.
 
 ---
 
@@ -9,7 +9,7 @@
 Ejecuta paquetes sin instalarlos globalmente:
 
 ```powershell
-# Sin npx (requiere instalaciÃ³n global)
+# Sin npx (requiere instalación global)
 npm install -g create-react-app
 create-react-app mi-app
 
@@ -42,9 +42,9 @@ npx cowsay "Hola mundo"
 ```
 
 ### Pre/Post hooks
-Los scripts con prefijo `pre` o `post` se ejecutan automÃ¡ticamente:
+Los scripts con prefijo `pre` o `post` se ejecutan automáticamente:
 - `prebuild` se ejecuta antes de `build`
-- `postbuild` se ejecuta despuÃ©s de `build`
+- `postbuild` se ejecuta después de `build`
 
 ---
 
@@ -54,10 +54,10 @@ Los scripts con prefijo `pre` o `post` se ejecutan automÃ¡ticamente:
 # Auditar dependencias
 npm audit
 
-# Auditar solo alto/crÃ­tico
+# Auditar solo alto/crítico
 npm audit --audit-level=high
 
-# Arreglar automÃ¡ticamente (cuando sea posible)
+# Arreglar automáticamente (cuando sea posible)
 npm audit fix
 
 # Forzar arreglo (puede romper compatibilidad)
@@ -68,7 +68,7 @@ npm audit fix --force
 
 ## Publicar Paquetes
 
-### PreparaciÃ³n
+### Preparación
 ```json
 {
   "name": "@usuario/mi-paquete",
@@ -89,16 +89,16 @@ npm audit fix --force
 # Login
 npm login
 
-# Publicar (pÃºblico)
+# Publicar (público)
 npm publish
 
-# Publicar como paquete pÃºblico
+# Publicar como paquete público
 npm publish --access public
 
-# Publicar versiÃ³n especÃ­fica
+# Publicar versión específica
 npm publish --tag next
 
-# Actualizar versiÃ³n
+# Actualizar versión
 npm version patch    # 1.0.0 -> 1.0.1
 npm version minor    # 1.0.0 -> 1.1.0
 npm version major    # 1.0.0 -> 2.0.0
@@ -120,20 +120,20 @@ MAJOR.MINOR.PATCH
 ```
 
 ### Rangos de versiones
-| SÃ­mbolo | Significado | Ejemplo |
+| Símbolo | Significado | Ejemplo |
 |---------|-------------|---------|
 | `^1.0.0` | Compatible con 1.x.x | `^1.0.0` permite `1.9.9` |
 | `~1.0.0` | Compatible con 1.0.x | `~1.0.0` permite `1.0.9` |
 | `>=1.0.0 <2.0.0` | Rango | |
-| `1.0.0` | VersiÃ³n exacta | |
-| `*` | Cualquier versiÃ³n | |
+| `1.0.0` | Versión exacta | |
+| `*` | Cualquier versión | |
 
 ---
 
 ## npm Config
 
 ```powershell
-# Ver configuraciÃ³n
+# Ver configuración
 npm config list
 npm config list -l  # Todas las opciones
 
@@ -148,21 +148,21 @@ npm config set @mi-empresa:registry "https://npm.mi-empresa.com"
 
 ---
 
-## Buenas PrÃ¡cticas
+## Buenas Prácticas
 
 1. **package-lock.json** siempre en el repositorio
 2. **node_modules** en .gitignore
 3. **npm ci** en lugar de npm install en CI/CD
 4. **npm audit** regularmente
-5. **Versiones exactas** en producciÃ³n si es crÃ­tico
+5. **Versiones exactas** en producción si es crítico
 6. **Scripts descriptivos** para tareas comunes
 7. **precommit hooks** para lint y tests
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[03 - MÃ³dulo 3 - AsincronÃ­a y Event Loop|MÃ³dulo 3: AsincronÃ­a y Event Loop]]
+**Siguiente**: [[03 - Módulo 3 - Asincronía y Event Loop|Módulo 3: Asincronía y Event Loop]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

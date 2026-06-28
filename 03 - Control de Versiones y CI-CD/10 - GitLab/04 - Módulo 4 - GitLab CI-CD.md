@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: GitLab CI/CD
+# Módulo 4: GitLab CI/CD
 
 **Objetivo**: Automatizar build, test y deploy con GitLab CI/CD.
 
@@ -6,9 +6,9 @@
 
 ## .gitlab-ci.yml
 
-Archivo en la raÃ­z del repositorio que define el pipeline.
+Archivo en la raíz del repositorio que define el pipeline.
 
-### Estructura BÃ¡sica
+### Estructura Básica
 
 ```yaml
 stages:
@@ -45,18 +45,18 @@ deploy-job:
 
 ### Keywords Esenciales
 
-| Keyword | DescripciÃ³n |
+| Keyword | Descripción |
 |---------|-------------|
-| `stages` | Define el orden de ejecuciÃ³n |
+| `stages` | Define el orden de ejecución |
 | `stage` | Asigna job a una etapa |
 | `script` | Comandos a ejecutar |
-| `only`/`except` | Condiciones de ejecuciÃ³n |
+| `only`/`except` | Condiciones de ejecución |
 | `rules` | Reglas avanzadas (reemplaza only/except) |
 | `artifacts` | Archivos generados que pasan entre jobs |
 | `cache` | Archivos reutilizables entre ejecuciones |
 | `variables` | Variables de entorno |
 | `before_script` | Comandos antes de cada job |
-| `after_script` | Comandos despuÃ©s de cada job |
+| `after_script` | Comandos después de cada job |
 
 ---
 
@@ -66,7 +66,7 @@ Agentes que ejecutan los jobs del pipeline.
 
 ### Tipos de Runners
 
-| Runner | DescripciÃ³n |
+| Runner | Descripción |
 |--------|-------------|
 | **Shared** | Proporcionados por GitLab SaaS |
 | **Group** | Compartido en un grupo |
@@ -92,7 +92,7 @@ sudo gitlab-runner register \
 
 ### Tipos de Variables
 
-| Tipo | Ãmbito |
+| Tipo | Ámbito |
 |------|--------|
 | **Project** | Solo un proyecto |
 | **Group** | Todos los proyectos del grupo |
@@ -102,7 +102,7 @@ sudo gitlab-runner register \
 ### Variables Predefinidas
 
 ```yaml
-# Variables Ãºtiles
+# Variables útiles
 CI_COMMIT_BRANCH: main
 CI_COMMIT_SHA: abc123
 CI_PIPELINE_ID: 12345
@@ -111,7 +111,7 @@ CI_REGISTRY: registry.gitlab.com
 CI_REGISTRY_IMAGE: registry.gitlab.com/usuario/repo
 ```
 
-### MÃ¡scara y ProtecciÃ³n
+### Máscara y Protección
 
 ```yaml
 variables:
@@ -214,21 +214,21 @@ deploy-production:
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
-| **Pipeline** | EjecuciÃ³n completa de CI/CD |
+| **Pipeline** | Ejecución completa de CI/CD |
 | **Job** | Unidad de trabajo individual |
 | **Stage** | Fase del pipeline |
 | **Runner** | Ejecutor de jobs |
-| **Variables** | ConfiguraciÃ³n parametrizada |
+| **Variables** | Configuración parametrizada |
 | **Artifacts** | Archivos entre jobs |
 | **Cache** | Archivos reutilizables |
 
 ---
 
 **Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[05 - MÃ³dulo 5 - Registro y Deploy|MÃ³dulo 5: Registro y Deploy]]
+**Siguiente**: [[05 - Módulo 5 - Registro y Deploy|Módulo 5: Registro y Deploy]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

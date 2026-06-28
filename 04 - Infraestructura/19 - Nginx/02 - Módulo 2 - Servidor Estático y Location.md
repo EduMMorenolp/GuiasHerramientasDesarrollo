@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 2: Servidor EstÃ¡tico y Location
+# Módulo 2: Servidor Estático y Location
 
-**Objetivo**: Aprender y dominar: Servidor EstÃ¡tico y Location.
+**Objetivo**: Aprender y dominar: Servidor Estático y Location.
 
 ## root vs alias
 
@@ -35,27 +35,27 @@ server {
 ```
 
 - `index`: archivos por defecto al acceder a un directorio.
-- `try_files`: intenta rutas en orden; si ninguna existe, cae en la Ãºltima.
+- `try_files`: intenta rutas en orden; si ninguna existe, cae en la última.
 - `autoindex`: muestra listado de directorios si no hay `index`.
 
 ## Location blocks
 
-Nginx evalÃºa los `location` blocks en este orden de prioridad:
+Nginx evalúa los `location` blocks en este orden de prioridad:
 
 1. `= /exacto` (coincidencia exacta)
 2. `^~ /prefijo` (coincidencia preferencial, sin regex)
-3. `~ \.php$` o `~* \.jpg$` (regex, sensible o no a mayÃºsculas)
+3. `~ \.php$` o `~* \.jpg$` (regex, sensible o no a mayúsculas)
 4. `/prefijo` (coincidencia por prefijo simple)
 
 ### Tabla de directivas location
 
-| Tipo | Sintaxis | EvaluaciÃ³n |
+| Tipo | Sintaxis | Evaluación |
 |---|---|---|
-| Exacta | `= /path` | Coincidencia literal, detiene bÃºsqueda |
+| Exacta | `= /path` | Coincidencia literal, detiene búsqueda |
 | Prefijo | `/path` | Coincide si el URI empieza con /path |
 | Preferencial | `^~ /path` | Igual que prefijo pero descarta regex |
-| Regex sensible | `~ pattern` | ExpresiÃ³n regular (primera que coincida) |
-| Regex insensible | `~* pattern` | Igual que ~ pero sin distinguir mayÃºsculas |
+| Regex sensible | `~ pattern` | Expresión regular (primera que coincida) |
+| Regex insensible | `~* pattern` | Igual que ~ pero sin distinguir mayúsculas |
 
 ```nginx
 location = /favicon.ico {
@@ -92,11 +92,11 @@ server {
 }
 ```
 
-Esto redirige todas las rutas no encontradas a `index.html`, permitiendo que el router del frontend maneje la navegaciÃ³n.
+Esto redirige todas las rutas no encontradas a `index.html`, permitiendo que el router del frontend maneje la navegación.
 
 ---
 
 **Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/03 - MÃ³dulo 3 - Proxy Inverso|MÃ³dulo 3: Proxy Inverso]]
+**Siguiente**: [[../../19 - Nginx/03 - Módulo 3 - Proxy Inverso|Módulo 3: Proxy Inverso]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

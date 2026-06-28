@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 4: Plugins
+# Módulo 4: Plugins
 
 **Objetivo**: Aprender y dominar: Plugins.
 
 ## Core vs Community Plugins
-- **Core plugins**: Vienen incluidos con Obsidian. No requieren instalaciÃ³n adicional. Ejemplos: Backlinks, Graph View, Outline, Templates.
-- **Community plugins**: Desarrollados por la comunidad. Requieren instalaciÃ³n manual desde Ajustes > Plugins comunitarios.
+- **Core plugins**: Vienen incluidos con Obsidian. No requieren instalación adicional. Ejemplos: Backlinks, Graph View, Outline, Templates.
+- **Community plugins**: Desarrollados por la comunidad. Requieren instalación manual desde Ajustes > Plugins comunitarios.
 
 ## Instalar/Actualizar/Desinstalar
 
@@ -37,6 +37,6 @@ Obsidian expone una API en TypeScript/JavaScript para desarrollar plugins. Los p
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[05 - MÃ³dulo 5 - Plugins Esenciales|MÃ³dulo 5: Plugins Esenciales]]
+**Siguiente**: [[05 - Módulo 5 - Plugins Esenciales|Módulo 5: Plugins Esenciales]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

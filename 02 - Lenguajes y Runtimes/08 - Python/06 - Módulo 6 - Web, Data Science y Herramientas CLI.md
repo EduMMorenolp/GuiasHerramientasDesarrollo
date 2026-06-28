@@ -1,4 +1,4 @@
-﻿# Módulo 6: Web, Data Science y Herramientas CLI
+# Módulo 6: Web, Data Science y Herramientas CLI
 
 **Objetivo**: Aplicaciones web con FastAPI, análisis de datos con pandas/numpy, y herramientas CLI profesionales.
 

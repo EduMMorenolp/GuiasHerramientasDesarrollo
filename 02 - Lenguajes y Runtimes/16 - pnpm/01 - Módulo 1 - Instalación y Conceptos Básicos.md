@@ -1,8 +1,8 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Conceptos BÃ¡sicos
+# Módulo 1: Instalación y Conceptos Básicos
 
-**Objetivo**: Aprender y dominar: InstalaciÃ³n y Conceptos BÃ¡sicos.
+**Objetivo**: Aprender y dominar: Instalación y Conceptos Básicos.
 
-## InstalaciÃ³n
+## Instalación
 
 pnpm puede instalarse de varias formas:
 
@@ -17,7 +17,7 @@ winget install pnpm
 scoop install pnpm
 ```
 
-Verificar la instalaciÃ³n:
+Verificar la instalación:
 
 ```bash
 pnpm --version
@@ -25,7 +25,7 @@ pnpm --version
 
 ## Comandos fundamentales
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `pnpm init` | Inicializa un `package.json` |
 | `pnpm install` | Instala dependencias desde `pnpm-lock.yaml` |
@@ -53,16 +53,16 @@ pnpm import
 
 ## Comparativa npm vs pnpm
 
-| CaracterÃ­stica | npm | pnpm |
+| Característica | npm | pnpm |
 |----------------|-----|------|
 | Store global | No | Si (hard links) |
 | Hoisting | Si | No |
 | Espacio en disco | Alto | Bajo |
-| Velocidad instalaciÃ³n | Media | Alta |
+| Velocidad instalación | Media | Alta |
 | Estructura node_modules | Plana | Anidada con symlinks |
 | Soporte monorepos | workspaces | Workspaces nativos |
 
-## NavegaciÃ³n
+## Navegación
 
 ---
 

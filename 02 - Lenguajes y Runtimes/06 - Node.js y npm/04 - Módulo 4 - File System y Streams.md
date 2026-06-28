@@ -1,16 +1,16 @@
-﻿# MÃ³dulo 4: File System y Streams
+# Módulo 4: File System y Streams
 
 **Objetivo**: Operaciones avanzadas de sistema de archivos, streams, buffers y pipelines eficientes.
 
 ---
 
-## MÃ³dulo fs
+## Módulo fs
 
 ```javascript
 const fs = require('fs');
 const fsp = require('fs/promises');
 
-// SÃ­ncrono vs AsÃ­ncrono
+// Síncrono vs Asíncrono
 fs.mkdirSync('./dir', { recursive: true });
 const content = fs.readFileSync('file.txt', 'utf8');
 
@@ -67,7 +67,7 @@ console.log(buf2[0]);              // 72 (0x48)
 
 // Slicing (no copia, comparte memoria)
 const slice = buf2.subarray(0, 2);
-slice[0] = 0x48; // modifica buffer original tambiÃ©n
+slice[0] = 0x48; // modifica buffer original también
 
 // Concatenar
 const combined = Buffer.concat([buf2, Buffer.from(' World')]);
@@ -133,7 +133,7 @@ const writeStream = fs.createWriteStream('output.log');
 // Pipe
 readStream.pipe(writeStream);
 
-// Pipeline (mejor, maneja errores automÃ¡ticamente)
+// Pipeline (mejor, maneja errores automáticamente)
 const { pipeline } = require('stream/promises');
 
 await pipeline(
@@ -162,13 +162,13 @@ for await (const line of rl) {
 
 ### Backpressure
 ```javascript
-// El stream maneja backpressure automÃ¡ticamente
-// readable.push(null) cuando no hay mÃ¡s datos
-// writable.write() retorna false cuando el buffer estÃ¡ lleno
+// El stream maneja backpressure automáticamente
+// readable.push(null) cuando no hay más datos
+// writable.write() retorna false cuando el buffer está lleno
 // pipe() y pipeline() manejan backpressure
 
 const slowWritable = new Writable({
-    highWaterMark: 1024, // buffer mÃ¡ximo
+    highWaterMark: 1024, // buffer máximo
     write(chunk, encoding, callback) {
         setTimeout(callback, 100); // procesamiento lento
     }
@@ -177,7 +177,7 @@ const slowWritable = new Writable({
 
 ---
 
-## MÃ³dulo path
+## Módulo path
 
 ```javascript
 const path = require('path');
@@ -201,20 +201,20 @@ path.relative('/data/orig', '/data/dest/file.txt'); // '../dest/file.txt'
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| API | DescripciÃ³n |
+| API | Descripción |
 |-----|-------------|
-| fs/promises | API asÃ­ncrona moderna |
+| fs/promises | API asíncrona moderna |
 | Streams | pipe, pipeline, Transform |
 | Buffers | Buffer.alloc, Buffer.from, subarray |
 | path | join, resolve, parse, relative |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[05 - MÃ³dulo 5 - HTTP y Web Servers|MÃ³dulo 5: HTTP y Web Servers]]
+**Siguiente**: [[05 - Módulo 5 - HTTP y Web Servers|Módulo 5: HTTP y Web Servers]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

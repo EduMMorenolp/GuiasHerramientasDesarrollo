@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Git Internals, LFS y Merge Strategies
+# Módulo 6: Git Internals, LFS y Merge Strategies
 
 **Objetivo**: Comprender el funcionamiento interno de Git y manejo de archivos grandes.
 
@@ -9,7 +9,7 @@
 ### Objetos fundamentales
 Git almacena todo como objetos en `.git/objects/`:
 
-| Objeto | DescripciÃ³n |
+| Objeto | Descripción |
 |--------|-------------|
 | **Blob** | Contenido de archivo |
 | **Tree** | Directorio (contiene blobs y trees) |
@@ -25,7 +25,7 @@ git hash-object archivo.js
 git cat-file -p abc123
 git cat-file -t abc123  # Tipo del objeto
 
-# Ver Ã¡rbol de un commit
+# Ver árbol de un commit
 git ls-tree -r HEAD
 
 # Ver estructura interna
@@ -39,7 +39,7 @@ git rev-parse main~2
 cat .git/refs/heads/main
 cat .git/refs/tags/v1.0
 
-# HEAD como referencia simbÃ³lica
+# HEAD como referencia simbólica
 cat .git/HEAD
 # Output: ref: refs/heads/main
 ```
@@ -49,7 +49,7 @@ cat .git/HEAD
 # Comprimir objetos sueltos
 git gc
 
-# Ver estadÃ­sticas
+# Ver estadísticas
 git count-objects -v
 
 # Forzar empaquetado
@@ -60,20 +60,20 @@ git gc --aggressive
 
 ## Git LFS (Large File Storage)
 
-### Â¿QuÃ© es?
+### ¿Qué es?
 Reemplaza archivos grandes con punteros, almacenando el contenido real en servidores externos.
 
-### InstalaciÃ³n y uso
+### Instalación y uso
 ```powershell
 # Instalar
 git lfs install
 
-# Trackear extensiÃ³n
+# Trackear extensión
 git lfs track "*.psd"
 git lfs track "*.zip"
 git lfs track "models/*.h5"
 
-# AÃ±adir .gitattributes generado
+# Añadir .gitattributes generado
 git add .gitattributes
 
 # Ver archivos trackeados
@@ -87,7 +87,7 @@ git lfs migrate import --include="*.psd" --everything
 ```powershell
 # Clonar repo con LFS
 git clone https://github.com/user/repo.git
-# LFS se descarga automÃ¡ticamente
+# LFS se descarga automáticamente
 
 # Si no quieres archivos LFS
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/user/repo.git
@@ -98,10 +98,10 @@ git lfs fsck
 
 ### LFS en GitHub
 ```yaml
-# LÃ­mites GitHub
+# Límites GitHub
 # - 2 GB por archivo
 # - 5 GB/mes gratis
-# - Planes de pago para mÃ¡s almacenamiento
+# - Planes de pago para más almacenamiento
 ```
 
 ---
@@ -116,29 +116,29 @@ git merge feature
 # Ours (ignora cambios de la otra rama)
 git merge -s ours feature
 
-# Octopus (mÃºltiples ramas)
+# Octopus (múltiples ramas)
 git merge feature1 feature2 feature3
 
 # Subtree (fusionar proyecto dentro de subdirectorio)
 git merge -s subtree feature
 
-# Resolve (3-way, sin detecciÃ³n de renombres)
+# Resolve (3-way, sin detección de renombres)
 git merge -s resolve feature
 ```
 
 ### Merge ortogonal (ort)
 Nueva estrategia desde Git 2.33+:
 ```powershell
-git merge -s ort feature  # MÃ¡s rÃ¡pido, mejor manejo de conflictos
+git merge -s ort feature  # Más rápido, mejor manejo de conflictos
 ```
 
-### Estrategias avanzadas de resoluciÃ³n
+### Estrategias avanzadas de resolución
 ```powershell
-# Usar "ours" para conflicto especÃ­fico
-git merge -Xours feature    # Nuestra versiÃ³n en conflictos
-git merge -Xtheirs feature  # Su versiÃ³n en conflictos
+# Usar "ours" para conflicto específico
+git merge -Xours feature    # Nuestra versión en conflictos
+git merge -Xtheirs feature  # Su versión en conflictos
 
-# Patience diff (mejor para cÃ³digo reestructurado)
+# Patience diff (mejor para código reestructurado)
 git merge -Xpatience feature
 ```
 
@@ -147,7 +147,7 @@ git merge -Xpatience feature
 ## Advanced Bisect
 
 ```powershell
-# Iniciar bÃºsqueda automÃ¡tica
+# Iniciar búsqueda automática
 git bisect start
 git bisect bad HEAD
 git bisect good v1.0.0
@@ -170,15 +170,15 @@ git bisect visualize
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
 | **Blobs/Trees/Commits** | Objetos fundamentales de Git |
-| **Packfiles** | CompresiÃ³n y almacenamiento eficiente |
+| **Packfiles** | Compresión y almacenamiento eficiente |
 | **LFS** | Manejo de archivos binarios grandes |
 | **Merge strategies** | Control granular de fusiones |
-| **Bisect** | DepuraciÃ³n binaria de regresiones |
+| **Bisect** | Depuración binaria de regresiones |
 
 ---
 **Documentación oficial**: https://git-scm.com/doc

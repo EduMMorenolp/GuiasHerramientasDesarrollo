@@ -1,10 +1,11 @@
-﻿# MÃ³dulo 2: Workflows
+# Módulo 2: Workflows
+
 
 **Objetivo**: Aprender y dominar: Workflows.
 
 ## Matrices (`strategy.matrix`)
 
-Permite ejecutar un mismo job con mÃºltiples versiones o configuraciones.
+Permite ejecutar un mismo job con múltiples versiones o configuraciones.
 
 ```yaml
 jobs:
@@ -23,7 +24,7 @@ jobs:
 
 ## Dependencias entre jobs (`needs`)
 
-Controla el orden de ejecuciÃ³n. Un job puede esperar a que otro finalice.
+Controla el orden de ejecución. Un job puede esperar a que otro finalice.
 
 ```yaml
 jobs:
@@ -45,7 +46,7 @@ jobs:
 
 ## Condiciones (`if`)
 
-Ejecuta un paso o job solo si se cumple una condiciÃ³n.
+Ejecuta un paso o job solo si se cumple una condición.
 
 ```yaml
 jobs:
@@ -53,12 +54,12 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Desplegando a producciÃ³n"
+      - run: echo "Desplegando a producción"
 ```
 
 ## Entornos (`environment`)
 
-Agrupa reglas de protecciÃ³n, secrets y approvals.
+Agrupa reglas de protección, secrets y approvals.
 
 ```yaml
 jobs:
@@ -66,7 +67,7 @@ jobs:
     environment: production
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Desplegando con aprobaciÃ³n"
+      - run: echo "Desplegando con aprobación"
 ```
 
 ## Concurrencia (`concurrency`)
@@ -105,20 +106,20 @@ jobs:
       - run: npm test
 ```
 
-## Tabla de configuraciÃ³n de jobs
+## Tabla de configuración de jobs
 
-| OpciÃ³n | DescripciÃ³n | Ejemplo |
+| Opción | Descripción | Ejemplo |
 |---|---|---|
-| `strategy.matrix` | Ejecuta el job con mÃºltiples variantes | `matrix: { node: [18, 20] }` |
+| `strategy.matrix` | Ejecuta el job con múltiples variantes | `matrix: { node: [18, 20] }` |
 | `needs` | Dependencia entre jobs | `needs: lint` |
-| `if` | CondiciÃ³n de ejecuciÃ³n | `if: github.ref == 'refs/heads/main'` |
-| `environment` | Entorno con protecciÃ³n | `environment: production` |
+| `if` | Condición de ejecución | `if: github.ref == 'refs/heads/main'` |
+| `environment` | Entorno con protección | `environment: production` |
 | `concurrency.group` | Grupo de concurrencia | `concurrency.group: ci-${{ github.ref }}` |
-| `concurrency.cancel-in-progress` | Cancela ejecuciÃ³n en curso | `cancel-in-progress: true` |
+| `concurrency.cancel-in-progress` | Cancela ejecución en curso | `cancel-in-progress: true` |
 
 ---
 
 **Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[03 - MÃ³dulo 3 - Actions|MÃ³dulo 3 - Actions]]
+**Siguiente**: [[03 - Módulo 3 - Actions|Módulo 3 - Actions]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

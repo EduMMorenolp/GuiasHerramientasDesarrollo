@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 6: Seguridad
+# Módulo 6: Seguridad
 
-**Objetivo**: Proteger el cÃ³digo y la infraestructura con herramientas de seguridad integradas.
+**Objetivo**: Proteger el código y la infraestructura con herramientas de seguridad integradas.
 
 ---
 
 ## SAST (Static Application Security Testing)
 
-AnÃ¡lisis estÃ¡tico de cÃ³digo fuente.
+Análisis estático de código fuente.
 
 ```yaml
 include:
@@ -37,7 +37,7 @@ sast:
 
 ## DAST (Dynamic Application Security Testing)
 
-AnÃ¡lisis dinÃ¡mico de aplicaciones en ejecuciÃ³n.
+Análisis dinámico de aplicaciones en ejecución.
 
 ```yaml
 include:
@@ -57,7 +57,7 @@ dast:
 
 ## Secret Detection
 
-DetecciÃ³n de secretos y credenciales en el cÃ³digo.
+Detección de secretos y credenciales en el código.
 
 ```yaml
 include:
@@ -107,7 +107,7 @@ Compatibilidad:
 
 ## Container Scanning
 
-Escaneo de imÃ¡genes Docker.
+Escaneo de imágenes Docker.
 
 ```yaml
 include:
@@ -160,15 +160,15 @@ Vista centralizada de vulnerabilidades.
 
 - **Por proyecto**: Vulnerabilidades del proyecto actual
 - **Por grupo**: Vista agregada del grupo
-- **Pipeline Security**: Resultados del Ãºltimo pipeline
-- **Tendencias**: EvoluciÃ³n de vulnerabilidades en el tiempo
-- **ResoluciÃ³n**: Asignar, confirmar, descartar o resolver
+- **Pipeline Security**: Resultados del último pipeline
+- **Tendencias**: Evolución de vulnerabilidades en el tiempo
+- **Resolución**: Asignar, confirmar, descartar o resolver
 
 ---
 
 ## Security Policies
 
-PolÃ­ticas de seguridad automatizadas (Premium+).
+Políticas de seguridad automatizadas (Premium+).
 
 ```yaml
 # .gitlab/security-policies/policy.yml
@@ -185,7 +185,7 @@ scan_execution_policies:
       - type: require_approval
 
 approval_policies:
-  - name: AprobaciÃ³n de seguridad
+  - name: Aprobación de seguridad
     rules:
       - type: any_merge_request
         vulnerabilities:
@@ -199,22 +199,22 @@ approval_policies:
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
-| **SAST** | AnÃ¡lisis estÃ¡tico de cÃ³digo |
-| **DAST** | AnÃ¡lisis dinÃ¡mico en ejecuciÃ³n |
-| **Secret Detection** | DetecciÃ³n de credenciales |
+| **SAST** | Análisis estático de código |
+| **DAST** | Análisis dinámico en ejecución |
+| **Secret Detection** | Detección de credenciales |
 | **Dependency Scanning** | Vulnerabilidades en dependencias |
-| **Container Scanning** | Escaneo de imÃ¡genes Docker |
+| **Container Scanning** | Escaneo de imágenes Docker |
 | **License Compliance** | Control de licencias |
 | **Security Dashboard** | Panel central de seguridad |
-| **Security Policies** | PolÃ­ticas automatizadas |
+| **Security Policies** | Políticas automatizadas |
 
 ---
 
 **Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[07 - MÃ³dulo 7 - AdministraciÃ³n|MÃ³dulo 7: AdministraciÃ³n]]
+**Siguiente**: [[07 - Módulo 7 - Administración|Módulo 7: Administración]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

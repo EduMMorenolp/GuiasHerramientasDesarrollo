@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: Automatizacion con Newman
+# Módulo 5: Automatizacion con Newman
 
 **Objetivo**: Aprender y dominar: Automatizacion con Newman.
 
@@ -239,9 +239,9 @@ pipeline {
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
-**Siguiente**: [[06 - MÃ³dulo 6 - DocumentaciÃ³n|MÃ³dulo 6: Documentacion]]
+**Siguiente**: [[06 - Módulo 6 - Documentación|Módulo 6: Documentacion]]
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

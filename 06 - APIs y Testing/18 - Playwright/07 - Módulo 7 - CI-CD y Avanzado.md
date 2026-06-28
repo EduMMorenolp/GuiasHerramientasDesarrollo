@@ -1,4 +1,4 @@
-﻿# Módulo 7: CI/CD y Avanzado
+# Módulo 7: CI/CD y Avanzado
 
 **Objetivo**: Aprender y dominar: CI/CD y Avanzado.
 

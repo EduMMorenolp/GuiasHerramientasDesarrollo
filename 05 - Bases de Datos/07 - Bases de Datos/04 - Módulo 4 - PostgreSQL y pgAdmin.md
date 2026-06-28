@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 4: PostgreSQL y pgAdmin
+# Módulo 4: PostgreSQL y pgAdmin
 
 **Objetivo**: Instalar y operar PostgreSQL con psql y pgAdmin.
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ### EDB Installer
 Descargar desde: https://www.postgresql.org/download/windows/
@@ -26,7 +26,7 @@ pg_config --version
 
 ## psql (CLI)
 
-### ConexiÃ³n y navegaciÃ³n
+### Conexión y navegación
 ```powershell
 # Conectar
 psql -U postgres -h localhost -d mi_base
@@ -45,7 +45,7 @@ psql -U postgres
 
 -- Ver estructura de tabla
 \d usuarios
-\d+ usuarios  -- MÃ¡s detalle
+\d+ usuarios  -- Más detalle
 
 -- Ver usuarios/roles
 \du
@@ -65,14 +65,14 @@ psql -U postgres
 ## pgAdmin 4
 
 ### Interfaz
-- **Object Browser**: Ãrbol de servidores, bases, schemas, tablas
+- **Object Browser**: Árbol de servidores, bases, schemas, tablas
 - **Query Tool**: Editor SQL con resaltado, autocompletado, EXPLAIN visual
-- **Dashboard**: GrÃ¡ficas de actividad, conexiones, bloqueos
-- **Properties**: ConfiguraciÃ³n de objetos (tablas, Ã­ndices, constraints)
+- **Dashboard**: Gráficas de actividad, conexiones, bloqueos
+- **Properties**: Configuración de objetos (tablas, índices, constraints)
 
 ### Operaciones comunes
-- **Backup**: BotÃ³n derecho > Backup (usa pg_dump internamente)
-- **Restore**: BotÃ³n derecho > Restore
+- **Backup**: Botón derecho > Backup (usa pg_dump internamente)
+- **Restore**: Botón derecho > Restore
 - **Import/Export**: Datos desde CSV
 - **Grant Wizard**: Asignar permisos visualmente
 
@@ -87,7 +87,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(100)
 );
 
--- UUID (identificador Ãºnico)
+-- UUID (identificador único)
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE TABLE pedidos (
     id UUID DEFAULT uuid_generate_v4() PRIMARY KEY
@@ -118,11 +118,11 @@ SELECT * FROM tareas WHERE duracion > INTERVAL '2 hours';
 -- Ver extensiones instaladas
 \dx
 
--- Activar estadÃ­sticas
+-- Activar estadísticas
 CREATE EXTENSION pg_stat_statements;
 SELECT * FROM pg_stat_statements ORDER BY total_time DESC;
 
--- PostGIS (geogrÃ¡fico)
+-- PostGIS (geográfico)
 CREATE EXTENSION postgis;
 SELECT ST_DistanceSphere(geom1, geom2);
 
@@ -139,7 +139,7 @@ SELECT crypt('password', gen_salt('bf'));
 
 ## Resumen
 
-| Comando | PropÃ³sito |
+| Comando | Propósito |
 |---------|-----------|
 | `psql -U postgres` | Conectar a PostgreSQL |
 | `\l` | Listar bases |
@@ -147,13 +147,13 @@ SELECT crypt('password', gen_salt('bf'));
 | `\d tabla` | Ver estructura |
 | `\du` | Ver usuarios |
 | `\dx` | Ver extensiones |
-| `CREATE EXTENSION` | Activar extensiÃ³n |
+| `CREATE EXTENSION` | Activar extensión |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[05 - MÃ³dulo 5 - Modelado y OptimizaciÃ³n|MÃ³dulo 5: Modelado y OptimizaciÃ³n]]
+**Siguiente**: [[05 - Módulo 5 - Modelado y Optimización|Módulo 5: Modelado y Optimización]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

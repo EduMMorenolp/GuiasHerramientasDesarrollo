@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 6: Avanzado
+# Módulo 6: Avanzado
 
-**Objetivo**: Explorar caracterÃ­sticas avanzadas de Warp: Warp Drive, agentes cloud, SSH, editor integrado y mÃ¡s.
+**Objetivo**: Explorar características avanzadas de Warp: Warp Drive, agentes cloud, SSH, editor integrado y más.
 
 ---
 
@@ -10,7 +10,7 @@ Warp Drive es un sistema de almacenamiento para notebooks, workflows y prompts r
 
 ### Componentes
 
-| Componente | DescripciÃ³n |
+| Componente | Descripción |
 |------------|-------------|
 | Notebooks | Documentos interactivos con comandos y anotaciones |
 | Workflows | Secuencias de comandos parametrizadas |
@@ -37,20 +37,20 @@ docker-compose up -d --build
 
 ## Cloud Agents
 
-Warp permite ejecutar agentes AI en la nube para tareas especÃ­ficas.
+Warp permite ejecutar agentes AI en la nube para tareas específicas.
 
 ### PR Review
-- El agente revisa Pull Requests automÃ¡ticamente
+- El agente revisa Pull Requests automáticamente
 - Analiza cambios, sugiere mejoras y detecta problemas
 - Se integra con GitHub, GitLab y Bitbucket
 
 ### Issues
 - Crea y gestiona issues desde la terminal
-- El agente ayuda a describir el problema tÃ©cnicamente
+- El agente ayuda a describir el problema técnicamente
 - Sugiere etiquetas, asignaciones y prioridades
 
 ```powershell
-# Ejemplo: pedir revisiÃ³n de PR
+# Ejemplo: pedir revisión de PR
 @warp review PR #42
 ```
 
@@ -60,12 +60,12 @@ Warp permite ejecutar agentes AI en la nube para tareas especÃ­ficas.
 
 Warpify extiende las capacidades de Warp a sesiones SSH.
 
-### CÃ³mo funciona
+### Cómo funciona
 - Instalas warpify en el servidor remoto
 - Las sesiones SSH obtienen la UI de Warp
-- Blocks, editor multilÃ­nea y agentes funcionan remotamente
+- Blocks, editor multilínea y agentes funcionan remotamente
 
-### InstalaciÃ³n remota
+### Instalación remota
 ```powershell
 # En el servidor remoto
 curl -fsSL https://warp.dev/install-warpify.sh | bash
@@ -78,11 +78,11 @@ ssh usuario@servidor
 
 ## Code Editor Integrado
 
-Warp incluye un editor de cÃ³digo ligero integrado.
+Warp incluye un editor de código ligero integrado.
 
-### CaracterÃ­sticas
+### Características
 - **LSP**: Language Server Protocol para resaltado y autocompletado
-- **Git worktrees**: trabajar con mÃºltiples branches simultÃ¡neamente
+- **Git worktrees**: trabajar con múltiples branches simultáneamente
 - **Vista de archivos**: navegador de archivos integrado
 - **Diff viewer**: comparar cambios visualmente
 
@@ -97,7 +97,7 @@ Ctrl+Click en una ruta de archivo
 
 ### LSP
 ```powershell
-# Los servidores LSP se detectan automÃ¡ticamente
+# Los servidores LSP se detectan automáticamente
 # Soporta: TypeScript, Python, Rust, Go, Java, etc.
 # Proporciona: go to definition, hover info, autocomplete
 ```
@@ -116,11 +116,11 @@ warp view README.md
 # Desde Warp Drive, los notebooks usan markdown
 ```
 
-### CaracterÃ­sticas
-- TÃ­tulos, listas, tablas renderizadas
-- CÃ³digo con syntax highlighting
+### Características
+- Títulos, listas, tablas renderizadas
+- Código con syntax highlighting
 - Enlaces cliqueables
-- ImÃ¡genes (si la terminal lo soporta)
+- Imágenes (si la terminal lo soporta)
 
 ---
 
@@ -130,27 +130,27 @@ Warp registra el protocolo `warp://` para integraciones profundas.
 
 ### Ejemplos de uso
 ```powershell
-# Abrir Warp con un comando especÃ­fico
+# Abrir Warp con un comando específico
 warp://run/git%20status
 
-# Abrir un notebook especÃ­fico
+# Abrir un notebook específico
 warp://notebook/deploy-workflow
 
 # Abrir settings
 warp://settings/themes
 ```
 
-### IntegraciÃ³n con navegador
-Puedes crear enlaces en pÃ¡ginas web que abran Warp con acciones especÃ­ficas.
+### Integración con navegador
+Puedes crear enlaces en páginas web que abran Warp con acciones específicas.
 
 ---
 
 ## Split Panes
 
-Warp permite dividir la terminal en mÃºltiples paneles.
+Warp permite dividir la terminal en múltiples paneles.
 
 ### Atajos
-| AcciÃ³n | Atajo |
+| Acción | Atajo |
 |--------|-------|
 | Split vertical | Ctrl+Shift+\ |
 | Split horizontal | Ctrl+Shift+- |
@@ -167,14 +167,14 @@ Warp permite dividir la terminal en mÃºltiples paneles.
 
 ## Session Restoration
 
-Warp guarda y restaura sesiones automÃ¡ticamente.
+Warp guarda y restaura sesiones automáticamente.
 
-### CÃ³mo funciona
+### Cómo funciona
 - Al cerrar Warp, guarda el estado completo
-- Al abrir de nuevo, restaura pestaÃ±as, paneles y directorios
+- Al abrir de nuevo, restaura pestañas, paneles y directorios
 - El historial de comandos se conserva entre sesiones
 
-### ConfiguraciÃ³n
+### Configuración
 ```powershell
 # En settings.yaml
 session:
@@ -187,9 +187,9 @@ session:
 
 ## Settings Sync
 
-Sincroniza la configuraciÃ³n de Warp entre mÃºltiples dispositivos.
+Sincroniza la configuración de Warp entre múltiples dispositivos.
 
-### ActivaciÃ³n
+### Activación
 ```powershell
 # En settings.yaml
 cloud:
@@ -200,14 +200,14 @@ cloud:
 
 ### Requisitos
 - Cuenta de Warp (gratuita)
-- Iniciar sesiÃ³n en todos los dispositivos
-- Los temas, keybindings y workflows se sincronizan automÃ¡ticamente
+- Iniciar sesión en todos los dispositivos
+- Los temas, keybindings y workflows se sincronizan automáticamente
 
 ---
 
 ## Resumen
 
-| CaracterÃ­stica | DescripciÃ³n |
+| Característica | Descripción |
 |----------------|-------------|
 | Warp Drive | Notebooks, workflows y prompts |
 | Cloud Agents | PR review, issues automatizados |
@@ -215,9 +215,9 @@ cloud:
 | Code Editor | Editor con LSP y git worktrees |
 | Markdown Viewer | Renderizado de markdown |
 | URI Scheme | warp:// para integraciones |
-| Split Panes | Paneles mÃºltiples |
+| Split Panes | Paneles múltiples |
 | Session Restoration | Restaura sesiones anteriores |
-| Settings Sync | SincronizaciÃ³n multi-dispositivo |
+| Settings Sync | Sincronización multi-dispositivo |
 
 ---
 

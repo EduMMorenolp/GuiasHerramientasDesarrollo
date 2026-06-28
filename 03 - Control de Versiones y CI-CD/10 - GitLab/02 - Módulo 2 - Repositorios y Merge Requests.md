@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Repositorios y Merge Requests
+# Módulo 2: Repositorios y Merge Requests
 
 **Objetivo**: Dominar el flujo de trabajo con repositorios GitLab y Merge Requests.
 
@@ -66,7 +66,7 @@ git checkout -b feature/nueva-funcionalidad
 
 # Hacer cambios y commit
 git add .
-git commit -m "feat: aÃ±adir nueva funcionalidad"
+git commit -m "feat: añadir nueva funcionalidad"
 
 # Subir rama
 git push -u origin feature/nueva-funcionalidad
@@ -77,24 +77,24 @@ En GitLab: Merge Requests > New Merge Request
 Seleccionar:
 - **Source**: `feature/nueva-funcionalidad`
 - **Target**: `main`
-- **Title**: DescripciÃ³n clara
+- **Title**: Descripción clara
 - **Description**: Contexto, cambios, screenshots
 - **Assignee**: Revisor asignado
-- **Reviewers**: Uno o mÃ¡s revisores
+- **Reviewers**: Uno o más revisores
 
 ### Revisar y Aprobar
 
-| AcciÃ³n | DescripciÃ³n |
+| Acción | Descripción |
 |--------|-------------|
-| **Comment** | Comentario general o en lÃ­nea |
+| **Comment** | Comentario general o en línea |
 | **Approve** | Aprueba los cambios |
 | **Request Changes** | Solicita correcciones |
-| **Resolve Thread** | Marca discusiÃ³n como resuelta |
-| **Merge** | Fusiona cuando estÃ¡ aprobado |
+| **Resolve Thread** | Marca discusión como resuelta |
+| **Merge** | Fusiona cuando está aprobado |
 
 ### Tipos de Merge
 
-| Estrategia | CuÃ¡ndo usarla |
+| Estrategia | Cuándo usarla |
 |------------|---------------|
 | **Merge Commit** | Preservar historial completo |
 | **Squash Merge** | Historial limpio (1 commit) |
@@ -105,7 +105,7 @@ Seleccionar:
 ## Ramas Protegidas
 
 ```yaml
-# ConfiguraciÃ³n en Settings > Repository > Protected Branches
+# Configuración en Settings > Repository > Protected Branches
 branch: main
 allowed_to_merge: Maintainers, Developers
 allowed_to_push: No one (solo MR)
@@ -114,10 +114,10 @@ code_owner_approval_required: true
 
 ### Code Owners
 
-Archivo `CODEOWNERS` en la raÃ­z del repositorio:
+Archivo `CODEOWNERS` en la raíz del repositorio:
 
 ```
-# DueÃ±os globales
+# Dueños globales
 * @usuario-principal
 
 # Equipo frontend
@@ -126,7 +126,7 @@ Archivo `CODEOWNERS` en la raÃ­z del repositorio:
 # Equipo backend
 /src/api/ @equipo-backend
 
-# DocumentaciÃ³n
+# Documentación
 /docs/ @tech-writer
 ```
 
@@ -134,7 +134,7 @@ Archivo `CODEOWNERS` en la raÃ­z del repositorio:
 
 ## Web IDE
 
-Acceso: `.` en el teclado o botÃ³n **Web IDE**
+Acceso: `.` en el teclado o botón **Web IDE**
 
 - Editor completo con VSCode en el navegador
 - Terminal integrada
@@ -143,7 +143,7 @@ Acceso: `.` en el teclado o botÃ³n **Web IDE**
 
 ### Snippets
 
-Fragmentos de cÃ³digo reutilizables:
+Fragmentos de código reutilizables:
 
 ```python
 # Ejemplo de snippet
@@ -152,11 +152,11 @@ def saludar(nombre):
 ```
 
 - Visibles: Private, Internal, Public
-- Formateo syntax highlighting automÃ¡tico
+- Formateo syntax highlighting automático
 
 ### Wiki
 
-DocumentaciÃ³n integrada en el repositorio:
+Documentación integrada en el repositorio:
 
 ```
 wiki/
@@ -171,21 +171,21 @@ wiki/
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
 | **git remote** | Conectar repo local con GitLab |
-| **Merge Request** | Solicitud de fusiÃ³n con revisiÃ³n |
+| **Merge Request** | Solicitud de fusión con revisión |
 | **Protected Branches** | Ramas con reglas de push/merge |
 | **Code Owners** | Revisores obligatorios por archivo |
 | **Web IDE** | Editor en navegador |
-| **Snippets** | Fragmentos de cÃ³digo |
-| **Wiki** | DocumentaciÃ³n del proyecto |
+| **Snippets** | Fragmentos de código |
+| **Wiki** | Documentación del proyecto |
 
 ---
 
 **Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[03 - MÃ³dulo 3 - Issues y Planning|MÃ³dulo 3: Issues y Planning]]
+**Siguiente**: [[03 - Módulo 3 - Issues y Planning|Módulo 3: Issues y Planning]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

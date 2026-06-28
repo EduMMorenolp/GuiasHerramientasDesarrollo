@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Servidor HTTP
+# Módulo 6: Servidor HTTP
 
 **Objetivo**: Aprender y dominar: Servidor HTTP.
 

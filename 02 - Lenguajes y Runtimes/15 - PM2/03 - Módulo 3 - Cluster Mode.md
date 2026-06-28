@@ -1,4 +1,4 @@
-﻿# Módulo 3: Cluster Mode
+# Módulo 3: Cluster Mode
 
 **Objetivo**: Escalado horizontal y balanceo de carga con el modo cluster de PM2.
 
@@ -48,7 +48,7 @@ A diferencia de `pm2 restart` (detiene todas e inicia de nuevo), `reload` garant
 
 ## Graceful shutdown
 
-Para que el reload funcione correctamente, la aplicacion debe gestionar la senal de apagado:
+Para que el reload funcione correctamente, la aplicación debe gestionar la señal de apagado:
 
 ```javascript
 // server.js
@@ -69,7 +69,7 @@ process.on('SIGINT', () => {
 });
 ```
 
-En el ecosystem se configura `kill_timeout` para dar tiempo a la finalizacion:
+En el ecosystem se configura `kill_timeout` para dar tiempo a la finalización:
 
 ```javascript
 module.exports = {

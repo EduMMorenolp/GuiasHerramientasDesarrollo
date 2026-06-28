@@ -1,4 +1,4 @@
-﻿# Módulo 4: Pub/Sub y Transacciones
+# Módulo 4: Pub/Sub y Transacciones
 
 **Objetivo**: Aprender y dominar: Pub/Sub y Transacciones.
 

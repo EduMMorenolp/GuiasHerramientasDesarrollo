@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 5: Registro y Deploy
+# Módulo 5: Registro y Deploy
 
-**Objetivo**: Gestionar imÃ¡genes de contenedor, despliegues y releases.
+**Objetivo**: Gestionar imágenes de contenedor, despliegues y releases.
 
 ---
 
 ## Container Registry
 
-Registro de imÃ¡genes Docker integrado en GitLab.
+Registro de imágenes Docker integrado en GitLab.
 
 ### Publicar Imagen
 
@@ -30,22 +30,22 @@ docker-build:
 docker pull registry.gitlab.com/usuario/repo:latest
 ```
 
-### Limpieza AutomÃ¡tica
+### Limpieza Automática
 
 ```yaml
 # En Settings > CI/CD > Container Registry
 delete_tags:
   - regex: .*-alpha
-  - keep: 5  # Mantener Ãºltimas 5
+  - keep: 5  # Mantener últimas 5
 ```
 
 ---
 
 ## GitLab Pages
 
-Hosting estÃ¡tico integrado.
+Hosting estático integrado.
 
-### ConfiguraciÃ³n
+### Configuración
 
 ```yaml
 pages:
@@ -80,8 +80,8 @@ Dominio: `https://usuario.gitlab.io/repo/`
 ### Dominio Personalizado
 
 1. Settings > Pages > New Domain
-2. AÃ±adir registro DNS tipo CNAME
-3. Verificar con certificado SSL automÃ¡tico (Let's Encrypt)
+2. Añadir registro DNS tipo CNAME
+3. Verificar con certificado SSL automático (Let's Encrypt)
 
 ---
 
@@ -114,7 +114,7 @@ deploy-production:
 
 ### Review Apps
 
-Entornos dinÃ¡micos por Merge Request:
+Entornos dinámicos por Merge Request:
 
 ```yaml
 review:
@@ -144,9 +144,9 @@ release:
     tag_name: $CI_COMMIT_TAG
     name: "Release $CI_COMMIT_TAG"
     description: |
-      ## Cambios en esta versiÃ³n
+      ## Cambios en esta versión
 
-      - CorrecciÃ³n de bugs
+      - Corrección de bugs
       - Nuevas funcionalidades
     assets:
       links:
@@ -161,7 +161,7 @@ release:
 
 ## Auto DevOps
 
-Pipeline preconfigurado para proyectos tÃ­picos:
+Pipeline preconfigurado para proyectos típicos:
 
 ```yaml
 # Activar en Settings > CI/CD > Auto DevOps
@@ -172,32 +172,32 @@ include:
 
 ### Componentes de Auto DevOps
 
-| Componente | DescripciÃ³n |
+| Componente | Descripción |
 |------------|-------------|
 | **Build** | Compila y genera imagen Docker |
 | **Test** | Tests unitarios, SAST, DAST |
-| **Code Quality** | AnÃ¡lisis estÃ¡tico de cÃ³digo |
+| **Code Quality** | Análisis estático de código |
 | **Review** | Review App por MR |
-| **Deploy** | Despliegue a staging/producciÃ³n |
+| **Deploy** | Despliegue a staging/producción |
 | **Performance** | Pruebas de rendimiento |
 | **Browser Testing** | Tests de navegador |
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Concepto | DescripciÃ³n |
+| Concepto | Descripción |
 |----------|-------------|
-| **Container Registry** | AlmacÃ©n de imÃ¡genes Docker |
-| **GitLab Pages** | Hosting estÃ¡tico |
+| **Container Registry** | Almacén de imágenes Docker |
+| **GitLab Pages** | Hosting estático |
 | **Environments** | Entornos de despliegue |
-| **Review Apps** | Entornos dinÃ¡micos por MR |
-| **Releases** | Versionado y publicaciÃ³n |
+| **Review Apps** | Entornos dinámicos por MR |
+| **Releases** | Versionado y publicación |
 | **Auto DevOps** | Pipeline preconfigurado |
 
 ---
 
 **Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[06 - MÃ³dulo 6 - Seguridad|MÃ³dulo 6: Seguridad]]
+**Siguiente**: [[06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
 **Inicio herramienta**: [[gitlab|GitLab]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

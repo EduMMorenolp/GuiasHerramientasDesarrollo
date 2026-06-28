@@ -1,4 +1,4 @@
-﻿# Módulo 4: Testing y Fixtures
+# Módulo 4: Testing y Fixtures
 
 **Objetivo**: Aprender y dominar: Testing y Fixtures.
 

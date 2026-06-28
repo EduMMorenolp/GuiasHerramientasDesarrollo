@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Test Runner
+# Módulo 4: Test Runner
 
 **Objetivo**: Aprender y dominar: Test Runner.
 

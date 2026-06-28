@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 7: Avanzado
+# Módulo 7: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 

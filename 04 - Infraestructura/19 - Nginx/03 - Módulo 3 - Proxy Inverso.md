@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 3: Proxy Inverso
+# Módulo 3: Proxy Inverso
 
 **Objetivo**: Aprender y dominar: Proxy Inverso.
 
@@ -51,13 +51,13 @@ server {
 }
 ```
 
-### MÃ©todos de balanceo
+### Métodos de balanceo
 
-| MÃ©todo | DescripciÃ³n |
+| Método | Descripción |
 |---|---|
-| `least_conn` | EnvÃ­a al servidor con menos conexiones activas |
+| `least_conn` | Envía al servidor con menos conexiones activas |
 | `ip_hash` | Persistencia por IP del cliente |
-| `random` | DistribuciÃ³n aleatoria |
+| `random` | Distribución aleatoria |
 | `round-robin` | Por defecto, turnos equitativos |
 
 ## WebSocket proxy
@@ -73,7 +73,7 @@ location /ws/ {
 }
 ```
 
-## Ejemplo: Node.js detrÃ¡s de Nginx
+## Ejemplo: Node.js detrás de Nginx
 
 ```nginx
 upstream node_app {
@@ -104,19 +104,19 @@ server {
 
 ## Tabla de directivas proxy
 
-| Directiva | DescripciÃ³n |
+| Directiva | Descripción |
 |---|---|
 | `proxy_pass` | URL del backend |
 | `proxy_set_header` | Establece cabeceras HTTP |
-| `proxy_http_version` | VersiÃ³n HTTP del proxy (1.1 necesario para WebSocket) |
+| `proxy_http_version` | Versión HTTP del proxy (1.1 necesario para WebSocket) |
 | `proxy_read_timeout` | Timeout de lectura del backend |
-| `proxy_connect_timeout` | Timeout de conexiÃ³n al backend |
+| `proxy_connect_timeout` | Timeout de conexión al backend |
 | `proxy_buffering` | Habilita/deshabilita buffering |
-| `proxy_cache` | Activa la cachÃ© del proxy |
+| `proxy_cache` | Activa la caché del proxy |
 
 ---
 
 **Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/04 - MÃ³dulo 4 - SSL-TLS y HTTPS|MÃ³dulo 4: SSL/TLS y HTTPS]]
+**Siguiente**: [[../../19 - Nginx/04 - Módulo 4 - SSL-TLS y HTTPS|Módulo 4: SSL/TLS y HTTPS]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

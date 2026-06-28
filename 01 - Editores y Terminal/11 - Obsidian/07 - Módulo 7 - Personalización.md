@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 7: PersonalizaciÃ³n
+# Módulo 7: Personalización
 
-**Objetivo**: Aprender y dominar: PersonalizaciÃ³n.
+**Objetivo**: Aprender y dominar: Personalización.
 
 ## Temas
 Los temas modifican la apariencia completa de Obsidian. Se instalan desde Ajustes > Apariencia > Themes > Explorar. Existen cientos de temas creados por la comunidad.

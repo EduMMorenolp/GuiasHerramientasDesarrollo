@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: Plugins Esenciales
+# Módulo 5: Plugins Esenciales
 
 **Objetivo**: Aprender y dominar: Plugins Esenciales.
 
@@ -54,6 +54,6 @@ Plugin para visualizar datos numericos de propiedades en graficos (barras, linea
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[06 - MÃ³dulo 6 - Sync y Publish|MÃ³dulo 6: Sync y Publish]]
+**Siguiente**: [[06 - Módulo 6 - Sync y Publish|Módulo 6: Sync y Publish]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

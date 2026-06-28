@@ -1,36 +1,36 @@
-﻿# MÃ³dulo 2: Extensiones y PersonalizaciÃ³n
+# Módulo 2: Extensiones y Personalización
 
-**Objetivo**: Dominar las extensiones y personalizar VS Code al mÃ¡ximo.
+**Objetivo**: Dominar las extensiones y personalizar VS Code al máximo.
 
 ---
 
 ## Extensiones Esenciales
 
 ### Lenguajes y Frameworks
-| ExtensiÃ³n | PropÃ³sito |
+| Extensión | Propósito |
 |-----------|-----------|
 | ESLint | Linting JavaScript/TypeScript |
-| Prettier | Formateador de cÃ³digo |
+| Prettier | Formateador de código |
 | Tailwind CSS IntelliSense | Autocompletado Tailwind |
 | Python | Soporte para Python |
-| Docker | IntegraciÃ³n con Docker |
+| Docker | Integración con Docker |
 
 ### Productividad
-| ExtensiÃ³n | PropÃ³sito |
+| Extensión | Propósito |
 |-----------|-----------|
-| GitLens | VisualizaciÃ³n avanzada de Git |
-| Error Lens | Muestra errores en lÃ­nea |
+| GitLens | Visualización avanzada de Git |
+| Error Lens | Muestra errores en línea |
 | Path Intellisense | Autocompletado de rutas |
 | Thunder Client | Cliente HTTP (alternativa a Postman) |
 | TODO Highlight | Resaltar TODO, FIXME |
 
 ### Temas e Iconos
-| ExtensiÃ³n | PropÃ³sito |
+| Extensión | Propósito |
 |-----------|-----------|
 | One Dark Pro | Tema oscuro popular |
 | Material Icon Theme | Iconos de archivos |
 
-### InstalaciÃ³n desde terminal
+### Instalación desde terminal
 ```powershell
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
@@ -142,6 +142,6 @@ Alt+Up/Down     # Navegar entre terminales
 ---
 
 **Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[03 - MÃ³dulo 3 - DepuraciÃ³n y Flujos Avanzados|MÃ³dulo 3: DepuraciÃ³n y Flujos Avanzados]]
+**Siguiente**: [[03 - Módulo 3 - Depuración y Flujos Avanzados|Módulo 3: Depuración y Flujos Avanzados]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

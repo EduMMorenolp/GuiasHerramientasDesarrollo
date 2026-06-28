@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Sync y Publish
+# Módulo 6: Sync y Publish
 
 **Objetivo**: Aprender y dominar: Sync y Publish.
 
@@ -38,6 +38,6 @@ Quartz es un generador de sitio estatico disenado especificamente para vaults de
 ---
 
 **Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[07 - MÃ³dulo 7 - PersonalizaciÃ³n|MÃ³dulo 7: PersonalizaciÃ³n]]
+**Siguiente**: [[07 - Módulo 7 - Personalización|Módulo 7: Personalización]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

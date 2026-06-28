@@ -1,4 +1,4 @@
-﻿# Módulo 7: Clustering y Alta Disponibilidad
+# Módulo 7: Clustering y Alta Disponibilidad
 
 **Objetivo**: Aprender y dominar: Clustering y Alta Disponibilidad.
 

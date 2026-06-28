@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 4: Remoting, MÃ³dulos y PSResourceGet
+# Módulo 4: Remoting, Módulos y PSResourceGet
 
-**Objetivo**: Gestionar equipos remotos, crear mÃ³dulos profesionales y usar el nuevo gestor de paquetes.
+**Objetivo**: Gestionar equipos remotos, crear módulos profesionales y usar el nuevo gestor de paquetes.
 
 ---
 
@@ -20,7 +20,7 @@ Invoke-Command -ComputerName SERVER01 -ScriptBlock {
     Get-Service -Name *sql*
 }
 
-# SesiÃ³n persistente
+# Sesión persistente
 $session = New-PSSession -ComputerName SERVER01
 Invoke-Command -Session $session -ScriptBlock { Get-Process }
 Remove-PSSession $session
@@ -30,7 +30,7 @@ Remove-PSSession $session
 ```powershell
 # Configurar SSH remoting
 # En servidor remoto: Install-Package -Name OpenSSH.Server
-# En cliente: ssh-keygen, copiar clave pÃºblica
+# En cliente: ssh-keygen, copiar clave pública
 
 # Conectar por SSH
 Enter-PSSession -HostName user@server -Port 22
@@ -43,7 +43,7 @@ Invoke-Command -HostName server -UserName user -ScriptBlock {
 
 ### Remoting avanzado
 ```powershell
-# Ejecutar en mÃºltiples equipos
+# Ejecutar en múltiples equipos
 $computers = @("WEB01", "WEB02", "WEB03")
 Invoke-Command -ComputerName $computers -ScriptBlock {
     Get-Service -Name w3svc | Select-Object Name, Status
@@ -56,13 +56,13 @@ $session = New-PSSession -ComputerName DB01 -Credential $cred
 
 ---
 
-## Crear MÃ³dulos Profesionales
+## Crear Módulos Profesionales
 
-### Estructura de mÃ³dulo
+### Estructura de módulo
 ```powershell
 # MiModulo/
-#   MiModulo.psm1     # CÃ³digo del mÃ³dulo
-#   MiModulo.psd1      # Manifest del mÃ³dulo
+#   MiModulo.psm1     # Código del módulo
+#   MiModulo.psd1      # Manifest del módulo
 #   Functions/
 #     Get-HelperFunction.ps1
 #   en-US/
@@ -76,7 +76,7 @@ $session = New-PSSession -ComputerName DB01 -Credential $cred
     ModuleVersion = '1.0.0'
     GUID = 'a1b2c3d4-...'
     Author = 'Tu Nombre'
-    Description = 'MÃ³dulo de utilidades para administraciÃ³n'
+    Description = 'Módulo de utilidades para administración'
     
     # Funciones exportadas
     FunctionsToExport = @(
@@ -101,10 +101,10 @@ $session = New-PSSession -ComputerName DB01 -Credential $cred
 # Funciones privadas (no exportadas)
 function Get-InternalHelper {
     param([string]$Path)
-    # LÃ³gica interna
+    # Lógica interna
 }
 
-# FunciÃ³n pÃºblica
+# Función pública
 function Get-SystemInfo {
     [CmdletBinding()]
     param(
@@ -132,17 +132,17 @@ Export-ModuleMember -Function Get-SystemInfo
 
 ## PSResourceGet (PowerShellGet v3)
 
-### Â¿QuÃ© es?
+### ¿Qué es?
 Nuevo gestor de paquetes para PowerShell (reemplaza PowerShellGet).
 
 ```powershell
-# Buscar mÃ³dulos
+# Buscar módulos
 Find-PSResource -Name "*sql*"
 
 # Instalar
 Install-PSResource -Name PSScriptAnalyzer
 
-# Instalar versiÃ³n especÃ­fica
+# Instalar versión específica
 Install-PSResource -Name Az -Version 12.0.0
 
 # Actualizar
@@ -154,7 +154,7 @@ Uninstall-PSResource -Name PSScriptAnalyzer
 # Listar recursos instalados
 Get-InstalledPSResource
 
-# Guardar mÃ³dulo sin instalar
+# Guardar módulo sin instalar
 Save-PSResource -Name PSScriptAnalyzer -Path .\modules
 ```
 
@@ -183,20 +183,20 @@ Find-PSResource -Name Az.Compute -IncludeDependencies
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
-| `Enter-PSSession` | SesiÃ³n remota interactiva |
+| `Enter-PSSession` | Sesión remota interactiva |
 | `Invoke-Command` | Ejecutar comando remoto |
-| `New-PSSession` | SesiÃ³n persistente |
-| `Find-PSResource` | Buscar mÃ³dulos |
-| `Install-PSResource` | Instalar mÃ³dulo |
-| `Publish-PSResource` | Publicar mÃ³dulo |
+| `New-PSSession` | Sesión persistente |
+| `Find-PSResource` | Buscar módulos |
+| `Install-PSResource` | Instalar módulo |
+| `Publish-PSResource` | Publicar módulo |
 
 ---
 
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[05 - MÃ³dulo 5 - Clases, Expresiones Regulares y Jobs|MÃ³dulo 5: Clases, Expresiones Regulares y Jobs]]
+**Siguiente**: [[05 - Módulo 5 - Clases, Expresiones Regulares y Jobs|Módulo 5: Clases, Expresiones Regulares y Jobs]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

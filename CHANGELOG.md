@@ -4,6 +4,14 @@ Todas las mejoras notables del vault.
 
 ## 2026-06-27
 
+### Fixed
+- Mojibake corregido en los 143 archivos .md (2359 secuencias doble-codificadas reparadas) mediante `scripts/fix-mojibake.ps1`
+- Script de validación `scripts/validate.ps1`: corregido bug de variable `$_` colapsada entre ForEach-Object anidados
+- BOM UTF-8 eliminado de todos los archivos .md
+- Verificación: archivos .md con UTF-8 válido y nombres de archivo correctos en disco
+
+## 2026-06-27
+
 ### Added
 - Quartz config + GitHub Action para deploy a GitHub Pages (`quartz.config.ts`, `quartz.layout.ts`, `.github/workflows/deploy.yml`)
 - Frontmatter con tags en 145 módulos (herramienta, categoría, nivel, keyword)

@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 7: TypeScript, Cluster y Temas Avanzados
+# Módulo 7: TypeScript, Cluster y Temas Avanzados
 
 **Objetivo**: Integrar TypeScript, escalar con cluster/worker threads y patrones avanzados.
 
@@ -6,7 +6,7 @@
 
 ## TypeScript en Node.js
 
-### ConfiguraciÃ³n
+### Configuración
 ```json
 // tsconfig.json
 {
@@ -44,7 +44,7 @@ type PartialUser = Partial<User>;
 type ReadonlyUser = Readonly<User>;
 type UserName = Pick<User, 'id' | 'name'>;
 
-// GenÃ©ricos
+// Genéricos
 async function fetchData<T>(url: string): Promise<T> {
     const response = await fetch(url);
     return response.json() as T;
@@ -125,7 +125,7 @@ if (cluster.isPrimary) {
     
     cluster.on('exit', (worker, code, signal) => {
         console.log(`Worker ${worker.process.pid} died`);
-        cluster.fork(); // reemplazar worker caÃ­do
+        cluster.fork(); // reemplazar worker caído
     });
     
 } else {
@@ -164,7 +164,7 @@ Para tareas intensivas de CPU (no bloquea el Event Loop).
 const { parentPort } = require('worker_threads');
 
 parentPort.on('message', (data) => {
-    // CÃ¡lculo intensivo
+    // Cálculo intensivo
     const result = heavyComputation(data);
     parentPort.postMessage(result);
 });
@@ -260,7 +260,7 @@ const EventEmitter = require('events');
 
 class OrderService extends EventEmitter {
     createOrder(order) {
-        // lÃ³gica
+        // lógica
         this.emit('order:created', order);
     }
 }
@@ -299,14 +299,14 @@ class MiddlewarePipeline {
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Herramienta | PropÃ³sito |
+| Herramienta | Propósito |
 |---|---|
-| TypeScript | Tipado estÃ¡tico, seguridad en tiempo de compilaciÃ³n |
-| Cluster | Escalar a mÃºltiples procesos CPU |
+| TypeScript | Tipado estático, seguridad en tiempo de compilación |
+| Cluster | Escalar a múltiples procesos CPU |
 | Worker Threads | Tareas intensivas de CPU sin bloquear Event Loop |
-| EventEmitter | PatrÃ³n observer |
+| EventEmitter | Patrón observer |
 | ThreadPool | Pool de workers reutilizables |
 
 ---

@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Scripts y CI/CD
+# Módulo 4: Scripts y CI/CD
 
 **Objetivo**: Aprender y dominar: Scripts y CI/CD.
 

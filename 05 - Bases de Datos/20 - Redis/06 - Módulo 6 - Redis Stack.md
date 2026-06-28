@@ -1,4 +1,4 @@
-﻿# Módulo 6: Redis Stack
+# Módulo 6: Redis Stack
 
 **Objetivo**: Aprender y dominar: Redis Stack.
 

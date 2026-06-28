@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 7: Deploy y Avanzado
+# Módulo 7: Deploy y Avanzado
 
 **Objetivo**: Aprender y dominar: Deploy y Avanzado.
 

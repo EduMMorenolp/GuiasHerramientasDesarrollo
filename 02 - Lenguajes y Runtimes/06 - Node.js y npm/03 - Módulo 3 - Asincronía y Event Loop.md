@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 3: AsincronÃ­a y Event Loop
+# Módulo 3: Asincronía y Event Loop
 
-**Objetivo**: Dominar el modelo asÃ­ncrono de Node.js: callbacks, Promesas, async/await y el Event Loop.
+**Objetivo**: Dominar el modelo asíncrono de Node.js: callbacks, Promesas, async/await y el Event Loop.
 
 ---
 
@@ -35,7 +35,7 @@ console.log('6. Sync');
 ### Microtasks vs Macrotasks
 ```javascript
 // Microtasks (se ejecutan antes de la siguiente macrotask):
-// - process.nextTick (prioridad mÃ¡xima)
+// - process.nextTick (prioridad máxima)
 // - Promise.then/catch/finally
 // - queueMicrotask
 // - MutationObserver (browser)
@@ -173,16 +173,16 @@ async function consume() {
 
 ```javascript
 // nextTick: antes de la siguiente fase del Event Loop
-// setImmediate: en la fase check (despuÃ©s de poll)
+// setImmediate: en la fase check (después de poll)
 
 function apiCall(callback) {
-    // Usar nextTick para garantizar callback asÃ­ncrono
+    // Usar nextTick para garantizar callback asíncrono
     process.nextTick(() => {
         callback(null, 'result');
     });
 }
 
-// setImmediate es Ãºtil para I/O diferido
+// setImmediate es útil para I/O diferido
 const fs = require('fs');
 fs.readFile('file.txt', () => {
     setTimeout(() => console.log('timer'));
@@ -192,7 +192,7 @@ fs.readFile('file.txt', () => {
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Concepto | Uso |
 |----------|-----|
@@ -203,9 +203,9 @@ fs.readFile('file.txt', () => {
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[04 - MÃ³dulo 4 - File System y Streams|MÃ³dulo 4: File System y Streams]]
+**Siguiente**: [[04 - Módulo 4 - File System y Streams|Módulo 4: File System y Streams]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

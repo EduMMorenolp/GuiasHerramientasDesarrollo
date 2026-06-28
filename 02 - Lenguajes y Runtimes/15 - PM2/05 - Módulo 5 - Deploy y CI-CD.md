@@ -1,4 +1,4 @@
-﻿# Módulo 5: Deploy y CI/CD
+# Módulo 5: Deploy y CI/CD
 
 **Objetivo**: Despliegue automatizado zero-downtime mediante el comando deploy de PM2 y pipelines CI/CD.
 

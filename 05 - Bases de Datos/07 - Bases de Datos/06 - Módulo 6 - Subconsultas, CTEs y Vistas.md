@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 6: Subconsultas, CTEs y Vistas
+# Módulo 6: Subconsultas, CTEs y Vistas
 
 **Objetivo**: Escribir consultas anidadas, CTEs recursivas y crear vistas.
 
@@ -67,16 +67,16 @@ JOIN ventas_2024 v ON c.id = v.cliente_id
 ORDER BY v.total DESC;
 ```
 
-### CTE recursiva (jerarquÃ­as)
+### CTE recursiva (jerarquías)
 ```sql
 WITH RECURSIVE organigrama AS (
-    -- Base: empleado raÃ­z
+    -- Base: empleado raíz
     SELECT id, nombre, jefe_id, 1 as nivel
     FROM empleados WHERE jefe_id IS NULL
 
     UNION ALL
 
-    -- RecursiÃ³n: subordinados
+    -- Recursión: subordinados
     SELECT e.id, e.nombre, e.jefe_id, o.nivel + 1
     FROM empleados e
     JOIN organigrama o ON e.jefe_id = o.id
@@ -84,7 +84,7 @@ WITH RECURSIVE organigrama AS (
 SELECT * FROM organigrama ORDER BY nivel, nombre;
 ```
 
-Ãštil para: Ã¡rboles (categorÃ­as, organigramas), grafos, secuencias.
+Ãštil para: árboles (categorías, organigramas), grafos, secuencias.
 
 ---
 
@@ -117,26 +117,26 @@ FROM pedidos GROUP BY cliente_id;
 -- Refrescar datos
 REFRESH MATERIALIZED VIEW resumen_ventas;
 
--- Ãndice sobre vista materializada
+-- Índice sobre vista materializada
 CREATE INDEX ON resumen_ventas(cliente_id);
 ```
 
 ---
 
-## ComparaciÃ³n
+## Comparación
 
-| Elemento | EvaluaciÃ³n | Almacena datos | Actualizable |
+| Elemento | Evaluación | Almacena datos | Actualizable |
 |----------|------------|----------------|--------------|
-| Subconsulta | Cada ejecuciÃ³n | No | N/A |
-| CTE | Una vez por consulta | No (volÃ¡til) | N/A |
-| Vista normal | Cada SELECT | No | SÃ­ (simple) |
-| Vista materializada | Al refrescar | SÃ­ | Solo vÃ­a REFRESH |
+| Subconsulta | Cada ejecución | No | N/A |
+| CTE | Una vez por consulta | No (volátil) | N/A |
+| Vista normal | Cada SELECT | No | Sí (simple) |
+| Vista materializada | Al refrescar | Sí | Solo vía REFRESH |
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[07 - MÃ³dulo 7 - Window Functions y AnÃ¡lisis|MÃ³dulo 7: Window Functions y AnÃ¡lisis]]
+**Siguiente**: [[07 - Módulo 7 - Window Functions y Análisis|Módulo 7: Window Functions y Análisis]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

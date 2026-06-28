@@ -1,4 +1,4 @@
-﻿# Módulo 5: Caching
+# Módulo 5: Caching
 
 **Objetivo**: Aprender y dominar: Caching.
 

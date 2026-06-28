@@ -1,23 +1,23 @@
-﻿# MÃ³dulo 2: Input Editor
+# Módulo 2: Input Editor
 
-**Objetivo**: Dominar el editor multilÃ­nea de Warp y sus capacidades de ediciÃ³n avanzada.
+**Objetivo**: Dominar el editor multilínea de Warp y sus capacidades de edición avanzada.
 
 ---
 
-## Editor MultilÃ­nea
+## Editor Multilínea
 
-A diferencia de las terminales tradicionales donde solo se puede editar una lÃ­nea, Warp incorpora un editor multilÃ­nea completo.
+A diferencia de las terminales tradicionales donde solo se puede editar una línea, Warp incorpora un editor multilínea completo.
 
 ### Atajos principales
 
-| AcciÃ³n | Atajo |
+| Acción | Atajo |
 |--------|-------|
-| Nueva lÃ­nea | Shift+Enter |
+| Nueva línea | Shift+Enter |
 | Ejecutar comando | Enter |
 | Posicionar cursor | Click |
 | Seleccionar texto | Click + arrastrar |
-| Cortar lÃ­nea | Ctrl+X |
-| Copiar lÃ­nea | Ctrl+C |
+| Cortar línea | Ctrl+X |
+| Copiar línea | Ctrl+C |
 | Pegar | Ctrl+V |
 | Deshacer | Ctrl+Z |
 | Rehacer | Ctrl+Shift+Z |
@@ -28,10 +28,10 @@ A diferencia de las terminales tradicionales donde solo se puede editar una lÃ�
 ## Funcionalidades del Editor
 
 ### Click para posicionar cursor
-Puedes hacer click en cualquier parte del comando para colocar el cursor exactamente donde necesitas editar. Esto es especialmente Ãºtil en comandos largos o pipes complejos.
+Puedes hacer click en cualquier parte del comando para colocar el cursor exactamente donde necesitas editar. Esto es especialmente útil en comandos largos o pipes complejos.
 
 ### Alias Expansion
-Warp expande automÃ¡ticamente los alias definidos en tu shell. Al escribir un alias, Warp muestra el comando completo al que corresponde.
+Warp expande automáticamente los alias definidos en tu shell. Al escribir un alias, Warp muestra el comando completo al que corresponde.
 
 ```powershell
 # Si tienes definido:
@@ -50,7 +50,7 @@ El editor resalta la sintaxis del comando en tiempo real:
 ### Error Highlighting
 Warp analiza el comando mientras escribes y resalta posibles errores:
 - Comandos no encontrados (subrayado rojo)
-- Argumentos invÃ¡lidos
+- Argumentos inválidos
 - Sintaxis incorrecta
 - Archivos o rutas que no existen
 
@@ -58,22 +58,22 @@ Warp analiza el comando mientras escribes y resalta posibles errores:
 
 ## Command Inspector
 
-El inspector de comandos muestra informaciÃ³n detallada antes de ejecutar:
+El inspector de comandos muestra información detallada antes de ejecutar:
 
-| Elemento | DescripciÃ³n |
+| Elemento | Descripción |
 |----------|-------------|
-| Ruta del comando | UbicaciÃ³n del binario (con `which`) |
-| VersiÃ³n | VersiÃ³n instalada |
+| Ruta del comando | Ubicación del binario (con `which`) |
+| Versión | Versión instalada |
 | Ayuda | Extracto de `--help` |
-| Argumentos | ValidaciÃ³n de argumentos |
+| Argumentos | Validación de argumentos |
 | Riesgos | Advertencias de seguridad |
 
 ### Abrir el inspector
 - **Ctrl+I**: abre el inspector del comando actual
-- Muestra informaciÃ³n en el panel lateral sin ejecutar
+- Muestra información en el panel lateral sin ejecutar
 
 ```powershell
-# Ejemplo: inspector muestra la ruta y versiÃ³n de git
+# Ejemplo: inspector muestra la ruta y versión de git
 git push --force
 # Warp advierte: "force push puede sobrescribir cambios remotos"
 ```
@@ -84,7 +84,7 @@ git push --force
 
 Warp permite habilitar keybindings de Vim en el editor de entrada.
 
-### ActivaciÃ³n
+### Activación
 ```powershell
 # En settings.yaml
 editor:
@@ -92,18 +92,18 @@ editor:
 ```
 
 ### Modos disponibles
-| Modo | DescripciÃ³n |
+| Modo | Descripción |
 |------|-------------|
-| Normal | NavegaciÃ³n con teclas vim (h, j, k, l) |
+| Normal | Navegación con teclas vim (h, j, k, l) |
 | Insert | Escritura normal de texto |
-| Visual | SelecciÃ³n con movimiento vim |
+| Visual | Selección con movimiento vim |
 
 ### Atajos vim comunes
 - **h/j/k/l**: mover cursor
 - **i**: entrar en modo insert
 - **Esc**: volver a modo normal
-- **dd**: borrar lÃ­nea
-- **yy**: copiar lÃ­nea
+- **dd**: borrar línea
+- **yy**: copiar línea
 - **p**: pegar
 - **u**: deshacer
 - **Ctrl+r**: rehacer
@@ -112,17 +112,17 @@ editor:
 
 ## Resumen
 
-| Funcionalidad | DescripciÃ³n |
+| Funcionalidad | Descripción |
 |---------------|-------------|
-| Editor multilÃ­nea | Shift+Enter nueva lÃ­nea, Enter ejecuta |
+| Editor multilínea | Shift+Enter nueva línea, Enter ejecuta |
 | Syntax highlighting | Resalta comandos, banderas, rutas |
 | Error highlighting | Detecta typos y errores en tiempo real |
-| Command inspector | Ctrl+I para informaciÃ³n del comando |
+| Command inspector | Ctrl+I para información del comando |
 | Vim mode | Keybindings de Vim opcionales |
 
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[03 - MÃ³dulo 3 - Completions y Correcciones|MÃ³dulo 3: Completions y Correcciones]]
+**Siguiente**: [[03 - Módulo 3 - Completions y Correcciones|Módulo 3: Completions y Correcciones]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

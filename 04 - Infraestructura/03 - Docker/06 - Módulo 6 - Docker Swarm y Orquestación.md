@@ -1,20 +1,20 @@
-﻿# MÃ³dulo 6: Docker Swarm y OrquestaciÃ³n
+# Módulo 6: Docker Swarm y Orquestación
 
-**Objetivo**: Orquestar contenedores en clÃºster con Docker Swarm.
+**Objetivo**: Orquestar contenedores en clúster con Docker Swarm.
 
 ---
 
-## Â¿QuÃ© es Docker Swarm?
+## ¿Qué es Docker Swarm?
 
-Modo nativo de Docker para orquestaciÃ³n de contenedores en clÃºster.
+Modo nativo de Docker para orquestación de contenedores en clúster.
 
 ### Conceptos clave
-| TÃ©rmino | DescripciÃ³n |
+| Término | Descripción |
 |---------|-------------|
-| **Swarm** | ClÃºster de nodos Docker |
-| **Manager** | Nodo que gestiona el clÃºster |
+| **Swarm** | Clúster de nodos Docker |
+| **Manager** | Nodo que gestiona el clúster |
 | **Worker** | Nodo que ejecuta tareas |
-| **Service** | DefiniciÃ³n de una aplicaciÃ³n en el swarm |
+| **Service** | Definición de una aplicación en el swarm |
 | **Task** | Contenedor individual ejecutando un servicio |
 | **Stack** | Grupo de servicios (como Compose pero para swarm) |
 
@@ -222,21 +222,21 @@ docker service ls
 # Logs centralizados
 docker service logs --tail 100 api
 
-# EstadÃ­sticas del nodo
+# Estadísticas del nodo
 docker node ps $(docker node ls -q)
 ```
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
-| `docker swarm init` | Inicializar clÃºster |
+| `docker swarm init` | Inicializar clúster |
 | `docker service create` | Desplegar servicio |
 | `docker service scale` | Escalar servicio |
 | `docker stack deploy` | Desplegar stack Compose |
-| `docker node ls` | Listar nodos del clÃºster |
+| `docker node ls` | Listar nodos del clúster |
 | `docker secret create` | Gestionar secretos |
 
 ---

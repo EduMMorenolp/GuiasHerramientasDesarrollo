@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Agent Mode
+# Módulo 4: Agent Mode
 
 **Objetivo**: Utilizar el modo agente de Warp para asistencia AI en la terminal.
 
@@ -6,11 +6,11 @@
 
 ## Terminal vs Agent Mode
 
-Warp ofrece dos modos de interacciÃ³n principales:
+Warp ofrece dos modos de interacción principales:
 
 ### Terminal Mode
 - Modo tradicional donde escribes comandos directamente
-- Warp actÃºa como terminal mejorada con bloques y editor
+- Warp actúa como terminal mejorada con bloques y editor
 - Sin interferencia de AI
 - Uso normal del shell (PowerShell, bash, zsh)
 

@@ -1,4 +1,4 @@
-﻿# Módulo 4: Monitoreo y Logs
+# Módulo 4: Monitoreo y Logs
 
 **Objetivo**: Monitoreo en tiempo real y gestion de logs de las aplicaciones gestionadas por PM2.
 

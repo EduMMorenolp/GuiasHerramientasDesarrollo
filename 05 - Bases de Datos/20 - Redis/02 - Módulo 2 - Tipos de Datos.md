@@ -1,4 +1,4 @@
-﻿# Módulo 2: Tipos de Datos
+# Módulo 2: Tipos de Datos
 
 **Objetivo**: Aprender y dominar: Tipos de Datos.
 

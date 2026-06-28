@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Docker Buildx y Seguridad
+# Módulo 4: Docker Buildx y Seguridad
 
 **Objetivo**: Optimizar builds multi-plataforma y hardening de seguridad.
 
@@ -6,10 +6,10 @@
 
 ## Docker Buildx
 
-### Â¿QuÃ© es?
+### ¿Qué es?
 Plugin de Docker para builds avanzados con soporte multi-plataforma.
 
-### ConfiguraciÃ³n
+### Configuración
 ```powershell
 # Ver builders disponibles
 docker buildx ls
@@ -18,17 +18,17 @@ docker buildx ls
 docker buildx create --name multiarch --driver docker-container --use
 docker buildx inspect --bootstrap
 
-# Build para mÃºltiples plataformas
+# Build para múltiples plataformas
 docker buildx build --platform linux/amd64,linux/arm64 -t user/app:latest --push .
 ```
 
 ### Buildx vs Build legacy
-| CaracterÃ­stica | docker build | docker buildx |
+| Característica | docker build | docker buildx |
 |---------------|-------------|---------------|
-| Multi-plataforma | No | SÃ­ |
-| Cache remoto | No | SÃ­ |
+| Multi-plataforma | No | Sí |
+| Cache remoto | No | Sí |
 | BuildKit | Opcional | Nativo |
-| Outputs mÃºltiples | No | SÃ­ |
+| Outputs múltiples | No | Sí |
 
 ### Cache avanzado
 ```dockerfile
@@ -46,7 +46,7 @@ docker buildx build --cache-from=type=registry,ref=user/app:cache \
 
 ## Seguridad en Contenedores
 
-### Principios bÃ¡sicos
+### Principios básicos
 ```dockerfile
 # 1. No ejecutar como root
 RUN addgroup -g 1001 -S appuser && adduser -S appuser -u 1001 -G appuser
@@ -59,29 +59,29 @@ USER appuser
 RUN apt-get update && apt-get install -y --no-install-recommends curl
 # vs --no-install-recommends evita paquetes innecesarios
 
-# 4. Usar imÃ¡genes distroless
+# 4. Usar imágenes distroless
 FROM gcr.io/distroless/nodejs22-debian12
 ```
 
 ### Docker Scout
 ```powershell
-# Escanear imÃ¡genes por vulnerabilidades
+# Escanear imágenes por vulnerabilidades
 docker scout quickstart
 docker scout analyze mi-app:v1
 
-# Ver polÃ­ticas de seguridad
+# Ver políticas de seguridad
 docker scout policy
 
-# Comparar imÃ¡genes
+# Comparar imágenes
 docker scout compare mi-app:v1 mi-app:v2
 
-# IntegraciÃ³n en CI
+# Integración en CI
 docker scout cves mi-app:v1
 ```
 
 ### Hardening
 ```powershell
-# Ejecutar con mÃ­nimos privilegios
+# Ejecutar con mínimos privilegios
 docker run --read-only \
            --cap-drop=ALL \
            --cap-add=NET_BIND_SERVICE \
@@ -107,7 +107,7 @@ docker run -e DB_PASSWORD -e API_KEY mi-app  # Preferir
 
 ## Docker Init
 
-Inicializa proyectos Docker automÃ¡ticamente:
+Inicializa proyectos Docker automáticamente:
 
 ```powershell
 docker init
@@ -135,9 +135,9 @@ dist/
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `docker buildx build --platform` | Build multi-plataforma |
 | `docker scout analyze` | Escanear vulnerabilidades |
@@ -148,6 +148,6 @@ dist/
 ---
 
 **Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[05 - MÃ³dulo 5 - Docker Compose Avanzado y CI-CD|MÃ³dulo 5: Docker Compose Avanzado y CI-CD]]
+**Siguiente**: [[05 - Módulo 5 - Docker Compose Avanzado y CI-CD|Módulo 5: Docker Compose Avanzado y CI-CD]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,26 +1,26 @@
-﻿# MÃ³dulo 1: Fundamentos de Git
+# Módulo 1: Fundamentos de Git
 
-**Objetivo**: Comprender quÃ© es Git, instalarlo y dominar las operaciones fundamentales.
+**Objetivo**: Comprender qué es Git, instalarlo y dominar las operaciones fundamentales.
 
 ---
 
-## Â¿QuÃ© es Git?
+## ¿Qué es Git?
 
-### DefiniciÃ³n
-Git es un sistema de control de versiones distribuido que permite rastrear cambios en el cÃ³digo fuente durante el desarrollo de software.
+### Definición
+Git es un sistema de control de versiones distribuido que permite rastrear cambios en el código fuente durante el desarrollo de software.
 
 ### Conceptos Clave
-- **Repositorio**: AlmacÃ©n de tu proyecto con todo el historial
-- **Commit**: InstantÃ¡nea de los archivos en un momento dado
-- **Branch**: LÃ­nea independiente de desarrollo
+- **Repositorio**: Almacén de tu proyecto con todo el historial
+- **Commit**: Instantánea de los archivos en un momento dado
+- **Branch**: Línea independiente de desarrollo
 - **Working Directory**: Tus archivos actuales
-- **Staging Area**: PreparaciÃ³n antes del commit
+- **Staging Area**: Preparación antes del commit
 
 ---
 
-## InstalaciÃ³n y ConfiguraciÃ³n
+## Instalación y Configuración
 
-### InstalaciÃ³n
+### Instalación
 ```powershell
 # Windows (Scoop)
 scoop install git
@@ -32,7 +32,7 @@ choco install git
 git --version
 ```
 
-### ConfiguraciÃ³n Inicial
+### Configuración Inicial
 ```powershell
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
@@ -50,17 +50,17 @@ cd D:\Proyectos\MiProyecto
 git init
 ```
 
-### Ciclo BÃ¡sico
+### Ciclo Básico
 ```powershell
 # Ver estado
 git status
 
-# AÃ±adir archivos al staging
+# Añadir archivos al staging
 git add archivo.js
 git add .  # Todos los archivos
 
 # Hacer commit
-git commit -m "feat: aÃ±adir funcionalidad de login"
+git commit -m "feat: añadir funcionalidad de login"
 
 # Ver historial
 git log --oneline --graph
@@ -95,18 +95,18 @@ dist/
 
 ## Resumen
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `git init` | Inicializa repositorio |
 | `git status` | Muestra estado actual |
-| `git add` | AÃ±ade al staging |
-| `git commit` | Crea instantÃ¡nea |
+| `git add` | Añade al staging |
+| `git commit` | Crea instantánea |
 | `git log` | Muestra historial |
 | `git diff` | Compara cambios |
 
 ---
 
 **Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[02 - MÃ³dulo 2 - Branching y ColaboraciÃ³n|MÃ³dulo 2: Branching y ColaboraciÃ³n]]
+**Siguiente**: [[02 - Módulo 2 - Branching y Colaboración|Módulo 2: Branching y Colaboración]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

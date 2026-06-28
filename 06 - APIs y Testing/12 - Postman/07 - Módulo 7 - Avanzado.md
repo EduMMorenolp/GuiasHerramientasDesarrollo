@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 7: Avanzado
+# Módulo 7: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 
@@ -162,7 +162,7 @@ const response = await fetch(
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

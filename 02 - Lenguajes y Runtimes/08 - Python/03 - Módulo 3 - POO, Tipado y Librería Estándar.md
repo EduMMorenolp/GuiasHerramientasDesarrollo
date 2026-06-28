@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 3: POO, Tipado y LibrerÃ­a EstÃ¡ndar
+# Módulo 3: POO, Tipado y Librería Estándar
 
-**Objetivo**: ProgramaciÃ³n orientada a objetos avanzada, type hints y mÃ³dulos esenciales de la stdlib.
+**Objetivo**: Programación orientada a objetos avanzada, type hints y módulos esenciales de la stdlib.
 
 ---
 
@@ -37,7 +37,7 @@ class Perro(Animal):
 class Usuario:
     def __init__(self, nombre: str, email: str):
         self.nombre = nombre
-        self._email = email  # "protegido" (convenciÃ³n)
+        self._email = email  # "protegido" (convención)
         self.__password_hash = None  # name mangling
 
     @property
@@ -47,7 +47,7 @@ class Usuario:
     @email.setter
     def email(self, value: str):
         if "@" not in value:
-            raise ValueError("Email invÃ¡lido")
+            raise ValueError("Email inválido")
         self._email = value
 
     @email.deleter
@@ -115,7 +115,7 @@ from typing import (
     Callable, TypeVar, Generic, Literal, Protocol
 )
 
-# Tipos bÃ¡sicos
+# Tipos básicos
 def procesar(items: List[str]) -> Dict[str, int]:
     return {item: len(item) for item in items}
 
@@ -127,7 +127,7 @@ def buscar(id: int) -> Optional[dict]:
 def ejecutar(fn: Callable[[int, str], bool]) -> None:
     fn(1, "test")
 
-# GenÃ©ricos
+# Genéricos
 T = TypeVar("T")
 U = TypeVar("U", int, float)  # restringido
 
@@ -152,7 +152,7 @@ def mover(animal: Nadador) -> None:
 
 ---
 
-## LibrerÃ­a EstÃ¡ndar
+## Librería Estándar
 
 ### collections
 ```python
@@ -213,7 +213,7 @@ datetime.strptime("2024-12-25", "%Y-%m-%d")
 from zoneinfo import ZoneInfo
 mx = datetime.now(ZoneInfo("America/Mexico_City"))
 
-# CÃ¡lculos
+# Cálculos
 ayer = hoy - timedelta(days=1)
 diferencia = (datetime(2025, 1, 1) - ahora).days
 ```
@@ -247,9 +247,9 @@ def log(func):
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Tema | MÃ³dulo |
+| Tema | Módulo |
 |------|--------|
 | POO | classes, ABC, dataclass, property |
 | Type Hints | typing.Generic, Protocol, TypeVar |
@@ -257,9 +257,9 @@ def log(func):
 
 ---
 
-**DocumentaciÃ³n oficial**: https://docs.python.org/3/
+**Documentación oficial**: https://docs.python.org/3/
 
-**Siguiente**: [[04 - MÃ³dulo 4 - Generadores, Decoradores y Context Managers|MÃ³dulo 4: Generadores, Decoradores y Context Managers]]
+**Siguiente**: [[04 - Módulo 4 - Generadores, Decoradores y Context Managers|Módulo 4: Generadores, Decoradores y Context Managers]]
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,4 +1,4 @@
-﻿# Módulo 2: Locators y Acciones
+# Módulo 2: Locators y Acciones
 
 **Objetivo**: Aprender y dominar: Locators y Acciones.
 

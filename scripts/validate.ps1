@@ -1,42 +1,37 @@
-param(
-    [switch]$Fix
-)
+param([switch]$Fix)
 
 $base = "D:\Proyectos\Herramientas"
 $issues = @()
 
-# 1. Verify all wikilinks point to existing files
 Write-Output "=== Verificando wikilinks ==="
 Get-ChildItem -Path $base -Recurse -Filter "*.md" | Where-Object { $_.Name -notmatch 'Plantilla' } | ForEach-Object {
-    $content = Get-Content -LiteralPath $_.FullName -Raw
+    $file = $_
+    $content = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
     [regex]::Matches($content, '\[\[([^\]]+?)(?:\|[^\]]+)?\]\]') | ForEach-Object {
-        $target = $_.Groups[1].Value
+        $match = $_
+        $target = $match.Groups[1].Value
         if ($target -match '\.\./') {
-            # Relative path - resolve from file directory
-            $resolved = [System.IO.Path]::GetFullPath([System.IO.Path]::Combine($_.Directory.FullName, $target))
+            $resolved = [System.IO.Path]::GetFullPath([System.IO.Path]::Combine($file.Directory.FullName, $target))
             if (-not (Test-Path -LiteralPath ($resolved + ".md")) -and -not (Test-Path -LiteralPath $resolved)) {
-                $issues += "BROKEN: $($_.Directory.Parent.Name)\$($_.Directory.Name)\$($_.Name) -> $target"
+                $issues += "BROKEN: $($file.Directory.Name)\$($file.Name) -> $target"
             }
         } elseif ($target -notmatch 'https?://' -and $target -notmatch '^#') {
-            # Simple wikilink - should be in same directory or a known file
-            $localPath = Join-Path $_.Directory.FullName ($target + ".md")
+            $localPath = Join-Path $file.Directory.FullName ($target + ".md")
             if (-not (Test-Path -LiteralPath $localPath)) {
-                $issues += "BROKEN: $($_.Directory.Parent.Name)\$($_.Directory.Name)\$($_.Name) -> $target (not found locally)"
+                $issues += "BROKEN: $($file.Directory.Name)\$($file.Name) -> $target"
             }
         }
     }
 }
 
-# 2. Verify all modules have Documentación oficial
-Write-Output "=== Verificando documentación oficial ==="
-Get-ChildItem -Path $base -Recurse -Filter "*Módulo*" | ForEach-Object {
-    $has = Select-String -LiteralPath $_.FullName -Pattern "Documentación oficial" -Quiet
+Write-Output "=== Verificando documentacion oficial ==="
+Get-ChildItem -Path $base -Recurse -Filter "*Modulo*" | ForEach-Object {
+    $has = Select-String -LiteralPath $_.FullName -Pattern "Documentacion oficial" -Quiet
     if (-not $has) {
-        $issues += "MISSING DOC: $($_.Directory.Parent.Name)\$($_.Directory.Name)\$($_.Name)"
+        $issues += "MISSING DOC: $($_.Directory.Name)\$($_.Name)"
     }
 }
 
-# 3. Verify all overview files exist for each tool
 Write-Output "=== Verificando overviews ==="
 $expectedOverviews = @{
     "OpenCode" = "opencode.md"
@@ -62,7 +57,7 @@ $expectedOverviews = @{
     "GitHub Actions" = "github-actions.md"
 }
 
-Get-ChildItem -Path $base -Directory -Recurse -Depth 1 | Where-Object { $_.Name -match '^\d{2} - ' } | ForEach-Object {
+Get-ChildItem -Path $base -Directory -Recurse -Depth 2 | Where-Object { $_.Name -match '^\d{2} - ' -and $_.Parent.Name -match '^\d{2} - ' } | ForEach-Object {
     $toolName = $_.Name -replace '^\d{2} - ', ''
     if ($expectedOverviews.ContainsKey($toolName)) {
         $expectedFile = Join-Path $_.FullName $expectedOverviews[$toolName]
@@ -72,7 +67,6 @@ Get-ChildItem -Path $base -Directory -Recurse -Depth 1 | Where-Object { $_.Name 
     }
 }
 
-# Summary
 Write-Output "=== Resumen ==="
 if ($issues.Count -eq 0) {
     Write-Output "No se encontraron problemas."

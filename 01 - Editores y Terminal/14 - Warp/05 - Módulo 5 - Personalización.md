@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: PersonalizaciÃ³n
+# Módulo 5: Personalización
 
 **Objetivo**: Configurar Warp al gusto con temas, fuentes, keybindings y ajustes avanzados.
 
@@ -6,7 +6,7 @@
 
 ## Themes
 
-Warp incluye una colecciÃ³n de temas predefinidos y permite crear temas personalizados.
+Warp incluye una colección de temas predefinidos y permite crear temas personalizados.
 
 ### Temas incluidos
 - **Warp Dark** (predeterminado)
@@ -44,7 +44,7 @@ colors:
 
 ---
 
-## Fuentes y TipografÃ­a
+## Fuentes y Tipografía
 
 ### Cambiar fuente
 ```powershell
@@ -57,7 +57,7 @@ font:
 ```
 
 ### Fuentes recomendadas
-| Fuente | Ligaduras | ProgramaciÃ³n |
+| Fuente | Ligaduras | Programación |
 |--------|-----------|--------------|
 | Cascadia Code | Si | Microsoft |
 | Fira Code | Si | Popular |
@@ -75,22 +75,22 @@ opacity: 0.95  # 0.0 (transparente) a 1.0 (solido)
 
 ## Tab Configs
 
-Warp permite configurar el comportamiento de las pestaÃ±as.
+Warp permite configurar el comportamiento de las pestañas.
 
-### Opciones de pestaÃ±a
+### Opciones de pestaña
 ```powershell
 tab:
   show_close_button: true
   show_icon: true
   position: top  # top o bottom
-  reuse_empty: true  # Reutilizar pestaÃ±a vacia
+  reuse_empty: true  # Reutilizar pestaña vacia
 ```
 
 ### Comportamiento
-- **Nueva pestaÃ±a**: Ctrl+T
-- **Cerrar pestaÃ±a**: Ctrl+W
-- **Siguiente pestaÃ±a**: Ctrl+Tab
-- **Anterior pestaÃ±a**: Ctrl+Shift+Tab
+- **Nueva pestaña**: Ctrl+T
+- **Cerrar pestaña**: Ctrl+W
+- **Siguiente pestaña**: Ctrl+Tab
+- **Anterior pestaña**: Ctrl+Shift+Tab
 
 ---
 
@@ -103,7 +103,7 @@ Warp permite reasignar todos los atajos de teclado.
 %USERPROFILE%\.warp\keybindings.yaml
 ```
 
-### Ejemplo de personalizaciÃ³n
+### Ejemplo de personalización
 ```powershell
 keybindings:
   - action: ToggleTerminalMode
@@ -114,8 +114,8 @@ keybindings:
     key: Ctrl+Shift+T
 ```
 
-### Atajos predeterminados Ãºtiles
-| Atajo | AcciÃ³n |
+### Atajos predeterminados útiles
+| Atajo | Acción |
 |-------|--------|
 | Ctrl+Shift+C | Copiar |
 | Ctrl+Shift+V | Pegar |
@@ -127,9 +127,9 @@ keybindings:
 
 ## Settings File
 
-El archivo principal de configuraciÃ³n es `settings.yaml`.
+El archivo principal de configuración es `settings.yaml`.
 
-### UbicaciÃ³n
+### Ubicación
 ```powershell
 %USERPROFILE%\.warp\settings.yaml
 ```
@@ -161,17 +161,17 @@ cloud:
 
 ## Resumen
 
-| Aspecto | ConfiguraciÃ³n |
+| Aspecto | Configuración |
 |---------|---------------|
 | Temas | Predefinidos o personalizados en YAML |
-| Fuente | Familia, tamaÃ±o, ligaduras, opacidad |
+| Fuente | Familia, tamaño, ligaduras, opacidad |
 | Keybindings | `keybindings.yaml` |
 | Settings | `%USERPROFILE%\.warp\settings.yaml` |
-| PestaÃ±as | PosiciÃ³n, iconos, comportamiento |
+| Pestañas | Posición, iconos, comportamiento |
 
 ---
 
 **Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[06 - MÃ³dulo 6 - Avanzado|MÃ³dulo 6: Avanzado]]
+**Siguiente**: [[06 - Módulo 6 - Avanzado|Módulo 6: Avanzado]]
 **Inicio herramienta**: [[warp|Warp]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

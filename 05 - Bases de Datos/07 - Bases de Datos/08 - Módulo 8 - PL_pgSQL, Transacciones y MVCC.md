@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 8: PL/pgSQL, Transacciones y MVCC
+# Módulo 8: PL/pgSQL, Transacciones y MVCC
 
 **Objetivo**: Programar con PL/pgSQL, manejar transacciones avanzadas y entender MVCC.
 
@@ -80,10 +80,10 @@ ROLLBACK;
 ## MVCC (Multiversion Concurrency Control)
 
 ### Conceptos clave
-- **xmin/xmax**: IDs de transacciÃ³n que crean/eliminan una versiÃ³n de fila
+- **xmin/xmax**: IDs de transacción que crean/eliminan una versión de fila
 - **Dead tuples**: Versiones antiguas que ya no son visibles
 - **VACUUM**: Limpia dead tuples y recupera espacio
-- **Isolation levels**: Controlan quÃ© datos son visibles
+- **Isolation levels**: Controlan qué datos son visibles
 
 ### Niveles de aislamiento
 | Nivel | Dirty Read | Non-repeatable Read | Phantom Read |
@@ -118,27 +118,27 @@ SHOW autovacuum;
 
 ---
 
-## Ãndices Avanzados
+## Índices Avanzados
 
-### Ãndice parcial
+### Índice parcial
 ```sql
 CREATE INDEX idx_pedidos_pendientes ON pedidos(fecha) WHERE estado = 'pendiente';
 ```
 
-### Ãndice por expresiÃ³n
+### Índice por expresión
 ```sql
 CREATE INDEX idx_lower_email ON usuarios(LOWER(email));
 SELECT * FROM usuarios WHERE LOWER(email) = 'ana@mail.com';
 ```
 
-### GiST (bÃºsqueda geomÃ©trica, texto)
+### GiST (búsqueda geométrica, texto)
 ```sql
 CREATE EXTENSION pg_trgm;
 CREATE INDEX idx_busqueda ON productos USING GIST (nombre gist_trgm_ops);
-SELECT * FROM productos WHERE nombre % 'telefono';  -- BÃºsqueda fuzzy
+SELECT * FROM productos WHERE nombre % 'telefono';  -- Búsqueda fuzzy
 ```
 
-### GIN (bÃºsqueda en arrays, JSONB)
+### GIN (búsqueda en arrays, JSONB)
 ```sql
 CREATE INDEX idx_json ON eventos USING GIN (datos jsonb_path_ops);
 ```
@@ -162,9 +162,9 @@ CALL ObtenerClientes('Madrid');
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[09 - MÃ³dulo 9 - Drizzle ORM|MÃ³dulo 9: Drizzle ORM]]
+**Siguiente**: [[09 - Módulo 9 - Drizzle ORM|Módulo 9: Drizzle ORM]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

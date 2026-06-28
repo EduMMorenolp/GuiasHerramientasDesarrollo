@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: Remote Development y Dev Containers
+# Módulo 4: Remote Development y Dev Containers
 
 **Objetivo**: Desarrollar remotamente con SSH, WSL y Dev Containers.
 
@@ -8,7 +8,7 @@
 
 VS Code permite desarrollar en entornos remotos como si fueran locales.
 
-### Tipos de conexiÃ³n
+### Tipos de conexión
 | Tipo | Uso |
 |------|-----|
 | **SSH** | Servidores remotos, VMs |
@@ -20,7 +20,7 @@ VS Code permite desarrollar en entornos remotos como si fueran locales.
 
 ## SSH Remote
 
-### ConfiguraciÃ³n
+### Configuración
 ```powershell
 # Requiere: Remote - SSH extension
 
@@ -41,7 +41,7 @@ Host dev-server
 code --remote ssh-remote+dev-server /path/to/project
 ```
 
-### Comandos Ãºtiles
+### Comandos útiles
 ```powershell
 Ctrl+Shift+P > "Remote-SSH: Open SSH Configuration File..."
 Ctrl+Shift+P > "Remote-SSH: Kill VS Code Server on Host..."
@@ -58,7 +58,7 @@ wsl --install
 
 # Extensiones en WSL
 # Las extensiones locales no funcionan en WSL
-# VSCode instala extensiones automÃ¡ticamente en WSL
+# VSCode instala extensiones automáticamente en WSL
 
 # Abrir carpeta en WSL
 code --remote wsl+Ubuntu /home/user/project
@@ -74,7 +74,7 @@ Ctrl+Shift+P > "WSL: Reopen in Windows"
 
 ## Dev Containers
 
-### Â¿QuÃ© son?
+### ¿Qué son?
 Entornos de desarrollo completos dentro de contenedores Docker.
 
 ### .devcontainer/devcontainer.json
@@ -141,9 +141,9 @@ Ctrl+Shift+P > "Dev Containers: Reopen in Folder Locally"
 
 ## GitHub Codespaces
 
-### ConfiguraciÃ³n
+### Configuración
 ```json
-// .devcontainer/devcontainer.json (misma configuraciÃ³n)
+// .devcontainer/devcontainer.json (misma configuración)
 // Abrir en Codespaces desde GitHub
 // Code > "Open with Codespaces" > "New Codespace"
 ```
@@ -152,8 +152,8 @@ Ctrl+Shift+P > "Dev Containers: Reopen in Folder Locally"
 - Entorno listo en segundos
 - Accesible desde cualquier dispositivo
 - 60 horas/mes gratis (free tier)
-- Misma configuraciÃ³n que Dev Containers
-- Prebuilds para apertura instantÃ¡nea
+- Misma configuración que Dev Containers
+- Prebuilds para apertura instantánea
 
 ---
 
@@ -170,7 +170,7 @@ code tunnel
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Herramienta | Comando de apertura |
 |-------------|-------------------|
@@ -183,6 +183,6 @@ code tunnel
 ---
 
 **Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[05 - MÃ³dulo 5 - Agents Window y GitHub Copilot|MÃ³dulo 5: Agents Window y GitHub Copilot]]
+**Siguiente**: [[05 - Módulo 5 - Agents Window y GitHub Copilot|Módulo 5: Agents Window y GitHub Copilot]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

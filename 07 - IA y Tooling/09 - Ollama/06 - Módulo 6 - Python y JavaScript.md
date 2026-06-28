@@ -1,24 +1,24 @@
-﻿# MÃ³dulo 6: Python y JavaScript
+# Módulo 6: Python y JavaScript
 
-**Objetivo**: Usar las librerÃ­as oficiales de Ollama para Python y JavaScript.
+**Objetivo**: Usar las librerías oficiales de Ollama para Python y JavaScript.
 
 ---
 
 ## Python (ollama-python)
 
-### InstalaciÃ³n
+### Instalación
 ```powershell
 pip install ollama
 ```
 
-### Chat bÃ¡sico
+### Chat básico
 ```python
 import ollama
 
 response = ollama.chat(
     model="llama3.2",
     messages=[
-        {"role": "user", "content": "Â¿QuÃ© es un LLM?"}
+        {"role": "user", "content": "¿Qué es un LLM?"}
     ]
 )
 
@@ -31,7 +31,7 @@ import ollama
 
 messages = [
     {"role": "system", "content": "Eres un experto en Python"},
-    {"role": "user", "content": "Â¿QuÃ© es un decorador?"}
+    {"role": "user", "content": "¿Qué es un decorador?"}
 ]
 
 response = ollama.chat(model="llama3.2", messages=messages)
@@ -75,7 +75,7 @@ response = ollama.embeddings(
 )
 
 embedding = response["embedding"]
-print(f"DimensiÃ³n del embedding: {len(embedding)}")
+print(f"Dimensión del embedding: {len(embedding)}")
 print(f"Primeros 5 valores: {embedding[:5]}")
 ```
 
@@ -120,18 +120,18 @@ asyncio.run(chat())
 
 ## JavaScript (ollama-js)
 
-### InstalaciÃ³n
+### Instalación
 ```powershell
 npm install ollama
 ```
 
-### Chat bÃ¡sico
+### Chat básico
 ```javascript
 import ollama from "ollama";
 
 const response = await ollama.chat({
     model: "llama3.2",
-    messages: [{ role: "user", content: "Â¿QuÃ© es un LLM?" }]
+    messages: [{ role: "user", content: "¿Qué es un LLM?" }]
 });
 
 console.log(response.message.content);
@@ -143,7 +143,7 @@ import ollama from "ollama";
 
 const stream = await ollama.chat({
     model: "llama3.2",
-    messages: [{ role: "user", content: "Explica la IA en 3 pÃ¡rrafos" }],
+    messages: [{ role: "user", content: "Explica la IA en 3 párrafos" }],
     stream: true
 });
 
@@ -177,7 +177,7 @@ const response = await ollama.embeddings({
 console.log(response.embedding);
 ```
 
-### Cliente con configuraciÃ³n
+### Cliente con configuración
 ```javascript
 import ollama from "ollama";
 
@@ -203,7 +203,7 @@ list.models.forEach(m => console.log(m.name));
 
 ## Comparativa Python vs JavaScript
 
-| CaracterÃ­stica | Python | JavaScript |
+| Característica | Python | JavaScript |
 |----------------|--------|------------|
 | Chat | `ollama.chat()` | `ollama.chat()` |
 | Streaming | `stream=True` | `stream: true` |
@@ -215,6 +215,6 @@ list.models.forEach(m => console.log(m.name));
 ---
 
 **Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[07 - MÃ³dulo 7 - Modelfile y Modelos Custom|MÃ³dulo 7: Modelfile y Modelos Custom]]
+**Siguiente**: [[07 - Módulo 7 - Modelfile y Modelos Custom|Módulo 7: Modelfile y Modelos Custom]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

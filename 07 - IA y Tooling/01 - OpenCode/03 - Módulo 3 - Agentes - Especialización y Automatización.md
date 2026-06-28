@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 3: Agentes - EspecializaciÃ³n y AutomatizaciÃ³n
+# Módulo 3: Agentes - Especialización y Automatización
 
 **Objetivo**: Dominar el sistema de agentes para tareas especializadas y flujos de trabajo complejos.
 
@@ -7,16 +7,16 @@
 ## Sistema de Agentes en OpenCode
 
 ### Agentes Primarios
-Son los asistentes principales con los que interactÃºas directamente:
+Son los asistentes principales con los que interactúas directamente:
 - **Build**: Todas las herramientas habilitadas (lectura, escritura, bash)
-- **Plan**: Restringido a solo lectura y planificaciÃ³n
-- **Personalizados**: Agentes que tÃº creas con configuraciones especÃ­ficas
+- **Plan**: Restringido a solo lectura y planificación
+- **Personalizados**: Agentes que tú creas con configuraciones específicas
 
 ### Subagentes
-Asistentes especializados invocados por agentes principales o mediante menciÃ³n `@`:
+Asistentes especializados invocados por agentes principales o mediante mención `@`:
 - Se ejecutan en segundo plano
 - Reportan resultados al agente principal
-- Ideales para tareas paralelas o de investigaciÃ³n
+- Ideales para tareas paralelas o de investigación
 
 ---
 
@@ -25,41 +25,41 @@ Asistentes especializados invocados por agentes principales o mediante menciÃ³
 ### Primarios
 | Agente | Herramientas | Uso principal |
 |--------|-------------|---------------|
-| **Build** | Todas habilitadas | ImplementaciÃ³n, escritura, debugging |
-| **Plan** | Solo lectura | AnÃ¡lisis, planificaciÃ³n, exploraciÃ³n |
+| **Build** | Todas habilitadas | Implementación, escritura, debugging |
+| **Plan** | Solo lectura | Análisis, planificación, exploración |
 
 ### Subagentes
-| Agente | DescripciÃ³n |
+| Agente | Descripción |
 |--------|-------------|
-| **General** | Tareas complejas de mÃºltiples pasos |
-| **Explore** | ExploraciÃ³n rÃ¡pida de solo lectura del cÃ³digo base |
-| **Scout** | InvestigaciÃ³n de dependencias externas y documentaciÃ³n |
+| **General** | Tareas complejas de múltiples pasos |
+| **Explore** | Exploración rápida de solo lectura del código base |
+| **Scout** | Investigación de dependencias externas y documentación |
 
-### CÃ³mo usar subagentes
+### Cómo usar subagentes
 ```markdown
 @explore "Encuentra todos los archivos que importan express en el proyecto"
 @general "Revisa la estructura de carpetas y crea un diagrama"
-@scout "Investiga la Ãºltima versiÃ³n de react-router y sus breaking changes"
+@scout "Investiga la última versión de react-router y sus breaking changes"
 ```
 
 ---
 
-## CreaciÃ³n de Agentes Personalizados
+## Creación de Agentes Personalizados
 
-### MotivaciÃ³n
-- Codificar conocimientos especÃ­ficos de un proyecto
+### Motivación
+- Codificar conocimientos específicos de un proyecto
 - Estandarizar flujos de trabajo del equipo
-- Crear asistentes especializados (revisor de cÃ³digo, generador de tests, etc.)
+- Crear asistentes especializados (revisor de código, generador de tests, etc.)
 
-### MÃ©todos de ConfiguraciÃ³n
+### Métodos de Configuración
 
-#### JSON (ConfiguraciÃ³n centralizada en `opencode.json`)
+#### JSON (Configuración centralizada en `opencode.json`)
 ```json
 {
   "agents": {
     "revisor": {
-      "description": "Agente revisor de cÃ³digo",
-      "prompt": "Eres un revisor de cÃ³digo senior. Revisa el cÃ³digo en busca de: bugs, problemas de rendimiento, seguridad, y adherencia a las convenciones del proyecto.",
+      "description": "Agente revisor de código",
+      "prompt": "Eres un revisor de código senior. Revisa el código en busca de: bugs, problemas de rendimiento, seguridad, y adherencia a las convenciones del proyecto.",
       "mode": "subagent",
       "model": "claude-sonnet-4-20250514",
       "temperature": 0.3,
@@ -87,68 +87,68 @@ Eres un experto en migraciones de bases de datos PostgreSQL. Tu especialidad es:
 - Revisar migraciones existentes
 - Sugerir optimizaciones
 - Detectar problemas potenciales (deadlocks, bloqueos, etc.)
-- Generar nuevos archivos de migraciÃ³n
+- Generar nuevos archivos de migración
 ```
 
 ### Wizard Interactivo
 ```powershell
 opencode agent create
 ```
-Te guÃ­a paso a paso para crear un agente personalizado.
+Te guía paso a paso para crear un agente personalizado.
 
-### UbicaciÃ³n de Agentes
-| UbicaciÃ³n | Ãmbito | Uso |
+### Ubicación de Agentes
+| Ubicación | Ámbito | Uso |
 |-----------|--------|-----|
 | `~/.config/opencode/agents/` | Global | Agentes personales, multi-proyecto |
-| `.opencode/agents/` | Proyecto | Agentes especÃ­ficos del proyecto, compartibles vÃ­a git |
+| `.opencode/agents/` | Proyecto | Agentes específicos del proyecto, compartibles vía git |
 
 ---
 
-## Opciones de ConfiguraciÃ³n de Agentes
+## Opciones de Configuración de Agentes
 
-### ParÃ¡metros bÃ¡sicos
-| OpciÃ³n | DescripciÃ³n | Ejemplo |
+### Parámetros básicos
+| Opción | Descripción | Ejemplo |
 |--------|-------------|---------|
 | `mode` | Rol del agente | `primary`, `subagent`, `all` |
-| `description` | Breve descripciÃ³n | `"Experto en testing"` |
+| `description` | Breve descripción | `"Experto en testing"` |
 | `prompt` | Instrucciones del sistema | `"Eres un experto en..."` |
 
-### ParÃ¡metros del modelo
-| OpciÃ³n | DescripciÃ³n |
+### Parámetros del modelo
+| Opción | Descripción |
 |--------|-------------|
 | `model` | Modelo de IA a usar |
 | `temperature` | Creatividad (0.0 - 1.0) |
-| `steps` | Pasos mÃ¡ximos antes de detenerse |
+| `steps` | Pasos máximos antes de detenerse |
 
 ### Herramientas y permisos
-| OpciÃ³n | DescripciÃ³n |
+| Opción | Descripción |
 |--------|-------------|
-| `tools` | Herramientas especÃ­ficas habilitadas |
+| `tools` | Herramientas específicas habilitadas |
 | `permission` | Nivel de permisos granular |
 
-### PersonalizaciÃ³n visual
-| OpciÃ³n | DescripciÃ³n |
+### Personalización visual
+| Opción | Descripción |
 |--------|-------------|
 | `color` | Color del agente en la TUI (hex) |
 | `hidden` | Ocultar agente del selector |
 
 ---
 
-## Buenas PrÃ¡cticas con Agentes
+## Buenas Prácticas con Agentes
 
-1. **Agentes especÃ­ficos** = Mejores resultados
-   - Crea agentes enfocados en una tarea especÃ­fica
+1. **Agentes específicos** = Mejores resultados
+   - Crea agentes enfocados en una tarea específica
    - No mezcles responsabilidades
 
 2. **Prompts detallados**
    - Incluye ejemplos concretos
    - Define el tono y formato de respuesta
-   - Especifica quÃ© herramientas usar
+   - Especifica qué herramientas usar
 
 3. **Temperatura adecuada**
-   - Baja (0.0-0.3): Tareas precisas, revisiÃ³n de cÃ³digo
-   - Media (0.3-0.7): GeneraciÃ³n de cÃ³digo, creatividad
-   - Alta (0.7-1.0): Brainstorming, exploraciÃ³n
+   - Baja (0.0-0.3): Tareas precisas, revisión de código
+   - Media (0.3-0.7): Generación de código, creatividad
+   - Alta (0.7-1.0): Brainstorming, exploración
 
 4. **Usa subagentes para paralelizar**
    - Un agente principal coordina
@@ -157,18 +157,18 @@ Te guÃ­a paso a paso para crear un agente personalizado.
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-Al completar este mÃ³dulo deberÃ­as poder:
+Al completar este módulo deberías poder:
 - [ ] Diferenciar entre agentes primarios y subagentes
 - [ ] Usar los agentes integrados (Build, Plan, Explore, Scout)
-- [ ] Crear agentes personalizados vÃ­a JSON y Markdown
-- [ ] Configurar parÃ¡metros avanzados de agentes
-- [ ] Aplicar buenas prÃ¡cticas en la creaciÃ³n de agentes
+- [ ] Crear agentes personalizados vía JSON y Markdown
+- [ ] Configurar parámetros avanzados de agentes
+- [ ] Aplicar buenas prácticas en la creación de agentes
 
 ---
 
 **Documentación oficial**: https://opencode.ai
-**Siguiente**: [[04 - MÃ³dulo 4 - PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada|MÃ³dulo 4: PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada]]
+**Siguiente**: [[04 - Módulo 4 - Personalización y Configuración Avanzada|Módulo 4: Personalización y Configuración Avanzada]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

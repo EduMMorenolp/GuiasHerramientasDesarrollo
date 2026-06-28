@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 3: MySQL y Workbench
+# Módulo 3: MySQL y Workbench
 
 **Objetivo**: Instalar, configurar y operar MySQL usando CLI y MySQL Workbench.
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ### MySQL Installer
 Descargar desde: https://dev.mysql.com/downloads/installer/
@@ -16,7 +16,7 @@ Incluye:
 - Connectors (Python, Node.js, .NET, ODBC)
 
 ```powershell
-# Verificar instalaciÃ³n
+# Verificar instalación
 mysql --version
 
 # Iniciar servicio (Windows)
@@ -27,7 +27,7 @@ net start MySQL80
 
 ## CLI de MySQL
 
-### ConexiÃ³n y bases de datos
+### Conexión y bases de datos
 ```powershell
 # Conectar
 mysql -u root -p
@@ -59,8 +59,8 @@ SHOW GRANTS FOR 'app'@'localhost';
 
 ## MySQL Workbench
 
-### PestaÃ±as principales
-- **Connection**: Configurar conexiÃ³n (host, puerto 3306, usuario)
+### Pestañas principales
+- **Connection**: Configurar conexión (host, puerto 3306, usuario)
 - **SQL Editor**: Escribir y ejecutar consultas con autocompletado
 - **Result Grid**: Ver resultados en tabla editable
 - **Schema Browser**: Navegar estructura de la base
@@ -70,9 +70,9 @@ SHOW GRANTS FOR 'app'@'localhost';
 - `Database > Forward Engineer`: Generar SQL desde diagrama
 - Exportar a PNG, PDF
 
-### AdministraciÃ³n
+### Administración
 - **Server Status**: Estado, conexiones activas, variables
-- **Users and Privileges**: GestiÃ³n de usuarios grÃ¡fica
+- **Users and Privileges**: Gestión de usuarios gráfica
 - **Data Export/Restore**: Exportar bases con `mysqldump` integrado
 - **Performance Dashboard**: Monitoreo de queries lentas
 
@@ -90,7 +90,7 @@ mysqldump -u root -p --no-data mi_base > esquema.sql
 # Exportar solo datos
 mysqldump -u root -p --no-create-info mi_base > datos.sql
 
-# Exportar mÃºltiples bases
+# Exportar múltiples bases
 mysqldump -u root -p --databases db1 db2 > multi.sql
 
 # Importar
@@ -105,17 +105,17 @@ mysql -u root -p mi_base < backup.sql
 |---------|-------|------------|
 | Licencia | GPL (dual) | PostgreSQL License |
 | Cumplimiento SQL | Parcial | Alto |
-| Ãndices | B-Tree, Hash (MEMORY), Full-text | B-Tree, Hash, GiST, GIN, BRIN |
+| Índices | B-Tree, Hash (MEMORY), Full-text | B-Tree, Hash, GiST, GIN, BRIN |
 | JSON | JSON (simple) | JSONB (binario, indexable) |
 | Concurrencia | MVCC + gap locks | MVCC (sin locks) |
-| ReplicaciÃ³n | AsÃ­ncrona, Group Replication | SÃ­ncrona, Streaming, LÃ³gica |
+| Replicación | Asíncrona, Group Replication | Síncrona, Streaming, Lógica |
 | Extensiones | Limitado | Rico (PostGIS, TimescaleDB) |
 
 ---
 
 ## Resumen
 
-| Comando | PropÃ³sito |
+| Comando | Propósito |
 |---------|-----------|
 | `mysql -u root -p` | Conectar a MySQL |
 | `SHOW DATABASES` | Listar bases |
@@ -126,9 +126,9 @@ mysql -u root -p mi_base < backup.sql
 
 ---
 
-**DocumentaciÃ³n oficial**: https://www.w3schools.com/sql/
+**Documentación oficial**: https://www.w3schools.com/sql/
 
-**Siguiente**: [[04 - MÃ³dulo 4 - PostgreSQL y pgAdmin|MÃ³dulo 4: PostgreSQL y pgAdmin]]
+**Siguiente**: [[04 - Módulo 4 - PostgreSQL y pgAdmin|Módulo 4: PostgreSQL y pgAdmin]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

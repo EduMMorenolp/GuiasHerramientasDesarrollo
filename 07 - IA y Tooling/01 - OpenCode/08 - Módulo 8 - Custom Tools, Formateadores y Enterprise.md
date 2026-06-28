@@ -1,20 +1,20 @@
-﻿# MÃ³dulo 8: Custom Tools, Formateadores y Enterprise
+# Módulo 8: Custom Tools, Formateadores y Enterprise
 
-**Objetivo**: Crear herramientas personalizadas, configurar formateadores y explorar caracterÃ­sticas enterprise.
+**Objetivo**: Crear herramientas personalizadas, configurar formateadores y explorar características enterprise.
 
 ---
 
 ## Custom Tools
 
-### Â¿QuÃ© son?
-Herramientas que extienden las capacidades de OpenCode mÃ¡s allÃ¡ de las herramientas integradas (read, edit, bash).
+### ¿Qué son?
+Herramientas que extienden las capacidades de OpenCode más allá de las herramientas integradas (read, edit, bash).
 
 ### API de Custom Tools
 ```javascript
 // .opencode/tools/deploy.js
 export default {
   name: "deploy",
-  description: "Despliega la aplicaciÃ³n en producciÃ³n",
+  description: "Despliega la aplicación en producción",
   
   parameters: {
     type: "object",
@@ -51,7 +51,7 @@ export default {
 ```
 
 ### Permisos para custom tools
-Las custom tools pueden tener permisos especÃ­ficos:
+Las custom tools pueden tener permisos específicos:
 ```json
 {
   "tools": {
@@ -67,8 +67,8 @@ Las custom tools pueden tener permisos especÃ­ficos:
 
 ## Formateadores
 
-### ConfiguraciÃ³n
-OpenCode puede usar formateadores externos para mantener cÃ³digo consistente:
+### Configuración
+OpenCode puede usar formateadores externos para mantener código consistente:
 
 ```json
 {
@@ -83,11 +83,11 @@ OpenCode puede usar formateadores externos para mantener cÃ³digo consistente:
 }
 ```
 
-### Formateo automÃ¡tico
-OpenCode formatea automÃ¡ticamente el cÃ³digo que escribe segÃºn las reglas configuradas.
+### Formateo automático
+OpenCode formatea automáticamente el código que escribe según las reglas configuradas.
 
 ### Formateadores soportados
-| Lenguaje | Formateador | ConfiguraciÃ³n |
+| Lenguaje | Formateador | Configuración |
 |----------|------------|---------------|
 | JavaScript/TypeScript | Prettier | `.prettierrc` |
 | Python | Black | `pyproject.toml` |
@@ -97,12 +97,12 @@ OpenCode formatea automÃ¡ticamente el cÃ³digo que escribe segÃºn las regla
 
 ---
 
-## PolÃ­ticas (Policies)
+## Políticas (Policies)
 
-### Â¿QuÃ© son?
+### ¿Qué son?
 Reglas que controlan el comportamiento de OpenCode a nivel granular.
 
-### Tipos de polÃ­ticas
+### Tipos de políticas
 ```json
 {
   "policies": {
@@ -119,7 +119,7 @@ Reglas que controlan el comportamiento de OpenCode a nivel granular.
 }
 ```
 
-### PolÃ­ticas por agente
+### Políticas por agente
 ```json
 {
   "agents": {
@@ -137,17 +137,17 @@ Reglas que controlan el comportamiento de OpenCode a nivel granular.
 
 ## Enterprise
 
-### CaracterÃ­sticas enterprise
-| Feature | DescripciÃ³n |
+### Características enterprise
+| Feature | Descripción |
 |---------|-------------|
-| **SSO/SAML** | AutenticaciÃ³n corporativa |
+| **SSO/SAML** | Autenticación corporativa |
 | **Audit Logs** | Registro completo de acciones |
 | **RBAC** | Control de acceso basado en roles |
 | **On-premise** | Despliegue en infraestructura propia |
 | **Soporte dedicado** | SLA garantizado |
 | **Modelos privados** | Despliegue de modelos propietarios |
 
-### ConfiguraciÃ³n enterprise
+### Configuración enterprise
 ```json
 {
   "enterprise": {
@@ -170,7 +170,7 @@ Reglas que controlan el comportamiento de OpenCode a nivel granular.
 
 ## LSP Integration
 
-OpenCode puede cargar automÃ¡ticamente LSPs para mejorar la comprensiÃ³n del cÃ³digo:
+OpenCode puede cargar automáticamente LSPs para mejorar la comprensión del código:
 
 ```json
 {
@@ -185,25 +185,25 @@ OpenCode puede cargar automÃ¡ticamente LSPs para mejorar la comprensiÃ³n del
 ```
 
 Beneficios:
-- Mejor comprensiÃ³n del cÃ³digo
-- Autocompletado mÃ¡s preciso
-- DetecciÃ³n de errores en tiempo real
-- NavegaciÃ³n de sÃ­mbolos
+- Mejor comprensión del código
+- Autocompletado más preciso
+- Detección de errores en tiempo real
+- Navegación de símbolos
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-Al completar este mÃ³dulo deberÃ­as poder:
+Al completar este módulo deberías poder:
 - [x] Crear y registrar Custom Tools
 - [x] Configurar formateadores por lenguaje
-- [x] Definir polÃ­ticas de seguridad y permisos
-- [x] Conocer las caracterÃ­sticas enterprise
+- [x] Definir políticas de seguridad y permisos
+- [x] Conocer las características enterprise
 - [x] Integrar servidores LSP
 
 ---
 
 **Documentación oficial**: https://opencode.ai
-**Siguiente**: [[09 - MÃ³dulo 9 - Novedades, Troubleshooting y PrÃ³ximos Pasos|MÃ³dulo 9: Novedades, Troubleshooting y PrÃ³ximos Pasos]]
+**Siguiente**: [[09 - Módulo 9 - Novedades, Troubleshooting y Próximos Pasos|Módulo 9: Novedades, Troubleshooting y Próximos Pasos]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

@@ -1,13 +1,13 @@
-﻿# MÃ³dulo 6: Settings Sync, Enterprise y Accesibilidad
+# Módulo 6: Settings Sync, Enterprise y Accesibilidad
 
-**Objetivo**: Sincronizar configuraciÃ³n y explorar caracterÃ­sticas enterprise y de accesibilidad.
+**Objetivo**: Sincronizar configuración y explorar características enterprise y de accesibilidad.
 
 ---
 
 ## Settings Sync
 
-### Â¿QuÃ© es?
-Sincroniza configuraciones, keybindings, extensiones y snippets entre mÃ¡quinas.
+### ¿Qué es?
+Sincroniza configuraciones, keybindings, extensiones y snippets entre máquinas.
 
 ### Activar
 ```powershell
@@ -15,16 +15,16 @@ Ctrl+Shift+P > "Settings Sync: Turn On"
 # Autenticarse con GitHub o Microsoft
 ```
 
-### QuÃ© sincroniza
+### Qué sincroniza
 | Elemento | Sincronizado |
 |----------|-------------|
-| Settings | SÃ­ |
-| Keybindings | SÃ­ |
-| Extensions | SÃ­ (instaladas automÃ¡ticamente) |
-| Snippets | SÃ­ |
-| UI State | SÃ­ |
-| Tasks | SÃ­ |
-| User Profiles | SÃ­ |
+| Settings | Sí |
+| Keybindings | Sí |
+| Extensions | Sí (instaladas automáticamente) |
+| Snippets | Sí |
+| UI State | Sí |
+| Tasks | Sí |
+| User Profiles | Sí |
 
 ### Solucionar conflictos
 ```powershell
@@ -51,7 +51,7 @@ https://vscode.dev/github/user/repo
 - Sin debugging
 - Extensiones limitadas (web extensions)
 - Sin tasks
-- Ideal para: ediciÃ³n rÃ¡pida, revisiÃ³n de PRs, documentaciÃ³n
+- Ideal para: edición rápida, revisión de PRs, documentación
 
 ---
 
@@ -84,7 +84,7 @@ https://vscode.dev/github/user/repo
 ```
 
 ### Extensibilidad corporativa
-| Escenario | SoluciÃ³n |
+| Escenario | Solución |
 |-----------|----------|
 | Extensiones forzadas | `extensions.forceInstall` |
 | Extensiones prohibidas | `extensions.denyList` |
@@ -104,7 +104,7 @@ Ctrl+Shift+P > "Accessibility: ..."
 ### Screen reader
 ```powershell
 # Optimizado para NVDA, JAWS, VoiceOver
-# NavegaciÃ³n por teclado completa
+# Navegación por teclado completa
 # Anuncios de cambios en panel de problemas
 ```
 
@@ -122,12 +122,12 @@ Ctrl+Shift+P > "Accessibility: ..."
 
 ### Accesibilidad auditiva
 - Notificaciones visuales para eventos
-- SubtÃ­tulos en videos de ayuda
+- Subtítulos en videos de ayuda
 - Indicadores visuales en lugar de sonidos
 
 ---
 
-## VS Code como Editor de DocumentaciÃ³n
+## VS Code como Editor de Documentación
 
 ### Extensiones para Docs
 ```json
@@ -153,16 +153,16 @@ Alt+Shift+F         # Formatear tabla
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-| Feature | DescripciÃ³n |
+| Feature | Descripción |
 |---------|-------------|
-| Settings Sync | Sincronizar entre mÃ¡quinas |
+| Settings Sync | Sincronizar entre máquinas |
 | vscode.dev | Editor en navegador |
 | Workspace Trust | Confianza por workspace |
-| Managed Policies | PolÃ­ticas corporativas |
+| Managed Policies | Políticas corporativas |
 | Accesibilidad | Screen reader, high contrast |
-| Markdown | DocumentaciÃ³n integrada |
+| Markdown | Documentación integrada |
 
 ---
 **Documentación oficial**: https://code.visualstudio.com/docs

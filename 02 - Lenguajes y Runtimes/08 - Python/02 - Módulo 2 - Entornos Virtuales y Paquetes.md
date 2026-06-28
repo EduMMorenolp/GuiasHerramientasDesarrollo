@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Entornos Virtuales y Paquetes
+# Módulo 2: Entornos Virtuales y Paquetes
 
 **Objetivo**: Gestionar dependencias y entornos en Python.
 
@@ -6,7 +6,7 @@
 
 ## Entornos Virtuales
 
-### CreaciÃ³n y activaciÃ³n
+### Creación y activación
 ```powershell
 # Crear entorno virtual
 python -m venv .venv
@@ -24,8 +24,8 @@ where python
 deactivate
 ```
 
-### Â¿Por quÃ© usar entornos virtuales?
-- AÃ­slan dependencias por proyecto
+### ¿Por qué usar entornos virtuales?
+- Aíslan dependencias por proyecto
 - Evitan conflictos entre versiones
 - Reproducibles: requirements.txt
 - Diferentes proyectos pueden usar diferentes versiones
@@ -71,7 +71,7 @@ pip install poetry
 poetry new mi-proyecto
 poetry init
 
-# AÃ±adir dependencias
+# Añadir dependencias
 poetry add requests
 poetry add --dev pytest black
 
@@ -110,7 +110,7 @@ line-length = 100
 
 ---
 
-## uv (Alternativa rÃ¡pida)
+## uv (Alternativa rápida)
 
 ```powershell
 # Instalar
@@ -140,7 +140,7 @@ black .  # Formatear todo
 black --check .  # Solo verificar
 ```
 
-### Ruff (linter rÃ¡pido)
+### Ruff (linter rápido)
 ```powershell
 pip install ruff
 ruff check .
@@ -148,7 +148,7 @@ ruff check --fix .
 ruff format .
 ```
 
-### ConfiguraciÃ³n (pyproject.toml)
+### Configuración (pyproject.toml)
 ```toml
 [tool.ruff]
 line-length = 100
@@ -199,13 +199,13 @@ pytest --coverage
 | Herramienta | Lock file | Velocidad | Reproducible |
 |------------|-----------|-----------|--------------|
 | pip + venv | requirements.txt | Lenta | Parcial |
-| Poetry | poetry.lock | Media | SÃ­ |
-| pipenv | Pipfile.lock | Media | SÃ­ |
-| uv | uv.lock | Muy rÃ¡pida | SÃ­ |
+| Poetry | poetry.lock | Media | Sí |
+| pipenv | Pipfile.lock | Media | Sí |
+| uv | uv.lock | Muy rápida | Sí |
 
 ---
 
-## Buenas PrÃ¡cticas
+## Buenas Prácticas
 
 1. **Entorno virtual** siempre activado
 2. **requirements.txt** o **pyproject.toml** versionado
@@ -218,9 +218,9 @@ pytest --coverage
 
 ---
 
-**DocumentaciÃ³n oficial**: https://docs.python.org/3/
+**Documentación oficial**: https://docs.python.org/3/
 
-**Siguiente**: [[03 - MÃ³dulo 3 - POO, Tipado y LibrerÃ­a EstÃ¡ndar|MÃ³dulo 3: POO, Tipado y LibrerÃ­a EstÃ¡ndar]]
+**Siguiente**: [[03 - Módulo 3 - POO, Tipado y Librería Estándar|Módulo 3: POO, Tipado y Librería Estándar]]
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

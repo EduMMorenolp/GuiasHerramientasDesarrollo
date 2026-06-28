@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 5: Docker Compose Avanzado y CI-CD
+# Módulo 5: Docker Compose Avanzado y CI-CD
 
 **Objetivo**: Flujos avanzados con Compose y pipelines CI/CD.
 
@@ -30,7 +30,7 @@ docker compose --profile dev up -d
 docker compose --profile production up -d
 ```
 
-### ExtensiÃ³n de servicios
+### Extensión de servicios
 ```yaml
 # docker-compose.yml (base)
 services:
@@ -174,7 +174,7 @@ docker compose run --rm test
 
 ## Docker Context
 
-Gestionar mÃºltiples entornos:
+Gestionar múltiples entornos:
 
 ```powershell
 # Listar contextos
@@ -200,7 +200,7 @@ Empaquetar aplicaciones completas:
 # app.dockerapp
 version: "0.1"
 name: mi-app
-description: AplicaciÃ³n completa
+description: Aplicación completa
 
 services:
   app:
@@ -217,7 +217,7 @@ docker app deploy mi-app.dockerapp
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
 | Tema | Comando/Concepto |
 |------|-----------------|
@@ -230,6 +230,6 @@ docker app deploy mi-app.dockerapp
 ---
 
 **Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[06 - MÃ³dulo 6 - Docker Swarm y OrquestaciÃ³n|MÃ³dulo 6: Docker Swarm y OrquestaciÃ³n]]
+**Siguiente**: [[06 - Módulo 6 - Docker Swarm y Orquestación|Módulo 6: Docker Swarm y Orquestación]]
 **Inicio herramienta**: [[docker|Docker]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

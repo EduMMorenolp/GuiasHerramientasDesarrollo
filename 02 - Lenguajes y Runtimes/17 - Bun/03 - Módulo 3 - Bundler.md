@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 3: Bundler
+# Módulo 3: Bundler
 
 **Objetivo**: Aprender y dominar: Bundler.
 

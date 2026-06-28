@@ -1,11 +1,11 @@
-﻿# MÃ³dulo 7: Avanzado
+# Módulo 7: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 
 ## Rewrite y redirect
 
 ```nginx
-# RedirecciÃ³n permanente
+# Redirección permanente
 rewrite ^/old-page$ /new-page permanent;
 rewrite ^/blog/(.*)$ /news/$1 permanent;
 
@@ -192,10 +192,10 @@ networks:
 
 ## Tabla resumen final
 
-| MÃ³dulo | Tema | Directivas clave |
+| Módulo | Tema | Directivas clave |
 |---|---|---|
-| 1 | InstalaciÃ³n y configuraciÃ³n bÃ¡sica | `worker_processes`, `server`, `listen` |
-| 2 | Servidor estÃ¡tico y location | `root`, `alias`, `try_files`, `location` |
+| 1 | Instalación y configuración básica | `worker_processes`, `server`, `listen` |
+| 2 | Servidor estático y location | `root`, `alias`, `try_files`, `location` |
 | 3 | Proxy inverso | `proxy_pass`, `upstream`, `proxy_set_header` |
 | 4 | SSL/TLS y HTTPS | `ssl_certificate`, `http2`, `HSTS` |
 | 5 | Cache | `proxy_cache`, `expires`, `fastcgi_cache` |

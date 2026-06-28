@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Collections
+# Módulo 2: Collections
 
 **Objetivo**: Aprender y dominar: Collections.
 
@@ -44,7 +44,7 @@ API Usuarios/
 
 ### Definir variable {{base_url}}
 
-1. Seleccionar collection > pestaÃ±a `Variables`
+1. Seleccionar collection > pestaña `Variables`
 2. Agregar variable:
    - Variable: `base_url`
    - Initial value: `https://jsonplaceholder.typicode.com`
@@ -65,7 +65,7 @@ Niveles de autorizacion:
 
 ### A nivel de Collection
 
-1. Seleccionar collection > pestaÃ±a `Authorization`
+1. Seleccionar collection > pestaña `Authorization`
 2. Elegir tipo: `API Key`, `Bearer Token`, `Basic Auth`, `OAuth 2.0`
 
 ### A nivel de Request
@@ -172,9 +172,9 @@ DELETE {{base_url}}/users/{{user_id}}
 
 ---
 
-**DocumentaciÃ³n oficial**: https://learning.postman.com
+**Documentación oficial**: https://learning.postman.com
 
-**Siguiente**: [[03 - MÃ³dulo 3 - Entornos y Variables|MÃ³dulo 3: Entornos y Variables]]
+**Siguiente**: [[03 - Módulo 3 - Entornos y Variables|Módulo 3: Entornos y Variables]]
 
 **Inicio herramienta**: [[postman|Postman]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

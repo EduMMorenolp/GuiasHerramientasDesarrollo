@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Gestor de Paquetes
+# Módulo 2: Gestor de Paquetes
 
 **Objetivo**: Aprender y dominar: Gestor de Paquetes.
 

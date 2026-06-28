@@ -1,21 +1,21 @@
-﻿# MÃ³dulo 7: Modelfile y Modelos Custom
+# Módulo 7: Modelfile y Modelos Custom
 
 **Objetivo**: Crear modelos personalizados con Modelfile y entender las cuantizaciones.
 
 ---
 
-## Â¿QuÃ© es un Modelfile?
+## ¿Qué es un Modelfile?
 
-Es un archivo de configuraciÃ³n que define cÃ³mo se comporta un modelo en Ollama. Similar a un Dockerfile, permite personalizar prompts, parÃ¡metros, system messages y mÃ¡s.
+Es un archivo de configuración que define cómo se comporta un modelo en Ollama. Similar a un Dockerfile, permite personalizar prompts, parámetros, system messages y más.
 
-### Estructura bÃ¡sica
+### Estructura básica
 ```dockerfile
 FROM llama3.2
 
 PARAMETER temperature 0.7
 PARAMETER top_p 0.9
 
-SYSTEM "Eres un asistente experto en programaciÃ³n que responde en espaÃ±ol."
+SYSTEM "Eres un asistente experto en programación que responde en español."
 
 TEMPLATE """{{ .System }}
 {{ .Prompt }}
@@ -32,7 +32,7 @@ Define el modelo base:
 # Modelo oficial
 FROM llama3.2
 
-# Modelo con tag especÃ­fico
+# Modelo con tag específico
 FROM llama3.2:1b
 
 # Modelo local
@@ -40,7 +40,7 @@ FROM mi-modelo:latest
 ```
 
 ### PARAMETER
-Configura parÃ¡metros de inferencia:
+Configura parámetros de inferencia:
 ```dockerfile
 PARAMETER temperature 0.7
 PARAMETER top_p 0.9
@@ -72,16 +72,16 @@ Mensaje del sistema (personalidad):
 ```dockerfile
 SYSTEM """
 Eres un asistente experto en Python y JavaScript.
-Siempre respondes en espaÃ±ol con ejemplos de cÃ³digo.
+Siempre respondes en español con ejemplos de código.
 Usas markdown para formatear tus respuestas.
 """
 ```
 
 ### MESSAGE
-AÃ±ade mensajes predefinidos al historial:
+Añade mensajes predefinidos al historial:
 ```dockerfile
-MESSAGE user "Â¿QuÃ© puedes hacer?"
-MESSAGE assistant "Soy un asistente experto en programaciÃ³n."
+MESSAGE user "¿Qué puedes hacer?"
+MESSAGE assistant "Soy un asistente experto en programación."
 ```
 
 ### LICENSE
@@ -95,9 +95,9 @@ Copyright (c) 2024
 
 ---
 
-## Ejemplos PrÃ¡cticos
+## Ejemplos Prácticos
 
-### Asistente de cÃ³digo en espaÃ±ol
+### Asistente de código en español
 ```dockerfile
 FROM codellama:7b
 
@@ -105,8 +105,8 @@ PARAMETER temperature 0.2
 PARAMETER num_predict 1024
 
 SYSTEM """
-Eres un experto programador que responde en espaÃ±ol.
-Proporciona cÃ³digo limpio y bien comentado.
+Eres un experto programador que responde en español.
+Proporciona código limpio y bien comentado.
 Explica las soluciones paso a paso.
 Usa ejemplos concretos.
 """
@@ -128,7 +128,7 @@ PARAMETER temperature 1.2
 PARAMETER top_p 0.95
 PARAMETER num_predict 2048
 
-SYSTEM "Eres un poeta creativo que escribe en espaÃ±ol."
+SYSTEM "Eres un poeta creativo que escribe en español."
 
 TEMPLATE """
 {{ .System }}
@@ -139,7 +139,7 @@ Poema:
 """
 ```
 
-### Asistente tÃ©cnico conciso
+### Asistente técnico conciso
 ```dockerfile
 FROM mistral:7b
 
@@ -147,7 +147,7 @@ PARAMETER temperature 0.3
 PARAMETER num_predict 500
 PARAMETER repeat_penalty 1.2
 
-SYSTEM "Responde de forma clara, concisa y tÃ©cnica en espaÃ±ol. MÃ¡ximo 3 pÃ¡rrafos."
+SYSTEM "Responde de forma clara, concisa y técnica en español. Máximo 3 párrafos."
 ```
 
 ---
@@ -178,35 +178,35 @@ FROM ./ruta/al/modelo.gguf
 PARAMETER temperature 0.7
 PARAMETER num_predict 2048
 
-SYSTEM "Eres un asistente Ãºtil."
+SYSTEM "Eres un asistente útil."
 ```
 
 ---
 
 ## Cuantizaciones
 
-Las cuantizaciones reducen el tamaÃ±o del modelo a costa de precisiÃ³n:
+Las cuantizaciones reducen el tamaño del modelo a costa de precisión:
 
-| Tipo | Bits | TamaÃ±o relativo | Calidad | Uso recomendado |
+| Tipo | Bits | Tamaño relativo | Calidad | Uso recomendado |
 |------|------|-----------------|---------|-----------------|
-| `q4_0` | 4 bits | 25% | BÃ¡sica | MÃ¡ximo ahorro de RAM |
-| `q4_K_M` | 4 bits | 27% | Buena | Balance calidad/tamaÃ±o |
+| `q4_0` | 4 bits | 25% | Básica | Máximo ahorro de RAM |
+| `q4_K_M` | 4 bits | 27% | Buena | Balance calidad/tamaño |
 | `q5_K_M` | 5 bits | 33% | Muy buena | Calidad alta |
-| `q8_0` | 8 bits | 50% | Excelente | MÃ¡xima calidad |
+| `q8_0` | 8 bits | 50% | Excelente | Máxima calidad |
 | `f16` | 16 bits | 100% | Original | Hardware potente |
 
 ### Ejemplo con diferentes cuantizaciones
 ```powershell
-# Descargar cuantizaciones especÃ­ficas
+# Descargar cuantizaciones específicas
 ollama pull llama3.2:q4_0
 ollama pull llama3.2:q4_K_M
 ollama pull llama3.2:q5_K_M
 ollama pull llama3.2:q8_0
 ```
 
-### Regla prÃ¡ctica
+### Regla práctica
 ```powershell
-# RAM necesaria â‰ˆ TamaÃ±o del modelo en GB
+# RAM necesaria â‰ˆ Tamaño del modelo en GB
 # q4_K_M: modelo 7B â‰ˆ 4 GB RAM
 # q8_0: modelo 7B â‰ˆ 7 GB RAM
 # f16: modelo 7B â‰ˆ 14 GB RAM
@@ -216,23 +216,23 @@ ollama pull llama3.2:q8_0
 
 ## Resumen
 
-| InstrucciÃ³n | PropÃ³sito |
+| Instrucción | Propósito |
 |-------------|-----------|
 | `FROM` | Modelo base |
-| `PARAMETER` | ConfiguraciÃ³n de inferencia |
+| `PARAMETER` | Configuración de inferencia |
 | `TEMPLATE` | Plantilla de prompt |
 | `SYSTEM` | Mensaje del sistema |
 | `MESSAGE` | Historial predefinido |
 
-| CuantizaciÃ³n | Uso |
+| Cuantización | Uso |
 |-------------|-----|
-| `q4_K_M` | Balance calidad/tamaÃ±o (recomendado) |
-| `q8_0` | MÃ¡xima calidad con ahorro moderado |
+| `q4_K_M` | Balance calidad/tamaño (recomendado) |
+| `q8_0` | Máxima calidad con ahorro moderado |
 | `ollama create` | Crear modelo desde Modelfile |
 
 ---
 
 **Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[08 - MÃ³dulo 8 - Ollama Cloud|MÃ³dulo 8: Ollama Cloud]]
+**Siguiente**: [[08 - Módulo 8 - Ollama Cloud|Módulo 8: Ollama Cloud]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

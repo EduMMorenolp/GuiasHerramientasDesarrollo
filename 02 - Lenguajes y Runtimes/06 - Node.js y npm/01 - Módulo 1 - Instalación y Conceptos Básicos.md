@@ -1,15 +1,15 @@
-﻿# MÃ³dulo 1: InstalaciÃ³n y Conceptos BÃ¡sicos
+# Módulo 1: Instalación y Conceptos Básicos
 
 **Objetivo**: Instalar Node.js y dominar los fundamentos de npm.
 
 ---
 
-## Â¿QuÃ© es Node.js?
+## ¿Qué es Node.js?
 
-Entorno de ejecuciÃ³n de JavaScript del lado del servidor basado en el motor V8 de Chrome.
+Entorno de ejecución de JavaScript del lado del servidor basado en el motor V8 de Chrome.
 
 ```powershell
-# Verificar instalaciÃ³n
+# Verificar instalación
 node --version
 npm --version
 ```
@@ -25,9 +25,9 @@ scoop install nvm
 
 # Gestionar versiones
 nvm list                    # Versiones instaladas
-nvm install 22.5.0         # Instalar versiÃ³n especÃ­fica
-nvm use 22.5.0             # Usar versiÃ³n
-nvm install latest          # Ãšltima versiÃ³n
+nvm install 22.5.0         # Instalar versión específica
+nvm use 22.5.0             # Usar versión
+nvm install latest          # Ãšltima versión
 nvm install lts             # Ãšltima LTS
 ```
 
@@ -39,7 +39,7 @@ nvm install lts             # Ãšltima LTS
 {
   "name": "mi-proyecto",
   "version": "1.0.0",
-  "description": "DescripciÃ³n del proyecto",
+  "description": "Descripción del proyecto",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -71,7 +71,7 @@ npm install -D jest eslint     # Dev dependencies
 npm install -g nodemon         # Global
 
 # Instalar desde lockfile
-npm ci                         # MÃ¡s rÃ¡pido, basado en package-lock.json
+npm ci                         # Más rápido, basado en package-lock.json
 
 # Actualizar dependencias
 npm update
@@ -98,7 +98,7 @@ npm list -g --depth=0
 ## node_modules
 
 - Carpeta donde se almacenan las dependencias instaladas
-- **No se commitea** (estÃ¡ en .gitignore)
+- **No se commitea** (está en .gitignore)
 - Se regenera con `npm install`
 
 ---
@@ -128,9 +128,9 @@ npm start       # Atajo para npm run start
 
 ---
 
-**DocumentaciÃ³n oficial**: https://nodejs.org/docs/latest/api/
+**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Siguiente**: [[02 - MÃ³dulo 2 - npm Scripts y PublicaciÃ³n|MÃ³dulo 2: npm Scripts y PublicaciÃ³n]]
+**Siguiente**: [[02 - Módulo 2 - npm Scripts y Publicación|Módulo 2: npm Scripts y Publicación]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

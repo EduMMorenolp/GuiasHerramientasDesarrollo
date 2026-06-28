@@ -1,8 +1,8 @@
-﻿# MÃ³dulo 5: Cache
+# Módulo 5: Cache
 
 **Objetivo**: Aprender y dominar: Cache.
 
-## Cache de estÃ¡ticos
+## Cache de estáticos
 
 ```nginx
 location ~* \.(css|js|png|jpg|jpeg|gif|ico|svg|woff2)$ {
@@ -18,7 +18,7 @@ location ~* \.(html)$ {
 
 ## Proxy cache
 
-ConfiguraciÃ³n en el bloque `http`:
+Configuración en el bloque `http`:
 
 ```nginx
 http {
@@ -49,14 +49,14 @@ server {
 
 ## Microcaching
 
-CachÃ© de corta duraciÃ³n para aplicaciones dinÃ¡micas (API, SSR):
+Caché de corta duración para aplicaciones dinámicas (API, SSR):
 
 ```nginx
 proxy_cache_valid 200 5s;
 proxy_cache_use_stale updating;
 ```
 
-`proxy_cache_use_stale updating` sirve contenido viejo mientras se refresca la cachÃ©, evitando picos al backend.
+`proxy_cache_use_stale updating` sirve contenido viejo mientras se refresca la caché, evitando picos al backend.
 
 ## fastcgi_cache para PHP
 
@@ -81,20 +81,20 @@ server {
 
 ## Tabla de directivas de cache
 
-| Directiva | UbicaciÃ³n | DescripciÃ³n |
+| Directiva | Ubicación | Descripción |
 |---|---|---|
-| `proxy_cache_path` | `http` | Define zona de cachÃ©, ruta, tamaÃ±o y niveles |
-| `proxy_cache` | `location`, `server` | Activa la cachÃ© referenciando la zona |
-| `proxy_cache_valid` | `location`, `server` | Tiempo de validez por cÃ³digo de estado |
-| `proxy_cache_key` | `location`, `server` | Clave Ãºnica para cada entrada de cachÃ© |
+| `proxy_cache_path` | `http` | Define zona de caché, ruta, tamaño y niveles |
+| `proxy_cache` | `location`, `server` | Activa la caché referenciando la zona |
+| `proxy_cache_valid` | `location`, `server` | Tiempo de validez por código de estado |
+| `proxy_cache_key` | `location`, `server` | Clave única para cada entrada de caché |
 | `proxy_cache_use_stale` | `location`, `server` | Sirve contenido obsoleto en caso de error |
 | `expires` | `location`, `server` | Cache-Control para el cliente |
-| `fastcgi_cache_path` | `http` | Define zona de cachÃ© FastCGI |
-| `fastcgi_cache` | `location` | Activa cachÃ© FastCGI |
+| `fastcgi_cache_path` | `http` | Define zona de caché FastCGI |
+| `fastcgi_cache` | `location` | Activa caché FastCGI |
 
 ---
 
 **Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/06 - MÃ³dulo 6 - Seguridad|MÃ³dulo 6: Seguridad]]
+**Siguiente**: [[../../19 - Nginx/06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

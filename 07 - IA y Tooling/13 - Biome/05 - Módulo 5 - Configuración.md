@@ -1,8 +1,8 @@
-﻿# MÃ³dulo 5: ConfiguraciÃ³n
+# Módulo 5: Configuración
 
-**Objetivo**: Aprender y dominar: ConfiguraciÃ³n.
+**Objetivo**: Aprender y dominar: Configuración.
 
-Toda la configuraciÃ³n de Biome se centraliza en `biome.json`.
+Toda la configuración de Biome se centraliza en `biome.json`.
 
 ## Ejemplo completo
 
@@ -36,10 +36,10 @@ Toda la configuraciÃ³n de Biome se centraliza en `biome.json`.
 ## Secciones principales
 
 - `files.ignore` / `files.include` â€” archivos a incluir o excluir
-- `formatter` â€” configuraciÃ³n de formateo
-- `linter` â€” configuraciÃ³n de linting
-- `organizeImports` â€” ordenamiento automÃ¡tico de imports
-- `javascript` â€” opciones especÃ­ficas de JS/TS
+- `formatter` â€” configuración de formateo
+- `linter` â€” configuración de linting
+- `organizeImports` â€” ordenamiento automático de imports
+- `javascript` â€” opciones específicas de JS/TS
 
 ## Overrides
 
@@ -73,6 +73,6 @@ Toda la configuraciÃ³n de Biome se centraliza en `biome.json`.
 ---
 
 **Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[06 - MÃ³dulo 6 - IntegraciÃ³n y MigraciÃ³n|MÃ³dulo 6: IntegraciÃ³n y MigraciÃ³n]]
+**Siguiente**: [[06 - Módulo 6 - Integración y Migración|Módulo 6: Integración y Migración]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

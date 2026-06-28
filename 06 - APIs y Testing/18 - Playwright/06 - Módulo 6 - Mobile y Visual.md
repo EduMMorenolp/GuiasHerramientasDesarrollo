@@ -1,4 +1,4 @@
-﻿# Módulo 6: Mobile y Visual
+# Módulo 6: Mobile y Visual
 
 **Objetivo**: Aprender y dominar: Mobile y Visual.
 

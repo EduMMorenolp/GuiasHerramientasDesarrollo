@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 2: Branching y ColaboraciÃ³n
+# Módulo 2: Branching y Colaboración
 
 **Objetivo**: Dominar ramas, fusiones y trabajo colaborativo con Git.
 
@@ -9,7 +9,7 @@
 ### Concepto
 Las ramas (branches) permiten desarrollar funcionalidades de forma aislada.
 
-### GestiÃ³n de Ramas
+### Gestión de Ramas
 ```powershell
 # Listar ramas
 git branch
@@ -44,7 +44,7 @@ git commit -m "Resolve merge conflicts"
 
 ### Conectar Repositorio Remoto
 ```powershell
-# AÃ±adir remoto
+# Añadir remoto
 git remote add origin https://github.com/usuario/repo.git
 
 # Ver remotos
@@ -78,21 +78,21 @@ flowchart LR
     F --> A
 ```
 
-### Buenas PrÃ¡cticas
-- Commits pequeÃ±os y descriptivos
+### Buenas Prácticas
+- Commits pequeños y descriptivos
 - Una rama por funcionalidad
-- Pull requests con descripciÃ³n clara
-- Revisar cÃ³digo antes de mergear
+- Pull requests con descripción clara
+- Revisar código antes de mergear
 
 ---
 
-## ResoluciÃ³n de Conflictos
+## Resolución de Conflictos
 
-Cuando dos ramas modifican las mismas lÃ­neas:
+Cuando dos ramas modifican las mismas líneas:
 
 1. `git merge` muestra CONFLICT
 2. Abre el archivo y busca marcadores `<<<<<<<`, `=======`, `>>>>>>>`
-3. Edita para mantener el cÃ³digo correcto
+3. Edita para mantener el código correcto
 4. Elimina los marcadores
 5. `git add` y `git commit`
 
@@ -113,7 +113,7 @@ git stash pop
 # Rebase (reorganizar commits)
 git rebase main
 
-# Deshacer Ãºltimo commit (sin perder cambios)
+# Deshacer último commit (sin perder cambios)
 git reset --soft HEAD~1
 
 # Deshacer cambios locales
@@ -124,6 +124,6 @@ git restore archivo.js
 ---
 
 **Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[03 - MÃ³dulo 3 - Estrategias Avanzadas|MÃ³dulo 3: Estrategias Avanzadas]]
+**Siguiente**: [[03 - Módulo 3 - Estrategias Avanzadas|Módulo 3: Estrategias Avanzadas]]
 **Inicio herramienta**: [[git|Git]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

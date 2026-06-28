@@ -1,6 +1,6 @@
-﻿# MÃ³dulo 10: ReplicaciÃ³n, Backup y Extensiones
+# Módulo 10: Replicación, Backup y Extensiones
 
-**Objetivo**: Asegurar datos con backups, escalar con replicaciÃ³n y extender con herramientas especializadas.
+**Objetivo**: Asegurar datos con backups, escalar con replicación y extender con herramientas especializadas.
 
 ---
 
@@ -31,9 +31,9 @@ createdb nueva_base
 pg_restore -d nueva_base mi_base.dump
 ```
 
-### pg_basebackup (fÃ­sico)
+### pg_basebackup (físico)
 ```powershell
-# Backup fÃ­sico del servidor
+# Backup físico del servidor
 pg_basebackup -D D:\backups\pg -X stream -P -U replicador
 ```
 
@@ -45,13 +45,13 @@ archive_mode = on
 archive_command = 'copy %p D:\archives\%f'
 ```
 ```powershell
-# Restaurar a un punto especÃ­fico
+# Restaurar a un punto específico
 pg_restore --target-time "2026-06-27 12:00:00" -d mi_base mi_base.dump
 ```
 
 ---
 
-## PostgreSQL: ReplicaciÃ³n
+## PostgreSQL: Replicación
 
 ### Streaming Replication
 ```conf
@@ -62,7 +62,7 @@ wal_keep_size = 1024
 ```
 
 ```conf
-# RÃ©plica - postgresql.conf
+# Réplica - postgresql.conf
 primary_conninfo = 'host=192.168.1.10 port=5432 user=replicador'
 hot_standby = on
 ```
@@ -72,7 +72,7 @@ hot_standby = on
 -- Publicador (primario)
 CREATE PUBLICATION mi_publicacion FOR TABLE usuarios, pedidos;
 
--- Suscriptor (rÃ©plica)
+-- Suscriptor (réplica)
 CREATE SUBSCRIPTION mi_suscripcion
 CONNECTION 'host=primario dbname=mi_base'
 PUBLICATION mi_publicacion;
@@ -80,7 +80,7 @@ PUBLICATION mi_publicacion;
 
 ---
 
-## MySQL: Backup y ReplicaciÃ³n
+## MySQL: Backup y Replicación
 
 ### mysqldump
 ```powershell
@@ -119,7 +119,7 @@ START GROUP_REPLICATION;
 ```sql
 CREATE EXTENSION pg_stat_statements;
 
--- Top 10 queries mÃ¡s lentas
+-- Top 10 queries más lentas
 SELECT query, calls, total_time, mean_time
 FROM pg_stat_statements
 ORDER BY total_time DESC
@@ -148,7 +148,7 @@ CREATE EXTENSION timescaledb;
 -- Convertir tabla a hypertable
 SELECT create_hypertable('sensores', 'timestamp');
 
--- CompresiÃ³n automÃ¡tica
+-- Compresión automática
 ALTER TABLE sensores SET (
     timescaledb.compress,
     timescaledb.compress_segmentby = 'sensor_id'
@@ -159,13 +159,13 @@ ALTER TABLE sensores SET (
 
 ## Performance Tuning
 
-| ParÃ¡metro | DescripciÃ³n | RecomendaciÃ³n |
+| Parámetro | Descripción | Recomendación |
 |-----------|-------------|---------------|
-| `shared_buffers` | Memoria para cachÃ© de datos | 25% de RAM |
-| `work_mem` | Memoria para operaciones de sorting | 4-16 MB por operaciÃ³n |
-| `maintenance_work_mem` | Memoria para VACUUM, Ã­ndices | 10% de RAM |
-| `effective_cache_size` | EstimaciÃ³n de cachÃ© del SO | 50-75% de RAM |
-| `max_connections` | Conexiones simultÃ¡neas | 100-500 segÃºn RAM |
+| `shared_buffers` | Memoria para caché de datos | 25% de RAM |
+| `work_mem` | Memoria para operaciones de sorting | 4-16 MB por operación |
+| `maintenance_work_mem` | Memoria para VACUUM, índices | 10% de RAM |
+| `effective_cache_size` | Estimación de caché del SO | 50-75% de RAM |
+| `max_connections` | Conexiones simultáneas | 100-500 según RAM |
 
 ### Table Partitioning
 ```sql
@@ -184,11 +184,11 @@ CREATE TABLE ventas_2025 PARTITION OF ventas
 
 ## Resumen
 
-| Herramienta | PropÃ³sito |
+| Herramienta | Propósito |
 |-------------|-----------|
-| `pg_dump` / `pg_restore` | Backup lÃ³gico PostgreSQL |
-| `pg_basebackup` | Backup fÃ­sico PostgreSQL |
-| `Streaming Replication` | RÃ©plica en tiempo real |
+| `pg_dump` / `pg_restore` | Backup lógico PostgreSQL |
+| `pg_basebackup` | Backup físico PostgreSQL |
+| `Streaming Replication` | Réplica en tiempo real |
 | `mysqldump` | Backup MySQL |
 | `Group Replication` | Alta disponibilidad MySQL |
 | `pg_stat_statements` | Monitoreo de queries |

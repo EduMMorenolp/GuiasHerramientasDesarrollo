@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: API REST
+# Módulo 4: API REST
 
 **Objetivo**: Conocer y utilizar la API REST de Ollama para integrar modelos en aplicaciones.
 
@@ -8,7 +8,7 @@
 
 Ollama expone una API REST en `http://localhost:11434`:
 
-| Endpoint | MÃ©todo | DescripciÃ³n |
+| Endpoint | Método | Descripción |
 |----------|--------|-------------|
 | `/api/generate` | POST | Generar respuesta (completado) |
 | `/api/chat` | POST | Chat con historial de mensajes |
@@ -28,7 +28,7 @@ Ollama expone una API REST en `http://localhost:11434`:
 ```powershell
 curl -X POST http://localhost:11434/api/generate `
   -H "Content-Type: application/json" `
-  -d '{\"model\": \"llama3.2\", \"prompt\": \"Â¿QuÃ© es un LLM?\", \"stream\": false}'
+  -d '{\"model\": \"llama3.2\", \"prompt\": \"¿Qué es un LLM?\", \"stream\": false}'
 ```
 
 ```json
@@ -52,7 +52,7 @@ curl -X POST http://localhost:11434/api/generate `
   -d '{\"model\": \"llama3.2\", \"prompt\": \"Cuenta un chiste\", \"stream\": true}'
 ```
 
-### ParÃ¡metros adicionales
+### Parámetros adicionales
 ```powershell
 curl -X POST http://localhost:11434/api/generate `
   -H "Content-Type: application/json" `
@@ -66,7 +66,7 @@ curl -X POST http://localhost:11434/api/generate `
 ```powershell
 curl -X POST http://localhost:11434/api/chat `
   -H "Content-Type: application/json" `
-  -d '{\"model\": \"llama3.2\", \"messages\": [{\"role\": \"user\", \"content\": \"Hola, Â¿cÃ³mo estÃ¡s?\"}], \"stream\": false}'
+  -d '{\"model\": \"llama3.2\", \"messages\": [{\"role\": \"user\", \"content\": \"Hola, ¿cómo estás?\"}], \"stream\": false}'
 ```
 
 ```json
@@ -74,13 +74,13 @@ curl -X POST http://localhost:11434/api/chat `
   "model": "llama3.2",
   "message": {
     "role": "assistant",
-    "content": "Â¡Hola! Estoy muy bien, gracias por preguntar."
+    "content": "¡Hola! Estoy muy bien, gracias por preguntar."
   },
   "done": true
 }
 ```
 
-### ConversaciÃ³n con historial
+### Conversación con historial
 ```powershell
 curl -X POST http://localhost:11434/api/chat `
   -H "Content-Type: application/json" `
@@ -153,13 +153,13 @@ curl http://localhost:11434
 |----------|-----|
 | `/api/generate` | Completado de texto |
 | `/api/chat` | Chat con historial |
-| `/api/embeddings` | Vectores semÃ¡nticos |
+| `/api/embeddings` | Vectores semánticos |
 | `/api/tags` | Listar modelos |
 | `/api/ps` | Modelos en memoria |
 
 ---
 
 **Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[05 - MÃ³dulo 5 - Integraciones|MÃ³dulo 5: Integraciones]]
+**Siguiente**: [[05 - Módulo 5 - Integraciones|Módulo 5: Integraciones]]
 **Inicio herramienta**: [[ollama|Ollama]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

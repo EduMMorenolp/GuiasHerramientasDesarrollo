@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 4: SSL/TLS y HTTPS
+# Módulo 4: SSL/TLS y HTTPS
 
 **Objetivo**: Aprender y dominar: SSL/TLS y HTTPS.
 
@@ -9,13 +9,13 @@ sudo apt install certbot python3-certbot-nginx
 sudo certbot --nginx -d ejemplo.com -d www.ejemplo.com
 ```
 
-RenovaciÃ³n automÃ¡tica:
+Renovación automática:
 
 ```bash
 sudo certbot renew --dry-run
 ```
 
-## ConfiguraciÃ³n manual de SSL
+## Configuración manual de SSL
 
 ```nginx
 server {
@@ -40,9 +40,9 @@ server {
 }
 ```
 
-HTTP/2 mejora rendimiento con multiplexaciÃ³n y compresiÃ³n de cabeceras.
+HTTP/2 mejora rendimiento con multiplexación y compresión de cabeceras.
 
-## RedirecciÃ³n HTTP a HTTPS
+## Redirección HTTP a HTTPS
 
 ```nginx
 server {
@@ -52,7 +52,7 @@ server {
 }
 ```
 
-## Mejores prÃ¡cticas SSL
+## Mejores prácticas SSL
 
 ```nginx
 server {
@@ -73,9 +73,9 @@ server {
 }
 ```
 
-### Tabla de mejores prÃ¡cticas SSL
+### Tabla de mejores prácticas SSL
 
-| Directiva | RecomendaciÃ³n |
+| Directiva | Recomendación |
 |---|---|
 | `ssl_protocols` | `TLSv1.2 TLSv1.3` (deshabilitar SSLv3, TLSv1.0, TLSv1.1) |
 | `ssl_ciphers` | `HIGH:!aNULL:!MD5` o usar Mozilla Intermediate |
@@ -93,6 +93,6 @@ ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDS
 ---
 
 **Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/05 - MÃ³dulo 5 - Cache|MÃ³dulo 5: Cache]]
+**Siguiente**: [[../../19 - Nginx/05 - Módulo 5 - Cache|Módulo 5: Cache]]
 **Inicio herramienta**: [[nginx|Nginx]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

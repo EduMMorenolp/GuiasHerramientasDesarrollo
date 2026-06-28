@@ -1,17 +1,17 @@
-﻿# MÃ³dulo 9: Novedades, Troubleshooting y PrÃ³ximos Pasos
+# Módulo 9: Novedades, Troubleshooting y Próximos Pasos
 
-**Objetivo**: Mantenerse actualizado, resolver problemas comunes y planificar los prÃ³ximos pasos.
+**Objetivo**: Mantenerse actualizado, resolver problemas comunes y planificar los próximos pasos.
 
 ---
 
 ## Troubleshooting
 
-### Problemas de conexiÃ³n
+### Problemas de conexión
 ```powershell
 # Verificar conectividad con el proveedor
 opencode doctor
 
-# Probar provider especÃ­fico
+# Probar provider específico
 opencode doctor --provider anthropic
 
 # Ver logs detallados
@@ -19,21 +19,21 @@ opencode --verbose
 ```
 
 ### Errores comunes
-| Problema | SoluciÃ³n |
+| Problema | Solución |
 |----------|----------|
-| API Key invÃ¡lida | Verificar `opencode auth login` |
-| Rate limiting | Cambiar a modelo mÃ¡s pequeÃ±o o reducir solicitudes |
-| Out of tokens | Usar `/compact` para comprimir conversaciÃ³n |
+| API Key inválida | Verificar `opencode auth login` |
+| Rate limiting | Cambiar a modelo más pequeño o reducir solicitudes |
+| Out of tokens | Usar `/compact` para comprimir conversación |
 | Error de permisos | Revisar `permissions` en `opencode.json` |
-| LSP no funciona | Verificar que el servidor LSP estÃ¡ instalado |
+| LSP no funciona | Verificar que el servidor LSP está instalado |
 
 ### Modo verbose
 ```powershell
 opencode --log-level debug
 ```
-Muestra informaciÃ³n detallada de cada paso que ejecuta OpenCode.
+Muestra información detallada de cada paso que ejecuta OpenCode.
 
-### DiagnÃ³stico de red
+### Diagnóstico de red
 ```json
 {
   "network": {
@@ -46,9 +46,9 @@ Muestra informaciÃ³n detallada de cada paso que ejecuta OpenCode.
 
 ---
 
-## Rendimiento y OptimizaciÃ³n
+## Rendimiento y Optimización
 
-### Modelo pequeÃ±o (small_model)
+### Modelo pequeño (small_model)
 ```json
 {
   "model": "claude-sonnet-4-20250514",
@@ -57,7 +57,7 @@ Muestra informaciÃ³n detallada de cada paso que ejecuta OpenCode.
 ```
 El `small_model` se usa para tareas simples, ahorrando tokens y costos.
 
-### CompactaciÃ³n
+### Compactación
 ```json
 {
   "compaction": {
@@ -67,11 +67,11 @@ El `small_model` se usa para tareas simples, ahorrando tokens y costos.
   }
 }
 ```
-Reduce el contexto automÃ¡ticamente cuando se acerca al lÃ­mite.
+Reduce el contexto automáticamente cuando se acerca al límite.
 
 ### Cache
 OpenCode cachea resultados de operaciones repetitivas:
-- BÃºsquedas de archivos
+- Búsquedas de archivos
 - Resultados de LSP
 - Metadata de proyectos
 
@@ -79,12 +79,12 @@ OpenCode cachea resultados de operaciones repetitivas:
 
 ## Novedades 2026
 
-### VersiÃ³n actual
+### Versión actual
 OpenCode v1.14.48+ (junio 2026)
 
 ### Lo nuevo en 2026
-- **Desktop App beta** â€” AplicaciÃ³n nativa para macOS, Windows y Linux
-- **Multi-sesiÃ³n** â€” MÃºltiples agentes en paralelo
+- **Desktop App beta** â€” Aplicación nativa para macOS, Windows y Linux
+- **Multi-sesión** â€” Múltiples agentes en paralelo
 - **MCP mejorado** â€” Soporte para Streamable HTTP
 - **Agent Skills** â€” Sistema de habilidades reutilizables
 - **OpenCode Go** â€” Plan low-cost con modelos open source
@@ -94,21 +94,21 @@ OpenCode v1.14.48+ (junio 2026)
 
 ### Roadmap
 - OpenCode Zen improvements
-- MÃ¡s proveedores de modelos
+- Más proveedores de modelos
 - Plugin marketplace oficial
 - Mejoras en el SDK
 - Enterprise GA
 
 ---
 
-## PrÃ³ximos Pasos
+## Próximos Pasos
 
-### Rutas de especializaciÃ³n
+### Rutas de especialización
 
 ```mermaid
 flowchart LR
     A[OpenCode General] --> B[Agentes Avanzados]
-    A --> C[IntegraciÃ³n CI/CD]
+    A --> C[Integración CI/CD]
     A --> D[Plugin Developer]
     A --> E[Enterprise Admin]
     
@@ -121,7 +121,7 @@ flowchart LR
 ### Recursos oficiales
 | Recurso | URL |
 |---------|-----|
-| DocumentaciÃ³n | [opencode.ai/docs](https://opencode.ai/docs) |
+| Documentación | [opencode.ai/docs](https://opencode.ai/docs) |
 | GitHub | [github.com/anomalyco/opencode](https://github.com/anomalyco/opencode) |
 | Discord | [opencode.ai/discord](https://opencode.ai/discord) |
 | Changelog | [opencode.ai/changelog](https://opencode.ai/changelog) |
@@ -129,21 +129,21 @@ flowchart LR
 
 ---
 
-## Resumen de toda la guÃ­a
+## Resumen de toda la guía
 
-Has completado los **9 mÃ³dulos** de la guÃ­a de OpenCode:
+Has completado los **9 módulos** de la guía de OpenCode:
 
-| MÃ³dulo | Tema |
+| Módulo | Tema |
 |--------|------|
 | 1 | Fundamentos y Primeros Pasos |
-| 2 | Flujo de Trabajo BÃ¡sico y Modos de OperaciÃ³n |
-| 3 | Agentes: EspecializaciÃ³n y AutomatizaciÃ³n |
-| 4 | PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada |
-| 5 | IntegraciÃ³n y Flujos de Trabajo Avanzados |
+| 2 | Flujo de Trabajo Básico y Modos de Operación |
+| 3 | Agentes: Especialización y Automatización |
+| 4 | Personalización y Configuración Avanzada |
+| 5 | Integración y Flujos de Trabajo Avanzados |
 | 6 | MCP Servers, Skills y Plugins |
 | 7 | OpenCode Go, Desktop y Modo Server |
 | 8 | Custom Tools, Formateadores y Enterprise |
-| 9 | Novedades, Troubleshooting y PrÃ³ximos Pasos |
+| 9 | Novedades, Troubleshooting y Próximos Pasos |
 
 ---
 

@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 4: Check Unificado
+# Módulo 4: Check Unificado
 
 **Objetivo**: Aprender y dominar: Check Unificado.
 
-El comando `check` ejecuta formateo, linting y organizaciÃ³n de imports en un solo paso.
+El comando `check` ejecuta formateo, linting y organización de imports en un solo paso.
 
-## Comando bÃ¡sico
+## Comando básico
 
 ```powershell
 npx @biomejs/biome check --write
@@ -24,6 +24,6 @@ npx @biomejs/biome check --staged --write
 ---
 
 **Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[05 - MÃ³dulo 5 - ConfiguraciÃ³n|MÃ³dulo 5: ConfiguraciÃ³n]]
+**Siguiente**: [[05 - Módulo 5 - Configuración|Módulo 5: Configuración]]
 **Inicio herramienta**: [[biome|Biome]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

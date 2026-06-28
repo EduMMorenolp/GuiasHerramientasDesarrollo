@@ -1,10 +1,10 @@
-﻿# MÃ³dulo 1: Fundamentos de Python
+# Módulo 1: Fundamentos de Python
 
 **Objetivo**: Instalar Python y dominar los fundamentos del lenguaje.
 
 ---
 
-## InstalaciÃ³n
+## Instalación
 
 ### Gestionar versiones
 ```powershell
@@ -22,7 +22,7 @@ pip --version
 
 ---
 
-## Sintaxis BÃ¡sica
+## Sintaxis Básica
 
 ```python
 # Variables y tipos
@@ -32,7 +32,7 @@ precio: float = 99.99
 activo: bool = True
 
 # F-strings (Python 3.6+)
-print(f"Hola, {nombre}! Tienes {edad} aÃ±os.")
+print(f"Hola, {nombre}! Tienes {edad} años.")
 
 # Listas
 numeros = [1, 2, 3, 4, 5]
@@ -62,13 +62,13 @@ if edad >= 18:
 elif edad >= 13:
     print("Adolescente")
 else:
-    print("NiÃ±o")
+    print("Niño")
 
 # For
 for i in range(5):
     print(i)
 
-for nombre in ["Ana", "Juan", "MarÃ­a"]:
+for nombre in ["Ana", "Juan", "María"]:
     print(f"Hola, {nombre}")
 
 for clave, valor in usuario.items():
@@ -90,11 +90,11 @@ pares = [x for x in range(20) if x % 2 == 0]
 ## Funciones
 
 ```python
-# FunciÃ³n bÃ¡sica
+# Función básica
 def saludar(nombre: str) -> str:
     return f"Hola, {nombre}!"
 
-# ParÃ¡metros opcionales
+# Parámetros opcionales
 def conectar(host: str = "localhost", port: int = 5432):
     print(f"Conectando a {host}:{port}")
 
@@ -109,7 +109,7 @@ log("error", "usuario no encontrado", codigo=404)
 cuadrado = lambda x: x ** 2
 numeros_pares = list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5]))
 
-# Decorador bÃ¡sico
+# Decorador básico
 def timer(func):
     def wrapper(*args, **kwargs):
         import time
@@ -127,18 +127,18 @@ def proceso_lento():
 
 ---
 
-## MÃ³dulos y Paquetes
+## Módulos y Paquetes
 
 ```python
-# Importar mÃ³dulo
+# Importar módulo
 import math
 print(math.pi)
 
-# Importar especÃ­fico
+# Importar específico
 from datetime import datetime, timedelta
 print(datetime.now())
 
-# MÃ³dulo propio: mi_modulo.py
+# Módulo propio: mi_modulo.py
 # def saludar(): ...
 # from mi_modulo import saludar
 
@@ -169,7 +169,7 @@ finally:
 class MiError(Exception):
     pass
 
-raise MiError("Algo saliÃ³ mal")
+raise MiError("Algo salió mal")
 ```
 
 ---
@@ -181,7 +181,7 @@ raise MiError("Algo saliÃ³ mal")
 with open("datos.txt", "r", encoding="utf-8") as f:
     contenido = f.read()
 
-# Leer lÃ­nea por lÃ­nea
+# Leer línea por línea
 with open("datos.txt", "r") as f:
     for linea in f:
         print(linea.strip())
@@ -190,16 +190,16 @@ with open("datos.txt", "r") as f:
 with open("output.txt", "w") as f:
     f.write("Hola mundo\n")
 
-# AÃ±adir
+# Añadir
 with open("log.txt", "a") as f:
     f.write("Nueva entrada\n")
 ```
 
 ---
 
-**DocumentaciÃ³n oficial**: https://docs.python.org/3/
+**Documentación oficial**: https://docs.python.org/3/
 
-**Siguiente**: [[02 - MÃ³dulo 2 - Entornos Virtuales y Paquetes|MÃ³dulo 2: Entornos Virtuales y Paquetes]]
+**Siguiente**: [[02 - Módulo 2 - Entornos Virtuales y Paquetes|Módulo 2: Entornos Virtuales y Paquetes]]
 
 **Inicio herramienta**: [[python|Python]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

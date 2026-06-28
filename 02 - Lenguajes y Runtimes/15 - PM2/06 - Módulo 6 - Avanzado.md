@@ -1,4 +1,4 @@
-﻿# Módulo 6: Avanzado
+# Módulo 6: Avanzado
 
 **Objetivo**: Funcionalidades avanzadas: Keymetrics, API programatica, Docker y soporte multi-lenguaje.
 

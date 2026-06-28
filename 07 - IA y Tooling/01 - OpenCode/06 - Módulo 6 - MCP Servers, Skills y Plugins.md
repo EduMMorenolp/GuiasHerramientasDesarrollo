@@ -1,13 +1,13 @@
-﻿# MÃ³dulo 6: MCP Servers, Skills y Plugins
+# Módulo 6: MCP Servers, Skills y Plugins
 
-**Objetivo**: Dominar la integraciÃ³n con MCP, el sistema de Skills y Plugins.
+**Objetivo**: Dominar la integración con MCP, el sistema de Skills y Plugins.
 
 ---
 
 ## MCP Servers (Model Context Protocol)
 
-### Â¿QuÃ© es MCP?
-Protocolo estÃ¡ndar que permite a OpenCode conectarse con servidores externos para ampliar sus capacidades: bases de datos, APIs, sistemas de archivos, etc.
+### ¿Qué es MCP?
+Protocolo estándar que permite a OpenCode conectarse con servidores externos para ampliar sus capacidades: bases de datos, APIs, sistemas de archivos, etc.
 
 ### Agregar un MCP Server
 ```json
@@ -29,25 +29,25 @@ Protocolo estÃ¡ndar que permite a OpenCode conectarse con servidores externos 
 ```
 
 ### Tipos de servidores MCP
-| Tipo | DescripciÃ³n |
+| Tipo | Descripción |
 |------|-------------|
 | **Local** | Comando ejecutado localmente (npx, uvx, docker) |
 | **Remoto** | URL de un servidor remoto |
-| **Streamable HTTP** | ConexiÃ³n HTTP con streaming |
+| **Streamable HTTP** | Conexión HTTP con streaming |
 
 ### MCP tools
 Una vez conectado, OpenCode puede usar las herramientas del servidor:
 ```
-ConÃ©ctate a la base de datos usando MCP y trÃ¡eme los Ãºltimos 10 pedidos
+Conéctate a la base de datos usando MCP y tráeme los últimos 10 pedidos
 ```
-OpenCode detecta automÃ¡ticamente las tools disponibles del MCP server.
+OpenCode detecta automáticamente las tools disponibles del MCP server.
 
 ---
 
 ## Agent Skills
 
-### Â¿QuÃ© son?
-Fragmentos de prompt reutilizables que puedes adjuntar a cualquier agente. Codifican conocimientos especÃ­ficos.
+### ¿Qué son?
+Fragmentos de prompt reutilizables que puedes adjuntar a cualquier agente. Codifican conocimientos específicos.
 
 ### Tipos de Skills
 - **Global**: `~/.config/opencode/skills/`
@@ -63,7 +63,7 @@ applies: always
 ## Instrucciones de testing
 - Usa Jest con @testing-library/react
 - Los tests deben cubrir: renderizado, interacciones, edge cases
-- Sigue el patrÃ³n Arrange-Act-Assert
+- Sigue el patrón Arrange-Act-Assert
 - Mockea llamadas API con msw
 ```
 
@@ -77,17 +77,17 @@ applies: always
 ```
 
 ### Skills del sistema
-| Skill | DescripciÃ³n |
+| Skill | Descripción |
 |-------|-------------|
 | `languages` | Reglas y frameworks detectados en el proyecto |
-| `project` | Contexto extraÃ­do del AGENTS.md |
-| `performance` | OptimizaciÃ³n de queries y rendimiento |
+| `project` | Contexto extraído del AGENTS.md |
+| `performance` | Optimización de queries y rendimiento |
 
 ---
 
 ## Plugins
 
-### Â¿QuÃ© son?
+### ¿Qué son?
 Paquetes instalables que extienden OpenCode con nuevas herramientas y comportamientos.
 
 ### Instalar plugins
@@ -110,7 +110,7 @@ export default {
     "generate-model": {
       description: "Genera un modelo de base de datos",
       execute: async (params) => {
-        // LÃ³gica del plugin
+        // Lógica del plugin
       }
     }
   }
@@ -131,21 +131,21 @@ const client = new OpenCodeSDK({
 
 // Ejecutar una consulta
 const response = await client.query({
-  messages: [{ role: "user", content: "Explica este cÃ³digo" }]
+  messages: [{ role: "user", content: "Explica este código" }]
 });
 ```
 
 ### Usos del SDK
-- AutomatizaciÃ³n de code reviews
-- IntegraciÃ³n en CI/CD pipelines
+- Automatización de code reviews
+- Integración en CI/CD pipelines
 - Herramientas CLI personalizadas
-- Bots de cÃ³digo y asistentes
+- Bots de código y asistentes
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-Al completar este mÃ³dulo deberÃ­as poder:
+Al completar este módulo deberías poder:
 - [x] Configurar y usar MCP Servers locales y remotos
 - [x] Crear y aplicar Skills reutilizables
 - [x] Instalar y crear Plugins
@@ -154,6 +154,6 @@ Al completar este mÃ³dulo deberÃ­as poder:
 ---
 
 **Documentación oficial**: https://opencode.ai
-**Siguiente**: [[07 - MÃ³dulo 7 - OpenCode Go, Desktop y Modo Server|MÃ³dulo 7: OpenCode Go, Desktop y Modo Server]]
+**Siguiente**: [[07 - Módulo 7 - OpenCode Go, Desktop y Modo Server|Módulo 7: OpenCode Go, Desktop y Modo Server]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

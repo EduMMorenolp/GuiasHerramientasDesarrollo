@@ -1,4 +1,4 @@
-﻿# MÃ³dulo 3: Actions
+# Módulo 3: Actions
 
 **Objetivo**: Aprender y dominar: Actions.
 
@@ -20,7 +20,7 @@ steps:
 
 ## Docker actions
 
-Ejecutan cÃ³digo en un contenedor Docker pÃºblico.
+Ejecutan código en un contenedor Docker público.
 
 ```yaml
 steps:
@@ -32,7 +32,7 @@ steps:
 
 ## JavaScript actions
 
-Son acciones escritas en Node.js que incluyen un `action.yml` con la definiciÃ³n y un `index.js` con la lÃ³gica.
+Son acciones escritas en Node.js que incluyen un `action.yml` con la definición y un `index.js` con la lógica.
 
 ### action.yml
 
@@ -69,7 +69,7 @@ try {
 
 ## Composite actions
 
-Agrupan varios pasos en una sola acciÃ³n reutilizable sin necesidad de Docker ni Node.
+Agrupan varios pasos en una sola acción reutilizable sin necesidad de Docker ni Node.
 
 ```yaml
 name: 'Lint and Test'
@@ -94,16 +94,16 @@ runs:
 
 ## Tabla de tipos de actions
 
-| Tipo | DescripciÃ³n | CuÃ¡ndo usarlo |
+| Tipo | Descripción | Cuándo usarlo |
 |---|---|---|
-| **Docker** | Contenedor con cualquier lenguaje | Necesitas un entorno especÃ­fico |
-| **JavaScript** | Node.js empaquetado con dependencias | RÃ¡pido, sin construir imagen |
-| **Composite** | CombinaciÃ³n de pasos existentes | Reutilizar pasos sin escribir cÃ³digo |
-| **Predefinida** | AcciÃ³n del Marketplace | Tareas comunes (checkout, cache, setup) |
+| **Docker** | Contenedor con cualquier lenguaje | Necesitas un entorno específico |
+| **JavaScript** | Node.js empaquetado con dependencias | Rápido, sin construir imagen |
+| **Composite** | Combinación de pasos existentes | Reutilizar pasos sin escribir código |
+| **Predefinida** | Acción del Marketplace | Tareas comunes (checkout, cache, setup) |
 
 ---
 
 **Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[04 - MÃ³dulo 4 - Runners|MÃ³dulo 4 - Runners]]
+**Siguiente**: [[04 - Módulo 4 - Runners|Módulo 4 - Runners]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

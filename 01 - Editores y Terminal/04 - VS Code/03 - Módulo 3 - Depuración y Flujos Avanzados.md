@@ -1,12 +1,12 @@
-﻿# MÃ³dulo 3: DepuraciÃ³n y Flujos Avanzados
+# Módulo 3: Depuración y Flujos Avanzados
 
-**Objetivo**: Dominar la depuraciÃ³n integrada y flujos de trabajo avanzados.
+**Objetivo**: Dominar la depuración integrada y flujos de trabajo avanzados.
 
 ---
 
-## DepuraciÃ³n (Debugging)
+## Depuración (Debugging)
 
-### ConfiguraciÃ³n bÃ¡sica
+### Configuración básica
 ```json
 // .vscode/launch.json
 {
@@ -31,10 +31,10 @@
 ```
 
 ### Puntos de ruptura
-| AcciÃ³n | Atajo |
+| Acción | Atajo |
 |--------|-------|
 | Toggle breakpoint | `F9` |
-| Iniciar depuraciÃ³n | `F5` |
+| Iniciar depuración | `F5` |
 | Step over | `F10` |
 | Step into | `F11` |
 | Step out | `Shift+F11` |
@@ -45,7 +45,7 @@
 - **Conditional breakpoints**: Click derecho > "Conditional Breakpoint"
 - **Logpoints**: Muestra mensaje sin pausar
 - **Hit count**: Se activa tras N ejecuciones
-- **Function breakpoint**: Se activa al entrar a una funciÃ³n
+- **Function breakpoint**: Se activa al entrar a una función
 
 ---
 
@@ -86,11 +86,11 @@
 
 ## Live Share
 
-ColaboraciÃ³n en tiempo real:
+Colaboración en tiempo real:
 ```powershell
 Ctrl+Shift+P > "Live Share: Start collaboration session"
 ```
-- EdiciÃ³n sincrÃ³nica
+- Edición sincrónica
 - Debug compartido
 - Terminal compartida
 - Servidores locales compartidos
@@ -128,9 +128,9 @@ Ctrl+Shift+P > "Dev Containers: Reopen in Container"
 ```powershell
 Ctrl+P          # Abrir archivo por nombre
 Ctrl+Tab        # Navegar entre archivos recientes
-Ctrl+Shift+O    # Ir a sÃ­mbolo en archivo
-Ctrl+T          # Ir a sÃ­mbolo en proyecto
-Ctrl+G          # Ir a lÃ­nea especÃ­fica
+Ctrl+Shift+O    # Ir a símbolo en archivo
+Ctrl+T          # Ir a símbolo en proyecto
+Ctrl+G          # Ir a línea específica
 ```
 
 ### Problemas y errores
@@ -161,7 +161,7 @@ Ctrl+Shift+G    # Abrir Source Control
 `Ctrl+Shift+P` > "Profiles: Create Profile"
 
 ### Multi-root workspace
-Trabaja con mÃºltiples proyectos simultÃ¡neamente:
+Trabaja con múltiples proyectos simultáneamente:
 ```json
 {
   "folders": [
@@ -175,6 +175,6 @@ Trabaja con mÃºltiples proyectos simultÃ¡neamente:
 ---
 
 **Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[04 - MÃ³dulo 4 - Remote Development y Dev Containers|MÃ³dulo 4: Remote Development y Dev Containers]]
+**Siguiente**: [[04 - Módulo 4 - Remote Development y Dev Containers|Módulo 4: Remote Development y Dev Containers]]
 **Inicio herramienta**: [[vscode|VS Code]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]

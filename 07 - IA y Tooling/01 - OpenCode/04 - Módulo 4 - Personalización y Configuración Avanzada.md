@@ -1,17 +1,17 @@
-﻿# MÃ³dulo 4: PersonalizaciÃ³n y ConfiguraciÃ³n Avanzada
+# Módulo 4: Personalización y Configuración Avanzada
 
-**Objetivo**: Aprender a personalizar OpenCode a travÃ©s de su sistema de configuraciÃ³n jerÃ¡rquico.
+**Objetivo**: Aprender a personalizar OpenCode a través de su sistema de configuración jerárquico.
 
 ---
 
-## Entendiendo el Sistema de ConfiguraciÃ³n
+## Entendiendo el Sistema de Configuración
 
 ### Formato
-- **JSON**: Formato estÃ¡ndar de configuraciÃ³n
+- **JSON**: Formato estándar de configuración
 - **JSONC**: JSON con comentarios (recomendado para legibilidad)
 
-### JerarquÃ­a de Precedencia
-La configuraciÃ³n se aplica en este orden (de menor a mayor prioridad):
+### Jerarquía de Precedencia
+La configuración se aplica en este orden (de menor a mayor prioridad):
 
 ```mermaid
 flowchart LR
@@ -26,14 +26,14 @@ flowchart LR
     style D fill:#fbb,stroke:#333
 ```
 
-1. **Remota** (`~/.config/opencode/remotes/`): ConfiguraciÃ³n compartida del equipo
+1. **Remota** (`~/.config/opencode/remotes/`): Configuración compartida del equipo
 2. **Global** (`~/.config/opencode/opencode.json`): Preferencias del usuario
-3. **Personalizada** (`OPENCODE_CONFIG`): Ruta alternativa vÃ­a variable de entorno
-4. **Proyecto** (`opencode.json` en raÃ­z): ConfiguraciÃ³n especÃ­fica del proyecto
+3. **Personalizada** (`OPENCODE_CONFIG`): Ruta alternativa vía variable de entorno
+4. **Proyecto** (`opencode.json` en raíz): Configuración específica del proyecto
 
 ---
 
-## Ubicaciones de los Archivos de ConfiguraciÃ³n
+## Ubicaciones de los Archivos de Configuración
 
 ### Global (`~/.config/opencode/opencode.json`)
 ```json
@@ -57,7 +57,7 @@ flowchart LR
   },
   "agents": {
     "revisor": {
-      "description": "Revisor de cÃ³digo",
+      "description": "Revisor de código",
       "prompt": "Eres un revisor senior..."
     }
   }
@@ -72,7 +72,7 @@ opencode
 
 ---
 
-## Opciones de ConfiguraciÃ³n Clave
+## Opciones de Configuración Clave
 
 ### Proveedores y Modelos
 ```json
@@ -110,7 +110,7 @@ opencode
   }
 }
 ```
-Control granular de quÃ© acciones puede realizar OpenCode.
+Control granular de qué acciones puede realizar OpenCode.
 
 ### Atajos de Teclado (keybinds)
 ```json
@@ -151,7 +151,7 @@ Control granular de quÃ© acciones puede realizar OpenCode.
 
 ---
 
-## Otras Opciones de ConfiguraciÃ³n
+## Otras Opciones de Configuración
 
 ### Servidor
 ```json
@@ -174,8 +174,8 @@ Control granular de quÃ© acciones puede realizar OpenCode.
 }
 ```
 
-### CompactaciÃ³n (Compaction)
-Controla cÃ³mo se compacta el historial de la conversaciÃ³n para mantener el contexto relevante:
+### Compactación (Compaction)
+Controla cómo se compacta el historial de la conversación para mantener el contexto relevante:
 
 ```json
 {
@@ -202,12 +202,12 @@ OpenCode puede observar archivos y reaccionar a cambios:
 
 ---
 
-## Ejemplo: ConfiguraciÃ³n Completa de Proyecto
+## Ejemplo: Configuración Completa de Proyecto
 
 ```json
 {
   "project": {
-    "name": "API de Comercio ElectrÃ³nico",
+    "name": "API de Comercio Electrónico",
     "description": "API REST con Express, TypeScript y PostgreSQL",
     "version": "1.0.0"
   },
@@ -222,8 +222,8 @@ OpenCode puede observar archivos y reaccionar a cambios:
   },
   "agents": {
     "revisor": {
-      "description": "Revisor de cÃ³digo senior",
-      "prompt": "Revisa el cÃ³digo buscando bugs, problemas de seguridad y rendimiento. Sigue las convenciones de TypeScript y Express del proyecto.",
+      "description": "Revisor de código senior",
+      "prompt": "Revisa el código buscando bugs, problemas de seguridad y rendimiento. Sigue las convenciones de TypeScript y Express del proyecto.",
       "mode": "subagent",
       "temperature": 0.2,
       "color": "#00aa00"
@@ -256,19 +256,19 @@ OpenCode puede observar archivos y reaccionar a cambios:
 
 ---
 
-## Resumen del MÃ³dulo
+## Resumen del Módulo
 
-Al completar este mÃ³dulo deberÃ­as poder:
-- [ ] Entender la jerarquÃ­a de configuraciÃ³n de OpenCode
+Al completar este módulo deberías poder:
+- [ ] Entender la jerarquía de configuración de OpenCode
 - [ ] Configurar proveedores, modelos y temas
 - [ ] Gestionar permisos de forma granular
 - [ ] Crear atajos de teclado y comandos personalizados
-- [ ] Utilizar el observador de archivos y compactaciÃ³n
-- [ ] Crear una configuraciÃ³n completa de proyecto
+- [ ] Utilizar el observador de archivos y compactación
+- [ ] Crear una configuración completa de proyecto
 
 ---
 
 **Documentación oficial**: https://opencode.ai
-**Siguiente**: [[05 - MÃ³dulo 5 - IntegraciÃ³n y Flujos de Trabajo Avanzados|MÃ³dulo 5: IntegraciÃ³n y Flujos de Trabajo Avanzados]]
+**Siguiente**: [[05 - Módulo 5 - Integración y Flujos de Trabajo Avanzados|Módulo 5: Integración y Flujos de Trabajo Avanzados]]
 **Inicio herramienta**: [[opencode|OpenCode]]
 **Inicio principal**: [[../../../00 - Índice/Índice General]]
