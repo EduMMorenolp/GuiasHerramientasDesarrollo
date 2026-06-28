@@ -26,7 +26,7 @@ jobs:
 
       - name: Clone Quartz
         run: |
-          git clone https://github.com/jackyzha0/quartz.git --depth 1 _quartz
+          git clone -b v4.5.2 https://github.com/jackyzha0/quartz.git --depth 1 _quartz
           rm -rf _quartz/.git
 
       - name: Copy vault content to Quartz
