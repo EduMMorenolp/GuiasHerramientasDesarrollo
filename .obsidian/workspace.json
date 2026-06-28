@@ -178,6 +178,7 @@
   },
   "active": "1ebf143ed57e03fb",
   "lastOpenFiles": [
+    "README.md",
     "03 - Control de Versiones y CI-CD/21 - GitHub Actions/github-actions.md",
     "03 - Control de Versiones y CI-CD/21 - GitHub Actions/07 - Módulo 7 - Deploy y Avanzado.md",
     "03 - Control de Versiones y CI-CD/21 - GitHub Actions/06 - Módulo 6 - Seguridad.md",
@@ -206,7 +207,6 @@
     "04 - Infraestructura/19 - Nginx/01 - Módulo 1 - Instalación y Configuración Básica.md",
     "04 - Infraestructura/19 - Nginx",
     "06 - APIs y Testing/18 - Playwright/playwright.md",
-    "06 - APIs y Testing/18 - Playwright/07 - Módulo 7 - CI-CD y Avanzado.md",
     "06 - APIs y Testing/18 - Playwright",
     "02 - Lenguajes y Runtimes/17 - Bun",
     "02 - Lenguajes y Runtimes/16 - pnpm",
