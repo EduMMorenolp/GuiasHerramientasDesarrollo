@@ -34,16 +34,20 @@ Vault de [Obsidian](https://obsidian.md) con guías progresivas de herramientas 
 - **12 - Postman** — 7 módulos
 - **18 - Playwright** — 7 módulos
 
-### 07 - IA y Tooling
+### 07 - IA
 - **01 - OpenCode** — 9 módulos
 - **09 - Ollama** — 9 módulos
+- **14 - Hermes Agent** — 7 módulos
+- **15 - OpenClaw** — 6 módulos
+
+### 08 - Calidad de Código
 - **13 - Biome** — 6 módulos
 
 ## Progreso
 
 - **21 herramientas** documentadas
 - **145 módulos** con ejemplos prácticos, tablas y código
-- **7 categorías** organizadas por tipo de herramienta
+- **8 categorías** organizadas por tipo de herramienta
 - Documentación oficial enlazada en cada módulo
 - Navegación entre módulos con wikilinks de Obsidian
 

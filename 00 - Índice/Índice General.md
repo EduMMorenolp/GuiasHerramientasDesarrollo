@@ -122,22 +122,36 @@ Framework de automatización de navegadores. Testing E2E cross-browser, codegen,
 
 ---
 
-### 07 - IA y Tooling
+### 07 - IA
 
 #### 01 - OpenCode
 Agente de codificación de IA de código abierto. Desde la configuración inicial hasta la creación de agentes personalizados y flujos avanzados.
 
-→ [[../07 - IA y Tooling/01 - OpenCode/opencode|OpenCode — Guía completa]]
+→ [[../07 - IA/01 - OpenCode/opencode|OpenCode — Guía completa]]
 
 #### 09 - Ollama
 Modelos de lenguaje locales. Desde instalación hasta API REST, integraciones y modelos personalizados.
 
-→ [[../07 - IA y Tooling/09 - Ollama/ollama|Ollama — Guía completa]]
+→ [[../07 - IA/09 - Ollama/ollama|Ollama — Guía completa]]
+
+#### 14 - Hermes Agent
+Agente de IA auto-mejorable. Gateway de mensajería, memoria persistente, skills y herramientas integradas.
+
+→ [[../07 - IA/14 - Hermes Agent/hermes-agent|Hermes Agent — Guía completa]]
+
+#### 15 - OpenClaw
+Gateway auto-gestionado para agentes de IA. Multi-canal, plugins, skills, subagentes y automatización.
+
+→ [[../07 - IA/15 - OpenClaw/openclaw|OpenClaw — Guía completa]]
+
+---
+
+### 08 - Calidad de Código
 
 #### 13 - Biome
 Toolchain unificado para web. Formateo, linting y check en un solo comando.
 
-→ [[../07 - IA y Tooling/13 - Biome/biome|Biome — Guía completa]]
+→ [[../08 - Calidad de Código/13 - Biome/biome|Biome — Guía completa]]
 
 ---
 
