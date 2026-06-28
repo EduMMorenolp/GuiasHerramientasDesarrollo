@@ -151,4 +151,4 @@ response = client_cloud.chat(
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[09 - Módulo 9 - Avanzado y Troubleshooting|Módulo 9: Avanzado y Troubleshooting]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

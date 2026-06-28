@@ -243,4 +243,4 @@ docker node ps $(docker node ls -q)
 **Documentación oficial**: https://docs.docker.com
 
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

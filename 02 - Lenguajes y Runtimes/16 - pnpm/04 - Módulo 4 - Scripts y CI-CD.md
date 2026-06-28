@@ -91,4 +91,4 @@ jobs:
 **Documentación oficial**: https://pnpm.io/motivation
 **Siguiente**: [[Módulo 5 - Catalogo y Seguridad]]
 **Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

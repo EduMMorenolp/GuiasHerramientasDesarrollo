@@ -147,4 +147,4 @@ ollama list
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[03 - Módulo 3 - Modelos Populares|Módulo 3: Modelos Populares]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

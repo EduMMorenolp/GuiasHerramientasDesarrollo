@@ -184,4 +184,4 @@ git bisect visualize
 **Documentación oficial**: https://git-scm.com/doc
 
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

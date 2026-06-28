@@ -40,4 +40,4 @@ Quartz es un generador de sitio estatico disenado especificamente para vaults de
 **Documentación oficial**: https://help.obsidian.md
 **Siguiente**: [[07 - Módulo 7 - Personalización|Módulo 7: Personalización]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

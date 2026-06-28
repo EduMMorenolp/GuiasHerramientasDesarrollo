@@ -260,4 +260,4 @@ ollama pull llama3.2  # Usar nombre exacto
 **Documentación oficial**: https://github.com/ollama/ollama
 
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

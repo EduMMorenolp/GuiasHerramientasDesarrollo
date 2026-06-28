@@ -69,4 +69,4 @@ pnpm import
 **Documentación oficial**: https://pnpm.io/motivation
 **Siguiente**: [[Módulo 2 - Workspaces]]
 **Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

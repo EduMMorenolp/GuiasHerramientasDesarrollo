@@ -165,4 +165,4 @@ npm config set @mi-empresa:registry "https://npm.mi-empresa.com"
 **Siguiente**: [[03 - Módulo 3 - Asincronía y Event Loop|Módulo 3: Asincronía y Event Loop]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

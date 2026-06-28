@@ -42,4 +42,4 @@ if (x == null) { }
 **Documentación oficial**: https://biomejs.dev
 **Siguiente**: [[04 - Módulo 4 - Check Unificado|Módulo 4: Check Unificado]]
 **Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

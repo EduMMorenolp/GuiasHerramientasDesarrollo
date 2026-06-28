@@ -94,4 +94,4 @@ logfile /var/log/redis/redis.log
 **Documentación oficial**: https://redis.io/docs/latest/
 **Siguiente**: [[Módulo 4]]
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

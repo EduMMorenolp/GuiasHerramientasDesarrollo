@@ -121,4 +121,4 @@ C:\Users\TuUsuario\.ollama\models\
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[02 - Módulo 2 - Gestión de Modelos|Módulo 2: Gestión de Modelos]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

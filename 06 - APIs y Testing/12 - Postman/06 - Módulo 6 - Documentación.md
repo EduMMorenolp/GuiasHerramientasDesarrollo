@@ -219,4 +219,4 @@ Este es el formato recomendado para compartir collections y usar con Newman.
 **Siguiente**: [[07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

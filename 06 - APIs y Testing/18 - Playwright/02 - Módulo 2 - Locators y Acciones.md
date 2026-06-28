@@ -39,4 +39,4 @@ Playwright espera automaticamente a que los elementos sean visibles, estables y 
 **Documentación oficial**: https://playwright.dev/docs/intro
 **Siguiente**: [[Módulo 3: Intercepciones y Mocks]]
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

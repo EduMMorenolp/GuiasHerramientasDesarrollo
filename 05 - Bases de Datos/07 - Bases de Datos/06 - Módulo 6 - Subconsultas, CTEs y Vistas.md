@@ -139,4 +139,4 @@ CREATE INDEX ON resumen_ventas(cliente_id);
 **Siguiente**: [[07 - Módulo 7 - Window Functions y Análisis|Módulo 7: Window Functions y Análisis]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

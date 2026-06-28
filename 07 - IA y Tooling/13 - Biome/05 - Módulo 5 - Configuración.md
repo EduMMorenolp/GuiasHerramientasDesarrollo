@@ -75,4 +75,4 @@ Toda la configuración de Biome se centraliza en `biome.json`.
 **Documentación oficial**: https://biomejs.dev
 **Siguiente**: [[06 - Módulo 6 - Integración y Migración|Módulo 6: Integración y Migración]]
 **Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -217,4 +217,4 @@ approval_policies:
 **Documentación oficial**: https://docs.gitlab.com
 **Siguiente**: [[07 - Módulo 7 - Administración|Módulo 7: Administración]]
 **Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

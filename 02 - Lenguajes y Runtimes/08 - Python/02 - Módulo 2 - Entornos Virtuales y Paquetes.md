@@ -223,4 +223,4 @@ pytest --coverage
 **Siguiente**: [[03 - Módulo 3 - POO, Tipado y Librería Estándar|Módulo 3: POO, Tipado y Librería Estándar]]
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

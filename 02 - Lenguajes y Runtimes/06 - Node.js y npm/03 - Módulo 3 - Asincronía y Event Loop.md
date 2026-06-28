@@ -208,4 +208,4 @@ fs.readFile('file.txt', () => {
 **Siguiente**: [[04 - Módulo 4 - File System y Streams|Módulo 4: File System y Streams]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

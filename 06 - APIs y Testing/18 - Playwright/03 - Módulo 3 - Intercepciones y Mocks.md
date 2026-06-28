@@ -49,4 +49,4 @@ const response = await page.waitForResponse('**/api/data');
 **Documentación oficial**: https://playwright.dev/docs/intro
 **Siguiente**: [[Módulo 4: Testing y Fixtures]]
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

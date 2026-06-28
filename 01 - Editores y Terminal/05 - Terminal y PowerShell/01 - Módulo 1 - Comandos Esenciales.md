@@ -140,4 +140,4 @@ function prompt { "PS $($executionContext.SessionState.Path.CurrentLocation)> " 
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[02 - Módulo 2 - Scripting y Automatización|Módulo 2: Scripting y Automatización]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

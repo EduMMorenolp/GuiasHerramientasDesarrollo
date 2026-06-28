@@ -46,4 +46,4 @@ Obsidian permite abrir multiples vaults simultaneamente en ventanas separadas. L
 **Documentación oficial**: https://help.obsidian.md
 
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

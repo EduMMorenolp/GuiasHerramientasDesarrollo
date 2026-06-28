@@ -122,4 +122,4 @@ jobs:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[03 - Módulo 3 - Actions|Módulo 3 - Actions]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

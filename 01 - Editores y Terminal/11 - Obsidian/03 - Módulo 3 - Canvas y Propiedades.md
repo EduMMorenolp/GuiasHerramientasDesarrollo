@@ -43,4 +43,4 @@ La paleta de comandos (Ctrl+P) permite ejecutar acciones sin navegar menús, inc
 **Documentación oficial**: https://help.obsidian.md
 **Siguiente**: [[04 - Módulo 4 - Plugins|Módulo 4: Plugins]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

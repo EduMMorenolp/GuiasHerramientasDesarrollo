@@ -167,4 +167,4 @@ CALL ObtenerClientes('Madrid');
 **Siguiente**: [[09 - Módulo 9 - Drizzle ORM|Módulo 9: Drizzle ORM]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

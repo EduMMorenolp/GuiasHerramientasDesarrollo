@@ -150,4 +150,4 @@ Has completado los **9 módulos** de la guía de OpenCode:
 **Documentación oficial**: https://opencode.ai
 
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

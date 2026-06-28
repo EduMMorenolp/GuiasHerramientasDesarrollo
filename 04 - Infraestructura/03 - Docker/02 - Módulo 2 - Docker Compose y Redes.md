@@ -129,4 +129,4 @@ services:
 **Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[03 - Módulo 3 - Producción y Optimización|Módulo 3: Producción y Optimización]]
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

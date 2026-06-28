@@ -177,4 +177,4 @@ DELETE {{base_url}}/users/{{user_id}}
 **Siguiente**: [[03 - Módulo 3 - Entornos y Variables|Módulo 3: Entornos y Variables]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

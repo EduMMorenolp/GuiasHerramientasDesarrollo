@@ -75,4 +75,4 @@ jobs:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[02 - Módulo 2 - Workflows|Módulo 2 - Workflows]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

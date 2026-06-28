@@ -168,4 +168,4 @@ Alt+Shift+F         # Formatear tabla
 **Documentación oficial**: https://code.visualstudio.com/docs
 
 **Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

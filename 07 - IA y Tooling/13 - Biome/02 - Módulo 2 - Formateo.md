@@ -28,4 +28,4 @@ npx @biomejs/biome format --error-on-warnings src/
 **Documentación oficial**: https://biomejs.dev
 **Siguiente**: [[03 - Módulo 3 - Linting|Módulo 3: Linting]]
 **Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

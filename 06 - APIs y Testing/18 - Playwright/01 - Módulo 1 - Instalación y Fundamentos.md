@@ -50,4 +50,4 @@ proyecto/
 **Documentación oficial**: https://playwright.dev/docs/intro
 **Siguiente**: [[Módulo 2: Locators y Acciones]]
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

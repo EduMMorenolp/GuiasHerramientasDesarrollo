@@ -73,4 +73,4 @@ test('regression', { tag: ['@regression', '@critical'] }, async ({ page }) => { 
 **Documentación oficial**: https://playwright.dev/docs/intro
 **Siguiente**: [[Módulo 5: Reportes y Trazas]]
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

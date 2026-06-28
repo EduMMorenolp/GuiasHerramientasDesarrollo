@@ -188,4 +188,4 @@ wiki/
 **Documentación oficial**: https://docs.gitlab.com
 **Siguiente**: [[03 - Módulo 3 - Issues y Planning|Módulo 3: Issues y Planning]]
 **Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

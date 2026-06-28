@@ -185,4 +185,4 @@ code tunnel
 **Documentación oficial**: https://code.visualstudio.com/docs
 **Siguiente**: [[05 - Módulo 5 - Agents Window y GitHub Copilot|Módulo 5: Agents Window y GitHub Copilot]]
 **Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -123,4 +123,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[03 - Módulo 3 - Agentes - Especialización y Automatización|Módulo 3: Agentes - Especialización y Automatización]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

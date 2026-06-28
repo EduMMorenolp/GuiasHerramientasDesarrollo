@@ -199,4 +199,4 @@ Find-PSResource -Name Az.Compute -IncludeDependencies
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[05 - Módulo 5 - Clases, Expresiones Regulares y Jobs|Módulo 5: Clases, Expresiones Regulares y Jobs]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

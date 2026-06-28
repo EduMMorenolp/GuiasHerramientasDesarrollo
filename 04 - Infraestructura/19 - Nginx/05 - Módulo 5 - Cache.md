@@ -97,4 +97,4 @@ server {
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -144,4 +144,4 @@ pm2 set pm2-logrotate:dateFormat YYYY-MM-DD
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
 **Siguiente**: [[Módulo 5]]
 **Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -165,4 +165,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[06 - Módulo 6 - Git Internals, LFS y Merge Strategies|Módulo 6: Git Internals, LFS y Merge Strategies]]
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

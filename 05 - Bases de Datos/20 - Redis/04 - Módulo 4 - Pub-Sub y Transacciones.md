@@ -98,4 +98,4 @@ redis-cli SUBSCRIBE cola:pedidos
 **Documentación oficial**: https://redis.io/docs/latest/
 **Siguiente**: [[Módulo 5]]
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -26,4 +26,4 @@ npx @biomejs/biome check --staged --write
 **Documentación oficial**: https://biomejs.dev
 **Siguiente**: [[05 - Módulo 5 - Configuración|Módulo 5: Configuración]]
 **Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

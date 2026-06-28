@@ -160,4 +160,4 @@ on:
 
 **Documentación oficial**: https://docs.github.com/en/actions
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

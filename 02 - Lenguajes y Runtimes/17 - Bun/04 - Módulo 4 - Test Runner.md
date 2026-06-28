@@ -72,4 +72,4 @@ test("snapshot de objeto", () => {
 **Documentación oficial**: https://bun.sh/docs
 **Siguiente**: [[Módulo 5: APIs del Runtime]]
 **Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

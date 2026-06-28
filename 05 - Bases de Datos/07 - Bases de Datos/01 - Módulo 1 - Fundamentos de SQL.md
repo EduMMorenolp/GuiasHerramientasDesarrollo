@@ -137,4 +137,4 @@ DROP TABLE usuarios;
 **Siguiente**: [[02 - Módulo 2 - SQLite|Módulo 2: SQLite]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

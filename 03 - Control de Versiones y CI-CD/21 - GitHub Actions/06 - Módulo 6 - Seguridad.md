@@ -91,4 +91,4 @@ jobs:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[07 - Módulo 7 - Deploy y Avanzado|Módulo 7 - Deploy y Avanzado]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

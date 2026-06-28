@@ -70,4 +70,4 @@ BF.EXISTS filtro:usuarios "alice"          -- 1 (probablemente existe)
 **Documentación oficial**: https://redis.io/docs/latest/
 **Siguiente**: [[Módulo 7]]
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

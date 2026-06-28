@@ -88,4 +88,4 @@ Esto copia solo lo necesario (dependencias de produccion, lockfile, etc.) en la 
 **Documentación oficial**: https://pnpm.io/motivation
 
 **Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

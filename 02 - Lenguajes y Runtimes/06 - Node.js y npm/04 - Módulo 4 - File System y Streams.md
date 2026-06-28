@@ -217,4 +217,4 @@ path.relative('/data/orig', '/data/dest/file.txt'); // '../dest/file.txt'
 **Siguiente**: [[05 - Módulo 5 - HTTP y Web Servers|Módulo 5: HTTP y Web Servers]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

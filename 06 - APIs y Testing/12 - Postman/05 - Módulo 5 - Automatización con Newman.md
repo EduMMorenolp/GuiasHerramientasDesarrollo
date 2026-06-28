@@ -244,4 +244,4 @@ pipeline {
 **Siguiente**: [[06 - Módulo 6 - Documentación|Módulo 6: Documentacion]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

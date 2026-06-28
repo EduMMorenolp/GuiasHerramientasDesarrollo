@@ -38,4 +38,4 @@ Disponible en Google Play Store y Apple App Store. La sincronización entre disp
 **Documentación oficial**: https://help.obsidian.md
 **Siguiente**: [[02 - Módulo 2 - Enlaces y Organización|Módulo 2: Enlaces y Organización]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -206,4 +206,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[09 - Módulo 9 - Novedades, Troubleshooting y Próximos Pasos|Módulo 9: Novedades, Troubleshooting y Próximos Pasos]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

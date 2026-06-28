@@ -106,4 +106,4 @@ runs:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[04 - Módulo 4 - Runners|Módulo 4 - Runners]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

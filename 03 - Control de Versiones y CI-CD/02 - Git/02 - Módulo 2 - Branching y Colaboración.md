@@ -126,4 +126,4 @@ git restore archivo.js
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[03 - Módulo 3 - Estrategias Avanzadas|Módulo 3: Estrategias Avanzadas]]
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -95,4 +95,4 @@ ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDS
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/05 - Módulo 5 - Cache|Módulo 5: Cache]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

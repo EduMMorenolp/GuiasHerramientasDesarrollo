@@ -235,4 +235,4 @@ ollama pull llama3.2:q8_0
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[08 - Módulo 8 - Ollama Cloud|Módulo 8: Ollama Cloud]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

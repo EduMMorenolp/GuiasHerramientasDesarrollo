@@ -94,4 +94,4 @@ A diferencia de una terminal tradicional donde el texto es continuo, Warp organi
 **Documentación oficial**: https://docs.warp.dev
 **Siguiente**: [[02 - Módulo 2 - Input Editor|Módulo 2: Input Editor]]
 **Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

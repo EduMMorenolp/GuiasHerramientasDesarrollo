@@ -171,4 +171,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[04 - Módulo 4 - Personalización y Configuración Avanzada|Módulo 4: Personalización y Configuración Avanzada]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -217,4 +217,4 @@ list.models.forEach(m => console.log(m.name));
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[07 - Módulo 7 - Modelfile y Modelos Custom|Módulo 7: Modelfile y Modelos Custom]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

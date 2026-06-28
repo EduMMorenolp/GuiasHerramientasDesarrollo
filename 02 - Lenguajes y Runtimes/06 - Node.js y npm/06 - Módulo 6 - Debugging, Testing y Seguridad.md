@@ -296,4 +296,4 @@ child.on('message', msg => console.log(msg.result)); // 10
 **Siguiente**: [[07 - Módulo 7 - TypeScript, Cluster y Temas Avanzados|Módulo 7: TypeScript, Cluster y Temas Avanzados]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

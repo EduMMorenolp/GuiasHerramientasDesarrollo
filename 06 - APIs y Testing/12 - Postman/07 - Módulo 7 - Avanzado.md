@@ -165,4 +165,4 @@ const response = await fetch(
 **Documentación oficial**: https://learning.postman.com
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -212,4 +212,4 @@ $cred = New-Object System.Management.Automation.PSCredential("user", $password)
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

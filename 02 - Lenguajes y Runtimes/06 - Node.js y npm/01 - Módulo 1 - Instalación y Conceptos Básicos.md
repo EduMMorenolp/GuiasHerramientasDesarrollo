@@ -133,4 +133,4 @@ npm start       # Atajo para npm run start
 **Siguiente**: [[02 - Módulo 2 - npm Scripts y Publicación|Módulo 2: npm Scripts y Publicación]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

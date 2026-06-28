@@ -156,4 +156,4 @@ git archive --format=tar.gz --prefix=proyecto/ v1.0 > proyecto.tar.gz
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[05 - Módulo 5 - Personalización, Hooks y Git Attributes|Módulo 5: Personalización, Hooks y Git Attributes]]
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

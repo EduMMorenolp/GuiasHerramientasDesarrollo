@@ -135,4 +135,4 @@ docker diff mi-app
 **Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[04 - Módulo 4 - Docker Buildx y Seguridad|Módulo 4: Docker Buildx y Seguridad]]
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

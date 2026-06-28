@@ -203,4 +203,4 @@ Abre http://localhost:4983 con interfaz gráfica para:
 **Siguiente**: [[10 - Módulo 10 - Replicación, Backup y Extensiones|Módulo 10: Replicación, Backup y Extensiones]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -33,4 +33,4 @@ npx @biomejs/biome check src/
 **Documentación oficial**: https://biomejs.dev
 **Siguiente**: [[02 - Módulo 2 - Formateo|Módulo 2: Formateo]]
 **Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

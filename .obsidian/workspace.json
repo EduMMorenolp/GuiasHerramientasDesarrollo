@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Índice/Índice General.md",
+                "file": "03 - Control de Versiones y CI-CD/21 - GitHub Actions/01 - Módulo 1 - Fundamentos y Sintaxis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Índice General"
+              "title": "01 - Módulo 1 - Fundamentos y Sintaxis"
             }
           }
         ]
@@ -182,6 +182,23 @@
   },
   "active": "f2daaaa268f9ec6d",
   "lastOpenFiles": [
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/02 - Módulo 2 - Workflows.md",
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/01 - Módulo 1 - Fundamentos y Sintaxis.md",
+    "02 - Lenguajes y Runtimes/MOC.md",
+    "scripts/fix-wikilinks.ps1",
+    "02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD.md",
+    "02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs.md",
+    "02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode.md",
+    "__test_moc.txt",
+    "__test_decode.txt",
+    "02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File.md",
+    "scripts/fix-mojibake.ps1",
+    "02 - Lenguajes y Runtimes/15 - PM2/01 - Módulo 1 - Instalación y Fundamentos.md",
+    "03 - Control de Versiones y CI-CD/02 - Git/03 - Módulo 3 - Estrategias Avanzadas.md",
+    "03 - Control de Versiones y CI-CD/02 - Git/02 - Módulo 2 - Branching y Colaboración.md",
+    "03 - Control de Versiones y CI-CD/10 - GitLab/01 - Módulo 1 - Fundamentos de GitLab.md",
+    "CHANGELOG.md",
+    "00 - Índice/Índice General.md",
     "Plantillas/Prompt para Nueva Herramienta.md",
     "00 - Índice/Glosario.md",
     "13 - Biome/06 - Módulo 6 - Integración y Migración.md",
@@ -192,7 +209,6 @@
     "05 - Bases de Datos/MOC.md",
     "04 - Infraestructura/MOC.md",
     "03 - Control de Versiones y CI-CD/MOC.md",
-    "02 - Lenguajes y Runtimes/MOC.md",
     "01 - Editores y Terminal/MOC.md",
     "scripts/validate.ps1",
     "quartz.layout.ts",
@@ -200,23 +216,6 @@
     "scripts",
     "README.md",
     "03 - Control de Versiones y CI-CD/21 - GitHub Actions/github-actions.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/07 - Módulo 7 - Deploy y Avanzado.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/06 - Módulo 6 - Seguridad.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/05 - Módulo 5 - Artefactos y Caché.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/04 - Módulo 4 - Runners.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/03 - Módulo 3 - Actions.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/02 - Módulo 2 - Workflows.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/01 - Módulo 1 - Fundamentos y Sintaxis.md",
-    "03 - Control de Versiones y CI-CD/21 - GitHub Actions",
-    "05 - Bases de Datos/20 - Redis/redis.md",
-    "05 - Bases de Datos/20 - Redis/07 - Módulo 7 - Clustering y Alta Disponibilidad.md",
-    "05 - Bases de Datos/20 - Redis/05 - Módulo 5 - Caching.md",
-    "05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack.md",
-    "05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones.md",
-    "05 - Bases de Datos/20 - Redis/03 - Módulo 3 - Persistencia y Configuración.md",
-    "05 - Bases de Datos/20 - Redis/02 - Módulo 2 - Tipos de Datos.md",
-    "05 - Bases de Datos/20 - Redis",
-    "04 - Infraestructura/19 - Nginx",
-    "06 - APIs y Testing/18 - Playwright"
+    "03 - Control de Versiones y CI-CD/21 - GitHub Actions/07 - Módulo 7 - Deploy y Avanzado.md"
   ]
 }

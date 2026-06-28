@@ -156,4 +156,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[07 - Módulo 7 - OpenCode Go, Desktop y Modo Server|Módulo 7: OpenCode Go, Desktop y Modo Server]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

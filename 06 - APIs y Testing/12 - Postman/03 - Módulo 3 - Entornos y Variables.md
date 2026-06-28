@@ -175,4 +175,4 @@ Postman provee variables pre-definidas que generan valores aleatorios en cada ej
 **Siguiente**: [[04 - Módulo 4 - Tests y Scripts|Módulo 4: Tests y Scripts]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

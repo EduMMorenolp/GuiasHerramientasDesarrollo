@@ -131,4 +131,4 @@ mysql -u root -p mi_base < backup.sql
 **Siguiente**: [[04 - Módulo 4 - PostgreSQL y pgAdmin|Módulo 4: PostgreSQL y pgAdmin]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

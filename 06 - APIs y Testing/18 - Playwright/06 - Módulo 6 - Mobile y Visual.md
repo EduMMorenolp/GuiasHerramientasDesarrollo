@@ -56,4 +56,4 @@ const context = await browser.newContext({
 **Documentación oficial**: https://playwright.dev/docs/intro
 **Siguiente**: [[Módulo 7: CI/CD y Avanzado]]
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

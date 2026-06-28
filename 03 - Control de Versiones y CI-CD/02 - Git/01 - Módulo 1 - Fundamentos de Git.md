@@ -109,4 +109,4 @@ dist/
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[02 - Módulo 2 - Branching y Colaboración|Módulo 2: Branching y Colaboración]]
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

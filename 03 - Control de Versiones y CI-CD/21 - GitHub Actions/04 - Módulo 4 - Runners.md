@@ -77,4 +77,4 @@ gh actions-runner set create \
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[05 - Módulo 5 - Artefactos y Caché|Módulo 5 - Artefactos y Caché]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -87,4 +87,4 @@ Diferencias con `package-lock.json`:
 **Documentación oficial**: https://pnpm.io/motivation
 **Siguiente**: [[Módulo 6 - Avanzado]]
 **Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

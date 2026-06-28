@@ -216,4 +216,4 @@ Has completado los 5 módulos de la guía de OpenCode. Ahora puedes:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[06 - Módulo 6 - MCP Servers, Skills y Plugins|Módulo 6: MCP Servers, Skills y Plugins]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

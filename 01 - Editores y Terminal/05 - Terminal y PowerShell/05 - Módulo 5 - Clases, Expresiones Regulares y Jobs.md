@@ -230,4 +230,4 @@ Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
 **Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 **Siguiente**: [[06 - Módulo 6 - Desired State Configuration y Seguridad|Módulo 6: Desired State Configuration y Seguridad]]
 **Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

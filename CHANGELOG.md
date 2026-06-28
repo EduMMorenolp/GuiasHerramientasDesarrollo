@@ -16,7 +16,7 @@ Todas las mejoras notables del vault.
 - Quartz config + GitHub Action para deploy a GitHub Pages (`quartz.config.ts`, `quartz.layout.ts`, `.github/workflows/deploy.yml`)
 - Frontmatter con tags en 145 módulos (herramienta, categoría, nivel, keyword)
 - 7 MOCs (uno por categoría) conectando herramientas relacionadas
-- Glosario cross-tool en `00 - Índice/Glosario.md` (60+ términos)
+- Glosario cross-tool en 00 - Índice/Glosario.md` (60+ términos)
 - Script de validación `scripts/validate.ps1` (verifica wikilinks y estructura)
 - Script de frontmatter `scripts/add-frontmatter.ps1`
 - Plantilla de prompt para futuras herramientas (`Plantillas/Prompt para Nueva Herramienta.md`)

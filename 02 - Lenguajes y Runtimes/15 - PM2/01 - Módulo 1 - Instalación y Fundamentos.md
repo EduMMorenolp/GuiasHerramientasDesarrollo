@@ -113,4 +113,4 @@ pm2 delete http-server
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
 **Siguiente**: [[Módulo 2]]
 **Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

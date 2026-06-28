@@ -78,4 +78,4 @@ XGROUP CREATE pedidos grupo1 $                -- crear grupo de consumidores
 **Documentación oficial**: https://redis.io/docs/latest/
 **Siguiente**: [[Módulo 3]]
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

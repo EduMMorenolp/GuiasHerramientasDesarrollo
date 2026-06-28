@@ -118,4 +118,4 @@ git rebase -i HEAD~5
 **Documentación oficial**: https://git-scm.com/doc
 **Siguiente**: [[04 - Módulo 4 - Git Tools - Stash, Reflog y Reescritura|Módulo 4: Git Tools - Stash, Reflog y Reescritura]]
 **Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

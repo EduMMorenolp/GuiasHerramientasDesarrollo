@@ -139,4 +139,4 @@ const pool = mysql.createPool({ host: 'localhost', user: 'root', database: 'test
 **Siguiente**: [[06 - Módulo 6 - Subconsultas, CTEs y Vistas|Módulo 6: Subconsultas, CTEs y Vistas]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

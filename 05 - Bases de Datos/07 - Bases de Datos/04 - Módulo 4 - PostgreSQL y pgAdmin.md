@@ -156,4 +156,4 @@ SELECT crypt('password', gen_salt('bf'));
 **Siguiente**: [[05 - Módulo 5 - Modelado y Optimización|Módulo 5: Modelado y Optimización]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

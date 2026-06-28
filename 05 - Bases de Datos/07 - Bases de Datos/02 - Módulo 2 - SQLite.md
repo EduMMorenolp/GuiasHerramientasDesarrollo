@@ -162,4 +162,4 @@ Herramienta gráfica oficial: https://sqlitebrowser.org
 **Siguiente**: [[03 - Módulo 3 - MySQL y Workbench|Módulo 3: MySQL y Workbench]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

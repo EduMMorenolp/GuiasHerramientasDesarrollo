@@ -105,4 +105,4 @@ http {
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

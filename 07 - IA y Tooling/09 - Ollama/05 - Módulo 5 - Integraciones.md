@@ -223,4 +223,4 @@ volumes:
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[06 - Módulo 6 - Python y JavaScript|Módulo 6: Python y JavaScript]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

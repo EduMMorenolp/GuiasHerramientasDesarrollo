@@ -206,4 +206,4 @@ networks:
 **Documentación oficial**: https://nginx.org/en/docs/
 
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

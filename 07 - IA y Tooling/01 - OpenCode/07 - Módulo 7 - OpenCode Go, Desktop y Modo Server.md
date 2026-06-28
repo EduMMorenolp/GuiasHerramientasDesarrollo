@@ -139,4 +139,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[08 - Módulo 8 - Custom Tools, Formateadores y Enterprise|Módulo 8: Custom Tools, Formateadores y Enterprise]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

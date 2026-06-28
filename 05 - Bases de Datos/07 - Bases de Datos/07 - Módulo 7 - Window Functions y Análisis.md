@@ -137,4 +137,4 @@ GROUP BY EXTRACT(YEAR FROM fecha);
 **Siguiente**: [[08 - Módulo 8 - PL_pgSQL, Transacciones y MVCC|Módulo 8: PL/pgSQL, Transacciones y MVCC]]
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

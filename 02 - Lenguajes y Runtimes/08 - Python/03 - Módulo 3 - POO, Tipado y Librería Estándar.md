@@ -262,4 +262,4 @@ def log(func):
 **Siguiente**: [[04 - Módulo 4 - Generadores, Decoradores y Context Managers|Módulo 4: Generadores, Decoradores y Context Managers]]
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -150,4 +150,4 @@ dist/
 **Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[05 - Módulo 5 - Docker Compose Avanzado y CI-CD|Módulo 5: Docker Compose Avanzado y CI-CD]]
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

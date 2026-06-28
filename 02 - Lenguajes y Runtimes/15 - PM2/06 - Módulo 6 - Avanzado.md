@@ -189,4 +189,4 @@ Comandos relacionados:
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
 
 **Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -200,4 +200,4 @@ CREATE TABLE ventas_2025 PARTITION OF ventas
 **Documentación oficial**: https://www.postgresql.org/docs/
 
 **Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -256,4 +256,4 @@ async def usar():
 **Siguiente**: [[05 - Módulo 5 - Testing, Logging y Concurrencia|Módulo 5: Testing, Logging y Concurrencia]]
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -99,4 +99,4 @@ Esto redirige todas las rutas no encontradas a `index.html`, permitiendo que el 
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/03 - Módulo 3 - Proxy Inverso|Módulo 3: Proxy Inverso]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

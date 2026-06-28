@@ -73,4 +73,4 @@ await context.tracing.stop({ path: 'trace.zip' });
 **Documentación oficial**: https://playwright.dev/docs/intro
 
 **Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

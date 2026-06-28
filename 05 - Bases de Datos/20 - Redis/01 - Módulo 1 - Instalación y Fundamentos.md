@@ -67,4 +67,4 @@ EXPIRE saludo 60      -- expira en 60 segundos
 **Documentación oficial**: https://redis.io/docs/latest/
 **Siguiente**: [[Módulo 2]]
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

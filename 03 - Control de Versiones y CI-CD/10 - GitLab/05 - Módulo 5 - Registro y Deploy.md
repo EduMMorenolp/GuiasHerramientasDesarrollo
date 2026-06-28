@@ -200,4 +200,4 @@ include:
 **Documentación oficial**: https://docs.gitlab.com
 **Siguiente**: [[06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
 **Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

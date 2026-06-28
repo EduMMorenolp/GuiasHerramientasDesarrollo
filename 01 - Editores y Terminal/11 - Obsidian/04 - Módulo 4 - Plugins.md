@@ -39,4 +39,4 @@ Obsidian expone una API en TypeScript/JavaScript para desarrollar plugins. Los p
 **Documentación oficial**: https://help.obsidian.md
 **Siguiente**: [[05 - Módulo 5 - Plugins Esenciales|Módulo 5: Plugins Esenciales]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

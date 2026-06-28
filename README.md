@@ -51,7 +51,7 @@ Vault de [Obsidian](https://obsidian.md) con guías progresivas de herramientas 
 
 1. Clona el repositorio
 2. Abrelo como vault en Obsidian
-3. Navega desde el `00 - Índice/Índice General.md`
+3. Navega desde el 00 - Índice/Índice General.md`
 
 ```bash
 git clone https://github.com/EduMMorenolp/GuiasHerramientasDesarrollo.git

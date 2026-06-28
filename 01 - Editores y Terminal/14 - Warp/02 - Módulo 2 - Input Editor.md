@@ -125,4 +125,4 @@ editor:
 **Documentación oficial**: https://docs.warp.dev
 **Siguiente**: [[03 - Módulo 3 - Completions y Correcciones|Módulo 3: Completions y Correcciones]]
 **Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

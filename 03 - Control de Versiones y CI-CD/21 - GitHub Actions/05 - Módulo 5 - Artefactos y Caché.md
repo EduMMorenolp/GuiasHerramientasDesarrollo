@@ -108,4 +108,4 @@ jobs:
 **Documentación oficial**: https://docs.github.com/en/actions
 **Siguiente**: [[06 - Módulo 6 - Seguridad|Módulo 6 - Seguridad]]
 **Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -293,4 +293,4 @@ async def fetch_limitada(url: str):
 **Siguiente**: [[06 - Módulo 6 - Web, Data Science y Herramientas CLI|Módulo 6: Web, Data Science y Herramientas CLI]]
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

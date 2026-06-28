@@ -115,4 +115,4 @@ Guardar en `/etc/nginx/sites-available/default`, luego habilitar con un symlink 
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/02 - Módulo 2 - Servidor Estático y Location|Módulo 2: Servidor Estático y Location]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

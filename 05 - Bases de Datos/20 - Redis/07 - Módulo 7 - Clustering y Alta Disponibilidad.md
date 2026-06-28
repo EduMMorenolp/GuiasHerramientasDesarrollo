@@ -123,4 +123,4 @@ services:
 **Documentación oficial**: https://redis.io/docs/latest/
 
 **Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -140,4 +140,4 @@ docker volume inspect datos
 **Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[02 - Módulo 2 - Docker Compose y Redes|Módulo 2: Docker Compose y Redes]]
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

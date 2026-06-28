@@ -232,4 +232,4 @@ docker app deploy mi-app.dockerapp
 **Documentación oficial**: https://docs.docker.com
 **Siguiente**: [[06 - Módulo 6 - Docker Swarm y Orquestación|Módulo 6: Docker Swarm y Orquestación]]
 **Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

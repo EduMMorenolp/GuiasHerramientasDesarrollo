@@ -149,4 +149,4 @@ X-Response-Time: 45ms
 **Siguiente**: [[02 - Módulo 2 - Collections|Módulo 2: Collections]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

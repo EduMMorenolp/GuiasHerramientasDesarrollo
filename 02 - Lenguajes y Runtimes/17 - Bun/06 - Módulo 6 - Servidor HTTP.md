@@ -114,4 +114,4 @@ Bun.serve({
 **Documentación oficial**: https://bun.sh/docs
 **Siguiente**: [[Módulo 7: Avanzado]]
 **Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

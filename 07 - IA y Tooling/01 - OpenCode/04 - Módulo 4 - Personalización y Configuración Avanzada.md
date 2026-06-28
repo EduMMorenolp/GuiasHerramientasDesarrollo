@@ -271,4 +271,4 @@ Al completar este módulo deberías poder:
 **Documentación oficial**: https://opencode.ai
 **Siguiente**: [[05 - Módulo 5 - Integración y Flujos de Trabajo Avanzados|Módulo 5: Integración y Flujos de Trabajo Avanzados]]
 **Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

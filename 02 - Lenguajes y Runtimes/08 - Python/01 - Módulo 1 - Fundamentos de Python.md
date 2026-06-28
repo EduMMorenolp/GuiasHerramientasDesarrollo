@@ -202,4 +202,4 @@ with open("log.txt", "a") as f:
 **Siguiente**: [[02 - Módulo 2 - Entornos Virtuales y Paquetes|Módulo 2: Entornos Virtuales y Paquetes]]
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

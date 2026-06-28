@@ -231,4 +231,4 @@ https.createServer(options, (req, res) => {
 **Siguiente**: [[06 - Módulo 6 - Debugging, Testing y Seguridad|Módulo 6: Debugging, Testing y Seguridad]]
 
 **Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

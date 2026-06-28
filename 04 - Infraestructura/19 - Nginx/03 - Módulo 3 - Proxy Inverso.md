@@ -119,4 +119,4 @@ server {
 **Documentación oficial**: https://nginx.org/en/docs/
 **Siguiente**: [[../../19 - Nginx/04 - Módulo 4 - SSL-TLS y HTTPS|Módulo 4: SSL/TLS y HTTPS]]
 **Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

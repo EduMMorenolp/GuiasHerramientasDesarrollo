@@ -85,4 +85,4 @@ pnpm why lodash
 **Documentación oficial**: https://pnpm.io/motivation
 **Siguiente**: [[Módulo 4 - Scripts y CI-CD]]
 **Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

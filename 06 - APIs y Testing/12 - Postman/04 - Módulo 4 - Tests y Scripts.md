@@ -238,4 +238,4 @@ pm.test("Response time aceptable", function () {
 **Siguiente**: [[05 - Módulo 5 - Automatización con Newman|Módulo 5: Automatizacion con Newman]]
 
 **Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

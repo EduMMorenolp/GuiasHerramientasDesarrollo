@@ -253,4 +253,4 @@ twine upload dist/*
 **Documentación oficial**: https://docs.python.org/3/
 
 **Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -135,4 +135,4 @@ agents:
 **Documentación oficial**: https://docs.warp.dev
 **Siguiente**: [[05 - Modulo 5 - Personalizacion|Modulo 5: Personalizacion]]
 **Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

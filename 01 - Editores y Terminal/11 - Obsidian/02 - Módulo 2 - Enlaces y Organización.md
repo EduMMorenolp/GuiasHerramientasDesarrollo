@@ -37,4 +37,4 @@ El panel Outline muestra la estructura de encabezados de la nota activa, permiti
 **Documentación oficial**: https://help.obsidian.md
 **Siguiente**: [[03 - Módulo 3 - Canvas y Propiedades|Módulo 3: Canvas y Propiedades]]
 **Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

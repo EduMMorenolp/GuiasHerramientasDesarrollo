@@ -97,4 +97,4 @@ bun run --smol app.ts
 **Documentación oficial**: https://bun.sh/docs
 
 **Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -61,4 +61,4 @@ bun run --watch archivo.ts
 **Documentación oficial**: https://bun.sh/docs
 **Siguiente**: [[Módulo 2: Gestor de Paquetes]]
 **Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -134,4 +134,4 @@ Modelo de embeddings para búsqueda semántica y RAG.
 **Documentación oficial**: https://github.com/ollama/ollama
 **Siguiente**: [[04 - Módulo 4 - API REST|Módulo 4: API REST]]
 **Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -224,4 +224,4 @@ cloud:
 **Documentación oficial**: https://docs.warp.dev
 
 **Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../../00 - Índice/Índice General]]
+**Inicio principal**: [[../../00 - Índice/Índice General]]
