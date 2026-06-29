@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "es-ES",
     baseUrl: "EduMMorenolp.github.io/GuiasHerramientasDesarrollo",
-    ignorePatterns: [".obsidian", "scripts", "Plantillas", ".gitignore", "README.md"],
+    ignorePatterns: [".obsidian", "scripts", "Plantillas", ".gitignore", "README.md", "CHANGELOG.md", "standardize.ps1"],
     defaultDateType: "modified",
     theme: {
       cdnCaching: true,
@@ -60,7 +60,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.Description({ maxLength: 200, type: "automatically" }),
+      Plugin.Description({ maxLength: 200, type: "both" }),
     ],
     filters: [
       Plugin.RemoveDrafts(),
