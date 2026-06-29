@@ -4,6 +4,21 @@ Relaciones y conceptos compartidos entre herramientas de esta categoría.
 
 ## Conexiones
 
+### Quartz ↔ Nginx
+- Quartz se despliega tras Nginx como proxy inverso (self-hosting)
+- Nginx sirve archivos estáticos de Quartz con caché de contenido hasheado
+- Rate limiting y SSL en Nginx protegen el sitio Quartz
+
+### Quartz ↔ Docker
+- Quartz puede ejecutarse y construirse dentro de contenedores Docker
+- Docker Compose orquesta Quartz + Nginx para despliegue local
+- Imágenes Docker con Quartz para CI/CD
+
+### Quartz ↔ GitHub Actions
+- El pipeline CI/CD de Quartz se ejecuta en GitHub Actions
+- El workflow clona Quartz, copia el vault, construye y despliega
+- Caché de dependencias optimiza tiempos de build
+
 ### Docker ↔ Nginx
 - Nginx se ejecuta comúnmente como contenedor Docker
 - Docker Compose orquesta Nginx + backend (Node.js, Python, etc.)

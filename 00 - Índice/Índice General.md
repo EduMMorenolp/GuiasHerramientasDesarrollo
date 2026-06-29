@@ -92,6 +92,11 @@ Servidor web y proxy inverso de alto rendimiento. Balanceo de carga, SSL/TLS, ca
 
 → [[../04 - Infraestructura/19 - Nginx/nginx|Nginx — Guía completa]]
 
+#### 22 - Quartz
+Generador de sitios estáticos para Obsidian. Desde instalación hasta deploy, plugins y personalización.
+
+→ [[../04 - Infraestructura/22 - Quartz/quartz|Quartz — Guía completa]]
+
 ---
 
 ### 05 - Bases de Datos
