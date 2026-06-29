@@ -48,6 +48,6 @@ proyecto/
 ---
 
 **Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[Módulo 2: Locators y Acciones]]
+**Siguiente**: [[06 - APIs y Testing/18 - Playwright/02 - Módulo 2 - Locators y Acciones|Módulo 2: Locators y Acciones]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

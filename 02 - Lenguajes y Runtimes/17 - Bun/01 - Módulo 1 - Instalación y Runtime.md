@@ -59,6 +59,6 @@ bun run --watch archivo.ts
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 2: Gestor de Paquetes]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/02 - Módulo 2 - Package Manager|Módulo 2: Gestor de Paquetes]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

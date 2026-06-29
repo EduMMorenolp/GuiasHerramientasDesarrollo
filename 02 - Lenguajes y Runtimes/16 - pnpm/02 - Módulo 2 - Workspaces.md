@@ -77,6 +77,6 @@ mi-proyecto/
 ---
 
 **Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[Módulo 3 - Package Management]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/03 - Módulo 3 - Package Management|Módulo 3 - Package Management]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -92,6 +92,6 @@ logfile /var/log/redis/redis.log
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[Módulo 4]]
+**Siguiente**: [[05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones|Módulo 4]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

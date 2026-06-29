@@ -68,6 +68,6 @@ BF.EXISTS filtro:usuarios "alice"          -- 1 (probablemente existe)
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[Módulo 7]]
+**Siguiente**: [[05 - Bases de Datos/20 - Redis/07 - Módulo 7 - Clustering y Alta Disponibilidad|Módulo 7]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

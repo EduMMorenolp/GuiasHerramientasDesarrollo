@@ -67,6 +67,6 @@ Bun utiliza un archivo de bloqueo binario (`bun.lock`) en lugar del JSON de `pac
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 3: Bundler]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/03 - Módulo 3 - Bundler|Módulo 3: Bundler]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

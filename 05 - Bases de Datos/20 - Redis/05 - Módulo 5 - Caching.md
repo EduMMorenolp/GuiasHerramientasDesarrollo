@@ -109,6 +109,6 @@ async function getUser(id) {
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[Módulo 6]]
+**Siguiente**: [[05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack|Módulo 6]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -111,6 +111,6 @@ pm2 delete http-server
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[Módulo 2]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File|Módulo 2]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

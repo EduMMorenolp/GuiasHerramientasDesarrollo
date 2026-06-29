@@ -149,6 +149,6 @@ pm2 list
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[Módulo 3]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode|Módulo 3]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

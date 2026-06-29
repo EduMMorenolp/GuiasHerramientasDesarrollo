@@ -186,6 +186,6 @@ jobs:
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[Módulo 6]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/06 - Módulo 6 - Avanzado|Módulo 6]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

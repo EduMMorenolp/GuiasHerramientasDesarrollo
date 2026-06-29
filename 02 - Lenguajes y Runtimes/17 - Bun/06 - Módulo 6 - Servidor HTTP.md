@@ -112,6 +112,6 @@ Bun.serve({
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 7: Avanzado]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

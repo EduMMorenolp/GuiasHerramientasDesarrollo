@@ -47,6 +47,6 @@ const response = await page.waitForResponse('**/api/data');
 ---
 
 **Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[Módulo 4: Testing y Fixtures]]
+**Siguiente**: [[06 - APIs y Testing/18 - Playwright/04 - Módulo 4 - Testing y Fixtures|Módulo 4: Testing y Fixtures]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

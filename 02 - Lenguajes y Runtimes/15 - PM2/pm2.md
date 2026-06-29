@@ -6,12 +6,12 @@
 
 | Módulo | Descripción |
 |--------|-------------|
-| [[01 - Módulo 1 - Instalación y Fundamentos\|01 — Instalación y Fundamentos]] | Instalación global, primeros procesos, estado y gestión básica |
-| [[02 - Módulo 2 - Ecosystem File\|02 — Ecosystem File]] | Configuración declarativa multi-app con ecosystem.config.js |
-| [[03 - Módulo 3 - Cluster Mode\|03 — Cluster Mode]] | Escalado horizontal automático en modo cluster |
-| [[04 - Módulo 4 - Monitoreo y Logs\|04 — Monitoreo y Logs]] | Monitoreo en tiempo real, logs centralizados, métricas |
-| [[05 - Módulo 5 - Deploy y CI-CD\|05 — Deploy y CI/CD]] | Despliegue zero-downtime e integración con pipelines |
-| [[06 - Módulo 6 - Avanzado\|06 — Avanzado]] | Keymetrics, PM2 API, procesos en contenedores |
+| [[02 - Lenguajes y Runtimes/15 - PM2/01 - Módulo 1 - Instalación y Fundamentos\|01 — Instalación y Fundamentos]] | Instalación global, primeros procesos, estado y gestión básica |
+| [[02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File\|02 — Ecosystem File]] | Configuración declarativa multi-app con ecosystem.config.js |
+| [[02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode\|03 — Cluster Mode]] | Escalado horizontal automático en modo cluster |
+| [[02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs\|04 — Monitoreo y Logs]] | Monitoreo en tiempo real, logs centralizados, métricas |
+| [[02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD\|05 — Deploy y CI/CD]] | Despliegue zero-downtime e integración con pipelines |
+| [[02 - Lenguajes y Runtimes/15 - PM2/06 - Módulo 6 - Avanzado\|06 — Avanzado]] | Keymetrics, PM2 API, procesos en contenedores |
 
 ---
 **Inicio principal**: [[../../00 - Índice/Índice General|Índice General]]

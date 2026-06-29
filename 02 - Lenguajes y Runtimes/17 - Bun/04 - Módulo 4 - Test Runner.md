@@ -70,6 +70,6 @@ test("snapshot de objeto", () => {
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 5: APIs del Runtime]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/05 - Módulo 5 - APIs del Runtime|Módulo 5: APIs del Runtime]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

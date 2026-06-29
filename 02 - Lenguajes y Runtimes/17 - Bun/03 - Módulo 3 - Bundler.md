@@ -62,6 +62,6 @@ bun build ./src/app.tsx --outdir ./dist --target=browser --minify
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 4: Test Runner]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/04 - Módulo 4 - Test Runner|Módulo 4: Test Runner]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

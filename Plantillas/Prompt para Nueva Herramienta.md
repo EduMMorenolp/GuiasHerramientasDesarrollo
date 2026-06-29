@@ -97,18 +97,18 @@ Mas contenido.
 
 **Siguiente**: [[NN+1 - Modulo N+1 - Nombre|Modulo N+1: Nombre]]
 **Inicio herramienta**: [[herramienta|Herramienta]]
-**Inicio principal**: [[../../00 - Indice/Indice General|Indice General]]
+**Inicio principal**: [[../00 - Indice/Indice General|Indice General]]
 ```
 
 El ultimo modulo NO lleva `**Siguiente**:`.
 
-La profundidad a 00 - Indice` desde un modulo es `Categoria/Herramienta/Modulo`, es decir 3 niveles: `../../00 - Indice/`.
+La profundidad a 00 - Indice` desde un modulo es `Categoria/Herramienta/Modulo`, es decir 3 niveles: `../00 - Indice/`.
 
 ## 4. Navegacion (wikilinks)
 
 - **Siguiente**: link al modulo N+1 con el texto "Modulo N+1: Nombre"
 - **Inicio herramienta**: link al overview en el mismo directorio: `[[herramienta|Herramienta]]`
-- **Inicio principal**: `[[../../00 - Indice/Indice General|Indice General]]`
+- **Inicio principal**: `[[../00 - Indice/Indice General|Indice General]]`
 
 ## 5. Frontmatter y tags
 

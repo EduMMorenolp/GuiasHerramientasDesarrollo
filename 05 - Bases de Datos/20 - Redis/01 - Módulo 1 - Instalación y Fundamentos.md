@@ -65,6 +65,6 @@ EXPIRE saludo 60      -- expira en 60 segundos
 ---
 
 **Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[Módulo 2]]
+**Siguiente**: [[05 - Bases de Datos/20 - Redis/02 - Módulo 2 - Tipos de Datos|Módulo 2]]
 **Inicio herramienta**: [[redis|Redis]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

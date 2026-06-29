@@ -150,6 +150,6 @@ pm2 reload http-cluster
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[Módulo 4]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs|Módulo 4]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

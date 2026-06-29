@@ -6,13 +6,13 @@
 
 | Módulo | Descripción |
 |--------|-------------|
-| [[01 - Módulo 1 - Fundamentos y Sintaxis\|01 — Fundamentos y Sintaxis]] | Workflows, jobs, steps, triggers, runners |
-| [[02 - Módulo 2 - Workflows\|02 — Workflows]] | Matrices, dependencias, condiciones, entornos |
-| [[03 - Módulo 3 - Actions\|03 — Actions]] | Acciones marketplace, Docker, JavaScript, composite |
-| [[04 - Módulo 4 - Runners\|04 — Runners]] | Runners alojados, self-hosted, etiquetado, escalado |
-| [[05 - Módulo 5 - Artefactos y Caché\|05 — Artefactos y Caché]] | Subir/bajar artefactos, caching de dependencias |
-| [[06 - Módulo 6 - Seguridad\|06 — Seguridad]] | Secretos, OIDC, permisos, entornos protegidos |
-| [[07 - Módulo 7 - Deploy y Avanzado\|07 — Deploy y Avanzado]] | Despliegue multi-ambiente, reutilización, monitoreo, reusables workflows |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/01 - Módulo 1 - Fundamentos y Sintaxis\|01 — Fundamentos y Sintaxis]] | Workflows, jobs, steps, triggers, runners |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/02 - Módulo 2 - Workflows\|02 — Workflows]] | Matrices, dependencias, condiciones, entornos |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/03 - Módulo 3 - Actions\|03 — Actions]] | Acciones marketplace, Docker, JavaScript, composite |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/04 - Módulo 4 - Runners\|04 — Runners]] | Runners alojados, self-hosted, etiquetado, escalado |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/05 - Módulo 5 - Artefactos y Caché\|05 — Artefactos y Caché]] | Subir/bajar artefactos, caching de dependencias |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/06 - Módulo 6 - Seguridad\|06 — Seguridad]] | Secretos, OIDC, permisos, entornos protegidos |
+| [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/07 - Módulo 7 - Deploy y Avanzado\|07 — Deploy y Avanzado]] | Despliegue multi-ambiente, reutilización, monitoreo, reusables workflows |
 
 ---
 **Inicio principal**: [[../../00 - Índice/Índice General|Índice General]]

@@ -72,6 +72,6 @@ setTimeout(() => console.log("paso 1s"), 1000);
 ---
 
 **Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[Módulo 6: Servidor HTTP]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/06 - Módulo 6 - Servidor HTTP|Módulo 6: Servidor HTTP]]
 **Inicio herramienta**: [[bun|Bun]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

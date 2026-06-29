@@ -57,6 +57,6 @@ export default defineConfig({
 ---
 
 **Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[Módulo 6: Mobile y Visual]]
+**Siguiente**: [[06 - APIs y Testing/18 - Playwright/06 - Módulo 6 - Mobile y Visual|Módulo 6: Mobile y Visual]]
 **Inicio herramienta**: [[playwright|Playwright]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

@@ -67,6 +67,6 @@ pnpm import
 ---
 
 **Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[Módulo 2 - Workspaces]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/02 - Módulo 2 - Workspaces|Módulo 2 - Workspaces]]
 **Inicio herramienta**: [[pnpm|pnpm]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]

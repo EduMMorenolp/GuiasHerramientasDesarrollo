@@ -142,6 +142,6 @@ pm2 set pm2-logrotate:dateFormat YYYY-MM-DD
 ---
 
 **Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[Módulo 5]]
+**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD|Módulo 5]]
 **Inicio herramienta**: [[pm2|PM2]]
 **Inicio principal**: [[../../00 - Índice/Índice General]]
