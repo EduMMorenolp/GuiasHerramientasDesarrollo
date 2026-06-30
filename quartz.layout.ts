@@ -19,9 +19,16 @@ export const sharedPageComponents: SharedLayout = {
 // SIDEBAR IZQUIERDO: visible en desktop, se pliega en móvil
 const left: Component.Component[] = [
   Component.PageTitle(),               // Título del sitio ("Guías de Herramientas...")
-  Component.Search(),
-  Component.Darkmode(),
-  Component.DesktopOnly(Component.ReaderMode()), // Botón modo lectura sin distracciones
+  Component.Flex({
+    direction: "row",
+    wrap: "nowrap",
+    gap: "0.5rem",
+    components: [
+      { Component: Component.Search(), grow: true },
+      { Component: Component.Darkmode() },
+      { Component: Component.DesktopOnly(Component.ReaderMode()) },
+    ],
+  }),
   Component.MobileOnly(Component.Spacer()), // Espaciador en vista móvil
   Component.DesktopOnly(Component.TableOfContents()), // Índice de la página actual
 ]
