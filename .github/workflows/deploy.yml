@@ -5,7 +5,7 @@ name: Deploy Quartz site to Pages
 
 on:
   push:
-    branches: [v5-migration]  # Se activa al pushear a master
+    branches: [master]  # Se activa al pushear a master
 
 # Permisos necesarios para desplegar en GitHub Pages
 permissions:
