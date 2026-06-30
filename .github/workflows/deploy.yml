@@ -1,13 +1,12 @@
-# Pipeline CI/CD que construye el sitio Quartz y lo despliega en GitHub Pages
-# Se ejecuta automáticamente en cada push a la rama master
+# Pipeline CI/CD que construye el sitio Quartz v5 y lo despliega en GitHub Pages
+# Se ejecuta automáticamente en cada push a master
 
 name: Deploy Quartz site to Pages
 
 on:
   push:
-    branches: [master]  # Se activa al pushear a master
+    branches: [master]
 
-# Permisos necesarios para desplegar en GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -21,25 +20,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Clonar el vault (este repositorio)
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
-          fetch-depth: 0  # Trae todo el historial Git (necesario para CreatedModifiedDate)
+          fetch-depth: 0
 
-      # 2. Configurar Node.js
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
 
-      # 3. Clonar Quartz v4.5.2 como directorio temporal _quartz
-      #    Quartz NO está en el repo; se clona fresco en cada build
-      - name: Clone Quartz
+      - name: Cache npm + plugins
+        uses: actions/cache@v5
+        with:
+          path: |
+            ~/.npm
+            _quartz/.quartz/plugins
+          key: ${{ runner.os }}-v5-${{ hashFiles('_quartz/package-lock.json', '**/quartz.lock.json') }}
+
+      - name: Clone Quartz v5
         run: |
-          git clone -b v4.5.2 https://github.com/jackyzha0/quartz.git --depth 1 _quartz
-          rm -rf _quartz/.git  # Elimina .git para evitar conflictos
+          git clone -b v5.0.0 https://github.com/jackyzha0/quartz.git --depth 1 _quartz
+          rm -rf _quartz/.git
 
-      # 4. Copiar el vault como content/ de Quartz (excluyendo archivos internos)
       - name: Copy vault content to Quartz
         run: |
           mkdir -p _quartz/content
@@ -52,35 +53,33 @@ jobs:
             --exclude='Plantillas' \
             --exclude='.gitignore' \
             --exclude='README.md' \
-            --exclude='quartz.config.ts' \
-            --exclude='quartz.layout.ts' \
+            --exclude='CHANGELOG.md' \
+            --exclude='standardize.ps1' \
+            --exclude='quartz.config.yaml' \
+            --exclude='quartz.lock.json' \
+            --exclude='quartz.ts' \
             ./ _quartz/content/
 
-      # 5. Copiar la configuración de Quartz del vault al clon
-      #    Estos archivos están versionados en el repo
       - name: Copy Quartz config
         run: |
-          cp quartz.config.ts _quartz/
-          cp quartz.layout.ts _quartz/
+          cp quartz.config.yaml _quartz/
+          cp quartz.lock.json _quartz/
+          cp quartz.ts _quartz/
+          cp static/custom.scss _quartz/quartz/styles/custom.scss
 
-      - name: Copy custom styles
-        run: cp static/custom.scss _quartz/quartz/styles/custom.scss
-
-      # 6. Instalar dependencias de Quartz
       - name: Install dependencies
-        run: cd _quartz && npm install
+        run: cd _quartz && npm ci
 
-      # 7. Compilar el sitio estático
+      - name: Install Quartz plugins
+        run: cd _quartz && npx quartz plugin install
+
       - name: Build Quartz
-        run: cd _quartz && npx quartz build
+        run: cd _quartz && npx quartz build -d content
 
-      # 8. Subir el resultado como artifact para el job deploy
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _quartz/public
 
-  # Job de deploy (se ejecuta SOLO si build terminó correctamente)
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -88,6 +87,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
