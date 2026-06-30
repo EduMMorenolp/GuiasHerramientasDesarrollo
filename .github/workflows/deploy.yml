@@ -1,9 +1,13 @@
+# Pipeline CI/CD que construye el sitio Quartz y lo despliega en GitHub Pages
+# Se ejecuta automáticamente en cada push a la rama master
+
 name: Deploy Quartz site to Pages
 
 on:
   push:
-    branches: [master]
+    branches: [master]  # Se activa al pushear a master
 
+# Permisos necesarios para desplegar en GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -17,20 +21,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1. Clonar el vault (este repositorio)
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Trae todo el historial Git (necesario para CreatedModifiedDate)
 
+      # 2. Configurar Node.js
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
+      # 3. Clonar Quartz v4.5.2 como directorio temporal _quartz
+      #    Quartz NO está en el repo; se clona fresco en cada build
       - name: Clone Quartz
         run: |
           git clone -b v4.5.2 https://github.com/jackyzha0/quartz.git --depth 1 _quartz
-          rm -rf _quartz/.git
+          rm -rf _quartz/.git  # Elimina .git para evitar conflictos
 
+      # 4. Copiar el vault como content/ de Quartz (excluyendo archivos internos)
       - name: Copy vault content to Quartz
         run: |
           mkdir -p _quartz/content
@@ -46,22 +55,28 @@ jobs:
             --exclude='quartz.layout.ts' \
             ./ _quartz/content/
 
+      # 5. Copiar la configuración de Quartz del vault al clon
+      #    Estos archivos están versionados en el repo
       - name: Copy Quartz config
         run: |
           cp quartz.config.ts _quartz/
           cp quartz.layout.ts _quartz/
 
+      # 6. Instalar dependencias de Quartz
       - name: Install dependencies
         run: cd _quartz && npm install
 
+      # 7. Compilar el sitio estático
       - name: Build Quartz
         run: cd _quartz && npx quartz build
 
+      # 8. Subir el resultado como artifact para el job deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _quartz/public
 
+  # Job de deploy (se ejecuta SOLO si build terminó correctamente)
   deploy:
     needs: build
     runs-on: ubuntu-latest
