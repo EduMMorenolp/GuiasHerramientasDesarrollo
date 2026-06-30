@@ -5,7 +5,7 @@ name: Deploy Quartz site to Pages
 
 on:
   push:
-    branches: [master]
+    branches: [v5-migration]
 
 permissions:
   contents: read
