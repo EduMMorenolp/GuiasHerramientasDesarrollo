@@ -22,11 +22,6 @@ const left: Component.Component[] = [
   Component.MobileOnly(Component.Spacer()), // Espaciador en vista móvil
   Component.Search(),                  // Búsqueda full-text
   Component.Darkmode(),                // Alternador tema claro/oscuro
-  Component.DesktopOnly(Component.Explorer({ // Árbol de navegación por carpetas (solo desktop)
-    folderDefaultState: "collapsed",   // Carpetas empiezan colapsadas
-    folderClickBehavior: "link",       // Click en carpeta → navega a su página
-    useSavedState: true,               // Recuerda qué carpetas están abiertas
-  })),
   Component.DesktopOnly(Component.TableOfContents()), // Índice de la página actual
 ]
 
