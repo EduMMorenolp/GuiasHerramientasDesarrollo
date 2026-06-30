@@ -27,8 +27,6 @@ const left: Component.Component[] = [
 
 // SIDEBAR DERECHO: visible en desktop, debajo del contenido en móvil/tablet
 const right: Component.Component[] = [
-  Component.RecentNotes({ limit: 5, showTags: false }), // Últimas 5 notas modificadas
-  Component.Backlinks(),               // Enlaces que apuntan a la página actual
   Component.Graph({
     localGraph: {                      // Grafo de la página actual y sus vecinos (2 niveles)
       drag: true,
@@ -58,6 +56,8 @@ const right: Component.Component[] = [
     },
   }),
   Component.DesktopOnly(Component.ReaderMode()), // Botón modo lectura sin distracciones
+  Component.RecentNotes({ limit: 2, showTags: false }), // Últimas 2 notas modificadas
+  Component.Backlinks(),               // Enlaces que apuntan a la página actual
 ]
 
 // LAYOUT PARA PÁGINAS DE CONTENIDO (notas individuales)
