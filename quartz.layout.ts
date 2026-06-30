@@ -17,11 +17,6 @@ const left: Component.Component[] = [
   Component.MobileOnly(Component.Spacer()),
   Component.Search(),
   Component.Darkmode(),
-  Component.DesktopOnly(Component.Explorer({
-    folderDefaultState: "collapsed",
-    folderClickBehavior: "link",
-    useSavedState: true,
-  })),
   Component.DesktopOnly(Component.TableOfContents()),
 ]
 
