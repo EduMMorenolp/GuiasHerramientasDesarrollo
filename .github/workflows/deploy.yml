@@ -63,6 +63,9 @@ jobs:
           cp quartz.config.ts _quartz/
           cp quartz.layout.ts _quartz/
 
+      - name: Copy custom styles
+        run: cp static/custom.scss _quartz/quartz/styles/custom.scss
+
       # 6. Instalar dependencias de Quartz
       - name: Install dependencies
         run: cd _quartz && npm install
