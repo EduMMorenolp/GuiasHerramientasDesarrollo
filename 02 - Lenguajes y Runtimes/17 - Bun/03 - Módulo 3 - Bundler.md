@@ -1,4 +1,4 @@
-# Módulo 3: Bundler
+﻿# Módulo 3: Bundler
 
 **Objetivo**: Aprender y dominar: Bundler.
 
@@ -61,7 +61,12 @@ bun build ./src/app.tsx --outdir ./dist --target=browser --minify
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/04 - Módulo 4 - Test Runner|Módulo 4: Test Runner]]
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/17 - Bun/02 - Módulo 2 - Package Manager\|Módulo 2 - Package Manager]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/17 - Bun/04 - Módulo 4 - Test Runner\|Módulo 4: Test Runner]] |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
+
+---

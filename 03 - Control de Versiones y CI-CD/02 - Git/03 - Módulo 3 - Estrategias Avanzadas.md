@@ -1,4 +1,4 @@
-# Módulo 3: Estrategias Avanzadas
+﻿# Módulo 3: Estrategias Avanzadas
 
 **Objetivo**: Dominar estrategias de branching, automatización y buenas prácticas profesionales.
 
@@ -115,7 +115,12 @@ git rebase -i HEAD~5
 
 ---
 
-**Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[04 - Módulo 4 - Git Tools - Stash, Reflog y Reescritura|Módulo 4: Git Tools - Stash, Reflog y Reescritura]]
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/02 - Git/02 - Módulo 2 - Branching y Colaboración\|Módulo 2 - Branching y Colaboración]] |
+| **Siguiente →** | [[04 - Módulo 4 - Git Tools - Stash, Reflog y Reescritura\|Módulo 4: Git Tools - Stash, Reflog y Reescritura]] |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---

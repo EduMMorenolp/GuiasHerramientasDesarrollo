@@ -1,4 +1,4 @@
-# Módulo 2: Configuración
+﻿# Módulo 2: Configuración
 
 **Objetivo**: Configurar Quartz mediante `quartz.config.ts`: tema, metadatos, analíticas y opciones globales.
 
@@ -147,14 +147,12 @@ colors: {
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| QuartzConfig | Objeto de configuración principal |
-| baseUrl | URL del sitio desplegado (sin protocolo) |
-| ignorePatterns | Archivos/carpetas a excluir del build |
-| theme | Colores y tipografía del sitio |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/01 - Módulo 1 - Fundamentos e Instalación\|Módulo 1 - Fundamentos e Instalación]] |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/03 - Módulo 3 - Layout y Componentes\|Módulo 3: Layout y Componentes]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz/configuration) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz/configuration
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/03 - Módulo 3 - Layout y Componentes|Módulo 3: Layout y Componentes]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

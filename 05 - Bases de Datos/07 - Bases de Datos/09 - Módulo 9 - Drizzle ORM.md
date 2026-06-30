@@ -1,4 +1,4 @@
-# Módulo 9: Drizzle ORM
+﻿# Módulo 9: Drizzle ORM
 
 **Objetivo**: Usar Drizzle ORM para TypeScript con tipado fuerte y migraciones.
 
@@ -198,9 +198,12 @@ Abre http://localhost:4983 con interfaz gráfica para:
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/08 - Módulo 8 - PL_pgSQL, Transacciones y MVCC\|Módulo 8 - PL_pgSQL, Transacciones y MVCC]] |
+| **Siguiente →** | [[10 - Módulo 10 - Replicación, Backup y Extensiones\|Módulo 10: Replicación, Backup y Extensiones]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[10 - Módulo 10 - Replicación, Backup y Extensiones|Módulo 10: Replicación, Backup y Extensiones]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

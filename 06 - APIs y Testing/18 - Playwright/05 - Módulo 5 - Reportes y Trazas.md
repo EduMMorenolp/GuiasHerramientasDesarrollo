@@ -1,4 +1,4 @@
-# Módulo 5: Reportes y Trazas
+﻿# Módulo 5: Reportes y Trazas
 
 **Objetivo**: Aprender y dominar: Reportes y Trazas.
 
@@ -56,7 +56,12 @@ export default defineConfig({
 
 ---
 
-**Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[06 - APIs y Testing/18 - Playwright/06 - Módulo 6 - Mobile y Visual|Módulo 6: Mobile y Visual]]
-**Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/18 - Playwright/04 - Módulo 4 - Testing y Fixtures\|Módulo 4 - Testing y Fixtures]] |
+| **Siguiente →** | [[06 - APIs y Testing/18 - Playwright/06 - Módulo 6 - Mobile y Visual\|Módulo 6: Mobile y Visual]] |
+| **Inicio herramienta** | [[playwright\|Playwright]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Playwright Docs](https://playwright.dev/docs/intro) |
+
+---

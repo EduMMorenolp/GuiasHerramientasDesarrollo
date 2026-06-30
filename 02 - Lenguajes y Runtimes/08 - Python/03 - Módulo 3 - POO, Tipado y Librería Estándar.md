@@ -1,4 +1,4 @@
-# Módulo 3: POO, Tipado y Librería Estándar
+﻿# Módulo 3: POO, Tipado y Librería Estándar
 
 **Objetivo**: Programación orientada a objetos avanzada, type hints y módulos esenciales de la stdlib.
 
@@ -257,9 +257,12 @@ def log(func):
 
 ---
 
-**Documentación oficial**: https://docs.python.org/3/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/08 - Python/02 - Módulo 2 - Entornos Virtuales y Paquetes\|Módulo 2 - Entornos Virtuales y Paquetes]] |
+| **Siguiente →** | [[04 - Módulo 4 - Generadores, Decoradores y Context Managers\|Módulo 4: Generadores, Decoradores y Context Managers]] |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
 
-**Siguiente**: [[04 - Módulo 4 - Generadores, Decoradores y Context Managers|Módulo 4: Generadores, Decoradores y Context Managers]]
-
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

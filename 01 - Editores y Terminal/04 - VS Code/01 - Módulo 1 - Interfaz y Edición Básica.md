@@ -1,4 +1,4 @@
-# Módulo 1: Interfaz y Edición Básica
+﻿# Módulo 1: Interfaz y Edición Básica
 
 **Objetivo**: Conocer la interfaz de VS Code y dominar la edición de código.
 
@@ -101,7 +101,12 @@ Ctrl+U           # Deshacer último cursor
 
 ---
 
-**Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[02 - Módulo 2 - Extensiones y Personalización|Módulo 2: Extensiones y Personalización]]
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Extensiones y Personalización\|Módulo 2: Extensiones y Personalización]] |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

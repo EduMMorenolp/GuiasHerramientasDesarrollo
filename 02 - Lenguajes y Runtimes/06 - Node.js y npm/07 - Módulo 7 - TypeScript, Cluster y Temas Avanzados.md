@@ -1,4 +1,4 @@
-# Módulo 7: TypeScript, Cluster y Temas Avanzados
+﻿# Módulo 7: TypeScript, Cluster y Temas Avanzados
 
 **Objetivo**: Integrar TypeScript, escalar con cluster/worker threads y patrones avanzados.
 
@@ -310,7 +310,13 @@ class MiddlewarePipeline {
 | ThreadPool | Pool de workers reutilizables |
 
 ---
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
 
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/06 - Node.js y npm/06 - Módulo 6 - Debugging, Testing y Seguridad\|Módulo 6 - Debugging, Testing y Seguridad]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
+
+---

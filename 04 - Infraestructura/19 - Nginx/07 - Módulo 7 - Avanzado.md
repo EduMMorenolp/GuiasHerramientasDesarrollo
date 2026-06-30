@@ -1,4 +1,4 @@
-# Módulo 7: Avanzado
+﻿# Módulo 7: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 
@@ -203,7 +203,13 @@ networks:
 | 7 | Avanzado | `rewrite`, `map`, `log_format`, `docker` |
 
 ---
-**Documentación oficial**: https://nginx.org/en/docs/
 
-**Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[nginx\|Nginx]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Nginx Docs](https://nginx.org/en/docs/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 6: MCP Servers, Skills y Plugins
+﻿# Módulo 6: MCP Servers, Skills y Plugins
 
 **Objetivo**: Dominar la integración con MCP, el sistema de Skills y Plugins.
 
@@ -153,7 +153,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[07 - Módulo 7 - OpenCode Go, Desktop y Modo Server|Módulo 7: OpenCode Go, Desktop y Modo Server]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/05 - Módulo 5 - Integración y Flujos de Trabajo Avanzados\|Módulo 5 - Integración y Flujos de Trabajo Avanzados]] |
+| **Siguiente →** | [[07 - Módulo 7 - OpenCode Go, Desktop y Modo Server\|Módulo 7: OpenCode Go, Desktop y Modo Server]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

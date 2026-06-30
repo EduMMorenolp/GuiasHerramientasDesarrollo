@@ -1,4 +1,4 @@
-# Módulo 5: Registro y Deploy
+﻿# Módulo 5: Registro y Deploy
 
 **Objetivo**: Gestionar imágenes de contenedor, despliegues y releases.
 
@@ -197,7 +197,12 @@ include:
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/10 - GitLab/04 - Módulo 4 - GitLab CI-CD\|Módulo 4 - GitLab CI-CD]] |
+| **Siguiente →** | [[06 - Módulo 6 - Seguridad\|Módulo 6: Seguridad]] |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

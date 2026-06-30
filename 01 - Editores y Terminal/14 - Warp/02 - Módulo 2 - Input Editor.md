@@ -1,4 +1,4 @@
-# Módulo 2: Input Editor
+﻿# Módulo 2: Input Editor
 
 **Objetivo**: Dominar el editor multilínea de Warp y sus capacidades de edición avanzada.
 
@@ -122,7 +122,12 @@ editor:
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[03 - Módulo 3 - Completions y Correcciones|Módulo 3: Completions y Correcciones]]
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/14 - Warp/01 - Módulo 1 - Instalación y UI\|Módulo 1 - Instalación y UI]] |
+| **Siguiente →** | [[03 - Módulo 3 - Completions y Correcciones\|Módulo 3: Completions y Correcciones]] |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
+
+---

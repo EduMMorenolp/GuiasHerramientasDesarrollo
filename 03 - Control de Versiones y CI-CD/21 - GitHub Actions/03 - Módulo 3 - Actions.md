@@ -1,4 +1,4 @@
-# Módulo 3: Actions
+﻿# Módulo 3: Actions
 
 
 **Objetivo**: Aprender y dominar: Actions.
@@ -104,7 +104,12 @@ runs:
 
 ---
 
-**Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[04 - Módulo 4 - Runners|Módulo 4 - Runners]]
-**Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/02 - Módulo 2 - Workflows\|Módulo 2 - Workflows]] |
+| **Siguiente →** | [[04 - Módulo 4 - Runners\|Módulo 4 - Runners]] |
+| **Inicio herramienta** | [[github-actions\|GitHub Actions]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitHub Actions Docs](https://docs.github.com/en/actions) |
+
+---

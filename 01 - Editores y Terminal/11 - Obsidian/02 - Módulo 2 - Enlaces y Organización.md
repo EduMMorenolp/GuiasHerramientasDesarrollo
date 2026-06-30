@@ -1,4 +1,4 @@
-# Módulo 2: Enlaces y Organización
+﻿# Módulo 2: Enlaces y Organización
 
 **Objetivo**: Aprender y dominar: Enlaces y Organización.
 
@@ -34,7 +34,12 @@ El panel Outline muestra la estructura de encabezados de la nota activa, permiti
 
 ---
 
-**Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[03 - Módulo 3 - Canvas y Propiedades|Módulo 3: Canvas y Propiedades]]
-**Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/11 - Obsidian/01 - Módulo 1 - Fundamentos e Instalación\|Módulo 1 - Fundamentos e Instalación]] |
+| **Siguiente →** | [[03 - Módulo 3 - Canvas y Propiedades\|Módulo 3: Canvas y Propiedades]] |
+| **Inicio herramienta** | [[obsidian\|Obsidian]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Obsidian Docs](https://help.obsidian.md) |
+
+---

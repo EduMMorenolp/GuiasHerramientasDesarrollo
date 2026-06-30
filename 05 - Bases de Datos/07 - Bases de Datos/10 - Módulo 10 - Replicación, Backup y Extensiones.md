@@ -1,4 +1,4 @@
-# Módulo 10: Replicación, Backup y Extensiones
+﻿# Módulo 10: Replicación, Backup y Extensiones
 
 **Objetivo**: Asegurar datos con backups, escalar con replicación y extender con herramientas especializadas.
 
@@ -197,7 +197,13 @@ CREATE TABLE ventas_2025 PARTITION OF ventas
 | `Partitioning` | Tablas por rangos |
 
 ---
-**Documentación oficial**: https://www.postgresql.org/docs/
 
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/09 - Módulo 9 - Drizzle ORM\|Módulo 9 - Drizzle ORM]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.postgresql.org/docs/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 6: Avanzado
+﻿# Módulo 6: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 
@@ -85,7 +85,13 @@ Esto copia solo lo necesario (dependencias de produccion, lockfile, etc.) en la 
 ## Navegacion
 
 ---
-**Documentación oficial**: https://pnpm.io/motivation
 
-**Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/16 - pnpm/05 - Módulo 5 - Catálogo y Seguridad\|Módulo 5 - Catálogo y Seguridad]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[pnpm\|pnpm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [pnpm Docs](https://pnpm.io/motivation) |
+
+---

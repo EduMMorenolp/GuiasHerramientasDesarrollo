@@ -1,4 +1,4 @@
-# Módulo 4: Plugins
+﻿# Módulo 4: Plugins
 
 **Objetivo**: Extender OpenClaw con plugins para añadir herramientas, canales y proveedores personalizados.
 
@@ -108,3 +108,15 @@ openclaw plugin update diffs
 # Eliminar plugin
 openclaw plugin remove mi-herramienta
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/15 - OpenClaw/03 - Módulo 3 - Herramientas y Skills\|Módulo 3 - Herramientas y Skills]] |
+| **Siguiente →** | [[07 - IA/15 - OpenClaw/05 - Módulo 5 - Automatización y Subagentes\|Módulo 5 - Automatización y Subagentes]] |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

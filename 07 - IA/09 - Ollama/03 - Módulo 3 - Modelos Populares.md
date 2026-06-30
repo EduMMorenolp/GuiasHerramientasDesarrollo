@@ -1,4 +1,4 @@
-# Módulo 3: Modelos Populares
+﻿# Módulo 3: Modelos Populares
 
 **Objetivo**: Conocer los modelos más populares disponibles en Ollama y cómo elegir según tu hardware.
 
@@ -131,7 +131,12 @@ Modelo de embeddings para búsqueda semántica y RAG.
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[04 - Módulo 4 - API REST|Módulo 4: API REST]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/02 - Módulo 2 - Gestión de Modelos\|Módulo 2 - Gestión de Modelos]] |
+| **Siguiente →** | [[04 - Módulo 4 - API REST\|Módulo 4: API REST]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

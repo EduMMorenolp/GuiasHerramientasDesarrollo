@@ -1,4 +1,4 @@
-# Módulo 4: Agent Mode
+﻿# Módulo 4: Agent Mode
 
 **Objetivo**: Utilizar el modo agente de Warp para asistencia AI en la terminal.
 
@@ -132,7 +132,12 @@ agents:
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[05 - Modulo 5 - Personalizacion|Modulo 5: Personalizacion]]
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/14 - Warp/03 - Módulo 3 - Completions y Correcciones\|Módulo 3 - Completions y Correcciones]] |
+| **Siguiente →** | [[05 - Modulo 5 - Personalizacion\|Modulo 5: Personalizacion]] |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
+
+---

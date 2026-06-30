@@ -1,4 +1,4 @@
-# Módulo 3: Herramientas y Skills
+﻿# Módulo 3: Herramientas y Skills
 
 **Objetivo**: Utilizar las herramientas integradas de OpenClaw y crear skills para flujos de trabajo repetitivos.
 
@@ -83,3 +83,15 @@ openclaw skill install community/deploy-node
 # Exportar skill
 openclaw skill export deploy-docker > skill.yml
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/15 - OpenClaw/02 - Módulo 2 - Gateway y Canales\|Módulo 2 - Gateway y Canales]] |
+| **Siguiente →** | [[07 - IA/15 - OpenClaw/04 - Módulo 4 - Plugins\|Módulo 4 - Plugins]] |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

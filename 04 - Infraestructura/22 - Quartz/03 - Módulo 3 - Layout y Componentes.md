@@ -1,4 +1,4 @@
-# Módulo 3: Layout y Componentes
+﻿# Módulo 3: Layout y Componentes
 
 **Objetivo**: Configurar la estructura visual del sitio mediante `quartz.layout.ts` y sus componentes.
 
@@ -132,14 +132,12 @@ export const defaultListPageLayout: PageLayout = {
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| SharedLayout | Elementos compartidos (head, header, footer) |
-| PageLayout | Layout específico por tipo de página |
-| Component | Elemento UI registrado en Quartz |
-| beforeBody | Sección sobre el contenido (título, tags, breadcrumbs) |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/02 - Módulo 2 - Configuración\|Módulo 2 - Configuración]] |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/04 - Módulo 4 - Plugins\|Módulo 4: Plugins]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz/layout) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz/layout
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/04 - Módulo 4 - Plugins|Módulo 4: Plugins]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

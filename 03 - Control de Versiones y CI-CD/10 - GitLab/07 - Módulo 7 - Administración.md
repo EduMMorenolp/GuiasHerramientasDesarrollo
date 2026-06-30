@@ -1,4 +1,4 @@
-# Módulo 7: Administración
+﻿# Módulo 7: Administración
 
 **Objetivo**: Instalar, configurar y mantener una instancia GitLab Self-Hosted.
 
@@ -218,6 +218,12 @@ sudo gitlab-rake gitlab:env:info
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/10 - GitLab/06 - Módulo 6 - Seguridad\|Módulo 6 - Seguridad]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

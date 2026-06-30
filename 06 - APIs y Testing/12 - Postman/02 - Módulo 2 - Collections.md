@@ -1,4 +1,4 @@
-# Módulo 2: Collections
+﻿# Módulo 2: Collections
 
 **Objetivo**: Aprender y dominar: Collections.
 
@@ -172,9 +172,12 @@ DELETE {{base_url}}/users/{{user_id}}
 
 ---
 
-**Documentación oficial**: https://learning.postman.com
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/12 - Postman/01 - Módulo 1 - Primeros Pasos\|Módulo 1 - Primeros Pasos]] |
+| **Siguiente →** | [[03 - Módulo 3 - Entornos y Variables\|Módulo 3: Entornos y Variables]] |
+| **Inicio herramienta** | [[postman\|Postman]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Postman Docs](https://learning.postman.com) |
 
-**Siguiente**: [[03 - Módulo 3 - Entornos y Variables|Módulo 3: Entornos y Variables]]
-
-**Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

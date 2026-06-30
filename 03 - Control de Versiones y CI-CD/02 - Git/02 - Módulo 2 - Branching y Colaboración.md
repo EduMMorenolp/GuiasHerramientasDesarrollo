@@ -1,4 +1,4 @@
-# Módulo 2: Branching y Colaboración
+﻿# Módulo 2: Branching y Colaboración
 
 **Objetivo**: Dominar ramas, fusiones y trabajo colaborativo con Git.
 
@@ -123,7 +123,12 @@ git restore archivo.js
 
 ---
 
-**Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[03 - Módulo 3 - Estrategias Avanzadas|Módulo 3: Estrategias Avanzadas]]
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/02 - Git/01 - Módulo 1 - Fundamentos de Git\|Módulo 1 - Fundamentos de Git]] |
+| **Siguiente →** | [[03 - Módulo 3 - Estrategias Avanzadas\|Módulo 3: Estrategias Avanzadas]] |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---

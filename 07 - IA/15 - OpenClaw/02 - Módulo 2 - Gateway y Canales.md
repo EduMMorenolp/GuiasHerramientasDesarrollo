@@ -1,4 +1,4 @@
-# Módulo 2: Gateway y Canales
+﻿# Módulo 2: Gateway y Canales
 
 **Objetivo**: Configurar el Gateway de OpenClaw y conectar canales de mensajería.
 
@@ -93,3 +93,15 @@ channels:
     servers:
       - "server_id"
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/15 - OpenClaw/01 - Módulo 1 - Instalación y Fundamentos\|Módulo 1 - Instalación y Fundamentos]] |
+| **Siguiente →** | [[07 - IA/15 - OpenClaw/03 - Módulo 3 - Herramientas y Skills\|Módulo 3 - Herramientas y Skills]] |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

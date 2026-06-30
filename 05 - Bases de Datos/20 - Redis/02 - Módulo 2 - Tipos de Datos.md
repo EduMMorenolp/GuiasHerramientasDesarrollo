@@ -1,4 +1,4 @@
-# Módulo 2: Tipos de Datos
+﻿# Módulo 2: Tipos de Datos
 
 **Objetivo**: Aprender y dominar: Tipos de Datos.
 
@@ -75,7 +75,12 @@ XGROUP CREATE pedidos grupo1 $                -- crear grupo de consumidores
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[05 - Bases de Datos/20 - Redis/03 - Módulo 3 - Persistencia y Configuración|Módulo 3]]
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/01 - Módulo 1 - Instalación y Fundamentos\|Módulo 1 - Instalación y Fundamentos]] |
+| **Siguiente →** | [[05 - Bases de Datos/20 - Redis/03 - Módulo 3 - Persistencia y Configuración\|Módulo 3]] |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
+
+---

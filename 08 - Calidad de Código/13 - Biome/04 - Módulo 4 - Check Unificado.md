@@ -1,4 +1,4 @@
-# Módulo 4: Check Unificado
+﻿# Módulo 4: Check Unificado
 
 **Objetivo**: Aprender y dominar: Check Unificado.
 
@@ -23,7 +23,12 @@ npx @biomejs/biome check --staged --write
 ```
 ---
 
-**Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[05 - Módulo 5 - Configuración|Módulo 5: Configuración]]
-**Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[08 - Calidad de Código/13 - Biome/03 - Módulo 3 - Linting\|Módulo 3 - Linting]] |
+| **Siguiente →** | [[05 - Módulo 5 - Configuración\|Módulo 5: Configuración]] |
+| **Inicio herramienta** | [[biome\|Biome]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Biome Docs](https://biomejs.dev) |
+
+---

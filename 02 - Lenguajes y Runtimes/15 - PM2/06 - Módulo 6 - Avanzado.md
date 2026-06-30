@@ -1,4 +1,4 @@
-# Módulo 6: Avanzado
+﻿# Módulo 6: Avanzado
 
 **Objetivo**: Funcionalidades avanzadas: Keymetrics, API programatica, Docker y soporte multi-lenguaje.
 
@@ -186,7 +186,12 @@ Comandos relacionados:
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD\|Módulo 5 - Deploy y CI-CD]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
 
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

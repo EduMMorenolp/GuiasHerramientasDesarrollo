@@ -1,4 +1,4 @@
-# Módulo 4: Runners
+﻿# Módulo 4: Runners
 
 
 **Objetivo**: Aprender y dominar: Runners.
@@ -75,7 +75,12 @@ gh actions-runner set create \
 
 ---
 
-**Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[05 - Módulo 5 - Artefactos y Caché|Módulo 5 - Artefactos y Caché]]
-**Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/03 - Módulo 3 - Actions\|Módulo 3 - Actions]] |
+| **Siguiente →** | [[05 - Módulo 5 - Artefactos y Caché\|Módulo 5 - Artefactos y Caché]] |
+| **Inicio herramienta** | [[github-actions\|GitHub Actions]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitHub Actions Docs](https://docs.github.com/en/actions) |
+
+---

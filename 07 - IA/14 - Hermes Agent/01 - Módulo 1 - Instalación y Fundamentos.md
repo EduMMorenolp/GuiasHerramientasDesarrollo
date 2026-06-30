@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y Fundamentos
+﻿# Módulo 1: Instalación y Fundamentos
 
 **Objetivo**: Instalar Hermes Agent, comprender su arquitectura y mantener la primera conversación.
 
@@ -71,3 +71,15 @@ Hermes Agent se compone de varias capas:
 - **Memory System**: memoria persistente con búsqueda y resúmenes
 - **Skills System**: habilidades procedimentales que el agente crea y mejora
 - **Terminal Backends**: ejecución local, Docker, SSH o serverless
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/02 - Módulo 2 - Configuración del Agente\|Módulo 2 - Configuración del Agente]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

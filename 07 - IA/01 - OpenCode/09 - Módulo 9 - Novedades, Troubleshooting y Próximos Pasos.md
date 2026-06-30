@@ -1,4 +1,4 @@
-# Módulo 9: Novedades, Troubleshooting y Próximos Pasos
+﻿# Módulo 9: Novedades, Troubleshooting y Próximos Pasos
 
 **Objetivo**: Mantenerse actualizado, resolver problemas comunes y planificar los próximos pasos.
 
@@ -147,7 +147,12 @@ Has completado los **9 módulos** de la guía de OpenCode:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/08 - Módulo 8 - Custom Tools, Formateadores y Enterprise\|Módulo 8 - Custom Tools, Formateadores y Enterprise]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
 
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

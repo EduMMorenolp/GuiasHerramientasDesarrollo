@@ -1,4 +1,4 @@
-# Módulo 5: Sistema de Skills
+﻿# Módulo 5: Sistema de Skills
 
 **Objetivo**: Crear, gestionar y compartir skills en Hermes Agent para automatizar flujos de trabajo repetitivos.
 
@@ -79,3 +79,15 @@ Cada vez que Hermes ejecuta un skill, analiza el resultado y lo mejora:
 - Añade manejo de errores
 - Optimiza comandos
 - Actualiza dependencias
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/04 - Módulo 4 - Sistema de Memoria\|Módulo 4 - Sistema de Memoria]] |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/06 - Módulo 6 - Plataformas de Mensajería\|Módulo 6 - Plataformas de Mensajería]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

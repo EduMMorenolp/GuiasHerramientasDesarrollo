@@ -1,4 +1,4 @@
-# Módulo 3: Issues y Planning
+﻿# Módulo 3: Issues y Planning
 
 **Objetivo**: Gestionar el trabajo del equipo con Issues, Boards y planificación ágil.
 
@@ -162,7 +162,12 @@ Capacidades asistidas por IA:
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[04 - Módulo 4 - GitLab CI-CD|Módulo 4: GitLab CI/CD]]
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/10 - GitLab/02 - Módulo 2 - Repositorios y Merge Requests\|Módulo 2 - Repositorios y Merge Requests]] |
+| **Siguiente →** | [[04 - Módulo 4 - GitLab CI-CD\|Módulo 4: GitLab CI/CD]] |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

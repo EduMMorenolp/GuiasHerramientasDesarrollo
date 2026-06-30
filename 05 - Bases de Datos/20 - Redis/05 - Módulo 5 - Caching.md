@@ -1,4 +1,4 @@
-# Módulo 5: Caching
+﻿# Módulo 5: Caching
 
 **Objetivo**: Aprender y dominar: Caching.
 
@@ -108,7 +108,12 @@ async function getUser(id) {
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack|Módulo 6]]
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones\|Módulo 4 - Pub-Sub y Transacciones]] |
+| **Siguiente →** | [[05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack\|Módulo 6]] |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
+
+---

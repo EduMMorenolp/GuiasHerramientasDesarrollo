@@ -1,4 +1,4 @@
-# Módulo 2: Gestión de Modelos
+﻿# Módulo 2: Gestión de Modelos
 
 **Objetivo**: Aprender a gestionar, parametrizar y versionar modelos en Ollama.
 
@@ -144,7 +144,12 @@ ollama list
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[03 - Módulo 3 - Modelos Populares|Módulo 3: Modelos Populares]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/01 - Módulo 1 - Fundamentos e Instalación\|Módulo 1 - Fundamentos e Instalación]] |
+| **Siguiente →** | [[03 - Módulo 3 - Modelos Populares\|Módulo 3: Modelos Populares]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

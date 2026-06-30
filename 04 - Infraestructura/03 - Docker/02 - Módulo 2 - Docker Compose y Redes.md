@@ -1,4 +1,4 @@
-# Módulo 2: Docker Compose y Redes
+﻿# Módulo 2: Docker Compose y Redes
 
 **Objetivo**: Orquestar múltiples contenedores y gestionar redes.
 
@@ -126,7 +126,12 @@ services:
 
 ---
 
-**Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[03 - Módulo 3 - Producción y Optimización|Módulo 3: Producción y Optimización]]
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/03 - Docker/01 - Módulo 1 - Contenedores e Imágenes\|Módulo 1 - Contenedores e Imágenes]] |
+| **Siguiente →** | [[03 - Módulo 3 - Producción y Optimización\|Módulo 3: Producción y Optimización]] |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

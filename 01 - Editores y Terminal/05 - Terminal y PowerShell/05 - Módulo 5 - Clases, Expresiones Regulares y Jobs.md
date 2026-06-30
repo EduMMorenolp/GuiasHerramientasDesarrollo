@@ -1,4 +1,4 @@
-# Módulo 5: Clases, Expresiones Regulares y Jobs
+﻿# Módulo 5: Clases, Expresiones Regulares y Jobs
 
 **Objetivo**: Programación orientada a objetos en PowerShell, regex y ejecución asíncrona.
 
@@ -227,7 +227,12 @@ Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
 
 ---
 
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[06 - Módulo 6 - Desired State Configuration y Seguridad|Módulo 6: Desired State Configuration y Seguridad]]
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/05 - Terminal y PowerShell/04 - Módulo 4 - Remoting, Módulos y PSResourceGet\|Módulo 4 - Remoting, Módulos y PSResourceGet]] |
+| **Siguiente →** | [[06 - Módulo 6 - Desired State Configuration y Seguridad\|Módulo 6: Desired State Configuration y Seguridad]] |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

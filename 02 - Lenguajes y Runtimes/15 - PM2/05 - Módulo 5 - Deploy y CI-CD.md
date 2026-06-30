@@ -1,4 +1,4 @@
-# Módulo 5: Deploy y CI/CD
+﻿# Módulo 5: Deploy y CI/CD
 
 **Objetivo**: Despliegue automatizado zero-downtime mediante el comando deploy de PM2 y pipelines CI/CD.
 
@@ -185,7 +185,12 @@ jobs:
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/06 - Módulo 6 - Avanzado|Módulo 6]]
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs\|Módulo 4 - Monitoreo y Logs]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/15 - PM2/06 - Módulo 6 - Avanzado\|Módulo 6]] |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
+
+---

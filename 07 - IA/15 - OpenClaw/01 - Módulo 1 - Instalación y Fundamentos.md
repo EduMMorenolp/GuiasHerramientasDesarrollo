@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y Fundamentos
+﻿# Módulo 1: Instalación y Fundamentos
 
 **Objetivo**: Instalar OpenClaw, ejecutar el onboarding y realizar la primera conversación.
 
@@ -89,3 +89,15 @@ OpenClaw se compone de:
 - **Harnesses**: adaptadores para diferentes modelos (Claude, Codex, Genérico)
 - **Plugins**: extensiones que añaden herramientas, canales y proveedores
 - **Workspace**: directorio de trabajo con skills, configuración y archivos
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[07 - IA/15 - OpenClaw/02 - Módulo 2 - Gateway y Canales\|Módulo 2 - Gateway y Canales]] |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

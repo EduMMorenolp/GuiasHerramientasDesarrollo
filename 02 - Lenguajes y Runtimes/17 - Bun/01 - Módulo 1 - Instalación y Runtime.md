@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y Runtime
+﻿# Módulo 1: Instalación y Runtime
 
 **Objetivo**: Aprender y dominar: Instalación y Runtime.
 
@@ -58,7 +58,12 @@ bun run --watch archivo.ts
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/02 - Módulo 2 - Package Manager|Módulo 2: Gestor de Paquetes]]
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/17 - Bun/02 - Módulo 2 - Package Manager\|Módulo 2: Gestor de Paquetes]] |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
+
+---

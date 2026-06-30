@@ -1,4 +1,4 @@
-# Módulo 1: Instalación
+﻿# Módulo 1: Instalación
 
 **Objetivo**: Aprender y dominar: Instalación.
 
@@ -30,7 +30,12 @@ npx @biomejs/biome check src/
 - Soporta: JS, TS, JSX, TSX, JSON, CSS, GraphQL
 ---
 
-**Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[02 - Módulo 2 - Formateo|Módulo 2: Formateo]]
-**Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Formateo\|Módulo 2: Formateo]] |
+| **Inicio herramienta** | [[biome\|Biome]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Biome Docs](https://biomejs.dev) |
+
+---

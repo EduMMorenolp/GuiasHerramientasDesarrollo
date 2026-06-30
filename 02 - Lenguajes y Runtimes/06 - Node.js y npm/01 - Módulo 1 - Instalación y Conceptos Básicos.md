@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y Conceptos Básicos
+﻿# Módulo 1: Instalación y Conceptos Básicos
 
 **Objetivo**: Instalar Node.js y dominar los fundamentos de npm.
 
@@ -128,9 +128,12 @@ npm start       # Atajo para npm run start
 
 ---
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - npm Scripts y Publicación\|Módulo 2: npm Scripts y Publicación]] |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
 
-**Siguiente**: [[02 - Módulo 2 - npm Scripts y Publicación|Módulo 2: npm Scripts y Publicación]]
-
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

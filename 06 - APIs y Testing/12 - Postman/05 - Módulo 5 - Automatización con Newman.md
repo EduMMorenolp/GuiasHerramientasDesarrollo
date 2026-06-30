@@ -1,4 +1,4 @@
-# Módulo 5: Automatizacion con Newman
+﻿# Módulo 5: Automatizacion con Newman
 
 **Objetivo**: Aprender y dominar: Automatizacion con Newman.
 
@@ -239,9 +239,12 @@ pipeline {
 
 ---
 
-**Documentación oficial**: https://learning.postman.com
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/12 - Postman/04 - Módulo 4 - Tests y Scripts\|Módulo 4 - Tests y Scripts]] |
+| **Siguiente →** | [[06 - Módulo 6 - Documentación\|Módulo 6: Documentacion]] |
+| **Inicio herramienta** | [[postman\|Postman]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Postman Docs](https://learning.postman.com) |
 
-**Siguiente**: [[06 - Módulo 6 - Documentación|Módulo 6: Documentacion]]
-
-**Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

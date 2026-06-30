@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos e Instalación
+﻿# Módulo 1: Fundamentos e Instalación
 
 **Objetivo**: Comprender qué es Quartz, instalarlo y realizar la configuración inicial.
 
@@ -92,14 +92,12 @@ quartz/
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| Quartz | SSG para Obsidian vaults |
-| SPA | Navegación sin recarga de página |
-| Hot-reload | Recarga automática al editar contenido |
-| Template | Proyecto inicial con configuración base |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/02 - Módulo 2 - Configuración\|Módulo 2: Configuración]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/02 - Módulo 2 - Configuración|Módulo 2: Configuración]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

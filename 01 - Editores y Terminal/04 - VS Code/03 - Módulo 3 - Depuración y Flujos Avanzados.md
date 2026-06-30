@@ -1,4 +1,4 @@
-# Módulo 3: Depuración y Flujos Avanzados
+﻿# Módulo 3: Depuración y Flujos Avanzados
 
 **Objetivo**: Dominar la depuración integrada y flujos de trabajo avanzados.
 
@@ -174,7 +174,12 @@ Trabaja con múltiples proyectos simultáneamente:
 
 ---
 
-**Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[04 - Módulo 4 - Remote Development y Dev Containers|Módulo 4: Remote Development y Dev Containers]]
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/04 - VS Code/02 - Módulo 2 - Extensiones y Personalización\|Módulo 2 - Extensiones y Personalización]] |
+| **Siguiente →** | [[04 - Módulo 4 - Remote Development y Dev Containers\|Módulo 4: Remote Development y Dev Containers]] |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

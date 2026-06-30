@@ -1,4 +1,4 @@
-# Módulo 3: Perfiles y Personalización
+﻿# Módulo 3: Perfiles y Personalización
 
 **Objetivo**: Crear un entorno de terminal productivo y personalizado.
 
@@ -174,7 +174,12 @@ Get-Module                # Módulos cargados
 
 ---
 
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[04 - Módulo 4 - Remoting, Módulos y PSResourceGet|Módulo 4: Remoting, Módulos y PSResourceGet]]
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/05 - Terminal y PowerShell/02 - Módulo 2 - Scripting y Automatización\|Módulo 2 - Scripting y Automatización]] |
+| **Siguiente →** | [[04 - Módulo 4 - Remoting, Módulos y PSResourceGet\|Módulo 4: Remoting, Módulos y PSResourceGet]] |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 2: Repositorios y Merge Requests
+﻿# Módulo 2: Repositorios y Merge Requests
 
 **Objetivo**: Dominar el flujo de trabajo con repositorios GitLab y Merge Requests.
 
@@ -185,7 +185,12 @@ wiki/
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[03 - Módulo 3 - Issues y Planning|Módulo 3: Issues y Planning]]
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/10 - GitLab/01 - Módulo 1 - Fundamentos de GitLab\|Módulo 1 - Fundamentos de GitLab]] |
+| **Siguiente →** | [[03 - Módulo 3 - Issues y Planning\|Módulo 3: Issues y Planning]] |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

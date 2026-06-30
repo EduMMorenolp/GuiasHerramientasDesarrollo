@@ -1,4 +1,4 @@
-# Módulo 6: Web, Data Science y Herramientas CLI
+﻿# Módulo 6: Web, Data Science y Herramientas CLI
 
 **Objetivo**: Aplicaciones web con FastAPI, análisis de datos con pandas/numpy, y herramientas CLI profesionales.
 
@@ -250,7 +250,13 @@ twine upload dist/*
 | Packaging | pyproject.toml, build, twine |
 
 ---
-**Documentación oficial**: https://docs.python.org/3/
 
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/08 - Python/05 - Módulo 5 - Testing, Logging y Concurrencia\|Módulo 5 - Testing, Logging y Concurrencia]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
+
+---

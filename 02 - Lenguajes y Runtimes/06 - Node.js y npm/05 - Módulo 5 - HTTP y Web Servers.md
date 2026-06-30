@@ -1,4 +1,4 @@
-# Módulo 5: HTTP y Web Servers
+﻿# Módulo 5: HTTP y Web Servers
 
 **Objetivo**: Crear servidores HTTP, APIs REST, WebSockets y consumir servicios web.
 
@@ -226,9 +226,12 @@ https.createServer(options, (req, res) => {
 
 ---
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/06 - Node.js y npm/04 - Módulo 4 - File System y Streams\|Módulo 4 - File System y Streams]] |
+| **Siguiente →** | [[06 - Módulo 6 - Debugging, Testing y Seguridad\|Módulo 6: Debugging, Testing y Seguridad]] |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
 
-**Siguiente**: [[06 - Módulo 6 - Debugging, Testing y Seguridad|Módulo 6: Debugging, Testing y Seguridad]]
-
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

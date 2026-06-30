@@ -1,4 +1,4 @@
-# Módulo 6: Settings Sync, Enterprise y Accesibilidad
+﻿# Módulo 6: Settings Sync, Enterprise y Accesibilidad
 
 **Objetivo**: Sincronizar configuración y explorar características enterprise y de accesibilidad.
 
@@ -165,7 +165,13 @@ Alt+Shift+F         # Formatear tabla
 | Markdown | Documentación integrada |
 
 ---
-**Documentación oficial**: https://code.visualstudio.com/docs
 
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/04 - VS Code/05 - Módulo 5 - Agents Window y GitHub Copilot\|Módulo 5 - Agents Window y GitHub Copilot]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

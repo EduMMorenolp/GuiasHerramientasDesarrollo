@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos e Instalación
+﻿# Módulo 1: Fundamentos e Instalación
 
 **Objetivo**: Comprender qué es Ollama, instalarlo y ejecutar tu primer modelo local.
 
@@ -118,7 +118,12 @@ C:\Users\TuUsuario\.ollama\models\
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[02 - Módulo 2 - Gestión de Modelos|Módulo 2: Gestión de Modelos]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Gestión de Modelos\|Módulo 2: Gestión de Modelos]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

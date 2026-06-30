@@ -1,4 +1,4 @@
-# Módulo 3: Herramientas y Toolsets
+﻿# Módulo 3: Herramientas y Toolsets
 
 **Objetivo**: Dominar el sistema de herramientas de Hermes Agent, organizar toolsets y utilizar los backends de terminal.
 
@@ -67,3 +67,15 @@ hermes cron remove <id>
 ```
 
 Las tareas programadas pueden entregar resultados a cualquier plataforma de mensajería configurada.
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/02 - Módulo 2 - Configuración del Agente\|Módulo 2 - Configuración del Agente]] |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/04 - Módulo 4 - Sistema de Memoria\|Módulo 4 - Sistema de Memoria]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

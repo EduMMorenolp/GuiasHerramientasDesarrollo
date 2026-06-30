@@ -1,4 +1,4 @@
-# Módulo 3: Asincronía y Event Loop
+﻿# Módulo 3: Asincronía y Event Loop
 
 **Objetivo**: Dominar el modelo asíncrono de Node.js: callbacks, Promesas, async/await y el Event Loop.
 
@@ -203,9 +203,12 @@ fs.readFile('file.txt', () => {
 
 ---
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/06 - Node.js y npm/02 - Módulo 2 - npm Scripts y Publicación\|Módulo 2 - npm Scripts y Publicación]] |
+| **Siguiente →** | [[04 - Módulo 4 - File System y Streams\|Módulo 4: File System y Streams]] |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
 
-**Siguiente**: [[04 - Módulo 4 - File System y Streams|Módulo 4: File System y Streams]]
-
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

@@ -1,4 +1,4 @@
-# Módulo 2: Locators y Acciones
+﻿# Módulo 2: Locators y Acciones
 
 **Objetivo**: Aprender y dominar: Locators y Acciones.
 
@@ -36,7 +36,12 @@ Playwright espera automaticamente a que los elementos sean visibles, estables y 
 
 ---
 
-**Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[06 - APIs y Testing/18 - Playwright/03 - Módulo 3 - Intercepciones y Mocks|Módulo 3: Intercepciones y Mocks]]
-**Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/18 - Playwright/01 - Módulo 1 - Instalación y Fundamentos\|Módulo 1 - Instalación y Fundamentos]] |
+| **Siguiente →** | [[06 - APIs y Testing/18 - Playwright/03 - Módulo 3 - Intercepciones y Mocks\|Módulo 3: Intercepciones y Mocks]] |
+| **Inicio herramienta** | [[playwright\|Playwright]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Playwright Docs](https://playwright.dev/docs/intro) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 4: Remoting, Módulos y PSResourceGet
+﻿# Módulo 4: Remoting, Módulos y PSResourceGet
 
 **Objetivo**: Gestionar equipos remotos, crear módulos profesionales y usar el nuevo gestor de paquetes.
 
@@ -196,7 +196,12 @@ Find-PSResource -Name Az.Compute -IncludeDependencies
 
 ---
 
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[05 - Módulo 5 - Clases, Expresiones Regulares y Jobs|Módulo 5: Clases, Expresiones Regulares y Jobs]]
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/05 - Terminal y PowerShell/03 - Módulo 3 - Perfiles y Personalización\|Módulo 3 - Perfiles y Personalización]] |
+| **Siguiente →** | [[05 - Módulo 5 - Clases, Expresiones Regulares y Jobs\|Módulo 5: Clases, Expresiones Regulares y Jobs]] |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

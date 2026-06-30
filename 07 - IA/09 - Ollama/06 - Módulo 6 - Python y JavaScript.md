@@ -1,4 +1,4 @@
-# Módulo 6: Python y JavaScript
+﻿# Módulo 6: Python y JavaScript
 
 **Objetivo**: Usar las librerías oficiales de Ollama para Python y JavaScript.
 
@@ -214,7 +214,12 @@ list.models.forEach(m => console.log(m.name));
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[07 - Módulo 7 - Modelfile y Modelos Custom|Módulo 7: Modelfile y Modelos Custom]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/05 - Módulo 5 - Integraciones\|Módulo 5 - Integraciones]] |
+| **Siguiente →** | [[07 - Módulo 7 - Modelfile y Modelos Custom\|Módulo 7: Modelfile y Modelos Custom]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

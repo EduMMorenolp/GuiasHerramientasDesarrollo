@@ -1,4 +1,4 @@
-# Módulo 4: Plugins
+﻿# Módulo 4: Plugins
 
 **Objetivo**: Aprender y dominar: Plugins.
 
@@ -36,7 +36,12 @@ Obsidian expone una API en TypeScript/JavaScript para desarrollar plugins. Los p
 
 ---
 
-**Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[05 - Módulo 5 - Plugins Esenciales|Módulo 5: Plugins Esenciales]]
-**Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/11 - Obsidian/03 - Módulo 3 - Canvas y Propiedades\|Módulo 3 - Canvas y Propiedades]] |
+| **Siguiente →** | [[05 - Módulo 5 - Plugins Esenciales\|Módulo 5: Plugins Esenciales]] |
+| **Inicio herramienta** | [[obsidian\|Obsidian]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Obsidian Docs](https://help.obsidian.md) |
+
+---

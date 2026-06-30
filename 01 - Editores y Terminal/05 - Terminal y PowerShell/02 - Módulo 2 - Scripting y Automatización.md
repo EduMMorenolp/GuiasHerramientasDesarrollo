@@ -1,4 +1,4 @@
-# Módulo 2: Scripting y Automatización
+﻿# Módulo 2: Scripting y Automatización
 
 **Objetivo**: Escribir scripts para automatizar tareas repetitivas.
 
@@ -219,7 +219,12 @@ function Watch-Process {
 
 ---
 
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[03 - Módulo 3 - Perfiles y Personalización|Módulo 3: Perfiles y Personalización]]
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/05 - Terminal y PowerShell/01 - Módulo 1 - Comandos Esenciales\|Módulo 1 - Comandos Esenciales]] |
+| **Siguiente →** | [[03 - Módulo 3 - Perfiles y Personalización\|Módulo 3: Perfiles y Personalización]] |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

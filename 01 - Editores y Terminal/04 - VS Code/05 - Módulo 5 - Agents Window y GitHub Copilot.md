@@ -1,4 +1,4 @@
-# Módulo 5: Agents Window y GitHub Copilot
+﻿# Módulo 5: Agents Window y GitHub Copilot
 
 **Objetivo**: Dominar la ventana de agentes y la integración con GitHub Copilot.
 
@@ -186,7 +186,12 @@ Ctrl+Shift+P > "Profiles: Import Profile"
 
 ---
 
-**Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[06 - Módulo 6 - Settings Sync, Enterprise y Accesibilidad|Módulo 6: Settings Sync, Enterprise y Accesibilidad]]
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/04 - VS Code/04 - Módulo 4 - Remote Development y Dev Containers\|Módulo 4 - Remote Development y Dev Containers]] |
+| **Siguiente →** | [[06 - Módulo 6 - Settings Sync, Enterprise y Accesibilidad\|Módulo 6: Settings Sync, Enterprise y Accesibilidad]] |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

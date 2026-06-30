@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos de Git
+﻿# Módulo 1: Fundamentos de Git
 
 **Objetivo**: Comprender qué es Git, instalarlo y dominar las operaciones fundamentales.
 
@@ -106,7 +106,12 @@ dist/
 
 ---
 
-**Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[02 - Módulo 2 - Branching y Colaboración|Módulo 2: Branching y Colaboración]]
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Branching y Colaboración\|Módulo 2: Branching y Colaboración]] |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---

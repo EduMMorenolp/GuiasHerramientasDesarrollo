@@ -1,4 +1,4 @@
-# Módulo 1: Primeros Pasos
+﻿# Módulo 1: Primeros Pasos
 
 **Objetivo**: Aprender y dominar: Primeros Pasos.
 
@@ -144,9 +144,12 @@ X-Response-Time: 45ms
 
 ---
 
-**Documentación oficial**: https://learning.postman.com
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Collections\|Módulo 2: Collections]] |
+| **Inicio herramienta** | [[postman\|Postman]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Postman Docs](https://learning.postman.com) |
 
-**Siguiente**: [[02 - Módulo 2 - Collections|Módulo 2: Collections]]
-
-**Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

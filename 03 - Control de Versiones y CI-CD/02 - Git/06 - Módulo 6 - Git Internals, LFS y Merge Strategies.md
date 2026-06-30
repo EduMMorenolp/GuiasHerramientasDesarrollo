@@ -1,4 +1,4 @@
-# Módulo 6: Git Internals, LFS y Merge Strategies
+﻿# Módulo 6: Git Internals, LFS y Merge Strategies
 
 **Objetivo**: Comprender el funcionamiento interno de Git y manejo de archivos grandes.
 
@@ -181,7 +181,13 @@ git bisect visualize
 | **Bisect** | Depuración binaria de regresiones |
 
 ---
-**Documentación oficial**: https://git-scm.com/doc
 
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/02 - Git/05 - Módulo 5 - Personalización, Hooks y Git Attributes\|Módulo 5 - Personalización, Hooks y Git Attributes]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---

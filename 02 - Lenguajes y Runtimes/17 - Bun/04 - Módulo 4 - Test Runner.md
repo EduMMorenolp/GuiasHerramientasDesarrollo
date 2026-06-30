@@ -1,4 +1,4 @@
-# Módulo 4: Test Runner
+﻿# Módulo 4: Test Runner
 
 **Objetivo**: Aprender y dominar: Test Runner.
 
@@ -69,7 +69,12 @@ test("snapshot de objeto", () => {
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/05 - Módulo 5 - APIs del Runtime|Módulo 5: APIs del Runtime]]
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/17 - Bun/03 - Módulo 3 - Bundler\|Módulo 3 - Bundler]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/17 - Bun/05 - Módulo 5 - APIs del Runtime\|Módulo 5: APIs del Runtime]] |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
+
+---

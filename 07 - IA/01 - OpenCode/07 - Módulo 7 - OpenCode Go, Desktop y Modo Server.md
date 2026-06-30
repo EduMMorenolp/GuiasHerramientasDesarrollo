@@ -1,4 +1,4 @@
-# Módulo 7: OpenCode Go, Desktop y Modo Server
+﻿# Módulo 7: OpenCode Go, Desktop y Modo Server
 
 **Objetivo**: Explorar OpenCode Go, la aplicación de escritorio y el modo servidor headless.
 
@@ -136,7 +136,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[08 - Módulo 8 - Custom Tools, Formateadores y Enterprise|Módulo 8: Custom Tools, Formateadores y Enterprise]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/06 - Módulo 6 - MCP Servers, Skills y Plugins\|Módulo 6 - MCP Servers, Skills y Plugins]] |
+| **Siguiente →** | [[08 - Módulo 8 - Custom Tools, Formateadores y Enterprise\|Módulo 8: Custom Tools, Formateadores y Enterprise]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

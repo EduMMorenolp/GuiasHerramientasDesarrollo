@@ -1,4 +1,4 @@
-# Módulo 2: Configuración del Agente
+﻿# Módulo 2: Configuración del Agente
 
 **Objetivo**: Configurar proveedores de modelos, ajustar opciones del agente y dominar los comandos CLI principales.
 
@@ -94,3 +94,15 @@ Toolsets comunes: `web`, `search`, `terminal`, `file`, `browser`, `vision`, `ima
 | `HERMES_DATA_DIR` | Directorio de datos del agente |
 | `OPENAI_API_KEY` | API key de OpenAI |
 | `ANTHROPIC_API_KEY` | API key de Anthropic |
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/01 - Módulo 1 - Instalación y Fundamentos\|Módulo 1 - Instalación y Fundamentos]] |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/03 - Módulo 3 - Herramientas y Toolsets\|Módulo 3 - Herramientas y Toolsets]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

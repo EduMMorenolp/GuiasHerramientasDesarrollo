@@ -1,4 +1,4 @@
-# Módulo 7: Deploy y Avanzado
+﻿# Módulo 7: Deploy y Avanzado
 
 **Objetivo**: Aprender y dominar: Deploy y Avanzado.
 
@@ -158,6 +158,12 @@ on:
 
 ---
 
-**Documentación oficial**: https://docs.github.com/en/actions
-**Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/06 - Módulo 6 - Seguridad\|Módulo 6 - Seguridad]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[github-actions\|GitHub Actions]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitHub Actions Docs](https://docs.github.com/en/actions) |
+
+---

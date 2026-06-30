@@ -1,4 +1,4 @@
-# Módulo 1: Contenedores e Imágenes
+﻿# Módulo 1: Contenedores e Imágenes
 
 **Objetivo**: Comprender Docker, instalar y dominar contenedores e imágenes.
 
@@ -137,7 +137,12 @@ docker volume inspect datos
 
 ---
 
-**Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[02 - Módulo 2 - Docker Compose y Redes|Módulo 2: Docker Compose y Redes]]
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Docker Compose y Redes\|Módulo 2: Docker Compose y Redes]] |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

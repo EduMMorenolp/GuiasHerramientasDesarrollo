@@ -1,4 +1,4 @@
-# Módulo 5: Personalización
+﻿# Módulo 5: Personalización
 
 **Objetivo**: Configurar Warp al gusto con temas, fuentes, keybindings y ajustes avanzados.
 
@@ -171,7 +171,12 @@ cloud:
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[06 - Módulo 6 - Avanzado|Módulo 6: Avanzado]]
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[06 - Módulo 6 - Avanzado\|Módulo 6: Avanzado]] |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
+
+---

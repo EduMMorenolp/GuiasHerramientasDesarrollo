@@ -1,4 +1,4 @@
-# Módulo 3: Agentes - Especialización y Automatización
+﻿# Módulo 3: Agentes - Especialización y Automatización
 
 **Objetivo**: Dominar el sistema de agentes para tareas especializadas y flujos de trabajo complejos.
 
@@ -168,7 +168,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[04 - Módulo 4 - Personalización y Configuración Avanzada|Módulo 4: Personalización y Configuración Avanzada]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/02 - Módulo 2 - Flujo de Trabajo Básico y Modos de Operación\|Módulo 2 - Flujo de Trabajo Básico y Modos de Operación]] |
+| **Siguiente →** | [[04 - Módulo 4 - Personalización y Configuración Avanzada\|Módulo 4: Personalización y Configuración Avanzada]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

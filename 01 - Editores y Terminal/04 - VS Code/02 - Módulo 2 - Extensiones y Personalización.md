@@ -1,4 +1,4 @@
-# Módulo 2: Extensiones y Personalización
+﻿# Módulo 2: Extensiones y Personalización
 
 **Objetivo**: Dominar las extensiones y personalizar VS Code al máximo.
 
@@ -141,7 +141,12 @@ Alt+Up/Down     # Navegar entre terminales
 
 ---
 
-**Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[03 - Módulo 3 - Depuración y Flujos Avanzados|Módulo 3: Depuración y Flujos Avanzados]]
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/04 - VS Code/01 - Módulo 1 - Interfaz y Edición Básica\|Módulo 1 - Interfaz y Edición Básica]] |
+| **Siguiente →** | [[03 - Módulo 3 - Depuración y Flujos Avanzados\|Módulo 3: Depuración y Flujos Avanzados]] |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

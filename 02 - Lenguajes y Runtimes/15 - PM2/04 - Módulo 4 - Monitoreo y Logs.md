@@ -1,4 +1,4 @@
-# Módulo 4: Monitoreo y Logs
+﻿# Módulo 4: Monitoreo y Logs
 
 **Objetivo**: Monitoreo en tiempo real y gestion de logs de las aplicaciones gestionadas por PM2.
 
@@ -141,7 +141,12 @@ pm2 set pm2-logrotate:dateFormat YYYY-MM-DD
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD|Módulo 5]]
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode\|Módulo 3 - Cluster Mode]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/15 - PM2/05 - Módulo 5 - Deploy y CI-CD\|Módulo 5]] |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y UI
+﻿# Módulo 1: Instalación y UI
 
 **Objetivo**: Instalar Warp y comprender su interfaz de usuario basada en bloques.
 
@@ -91,7 +91,12 @@ A diferencia de una terminal tradicional donde el texto es continuo, Warp organi
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[02 - Módulo 2 - Input Editor|Módulo 2: Input Editor]]
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Input Editor\|Módulo 2: Input Editor]] |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 3: MySQL y Workbench
+﻿# Módulo 3: MySQL y Workbench
 
 **Objetivo**: Instalar, configurar y operar MySQL usando CLI y MySQL Workbench.
 
@@ -126,9 +126,12 @@ mysql -u root -p mi_base < backup.sql
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/02 - Módulo 2 - SQLite\|Módulo 2 - SQLite]] |
+| **Siguiente →** | [[04 - Módulo 4 - PostgreSQL y pgAdmin\|Módulo 4: PostgreSQL y pgAdmin]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[04 - Módulo 4 - PostgreSQL y pgAdmin|Módulo 4: PostgreSQL y pgAdmin]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

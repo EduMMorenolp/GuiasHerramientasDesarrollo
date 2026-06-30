@@ -1,4 +1,4 @@
-# Módulo 4: Remote Development y Dev Containers
+﻿# Módulo 4: Remote Development y Dev Containers
 
 **Objetivo**: Desarrollar remotamente con SSH, WSL y Dev Containers.
 
@@ -182,7 +182,12 @@ code tunnel
 
 ---
 
-**Documentación oficial**: https://code.visualstudio.com/docs
-**Siguiente**: [[05 - Módulo 5 - Agents Window y GitHub Copilot|Módulo 5: Agents Window y GitHub Copilot]]
-**Inicio herramienta**: [[vscode|VS Code]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/04 - VS Code/03 - Módulo 3 - Depuración y Flujos Avanzados\|Módulo 3 - Depuración y Flujos Avanzados]] |
+| **Siguiente →** | [[05 - Módulo 5 - Agents Window y GitHub Copilot\|Módulo 5: Agents Window y GitHub Copilot]] |
+| **Inicio herramienta** | [[vscode\|VS Code]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [VS Code Docs](https://code.visualstudio.com/docs) |
+
+---

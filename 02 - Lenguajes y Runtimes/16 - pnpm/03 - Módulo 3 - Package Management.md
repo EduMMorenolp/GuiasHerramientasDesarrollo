@@ -1,4 +1,4 @@
-# Módulo 3: Gestión de Paquetes
+﻿# Módulo 3: Gestión de Paquetes
 
 **Objetivo**: Aprender y dominar: Gestión de Paquetes.
 
@@ -82,7 +82,12 @@ pnpm why lodash
 
 ---
 
-**Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/04 - Módulo 4 - Scripts y CI-CD|Módulo 4 - Scripts y CI-CD]]
-**Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/16 - pnpm/02 - Módulo 2 - Workspaces\|Módulo 2 - Workspaces]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/16 - pnpm/04 - Módulo 4 - Scripts y CI-CD\|Módulo 4 - Scripts y CI-CD]] |
+| **Inicio herramienta** | [[pnpm\|pnpm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [pnpm Docs](https://pnpm.io/motivation) |
+
+---

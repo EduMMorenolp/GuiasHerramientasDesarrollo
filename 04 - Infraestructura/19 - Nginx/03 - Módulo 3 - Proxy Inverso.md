@@ -1,4 +1,4 @@
-# Módulo 3: Proxy Inverso
+﻿# Módulo 3: Proxy Inverso
 
 **Objetivo**: Aprender y dominar: Proxy Inverso.
 
@@ -116,7 +116,12 @@ server {
 
 ---
 
-**Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/04 - Módulo 4 - SSL-TLS y HTTPS|Módulo 4: SSL/TLS y HTTPS]]
-**Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[../../19 - Nginx/04 - Módulo 4 - SSL-TLS y HTTPS\|Módulo 4: SSL/TLS y HTTPS]] |
+| **Inicio herramienta** | [[nginx\|Nginx]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Nginx Docs](https://nginx.org/en/docs/) |
+
+---

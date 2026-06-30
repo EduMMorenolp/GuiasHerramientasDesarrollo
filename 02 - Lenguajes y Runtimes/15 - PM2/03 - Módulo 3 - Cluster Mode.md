@@ -1,4 +1,4 @@
-# Módulo 3: Cluster Mode
+﻿# Módulo 3: Cluster Mode
 
 **Objetivo**: Escalado horizontal y balanceo de carga con el modo cluster de PM2.
 
@@ -149,7 +149,12 @@ pm2 reload http-cluster
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs|Módulo 4]]
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File\|Módulo 2 - Ecosystem File]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/15 - PM2/04 - Módulo 4 - Monitoreo y Logs\|Módulo 4]] |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 7: Window Functions y Análisis
+﻿# Módulo 7: Window Functions y Análisis
 
 **Objetivo**: Realizar análisis avanzados con funciones de ventana.
 
@@ -132,9 +132,12 @@ GROUP BY EXTRACT(YEAR FROM fecha);
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/06 - Módulo 6 - Subconsultas, CTEs y Vistas\|Módulo 6 - Subconsultas, CTEs y Vistas]] |
+| **Siguiente →** | [[08 - Módulo 8 - PL_pgSQL, Transacciones y MVCC\|Módulo 8: PL/pgSQL, Transacciones y MVCC]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[08 - Módulo 8 - PL_pgSQL, Transacciones y MVCC|Módulo 8: PL/pgSQL, Transacciones y MVCC]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

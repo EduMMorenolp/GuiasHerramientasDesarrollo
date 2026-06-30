@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos e Instalación
+﻿# Módulo 1: Fundamentos e Instalación
 
 **Objetivo**: Aprender y dominar: Fundamentos e Instalación.
 
@@ -35,7 +35,12 @@ Disponible en Google Play Store y Apple App Store. La sincronización entre disp
 
 ---
 
-**Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[02 - Módulo 2 - Enlaces y Organización|Módulo 2: Enlaces y Organización]]
-**Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Enlaces y Organización\|Módulo 2: Enlaces y Organización]] |
+| **Inicio herramienta** | [[obsidian\|Obsidian]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Obsidian Docs](https://help.obsidian.md) |
+
+---

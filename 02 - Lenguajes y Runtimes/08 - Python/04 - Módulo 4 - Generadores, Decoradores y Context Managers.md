@@ -1,4 +1,4 @@
-# Módulo 4: Generadores, Decoradores y Context Managers
+﻿# Módulo 4: Generadores, Decoradores y Context Managers
 
 **Objetivo**: Patrones avanzados de Python: generadores, decoradores para metaprogramación y administradores de contexto.
 
@@ -251,9 +251,12 @@ async def usar():
 
 ---
 
-**Documentación oficial**: https://docs.python.org/3/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/08 - Python/03 - Módulo 3 - POO, Tipado y Librería Estándar\|Módulo 3 - POO, Tipado y Librería Estándar]] |
+| **Siguiente →** | [[05 - Módulo 5 - Testing, Logging y Concurrencia\|Módulo 5: Testing, Logging y Concurrencia]] |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
 
-**Siguiente**: [[05 - Módulo 5 - Testing, Logging y Concurrencia|Módulo 5: Testing, Logging y Concurrencia]]
-
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

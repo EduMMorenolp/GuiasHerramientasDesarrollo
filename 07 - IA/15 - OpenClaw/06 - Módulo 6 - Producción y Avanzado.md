@@ -1,4 +1,4 @@
-# Módulo 6: Producción y Avanzado
+﻿# Módulo 6: Producción y Avanzado
 
 **Objetivo**: Desplegar OpenClaw en producción con Docker, configurar seguridad y optimizar el rendimiento.
 
@@ -115,3 +115,15 @@ openclaw update
 openclaw update --channel dev
 openclaw update --channel stable
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/15 - OpenClaw/05 - Módulo 5 - Automatización y Subagentes\|Módulo 5 - Automatización y Subagentes]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

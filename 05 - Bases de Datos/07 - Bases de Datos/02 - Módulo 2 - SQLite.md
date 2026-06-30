@@ -1,4 +1,4 @@
-# Módulo 2: SQLite
+﻿# Módulo 2: SQLite
 
 **Objetivo**: Conocer SQLite como base de datos embebida, serverless y zero-config.
 
@@ -157,9 +157,12 @@ Herramienta gráfica oficial: https://sqlitebrowser.org
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/01 - Módulo 1 - Fundamentos de SQL\|Módulo 1 - Fundamentos de SQL]] |
+| **Siguiente →** | [[03 - Módulo 3 - MySQL y Workbench\|Módulo 3: MySQL y Workbench]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[03 - Módulo 3 - MySQL y Workbench|Módulo 3: MySQL y Workbench]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

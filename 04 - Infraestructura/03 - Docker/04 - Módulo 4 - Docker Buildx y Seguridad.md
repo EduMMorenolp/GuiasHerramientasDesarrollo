@@ -1,4 +1,4 @@
-# Módulo 4: Docker Buildx y Seguridad
+﻿# Módulo 4: Docker Buildx y Seguridad
 
 **Objetivo**: Optimizar builds multi-plataforma y hardening de seguridad.
 
@@ -147,7 +147,12 @@ dist/
 
 ---
 
-**Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[05 - Módulo 5 - Docker Compose Avanzado y CI-CD|Módulo 5: Docker Compose Avanzado y CI-CD]]
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/03 - Docker/03 - Módulo 3 - Producción y Optimización\|Módulo 3 - Producción y Optimización]] |
+| **Siguiente →** | [[05 - Módulo 5 - Docker Compose Avanzado y CI-CD\|Módulo 5: Docker Compose Avanzado y CI-CD]] |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

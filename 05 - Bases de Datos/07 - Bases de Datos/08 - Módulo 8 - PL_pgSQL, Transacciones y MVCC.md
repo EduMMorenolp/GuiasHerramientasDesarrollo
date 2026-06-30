@@ -1,4 +1,4 @@
-# Módulo 8: PL/pgSQL, Transacciones y MVCC
+﻿# Módulo 8: PL/pgSQL, Transacciones y MVCC
 
 **Objetivo**: Programar con PL/pgSQL, manejar transacciones avanzadas y entender MVCC.
 
@@ -162,9 +162,12 @@ CALL ObtenerClientes('Madrid');
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/07 - Módulo 7 - Window Functions y Análisis\|Módulo 7 - Window Functions y Análisis]] |
+| **Siguiente →** | [[09 - Módulo 9 - Drizzle ORM\|Módulo 9: Drizzle ORM]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[09 - Módulo 9 - Drizzle ORM|Módulo 9: Drizzle ORM]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

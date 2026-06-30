@@ -1,4 +1,4 @@
-# Módulo 6: Plataformas de Mensajería
+﻿# Módulo 6: Plataformas de Mensajería
 
 **Objetivo**: Configurar el Gateway de mensajería para interactuar con Hermes Agent desde cualquier plataforma.
 
@@ -86,3 +86,15 @@ Una vez configurado, puedes enviar mensajes a Hermes desde cualquier plataforma 
 ```
 
 El agente responde en la misma plataforma y puede ejecutar herramientas, buscar en su memoria o delegar tareas.
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/05 - Módulo 5 - Sistema de Skills\|Módulo 5 - Sistema de Skills]] |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/07 - Módulo 7 - Seguridad y Producción\|Módulo 7 - Seguridad y Producción]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

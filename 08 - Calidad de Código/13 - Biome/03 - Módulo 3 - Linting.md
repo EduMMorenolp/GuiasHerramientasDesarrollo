@@ -1,4 +1,4 @@
-# Módulo 3: Linting
+﻿# Módulo 3: Linting
 
 **Objetivo**: Aprender y dominar: Linting.
 
@@ -39,7 +39,12 @@ if (x == null) { }
 ```
 ---
 
-**Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[04 - Módulo 4 - Check Unificado|Módulo 4: Check Unificado]]
-**Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[08 - Calidad de Código/13 - Biome/02 - Módulo 2 - Formateo\|Módulo 2 - Formateo]] |
+| **Siguiente →** | [[04 - Módulo 4 - Check Unificado\|Módulo 4: Check Unificado]] |
+| **Inicio herramienta** | [[biome\|Biome]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Biome Docs](https://biomejs.dev) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 6: Debugging, Testing y Seguridad
+﻿# Módulo 6: Debugging, Testing y Seguridad
 
 **Objetivo**: Depurar aplicaciones, escribir tests y aplicar seguridad en Node.js.
 
@@ -291,9 +291,12 @@ child.on('message', msg => console.log(msg.result)); // 10
 
 ---
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/06 - Node.js y npm/05 - Módulo 5 - HTTP y Web Servers\|Módulo 5 - HTTP y Web Servers]] |
+| **Siguiente →** | [[07 - Módulo 7 - TypeScript, Cluster y Temas Avanzados\|Módulo 7: TypeScript, Cluster y Temas Avanzados]] |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
 
-**Siguiente**: [[07 - Módulo 7 - TypeScript, Cluster y Temas Avanzados|Módulo 7: TypeScript, Cluster y Temas Avanzados]]
-
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

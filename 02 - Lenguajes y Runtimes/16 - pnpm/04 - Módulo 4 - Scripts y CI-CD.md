@@ -1,4 +1,4 @@
-# Módulo 4: Scripts y CI/CD
+﻿# Módulo 4: Scripts y CI/CD
 
 **Objetivo**: Aprender y dominar: Scripts y CI/CD.
 
@@ -88,7 +88,12 @@ jobs:
 
 ---
 
-**Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/05 - Módulo 5 - Catálogo y Seguridad|Módulo 5 - Catálogo y Seguridad]]
-**Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/16 - pnpm/03 - Módulo 3 - Package Management\|Módulo 3 - Package Management]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/16 - pnpm/05 - Módulo 5 - Catálogo y Seguridad\|Módulo 5 - Catálogo y Seguridad]] |
+| **Inicio herramienta** | [[pnpm\|pnpm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [pnpm Docs](https://pnpm.io/motivation) |
+
+---

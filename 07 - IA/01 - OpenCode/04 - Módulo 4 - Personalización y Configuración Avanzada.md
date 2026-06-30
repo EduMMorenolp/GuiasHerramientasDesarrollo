@@ -1,4 +1,4 @@
-# Módulo 4: Personalización y Configuración Avanzada
+﻿# Módulo 4: Personalización y Configuración Avanzada
 
 **Objetivo**: Aprender a personalizar OpenCode a través de su sistema de configuración jerárquico.
 
@@ -268,7 +268,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[05 - Módulo 5 - Integración y Flujos de Trabajo Avanzados|Módulo 5: Integración y Flujos de Trabajo Avanzados]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/03 - Módulo 3 - Agentes - Especialización y Automatización\|Módulo 3 - Agentes - Especialización y Automatización]] |
+| **Siguiente →** | [[05 - Módulo 5 - Integración y Flujos de Trabajo Avanzados\|Módulo 5: Integración y Flujos de Trabajo Avanzados]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

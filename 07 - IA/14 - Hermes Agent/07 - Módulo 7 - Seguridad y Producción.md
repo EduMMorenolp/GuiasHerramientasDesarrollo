@@ -1,4 +1,4 @@
-# Módulo 7: Seguridad y Producción
+﻿# Módulo 7: Seguridad y Producción
 
 **Objetivo**: Configurar Hermes Agent para entornos de producción con medidas de seguridad y despliegue serverless.
 
@@ -88,3 +88,15 @@ hermes trajectories export
 # Estadísticas de uso
 hermes stats
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/06 - Módulo 6 - Plataformas de Mensajería\|Módulo 6 - Plataformas de Mensajería]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos de SQL
+﻿# Módulo 1: Fundamentos de SQL
 
 **Objetivo**: Dominar las operaciones fundamentales de SQL y conocer los tipos de datos de los principales motores.
 
@@ -132,9 +132,12 @@ DROP TABLE usuarios;
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - SQLite\|Módulo 2: SQLite]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[02 - Módulo 2 - SQLite|Módulo 2: SQLite]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

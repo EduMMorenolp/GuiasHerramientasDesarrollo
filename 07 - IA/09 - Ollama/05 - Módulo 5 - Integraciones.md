@@ -1,4 +1,4 @@
-# Módulo 5: Integraciones
+﻿# Módulo 5: Integraciones
 
 **Objetivo**: Integrar Ollama con herramientas de desarrollo y entornos populares.
 
@@ -220,7 +220,12 @@ volumes:
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[06 - Módulo 6 - Python y JavaScript|Módulo 6: Python y JavaScript]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/04 - Módulo 4 - API REST\|Módulo 4 - API REST]] |
+| **Siguiente →** | [[06 - Módulo 6 - Python y JavaScript\|Módulo 6: Python y JavaScript]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

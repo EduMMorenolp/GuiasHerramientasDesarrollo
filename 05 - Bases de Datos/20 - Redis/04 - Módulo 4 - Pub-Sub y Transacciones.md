@@ -1,4 +1,4 @@
-# Módulo 4: Pub/Sub y Transacciones
+﻿# Módulo 4: Pub/Sub y Transacciones
 
 **Objetivo**: Aprender y dominar: Pub/Sub y Transacciones.
 
@@ -95,7 +95,12 @@ redis-cli SUBSCRIBE cola:pedidos
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[05 - Bases de Datos/20 - Redis/05 - Módulo 5 - Caching|Módulo 5]]
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/03 - Módulo 3 - Persistencia y Configuración\|Módulo 3 - Persistencia y Configuración]] |
+| **Siguiente →** | [[05 - Bases de Datos/20 - Redis/05 - Módulo 5 - Caching\|Módulo 5]] |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
+
+---

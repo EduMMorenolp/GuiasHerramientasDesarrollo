@@ -1,4 +1,4 @@
-# Módulo 4: SSL/TLS y HTTPS
+﻿# Módulo 4: SSL/TLS y HTTPS
 
 **Objetivo**: Aprender y dominar: SSL/TLS y HTTPS.
 
@@ -92,7 +92,12 @@ ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDS
 
 ---
 
-**Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/05 - Módulo 5 - Cache|Módulo 5: Cache]]
-**Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[../../19 - Nginx/05 - Módulo 5 - Cache\|Módulo 5: Cache]] |
+| **Inicio herramienta** | [[nginx\|Nginx]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Nginx Docs](https://nginx.org/en/docs/) |
+
+---

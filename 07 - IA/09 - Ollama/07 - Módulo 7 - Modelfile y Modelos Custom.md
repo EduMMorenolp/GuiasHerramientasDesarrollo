@@ -1,4 +1,4 @@
-# Módulo 7: Modelfile y Modelos Custom
+﻿# Módulo 7: Modelfile y Modelos Custom
 
 **Objetivo**: Crear modelos personalizados con Modelfile y entender las cuantizaciones.
 
@@ -232,7 +232,12 @@ ollama pull llama3.2:q8_0
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[08 - Módulo 8 - Ollama Cloud|Módulo 8: Ollama Cloud]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/06 - Módulo 6 - Python y JavaScript\|Módulo 6 - Python y JavaScript]] |
+| **Siguiente →** | [[08 - Módulo 8 - Ollama Cloud\|Módulo 8: Ollama Cloud]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

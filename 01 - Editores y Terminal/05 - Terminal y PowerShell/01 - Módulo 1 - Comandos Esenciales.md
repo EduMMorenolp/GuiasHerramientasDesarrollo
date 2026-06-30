@@ -1,4 +1,4 @@
-# Módulo 1: Comandos Esenciales
+﻿# Módulo 1: Comandos Esenciales
 
 **Objetivo**: Dominar la navegación y operaciones básicas en PowerShell.
 
@@ -137,7 +137,12 @@ function prompt { "PS $($executionContext.SessionState.Path.CurrentLocation)> " 
 
 ---
 
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
-**Siguiente**: [[02 - Módulo 2 - Scripting y Automatización|Módulo 2: Scripting y Automatización]]
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Scripting y Automatización\|Módulo 2: Scripting y Automatización]] |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 5: Catalogo y Seguridad
+﻿# Módulo 5: Catalogo y Seguridad
 
 **Objetivo**: Aprender y dominar: Catalogo y Seguridad.
 
@@ -84,7 +84,12 @@ Diferencias con `package-lock.json`:
 
 ---
 
-**Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/06 - Módulo 6 - Avanzado|Módulo 6 - Avanzado]]
-**Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/16 - pnpm/04 - Módulo 4 - Scripts y CI-CD\|Módulo 4 - Scripts y CI-CD]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/16 - pnpm/06 - Módulo 6 - Avanzado\|Módulo 6 - Avanzado]] |
+| **Inicio herramienta** | [[pnpm\|pnpm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [pnpm Docs](https://pnpm.io/motivation) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 2: Formateo
+﻿# Módulo 2: Formateo
 
 **Objetivo**: Aprender y dominar: Formateo.
 
@@ -25,7 +25,12 @@ npx @biomejs/biome format --error-on-warnings src/
 ```
 ---
 
-**Documentación oficial**: https://biomejs.dev
-**Siguiente**: [[03 - Módulo 3 - Linting|Módulo 3: Linting]]
-**Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[08 - Calidad de Código/13 - Biome/01 - Módulo 1 - Instalación\|Módulo 1 - Instalación]] |
+| **Siguiente →** | [[03 - Módulo 3 - Linting\|Módulo 3: Linting]] |
+| **Inicio herramienta** | [[biome\|Biome]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Biome Docs](https://biomejs.dev) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 5: Automatización y Subagentes
+﻿# Módulo 5: Automatización y Subagentes
 
 **Objetivo**: Programar tareas automáticas y coordinar múltiples agentes en OpenClaw.
 
@@ -102,3 +102,15 @@ tasks:
       - Notificar al equipo
     on_failure: Detener y notificar
 ```
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/15 - OpenClaw/04 - Módulo 4 - Plugins\|Módulo 4 - Plugins]] |
+| **Siguiente →** | [[07 - IA/15 - OpenClaw/06 - Módulo 6 - Producción y Avanzado\|Módulo 6 - Producción y Avanzado]] |
+| **Inicio herramienta** | [[07 - IA/15 - OpenClaw/openclaw\|OpenClaw]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [OpenClaw Docs](https://openclaw.ai) |
+
+---

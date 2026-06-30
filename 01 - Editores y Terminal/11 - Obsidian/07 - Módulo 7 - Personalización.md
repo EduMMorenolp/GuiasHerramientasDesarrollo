@@ -1,4 +1,4 @@
-# Módulo 7: Personalización
+﻿# Módulo 7: Personalización
 
 **Objetivo**: Aprender y dominar: Personalización.
 
@@ -43,7 +43,12 @@ Obsidian permite abrir multiples vaults simultaneamente en ventanas separadas. L
 
 ---
 
-**Documentación oficial**: https://help.obsidian.md
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/11 - Obsidian/06 - Módulo 6 - Sync y Publish\|Módulo 6 - Sync y Publish]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[obsidian\|Obsidian]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Obsidian Docs](https://help.obsidian.md) |
 
-**Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

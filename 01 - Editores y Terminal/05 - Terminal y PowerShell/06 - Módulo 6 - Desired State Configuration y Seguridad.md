@@ -1,4 +1,4 @@
-# Módulo 6: Desired State Configuration y Seguridad
+﻿# Módulo 6: Desired State Configuration y Seguridad
 
 **Objetivo**: Automatizar configuración de sistemas con DSC y hardening de PowerShell.
 
@@ -209,7 +209,13 @@ $cred = New-Object System.Management.Automation.PSCredential("user", $password)
 | Secure Strings | ConvertFrom-SecureString |
 
 ---
-**Documentación oficial**: https://learn.microsoft.com/en-us/powershell/
 
-**Inicio herramienta**: [[terminal|Terminal y PowerShell]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/05 - Terminal y PowerShell/05 - Módulo 5 - Clases, Expresiones Regulares y Jobs\|Módulo 5 - Clases, Expresiones Regulares y Jobs]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[terminal\|Terminal y PowerShell]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Terminal y PowerShell Docs](https://learn.microsoft.com/en-us/powershell/) |
+
+---

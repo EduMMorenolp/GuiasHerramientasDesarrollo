@@ -1,4 +1,4 @@
-# Módulo 6: Avanzado
+﻿# Módulo 6: Avanzado
 
 **Objetivo**: Explorar características avanzadas de Warp: Warp Drive, agentes cloud, SSH, editor integrado y más.
 
@@ -221,7 +221,12 @@ cloud:
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/14 - Warp/05 - Módulo 5 - Personalización\|Módulo 5 - Personalización]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
 
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

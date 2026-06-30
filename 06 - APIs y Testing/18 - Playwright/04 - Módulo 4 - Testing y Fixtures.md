@@ -1,4 +1,4 @@
-# Módulo 4: Testing y Fixtures
+﻿# Módulo 4: Testing y Fixtures
 
 **Objetivo**: Aprender y dominar: Testing y Fixtures.
 
@@ -70,7 +70,12 @@ test('regression', { tag: ['@regression', '@critical'] }, async ({ page }) => { 
 
 ---
 
-**Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[06 - APIs y Testing/18 - Playwright/05 - Módulo 5 - Reportes y Trazas|Módulo 5: Reportes y Trazas]]
-**Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/18 - Playwright/03 - Módulo 3 - Intercepciones y Mocks\|Módulo 3 - Intercepciones y Mocks]] |
+| **Siguiente →** | [[06 - APIs y Testing/18 - Playwright/05 - Módulo 5 - Reportes y Trazas\|Módulo 5: Reportes y Trazas]] |
+| **Inicio herramienta** | [[playwright\|Playwright]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Playwright Docs](https://playwright.dev/docs/intro) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 2: Workspaces
+﻿# Módulo 2: Workspaces
 
 **Objetivo**: Aprender y dominar: Workspaces.
 
@@ -76,7 +76,12 @@ mi-proyecto/
 
 ---
 
-**Documentación oficial**: https://pnpm.io/motivation
-**Siguiente**: [[02 - Lenguajes y Runtimes/16 - pnpm/03 - Módulo 3 - Package Management|Módulo 3 - Package Management]]
-**Inicio herramienta**: [[pnpm|pnpm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/16 - pnpm/01 - Módulo 1 - Instalación y Conceptos Básicos\|Módulo 1 - Instalación y Conceptos Básicos]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/16 - pnpm/03 - Módulo 3 - Package Management\|Módulo 3 - Package Management]] |
+| **Inicio herramienta** | [[pnpm\|pnpm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [pnpm Docs](https://pnpm.io/motivation) |
+
+---

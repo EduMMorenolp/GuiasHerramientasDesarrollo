@@ -1,4 +1,4 @@
-# Módulo 7: Integración con este Vault
+﻿# Módulo 7: Integración con este Vault
 
 **Objetivo**: Comprender cómo este vault utiliza Quartz para construir y desplegar el sitio.
 
@@ -146,13 +146,12 @@ El índice principal (`00 - Índice/Índice General.md`) y los MOCs por categor�
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| CI Pipeline | GitHub Actions que clona, construye y despliega |
-| ignorePatterns | Archivos excluidos del build (.obsidian, scripts) |
-| CrawlLinks | Resolución de wikilinks con `shortest` |
-| FolderPage | Páginas de índice de carpeta generadas automáticamente |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/06 - Módulo 6 - Personalización Avanzada\|Módulo 6 - Personalización Avanzada]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

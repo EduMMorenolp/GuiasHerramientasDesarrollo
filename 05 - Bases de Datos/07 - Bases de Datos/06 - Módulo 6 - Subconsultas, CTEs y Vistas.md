@@ -1,4 +1,4 @@
-# Módulo 6: Subconsultas, CTEs y Vistas
+﻿# Módulo 6: Subconsultas, CTEs y Vistas
 
 **Objetivo**: Escribir consultas anidadas, CTEs recursivas y crear vistas.
 
@@ -134,9 +134,12 @@ CREATE INDEX ON resumen_ventas(cliente_id);
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/05 - Módulo 5 - Modelado y Optimización\|Módulo 5 - Modelado y Optimización]] |
+| **Siguiente →** | [[07 - Módulo 7 - Window Functions y Análisis\|Módulo 7: Window Functions y Análisis]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[07 - Módulo 7 - Window Functions y Análisis|Módulo 7: Window Functions y Análisis]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

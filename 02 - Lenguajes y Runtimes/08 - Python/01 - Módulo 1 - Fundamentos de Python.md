@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos de Python
+﻿# Módulo 1: Fundamentos de Python
 
 **Objetivo**: Instalar Python y dominar los fundamentos del lenguaje.
 
@@ -197,9 +197,12 @@ with open("log.txt", "a") as f:
 
 ---
 
-**Documentación oficial**: https://docs.python.org/3/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Entornos Virtuales y Paquetes\|Módulo 2: Entornos Virtuales y Paquetes]] |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
 
-**Siguiente**: [[02 - Módulo 2 - Entornos Virtuales y Paquetes|Módulo 2: Entornos Virtuales y Paquetes]]
-
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

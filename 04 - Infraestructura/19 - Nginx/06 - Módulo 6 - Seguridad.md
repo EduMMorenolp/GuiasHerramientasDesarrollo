@@ -1,4 +1,4 @@
-# Módulo 6: Seguridad
+﻿# Módulo 6: Seguridad
 
 **Objetivo**: Aprender y dominar: Seguridad.
 
@@ -102,7 +102,12 @@ http {
 
 ---
 
-**Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
-**Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[../../19 - Nginx/07 - Módulo 7 - Avanzado\|Módulo 7: Avanzado]] |
+| **Inicio herramienta** | [[nginx\|Nginx]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Nginx Docs](https://nginx.org/en/docs/) |
+
+---

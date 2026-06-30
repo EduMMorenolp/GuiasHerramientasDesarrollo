@@ -1,4 +1,4 @@
-# Módulo 5: Cache
+﻿# Módulo 5: Cache
 
 **Objetivo**: Aprender y dominar: Cache.
 
@@ -94,7 +94,12 @@ server {
 
 ---
 
-**Documentación oficial**: https://nginx.org/en/docs/
-**Siguiente**: [[../../19 - Nginx/06 - Módulo 6 - Seguridad|Módulo 6: Seguridad]]
-**Inicio herramienta**: [[nginx|Nginx]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[../../19 - Nginx/06 - Módulo 6 - Seguridad\|Módulo 6: Seguridad]] |
+| **Inicio herramienta** | [[nginx\|Nginx]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Nginx Docs](https://nginx.org/en/docs/) |
+
+---

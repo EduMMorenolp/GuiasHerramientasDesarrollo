@@ -1,4 +1,4 @@
-# Módulo 6: Redis Stack
+﻿# Módulo 6: Redis Stack
 
 **Objetivo**: Aprender y dominar: Redis Stack.
 
@@ -67,7 +67,12 @@ BF.EXISTS filtro:usuarios "alice"          -- 1 (probablemente existe)
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[05 - Bases de Datos/20 - Redis/07 - Módulo 7 - Clustering y Alta Disponibilidad|Módulo 7]]
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/05 - Módulo 5 - Caching\|Módulo 5 - Caching]] |
+| **Siguiente →** | [[05 - Bases de Datos/20 - Redis/07 - Módulo 7 - Clustering y Alta Disponibilidad\|Módulo 7]] |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
+
+---

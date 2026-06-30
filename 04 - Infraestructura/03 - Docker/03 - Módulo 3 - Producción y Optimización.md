@@ -1,4 +1,4 @@
-# Módulo 3: Producción y Optimización
+﻿# Módulo 3: Producción y Optimización
 
 **Objetivo**: Optimizar imágenes, desplegar en producción y monitorizar.
 
@@ -132,7 +132,12 @@ docker diff mi-app
 
 ---
 
-**Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[04 - Módulo 4 - Docker Buildx y Seguridad|Módulo 4: Docker Buildx y Seguridad]]
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/03 - Docker/02 - Módulo 2 - Docker Compose y Redes\|Módulo 2 - Docker Compose y Redes]] |
+| **Siguiente →** | [[04 - Módulo 4 - Docker Buildx y Seguridad\|Módulo 4: Docker Buildx y Seguridad]] |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 5: Testing, Logging y Concurrencia
+﻿# Módulo 5: Testing, Logging y Concurrencia
 
 **Objetivo**: Testing con pytest, logging profesional y concurrencia con threading, multiprocessing y asyncio.
 
@@ -288,9 +288,12 @@ async def fetch_limitada(url: str):
 
 ---
 
-**Documentación oficial**: https://docs.python.org/3/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/08 - Python/04 - Módulo 4 - Generadores, Decoradores y Context Managers\|Módulo 4 - Generadores, Decoradores y Context Managers]] |
+| **Siguiente →** | [[06 - Módulo 6 - Web, Data Science y Herramientas CLI\|Módulo 6: Web, Data Science y Herramientas CLI]] |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
 
-**Siguiente**: [[06 - Módulo 6 - Web, Data Science y Herramientas CLI|Módulo 6: Web, Data Science y Herramientas CLI]]
-
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

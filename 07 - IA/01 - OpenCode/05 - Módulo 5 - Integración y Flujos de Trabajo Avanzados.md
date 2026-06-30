@@ -1,4 +1,4 @@
-# Módulo 5: Integración y Flujos de Trabajo Avanzados
+﻿# Módulo 5: Integración y Flujos de Trabajo Avanzados
 
 **Objetivo**: Integrar OpenCode en el ecosistema de desarrollo y explorar sus capacidades más potentes.
 
@@ -213,7 +213,12 @@ Has completado los 5 módulos de la guía de OpenCode. Ahora puedes:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[06 - Módulo 6 - MCP Servers, Skills y Plugins|Módulo 6: MCP Servers, Skills y Plugins]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/04 - Módulo 4 - Personalización y Configuración Avanzada\|Módulo 4 - Personalización y Configuración Avanzada]] |
+| **Siguiente →** | [[06 - Módulo 6 - MCP Servers, Skills y Plugins\|Módulo 6: MCP Servers, Skills y Plugins]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

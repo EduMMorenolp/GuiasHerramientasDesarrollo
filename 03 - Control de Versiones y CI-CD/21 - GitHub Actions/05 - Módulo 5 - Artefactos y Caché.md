@@ -1,4 +1,4 @@
-# Módulo 5: Artefactos y Caché
+﻿# Módulo 5: Artefactos y Caché
 
 **Objetivo**: Aprender y dominar: Artefactos y Caché.
 
@@ -105,7 +105,12 @@ jobs:
 
 ---
 
-**Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[06 - Módulo 6 - Seguridad|Módulo 6 - Seguridad]]
-**Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/21 - GitHub Actions/04 - Módulo 4 - Runners\|Módulo 4 - Runners]] |
+| **Siguiente →** | [[06 - Módulo 6 - Seguridad\|Módulo 6 - Seguridad]] |
+| **Inicio herramienta** | [[github-actions\|GitHub Actions]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitHub Actions Docs](https://docs.github.com/en/actions) |
+
+---

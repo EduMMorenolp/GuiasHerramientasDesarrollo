@@ -1,4 +1,4 @@
-# Módulo 7: Clustering y Alta Disponibilidad
+﻿# Módulo 7: Clustering y Alta Disponibilidad
 
 **Objetivo**: Aprender y dominar: Clustering y Alta Disponibilidad.
 
@@ -120,7 +120,12 @@ services:
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/06 - Módulo 6 - Redis Stack\|Módulo 6 - Redis Stack]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
 
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

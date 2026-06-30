@@ -1,4 +1,4 @@
-# Módulo 8: Ollama Cloud
+﻿# Módulo 8: Ollama Cloud
 
 **Objetivo**: Conocer Ollama Cloud, su modelo de suscripción y cómo usarlo como alternativa cloud.
 
@@ -148,7 +148,12 @@ response = client_cloud.chat(
 
 ---
 
-**Documentación oficial**: https://github.com/ollama/ollama
-**Siguiente**: [[09 - Módulo 9 - Avanzado y Troubleshooting|Módulo 9: Avanzado y Troubleshooting]]
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/07 - Módulo 7 - Modelfile y Modelos Custom\|Módulo 7 - Modelfile y Modelos Custom]] |
+| **Siguiente →** | [[09 - Módulo 9 - Avanzado y Troubleshooting\|Módulo 9: Avanzado y Troubleshooting]] |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

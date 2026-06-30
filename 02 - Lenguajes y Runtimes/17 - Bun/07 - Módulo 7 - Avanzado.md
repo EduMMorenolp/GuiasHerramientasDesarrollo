@@ -1,4 +1,4 @@
-# Módulo 7: Avanzado
+﻿# Módulo 7: Avanzado
 
 **Objetivo**: Aprender y dominar: Avanzado.
 
@@ -94,7 +94,12 @@ bun run --smol app.ts
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/17 - Bun/06 - Módulo 6 - Servidor HTTP\|Módulo 6 - Servidor HTTP]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
 
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

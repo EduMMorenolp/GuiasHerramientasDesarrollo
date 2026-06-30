@@ -1,4 +1,4 @@
-# Módulo 4: Sistema de Memoria
+﻿# Módulo 4: Sistema de Memoria
 
 **Objetivo**: Comprender y utilizar la memoria persistente de Hermes Agent para conversaciones contextuales a largo plazo.
 
@@ -66,3 +66,15 @@ Estos perfiles se actualizan automáticamente con cada interacción.
 - Usar `hermes memory save` para guardar información importante explícitamente
 - Revisar periódicamente `hermes memory search` para ver qué recuerda
 - Las skills creadas automáticamente se benefician de la memoria acumulada
+
+---
+
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/14 - Hermes Agent/03 - Módulo 3 - Herramientas y Toolsets\|Módulo 3 - Herramientas y Toolsets]] |
+| **Siguiente →** | [[07 - IA/14 - Hermes Agent/05 - Módulo 5 - Sistema de Skills\|Módulo 5 - Sistema de Skills]] |
+| **Inicio herramienta** | [[07 - IA/14 - Hermes Agent/hermes-agent\|Hermes Agent]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General|Índice General]] |
+| **Documentación oficial** | [Hermes Agent Docs](https://hermes-agent.ai) |
+
+---

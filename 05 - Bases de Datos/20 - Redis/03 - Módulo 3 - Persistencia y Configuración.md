@@ -1,4 +1,4 @@
-# Módulo 3: Persistencia y Configuracion
+﻿# Módulo 3: Persistencia y Configuracion
 
 **Objetivo**: Aprender y dominar: Persistencia y Configuracion.
 
@@ -91,7 +91,12 @@ logfile /var/log/redis/redis.log
 
 ---
 
-**Documentación oficial**: https://redis.io/docs/latest/
-**Siguiente**: [[05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones|Módulo 4]]
-**Inicio herramienta**: [[redis|Redis]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/20 - Redis/02 - Módulo 2 - Tipos de Datos\|Módulo 2 - Tipos de Datos]] |
+| **Siguiente →** | [[05 - Bases de Datos/20 - Redis/04 - Módulo 4 - Pub-Sub y Transacciones\|Módulo 4]] |
+| **Inicio herramienta** | [[redis\|Redis]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Redis Docs](https://redis.io/docs/latest/) |
+
+---

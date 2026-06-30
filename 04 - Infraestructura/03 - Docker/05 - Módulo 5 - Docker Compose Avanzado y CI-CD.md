@@ -1,4 +1,4 @@
-# Módulo 5: Docker Compose Avanzado y CI-CD
+﻿# Módulo 5: Docker Compose Avanzado y CI-CD
 
 **Objetivo**: Flujos avanzados con Compose y pipelines CI/CD.
 
@@ -229,7 +229,12 @@ docker app deploy mi-app.dockerapp
 
 ---
 
-**Documentación oficial**: https://docs.docker.com
-**Siguiente**: [[06 - Módulo 6 - Docker Swarm y Orquestación|Módulo 6: Docker Swarm y Orquestación]]
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/03 - Docker/04 - Módulo 4 - Docker Buildx y Seguridad\|Módulo 4 - Docker Buildx y Seguridad]] |
+| **Siguiente →** | [[06 - Módulo 6 - Docker Swarm y Orquestación\|Módulo 6: Docker Swarm y Orquestación]] |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

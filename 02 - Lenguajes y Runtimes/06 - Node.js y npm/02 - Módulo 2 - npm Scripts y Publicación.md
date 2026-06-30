@@ -1,4 +1,4 @@
-# Módulo 2: npm Scripts y Publicación
+﻿# Módulo 2: npm Scripts y Publicación
 
 **Objetivo**: Scripts avanzados, seguridad y publicación de paquetes.
 
@@ -160,9 +160,12 @@ npm config set @mi-empresa:registry "https://npm.mi-empresa.com"
 
 ---
 
-**Documentación oficial**: https://nodejs.org/docs/latest/api/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/06 - Node.js y npm/01 - Módulo 1 - Instalación y Conceptos Básicos\|Módulo 1 - Instalación y Conceptos Básicos]] |
+| **Siguiente →** | [[03 - Módulo 3 - Asincronía y Event Loop\|Módulo 3: Asincronía y Event Loop]] |
+| **Inicio herramienta** | [[nodejs\|Node.js y npm]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Node.js y npm Docs](https://nodejs.org/docs/latest/api/) |
 
-**Siguiente**: [[03 - Módulo 3 - Asincronía y Event Loop|Módulo 3: Asincronía y Event Loop]]
-
-**Inicio herramienta**: [[nodejs|Node.js y npm]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

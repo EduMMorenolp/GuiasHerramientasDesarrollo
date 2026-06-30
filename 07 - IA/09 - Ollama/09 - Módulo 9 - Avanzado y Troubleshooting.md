@@ -1,4 +1,4 @@
-# Módulo 9: Avanzado y Troubleshooting
+﻿# Módulo 9: Avanzado y Troubleshooting
 
 **Objetivo**: Configuración avanzada, aceleración GPU y resolución de problemas comunes.
 
@@ -257,7 +257,13 @@ ollama pull llama3.2  # Usar nombre exacto
 | **Timeout** | Aumentar --timeout en curl |
 
 ---
-**Documentación oficial**: https://github.com/ollama/ollama
 
-**Inicio herramienta**: [[ollama|Ollama]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/09 - Ollama/08 - Módulo 8 - Ollama Cloud\|Módulo 8 - Ollama Cloud]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[ollama\|Ollama]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Ollama Docs](https://github.com/ollama/ollama) |
+
+---

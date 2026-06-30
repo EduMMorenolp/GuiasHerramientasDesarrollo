@@ -1,4 +1,4 @@
-# Prompt para implementar [Herramienta] en el vault
+﻿# Prompt para implementar [Herramienta] en el vault
 
 ## 1. Investigacion
 
@@ -198,4 +198,12 @@ El sitio queda disponible en:
 
 ---
 
-> **Nota**: Esta plantilla esta disenada para que la ejecute un agente de IA como OpenCode o para seguirla manualmente. Adapta la cantidad de modulos segun la complejidad de la herramienta.
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[NN+1 - Modulo N+1 - Nombre\|Modulo N+1: Nombre]] |
+| **Inicio herramienta** | [[herramienta\|Herramienta]] |
+| **Inicio principal** | [[../00 - Indice/Indice General\|Indice General]] |
+| **Documentación oficial** | [Herramienta Docs](https://docs.ejemplo.com) |
+
+---

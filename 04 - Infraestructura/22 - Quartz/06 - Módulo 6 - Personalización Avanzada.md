@@ -1,4 +1,4 @@
-# Módulo 6: Personalización Avanzada
+﻿# Módulo 6: Personalización Avanzada
 
 **Objetivo**: Crear componentes personalizados, modificar estilos y extender Quartz con plugins de la comunidad.
 
@@ -173,15 +173,12 @@ const left: Component.Component[] = [
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| custom.scss | Estilos personalizados del sitio |
-| Componente JSX | Elemento UI registrable en Quartz |
-| Community plugin | Plugin de terceros instalable vía CLI |
-| Page frame | Estructura HTML base de la página |
-| Breakpoint | Punto de quiebre responsive (mobile/tablet/desktop) |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/05 - Módulo 5 - Deploy\|Módulo 5 - Deploy]] |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/07 - Módulo 7 - Integración con este Vault\|Módulo 7: Integración con este Vault]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz/advanced/creating-components) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz/advanced/creating-components
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/07 - Módulo 7 - Integración con este Vault|Módulo 7: Integración con este Vault]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

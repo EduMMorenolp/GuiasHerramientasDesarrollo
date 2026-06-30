@@ -1,4 +1,4 @@
-# Módulo 5: APIs del Runtime
+﻿# Módulo 5: APIs del Runtime
 
 **Objetivo**: Aprender y dominar: APIs del Runtime.
 
@@ -71,7 +71,12 @@ setTimeout(() => console.log("paso 1s"), 1000);
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/06 - Módulo 6 - Servidor HTTP|Módulo 6: Servidor HTTP]]
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/17 - Bun/04 - Módulo 4 - Test Runner\|Módulo 4 - Test Runner]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/17 - Bun/06 - Módulo 6 - Servidor HTTP\|Módulo 6: Servidor HTTP]] |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
+
+---

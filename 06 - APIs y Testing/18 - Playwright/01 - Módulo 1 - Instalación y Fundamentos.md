@@ -1,4 +1,4 @@
-# Módulo 1: Instalacion y Fundamentos
+﻿# Módulo 1: Instalacion y Fundamentos
 
 **Objetivo**: Aprender y dominar: Instalacion y Fundamentos.
 
@@ -47,7 +47,12 @@ proyecto/
 
 ---
 
-**Documentación oficial**: https://playwright.dev/docs/intro
-**Siguiente**: [[06 - APIs y Testing/18 - Playwright/02 - Módulo 2 - Locators y Acciones|Módulo 2: Locators y Acciones]]
-**Inicio herramienta**: [[playwright|Playwright]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[06 - APIs y Testing/18 - Playwright/02 - Módulo 2 - Locators y Acciones\|Módulo 2: Locators y Acciones]] |
+| **Inicio herramienta** | [[playwright\|Playwright]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Playwright Docs](https://playwright.dev/docs/intro) |
+
+---

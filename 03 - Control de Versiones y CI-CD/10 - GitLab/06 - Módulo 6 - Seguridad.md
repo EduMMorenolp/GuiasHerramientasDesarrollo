@@ -1,4 +1,4 @@
-# Módulo 6: Seguridad
+﻿# Módulo 6: Seguridad
 
 **Objetivo**: Proteger el código y la infraestructura con herramientas de seguridad integradas.
 
@@ -214,7 +214,12 @@ approval_policies:
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[07 - Módulo 7 - Administración|Módulo 7: Administración]]
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/10 - GitLab/05 - Módulo 5 - Registro y Deploy\|Módulo 5 - Registro y Deploy]] |
+| **Siguiente →** | [[07 - Módulo 7 - Administración\|Módulo 7: Administración]] |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

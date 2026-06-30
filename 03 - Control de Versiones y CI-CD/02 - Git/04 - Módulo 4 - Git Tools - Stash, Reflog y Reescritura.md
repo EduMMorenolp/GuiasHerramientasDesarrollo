@@ -1,4 +1,4 @@
-# Módulo 4: Git Tools - Stash, Reflog y Reescritura
+﻿# Módulo 4: Git Tools - Stash, Reflog y Reescritura
 
 **Objetivo**: Dominar herramientas avanzadas de Git para gestión del historial.
 
@@ -153,7 +153,12 @@ git archive --format=tar.gz --prefix=proyecto/ v1.0 > proyecto.tar.gz
 
 ---
 
-**Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[05 - Módulo 5 - Personalización, Hooks y Git Attributes|Módulo 5: Personalización, Hooks y Git Attributes]]
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/02 - Git/03 - Módulo 3 - Estrategias Avanzadas\|Módulo 3 - Estrategias Avanzadas]] |
+| **Siguiente →** | [[05 - Módulo 5 - Personalización, Hooks y Git Attributes\|Módulo 5: Personalización, Hooks y Git Attributes]] |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---

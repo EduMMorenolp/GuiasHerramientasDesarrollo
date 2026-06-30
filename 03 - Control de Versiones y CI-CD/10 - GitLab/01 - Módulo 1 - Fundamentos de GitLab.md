@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos de GitLab
+﻿# Módulo 1: Fundamentos de GitLab
 
 **Objetivo**: Conocer GitLab, diferenciarlo de GitHub y configurar el entorno de trabajo.
 
@@ -119,7 +119,12 @@ git clone https://oauth2:<token>@gitlab.com/usuario/repo.git
 
 ---
 
-**Documentación oficial**: https://docs.gitlab.com
-**Siguiente**: [[02 - Módulo 2 - Repositorios y Merge Requests|Módulo 2: Repositorios y Merge Requests]]
-**Inicio herramienta**: [[gitlab|GitLab]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Repositorios y Merge Requests\|Módulo 2: Repositorios y Merge Requests]] |
+| **Inicio herramienta** | [[gitlab\|GitLab]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitLab Docs](https://docs.gitlab.com) |
+
+---

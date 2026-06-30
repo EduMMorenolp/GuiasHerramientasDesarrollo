@@ -1,4 +1,4 @@
-# Módulo 6: Integración y Migración
+﻿# Módulo 6: Integración y Migración
 
 **Objetivo**: Aprender y dominar: Integración y Migración.
 
@@ -43,7 +43,12 @@ npx @biomejs/biome migrate prettier
 ```
 ---
 
-**Documentación oficial**: https://biomejs.dev
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[08 - Calidad de Código/13 - Biome/05 - Módulo 5 - Configuración\|Módulo 5 - Configuración]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[biome\|Biome]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Biome Docs](https://biomejs.dev) |
 
-**Inicio herramienta**: [[biome|Biome]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

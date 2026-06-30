@@ -1,4 +1,4 @@
-# Módulo 5: Modelado y Optimización
+﻿# Módulo 5: Modelado y Optimización
 
 **Objetivo**: Diseñar esquemas normalizados y optimizar consultas.
 
@@ -134,9 +134,12 @@ const pool = mysql.createPool({ host: 'localhost', user: 'root', database: 'test
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/04 - Módulo 4 - PostgreSQL y pgAdmin\|Módulo 4 - PostgreSQL y pgAdmin]] |
+| **Siguiente →** | [[06 - Módulo 6 - Subconsultas, CTEs y Vistas\|Módulo 6: Subconsultas, CTEs y Vistas]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[06 - Módulo 6 - Subconsultas, CTEs y Vistas|Módulo 6: Subconsultas, CTEs y Vistas]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

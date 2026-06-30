@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos y Sintaxis
+﻿# Módulo 1: Fundamentos y Sintaxis
 
 
 **Objetivo**: Aprender y dominar: Fundamentos y Sintaxis.
@@ -72,7 +72,12 @@ jobs:
 
 ---
 
-**Documentación oficial**: https://docs.github.com/en/actions
-**Siguiente**: [[02 - Módulo 2 - Workflows|Módulo 2 - Workflows]]
-**Inicio herramienta**: [[github-actions|GitHub Actions]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Workflows\|Módulo 2 - Workflows]] |
+| **Inicio herramienta** | [[github-actions\|GitHub Actions]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [GitHub Actions Docs](https://docs.github.com/en/actions) |
+
+---

@@ -1,4 +1,4 @@
-# Módulo 6: Servidor HTTP
+﻿# Módulo 6: Servidor HTTP
 
 **Objetivo**: Aprender y dominar: Servidor HTTP.
 
@@ -111,7 +111,12 @@ Bun.serve({
 
 ---
 
-**Documentación oficial**: https://bun.sh/docs
-**Siguiente**: [[02 - Lenguajes y Runtimes/17 - Bun/07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
-**Inicio herramienta**: [[bun|Bun]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/17 - Bun/05 - Módulo 5 - APIs del Runtime\|Módulo 5 - APIs del Runtime]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/17 - Bun/07 - Módulo 7 - Avanzado\|Módulo 7: Avanzado]] |
+| **Inicio herramienta** | [[bun\|Bun]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bun Docs](https://bun.sh/docs) |
+
+---

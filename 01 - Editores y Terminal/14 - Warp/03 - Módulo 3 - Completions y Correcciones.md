@@ -1,4 +1,4 @@
-# Módulo 3: Completions y Correcciones
+﻿# Módulo 3: Completions y Correcciones
 
 **Objetivo**: Aprovechar las sugerencias automáticas, completado con tabulador y corrección de errores de Warp.
 
@@ -127,7 +127,12 @@ Warp permite sincronizar la entrada entre múltiples paneles o terminales.
 
 ---
 
-**Documentación oficial**: https://docs.warp.dev
-**Siguiente**: [[04 - Módulo 4 - Agent Mode|Módulo 4: Agent Mode]]
-**Inicio herramienta**: [[warp|Warp]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/14 - Warp/02 - Módulo 2 - Input Editor\|Módulo 2 - Input Editor]] |
+| **Siguiente →** | [[04 - Módulo 4 - Agent Mode\|Módulo 4: Agent Mode]] |
+| **Inicio herramienta** | [[warp\|Warp]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Warp Docs](https://docs.warp.dev) |
+
+---

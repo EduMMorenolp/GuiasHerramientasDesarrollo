@@ -1,4 +1,4 @@
-# Módulo 1: Instalación y Fundamentos
+﻿# Módulo 1: Instalación y Fundamentos
 
 **Objetivo**: Instalar PM2, iniciar/detener procesos y gestionar el estado de las aplicaciones.
 
@@ -110,7 +110,12 @@ pm2 delete http-server
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File|Módulo 2]]
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/15 - PM2/02 - Módulo 2 - Ecosystem File\|Módulo 2]] |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
+
+---

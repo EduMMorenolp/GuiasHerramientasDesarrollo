@@ -1,4 +1,4 @@
-# Módulo 4: Tests y Scripts
+﻿# Módulo 4: Tests y Scripts
 
 **Objetivo**: Aprender y dominar: Tests y Scripts.
 
@@ -233,9 +233,12 @@ pm.test("Response time aceptable", function () {
 
 ---
 
-**Documentación oficial**: https://learning.postman.com
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/12 - Postman/03 - Módulo 3 - Entornos y Variables\|Módulo 3 - Entornos y Variables]] |
+| **Siguiente →** | [[05 - Módulo 5 - Automatización con Newman\|Módulo 5: Automatizacion con Newman]] |
+| **Inicio herramienta** | [[postman\|Postman]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Postman Docs](https://learning.postman.com) |
 
-**Siguiente**: [[05 - Módulo 5 - Automatización con Newman|Módulo 5: Automatizacion con Newman]]
-
-**Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

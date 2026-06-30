@@ -1,4 +1,4 @@
-# Módulo 8: Custom Tools, Formateadores y Enterprise
+﻿# Módulo 8: Custom Tools, Formateadores y Enterprise
 
 **Objetivo**: Crear herramientas personalizadas, configurar formateadores y explorar características enterprise.
 
@@ -203,7 +203,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[09 - Módulo 9 - Novedades, Troubleshooting y Próximos Pasos|Módulo 9: Novedades, Troubleshooting y Próximos Pasos]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[07 - IA/01 - OpenCode/07 - Módulo 7 - OpenCode Go, Desktop y Modo Server\|Módulo 7 - OpenCode Go, Desktop y Modo Server]] |
+| **Siguiente →** | [[09 - Módulo 9 - Novedades, Troubleshooting y Próximos Pasos\|Módulo 9: Novedades, Troubleshooting y Próximos Pasos]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

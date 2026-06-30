@@ -1,4 +1,4 @@
-# Módulo 4: PostgreSQL y pgAdmin
+﻿# Módulo 4: PostgreSQL y pgAdmin
 
 **Objetivo**: Instalar y operar PostgreSQL con psql y pgAdmin.
 
@@ -151,9 +151,12 @@ SELECT crypt('password', gen_salt('bf'));
 
 ---
 
-**Documentación oficial**: https://www.w3schools.com/sql/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[05 - Bases de Datos/07 - Bases de Datos/03 - Módulo 3 - MySQL y Workbench\|Módulo 3 - MySQL y Workbench]] |
+| **Siguiente →** | [[05 - Módulo 5 - Modelado y Optimización\|Módulo 5: Modelado y Optimización]] |
+| **Inicio herramienta** | [[bd\|Bases de Datos]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Bases de Datos Docs](https://www.w3schools.com/sql/) |
 
-**Siguiente**: [[05 - Módulo 5 - Modelado y Optimización|Módulo 5: Modelado y Optimización]]
-
-**Inicio herramienta**: [[bd|Bases de Datos]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

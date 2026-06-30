@@ -1,4 +1,4 @@
-# Módulo 1: Fundamentos y Primeros Pasos
+﻿# Módulo 1: Fundamentos y Primeros Pasos
 
 **Objetivo**: Comprender qué es OpenCode, instalarlo y realizar la configuración inicial.
 
@@ -132,7 +132,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://opencode.ai
-**Siguiente**: [[02 - Módulo 2 - Flujo de Trabajo Básico y Modos de Operación|Módulo 2: Flujo de Trabajo Básico y Modos de Operación]]
-**Inicio herramienta**: [[opencode|OpenCode]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | — |
+| **Siguiente →** | [[02 - Módulo 2 - Flujo de Trabajo Básico y Modos de Operación\|Módulo 2: Flujo de Trabajo Básico y Modos de Operación]] |
+| **Inicio herramienta** | [[opencode\|OpenCode]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [OpenCode Docs](https://opencode.ai) |
+
+---

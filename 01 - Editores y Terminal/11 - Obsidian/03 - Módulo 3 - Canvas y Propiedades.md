@@ -1,4 +1,4 @@
-# Módulo 3: Canvas y Propiedades
+﻿# Módulo 3: Canvas y Propiedades
 
 **Objetivo**: Aprender y dominar: Canvas y Propiedades.
 
@@ -40,7 +40,12 @@ La paleta de comandos (Ctrl+P) permite ejecutar acciones sin navegar menús, inc
 
 ---
 
-**Documentación oficial**: https://help.obsidian.md
-**Siguiente**: [[04 - Módulo 4 - Plugins|Módulo 4: Plugins]]
-**Inicio herramienta**: [[obsidian|Obsidian]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[01 - Editores y Terminal/11 - Obsidian/02 - Módulo 2 - Enlaces y Organización\|Módulo 2 - Enlaces y Organización]] |
+| **Siguiente →** | [[04 - Módulo 4 - Plugins\|Módulo 4: Plugins]] |
+| **Inicio herramienta** | [[obsidian\|Obsidian]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Obsidian Docs](https://help.obsidian.md) |
+
+---

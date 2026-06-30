@@ -1,4 +1,4 @@
-# Módulo 5: Deploy
+﻿# Módulo 5: Deploy
 
 **Objetivo**: Desplegar un sitio Quartz en GitHub Pages, Cloudflare, Netlify, Vercel o self-hosted.
 
@@ -170,14 +170,12 @@ RewriteRule ^(.*)$ $1.html [L]
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| GitHub Pages | Hosting gratuito con integración CI/CD |
-| baseUrl | URL base para sitemaps y RSS |
-| Public directory | Carpeta `public/` con el sitio compilado |
-| Custom domain | Dominio propio apuntando al sitio |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/04 - Módulo 4 - Plugins\|Módulo 4 - Plugins]] |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/06 - Módulo 6 - Personalización Avanzada\|Módulo 6: Personalización Avanzada]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz/hosting) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz/hosting
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/06 - Módulo 6 - Personalización Avanzada|Módulo 6: Personalización Avanzada]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

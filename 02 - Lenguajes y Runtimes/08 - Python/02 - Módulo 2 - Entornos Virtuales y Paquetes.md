@@ -1,4 +1,4 @@
-# Módulo 2: Entornos Virtuales y Paquetes
+﻿# Módulo 2: Entornos Virtuales y Paquetes
 
 **Objetivo**: Gestionar dependencias y entornos en Python.
 
@@ -218,9 +218,12 @@ pytest --coverage
 
 ---
 
-**Documentación oficial**: https://docs.python.org/3/
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/08 - Python/01 - Módulo 1 - Fundamentos de Python\|Módulo 1 - Fundamentos de Python]] |
+| **Siguiente →** | [[03 - Módulo 3 - POO, Tipado y Librería Estándar\|Módulo 3: POO, Tipado y Librería Estándar]] |
+| **Inicio herramienta** | [[python\|Python]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Python Docs](https://docs.python.org/3/) |
 
-**Siguiente**: [[03 - Módulo 3 - POO, Tipado y Librería Estándar|Módulo 3: POO, Tipado y Librería Estándar]]
-
-**Inicio herramienta**: [[python|Python]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

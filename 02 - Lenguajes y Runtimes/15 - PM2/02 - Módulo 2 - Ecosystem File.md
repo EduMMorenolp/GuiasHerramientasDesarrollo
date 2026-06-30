@@ -1,4 +1,4 @@
-# Módulo 2: Ecosystem File
+﻿# Módulo 2: Ecosystem File
 
 **Objetivo**: Configuracion declarativa multi-app mediante el archivo ecosystem.
 
@@ -148,7 +148,12 @@ pm2 list
 
 ---
 
-**Documentación oficial**: https://pm2.keymetrics.io/docs/
-**Siguiente**: [[02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode|Módulo 3]]
-**Inicio herramienta**: [[pm2|PM2]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[02 - Lenguajes y Runtimes/15 - PM2/01 - Módulo 1 - Instalación y Fundamentos\|Módulo 1 - Instalación y Fundamentos]] |
+| **Siguiente →** | [[02 - Lenguajes y Runtimes/15 - PM2/03 - Módulo 3 - Cluster Mode\|Módulo 3]] |
+| **Inicio herramienta** | [[pm2\|PM2]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [PM2 Docs](https://pm2.keymetrics.io/docs/) |
+
+---

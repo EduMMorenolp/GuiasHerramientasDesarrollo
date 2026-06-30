@@ -1,4 +1,4 @@
-# Módulo 6: Documentacion
+﻿# Módulo 6: Documentacion
 
 **Objetivo**: Aprender y dominar: Documentacion.
 
@@ -214,9 +214,12 @@ Este es el formato recomendado para compartir collections y usar con Newman.
 
 ---
 
-**Documentación oficial**: https://learning.postman.com
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[06 - APIs y Testing/12 - Postman/05 - Módulo 5 - Automatización con Newman\|Módulo 5 - Automatización con Newman]] |
+| **Siguiente →** | [[07 - Módulo 7 - Avanzado\|Módulo 7: Avanzado]] |
+| **Inicio herramienta** | [[postman\|Postman]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Postman Docs](https://learning.postman.com) |
 
-**Siguiente**: [[07 - Módulo 7 - Avanzado|Módulo 7: Avanzado]]
-
-**Inicio herramienta**: [[postman|Postman]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+---

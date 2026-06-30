@@ -1,4 +1,4 @@
-# Módulo 4: Plugins
+﻿# Módulo 4: Plugins
 
 **Objetivo**: Comprender el sistema de plugins de Quartz: transformadores, filtros y emisores.
 
@@ -127,14 +127,12 @@ Los plugins se ejecutan en el orden en que aparecen en el array. Los transformad
 
 ---
 
-| Concepto | Descripción |
-|----------|-------------|
-| Transformer | Modifica contenido (frontmatter, syntax highlighting, LaTeX) |
-| Filter | Incluye/excluye contenido (drafts, páginas privadas) |
-| Emitter | Genera archivos de salida (HTML, RSS, sitemap) |
-| CrawlLinks | Resuelve wikilinks a rutas reales |
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/22 - Quartz/03 - Módulo 3 - Layout y Componentes\|Módulo 3 - Layout y Componentes]] |
+| **Siguiente →** | [[04 - Infraestructura/22 - Quartz/05 - Módulo 5 - Deploy\|Módulo 5: Deploy]] |
+| **Inicio herramienta** | [[04 - Infraestructura/22 - Quartz/quartz\|Quartz]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|← Índice General]] |
+| **Documentación oficial** | [Quartz Docs](https://quartz.jzhao.xyz/configuration#plugins) |
 
-**Documentación oficial**: https://quartz.jzhao.xyz/configuration#plugins
-**Siguiente**: [[04 - Infraestructura/22 - Quartz/05 - Módulo 5 - Deploy|Módulo 5: Deploy]]
-**Inicio herramienta**: [[04 - Infraestructura/22 - Quartz/quartz|Quartz]]
-**Inicio principal**: [[../../00 - Índice/Índice General|← Índice General]]
+---

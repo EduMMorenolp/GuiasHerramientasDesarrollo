@@ -1,4 +1,4 @@
-# Módulo 6: Docker Swarm y Orquestación
+﻿# Módulo 6: Docker Swarm y Orquestación
 
 **Objetivo**: Orquestar contenedores en clúster con Docker Swarm.
 
@@ -240,7 +240,13 @@ docker node ps $(docker node ls -q)
 | `docker secret create` | Gestionar secretos |
 
 ---
-**Documentación oficial**: https://docs.docker.com
 
-**Inicio herramienta**: [[docker|Docker]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[04 - Infraestructura/03 - Docker/05 - Módulo 5 - Docker Compose Avanzado y CI-CD\|Módulo 5 - Docker Compose Avanzado y CI-CD]] |
+| **Siguiente →** | — |
+| **Inicio herramienta** | [[docker\|Docker]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Docker Docs](https://docs.docker.com) |
+
+---

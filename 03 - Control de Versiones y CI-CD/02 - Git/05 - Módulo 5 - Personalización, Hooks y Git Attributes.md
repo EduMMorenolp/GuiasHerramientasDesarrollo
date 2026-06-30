@@ -1,4 +1,4 @@
-# Módulo 5: Personalización, Hooks y Git Attributes
+﻿# Módulo 5: Personalización, Hooks y Git Attributes
 
 **Objetivo**: Personalizar Git con hooks, attributes y configuración avanzada.
 
@@ -162,7 +162,12 @@ Al completar este módulo deberías poder:
 
 ---
 
-**Documentación oficial**: https://git-scm.com/doc
-**Siguiente**: [[06 - Módulo 6 - Git Internals, LFS y Merge Strategies|Módulo 6: Git Internals, LFS y Merge Strategies]]
-**Inicio herramienta**: [[git|Git]]
-**Inicio principal**: [[../../00 - Índice/Índice General]]
+| Navegación | Enlace |
+|------------|--------|
+| **← Anterior** | [[03 - Control de Versiones y CI-CD/02 - Git/04 - Módulo 4 - Git Tools - Stash, Reflog y Reescritura\|Módulo 4 - Git Tools - Stash, Reflog y Reescritura]] |
+| **Siguiente →** | [[06 - Módulo 6 - Git Internals, LFS y Merge Strategies\|Módulo 6: Git Internals, LFS y Merge Strategies]] |
+| **Inicio herramienta** | [[git\|Git]] |
+| **Inicio principal** | [[../../00 - Índice/Índice General\|IÍndice General]] |
+| **Documentación oficial** | [Git Docs](https://git-scm.com/doc) |
+
+---
